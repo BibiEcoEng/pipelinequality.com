@@ -1,0 +1,490 @@
+{
+  "metadata": {
+    "title": "QA/QC Spezialist | Inspektionen & MDR-Dokumentation | Pipeline Quality",
+    "description": "Spezialisierter QA/QC-Service für XXL-Monopiles, Druckbehälter und Offshore-Wind. Digital-first Schweißkontrolle und audit-bereite MDR-Verwaltung gemäß ISO-, DNV- und PED-Normen."
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "industries": "Branchen",
+    "howWeWork": "Arbeitsweise",
+    "experience": "Erfahrung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "PIPELINE QUALITY",
+    "titleLine1": "Audit-bereite",
+    "titleLine2": "Fertigung.",
+    "titleLine3": "Beim ersten Mal richtig geliefert.",
+    "title": "Audit-bereite Fertigung. Beim ersten Mal richtig geliefert.",
+    "subtitle": "Wir unterstützen Engineering-Teams bei QA/QC vor Ort und normgerechter Dokumentation für XXL-Monopiles, Druckbehälter und Rohrleitungen -- gemäß ISO-, DNV- und PED-Anforderungen.",
+    "imageAlt": "Schwerindustrielle Stahlbauteile und Schweißkontrollen",
+    "availability": "Verfügbar für kurz- und langfristige Projekte europaweit.",
+    "cta1": "Dokumentations-Audit buchen",
+    "cta2": "Dienstleistungen anzeigen",
+    "trustBadge": "Spezialisierter QA/QC-Dienstleister für Offshore- und Industrieprojekte"
+  },
+  "documentationReviewModal": {
+    "title": "Technische Prüfung anfragen",
+    "description": "Laden Sie Ihre ITP-, RFI- oder Schweißprotokolle hoch. Unser Team führt eine detaillierte Gap-Analyse durch und erstellt einen professionellen Feedback-Bericht.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "company": "Firma",
+      "companyPlaceholder": "Ihr Firmenname",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre.email@firma.de",
+      "phone": "Telefon (Optional)",
+      "phonePlaceholder": "+49 123 456 7890",
+      "message": "Zusätzliche Informationen (Optional)",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Dokumentationsprüfungsbedarf...",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet...",
+      "privacyNote": "„Datenschutz-Hinweis: Die Übertragung Ihrer Dokumente erfolgt über eine verschlüsselte SSL-Verbindung. Ihre Daten werden ausschließlich zur Erbringung der Dienstleistung verwendet und nach Projektabschluss DSGVO-konform gelöscht. Serverstandort: Frankfurt, Deutschland.“"
+    },
+    "footer": {
+      "connectWith": "Oder kontaktieren Sie uns:"
+    }
+  },
+  "intro": {
+    "headline": "Der Erfolg von Pipeline-Projekten steht und fällt mit der Qualität der Dokumentation.",
+    "paragraph1": "Wir unterstützen EPCs, Betreiber und Ingenieurbüros mit strukturierter, normkonformer und auditfähiger QA/QC-Dokumentation – ohne permanente Baustellenpräsenz.",
+    "paragraph2": "Wir arbeiten als remote-basierter QA/QC-Dokumentationspartner für Projekte in ganz Europa.",
+    "paragraph3": "Dies ermöglicht unseren Kunden, die Arbeitslast vor Ort zu reduzieren, Dokumentationsrückstände zu vermeiden und während des gesamten Projektlebenszyklus auditfähig zu bleiben.",
+    "whatSetsUsApart": "Was uns auszeichnet:",
+    "point1": "praktische Projekterfahrung in großen Industrieanlagen",
+    "point2": "tiefes Verständnis europäischer Normen und EPC-Prozesse",
+    "point3": "effiziente Remote-Zusammenarbeit",
+    "point4": "Fokus auf umsetzbare, projektnahe Dokumentation",
+    "tagline": "Keine Theorie. Klare Ergebnisse.",
+    "description": "Pipeline Quality ist ein spezialisierter Dienstleister für QA/QC-Dokumentation und projektbezogene Qualitätsunterstützung im industriellen Anlagen- und Pipelinebau."
+  },
+  "experience": {
+    "title": "Professioneller Hintergrund & Erfahrung",
+    "description": "Über 15 Jahre Erfahrung in Pipeline-Projekten, QA/QC-Dokumentation und Inspektionsunterstützung nach internationalen Standards und Compliance-Richtlinien.",
+    "imageAlt": "Pipeline-QA/QC-Experte überprüft technische Dokumente",
+    "paragraph1": "Unsere Erfahrung basiert auf praktischer Mitarbeit an großvolumigen europäischen Industrieprojekten mit Fokus auf QA/QC Dokumentation, Schweißdokumentation und Übergabeprozesse.",
+    "paragraph2": "Die Projekte umfassten komplexe Dokumentations- und Compliance-Anforderungen in der Chemie-, Energie- und Pipelineindustrie.",
+    "paragraph3": "Erfahrung aus der beruflichen Mitwirkung an großvolumigen Industrieprojekten, einschließlich Projekten im Umfeld von Unternehmen wie:",
+    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS, Yamal LNG-Anlage, Gazprom und Rosneft."
+  },
+  "services": {
+    "title": "WAS MACHEN WIR",
+    "description": "„Wir bieten Experten-QA/QC-Dokumentationsdienstleistungen für komplexe Industrieprojekte. Unser Workflow wird durch interne KI-gestützte Analysen ergänzt, um die Einhaltung internationaler Normen wie ISO 9001, VDI 2770 und EN ISO 15614 zu gewährleisten. Alle Prüfungen werden zu 100 % von unserem Ingenieurteam validiert, um maximale Präzision zu garantieren.“",
+    "scopeTitle": "QA/QC\nDokumentations-\nunterstützung",
+    "paragraph1": "",
+    "paragraph2": "",
+    "keyAreasTitle": "Wesentliche Leistungsbereiche",
+    "serviceAreas": [
+      "Strukturierte QA/QC-Dokumentation",
+      "Audit-Vorbereitung und -Unterstützung (ISO 9001, ISO 45001)",
+      "Prüfung von Inspektions- und Schweißdokumentation",
+      "Koordination zwischen Baustelle und Projektmanagement",
+      "Hybride und Remote QA/QC-Unterstützung"
+    ],
+    "sections": {
+      "fieldInspection": {
+        "title": "Feldinspektion & Koordination",
+        "description": "Vor-Ort-Schweißkontrollen, Beschichtungsprüfungen und Stahlqualitätssicherung.",
+        "imageAlt": "NDT-Feldinspektion und Schweißüberwachung",
+        "items": [
+          "Vor-Ort-Schweißkontrollen und Überwachung",
+          "Beschichtungsprüfungen und Schichtdickenmessungen",
+          "Stahlqualitätsprüfung vor Fabrikversand",
+          "NCR-Reduzierung und Eskalationsprävention",
+          "Erfahrung im Windkraftsektor und Schwerindustrie"
+        ]
+      },
+      "remoteMDR": {
+        "title": "Remote MDR-Verwaltung",
+        "description": "Automatische Manufacturing Data Report-Erstellung und Auditfähigkeit.",
+        "imageAlt": "Digitale MDR-Dokumentation und Rückverfolgbarkeit",
+        "items": [
+          "Automatische MDR-Erstellung und Strukturierung",
+          "Materialrückverfolgbarkeit und Schweißprotokollprüfung",
+          "Echtzeit-Nachverfolgung von Inspektions- und Testunterlagen",
+          "Audit-bereite Dokumentation jederzeit verfügbar",
+          "KI-gestützte Konsistenzprüfungen und Gap-Identifizierung"
+        ]
+      },
+      "docControl": {
+        "title": "Dokumentationsprüfung & Kontrolle",
+        "description": "Fachgerechte QA/QC-Prüfung von Pipelinendokumentationen, einschließlich Inspektions-Checklisten und Plänen.",
+        "imageAlt": "Ingenieur prüft Pipelinepläne und Inspektionscheckliste",
+        "items": [
+          "Prüfung von Isometrien und technischer Projektdokumentation",
+          "P&ID-Dokumentationsprüfung auf Konsistenz und Vollständigkeit",
+          "Dokumentenlenkung, Revisionsverfolgung und Versionsmanagement",
+          "Prüfung der Dokumentationsvollständigkeit gemäß Projektanforderungen"
+        ]
+      },
+      "welding": {
+        "title": "Schweiß- & Fertigungsdokumentation",
+        "items": [
+          "Prüfung von Schweißdokumentationen (WPS, PQR, WPQ)",
+          "Schweißpläne und Schweißrückverfolgbarkeit",
+          "Materialrückverfolgbarkeitsdokumentation (Chargen, Heat Numbers)",
+          "Prüfung von Schweißerqualifikationen und Zulassungen"
+        ]
+      },
+      "quality": {
+        "title": "QA / QC Dienstleistungen",
+        "description": "Vor-Ort-Pipeline-Inspektionen, Qualitätskontrollwerkzeuge und Compliance-Überprüfung.",
+        "imageAlt": "Feldingenieur führt Pipeline-Inspektion mit PSA durch",
+        "items": [
+          "Erstellung, Prüfung und Verifizierung von Prüf- und Testplänen (ITP)",
+          "Prüfung von Inspektionsberichten und Qualitätsnachweisen",
+          "RFI-Dokumentation und Nachverfolgung",
+          "Unterstützung bei NCR-Dokumentation und Maßnahmenverfolgung"
+        ]
+      },
+      "vendor": {
+        "title": "Hersteller- & Lieferantendokumentation",
+        "items": [
+          "Nachverfolgung von Hersteller- und Lieferantendokumentation",
+          "Prüfung von Data Books und Lieferantendokumentationen",
+          "Koordination fehlender oder unvollständiger Unterlagen",
+          "Schnittstellenunterstützung zwischen Lieferanten, Auftragnehmern und Auftraggebern"
+        ]
+      },
+      "completion": {
+        "title": "Mechanical Completion & Übergabe",
+        "items": [
+          "Unterstützung bei Mechanical Completion Dokumentation",
+          "Prüfung und Zusammenstellung von As-Built-Dokumentationen",
+          "Erstellung und Prüfung von MDR / DDP",
+          "Vorbereitung und Verifikation von Übergabedokumentationen"
+        ]
+      },
+      "audit": {
+        "title": "Audit- & Kundenunterstützung",
+        "items": [
+          "Dokumentationsprüfung zur Auditvorbereitung",
+          "Unterstützung bei Kunden- und Third-Party-Audits",
+          "Abgleich der Dokumentation mit vertraglichen und normativen Anforderungen"
+        ]
+      },
+      "remote": {
+        "title": "Remote QA/QC Support",
+        "items": [
+          "Remote QA/QC Dokumentationsunterstützung für laufende Projekte",
+          "Flexible Unterstützung je nach Projektphase und Arbeitsaufkommen",
+          "Effiziente Zusammenarbeit mit Baustellen- und Projektteams"
+        ]
+      }
+    }
+  },
+  "standards": {
+    "label": "STANDARDS & COMPLIANCE",
+    "title": "Arbeit in Übereinstimmung mit anerkannten internationalen Standards.",
+    "description": "Unsere QA/QC Dokumentationsunterstützung orientiert sich an international anerkannten Standards und projektspezifischen Anforderungen und gewährleistet Compliance, Rückverfolgbarkeit und Auditfähigkeit.",
+    "items": {
+      "iso9001": {
+        "title": "ISO 9001",
+        "description": "Qualitätsmanagementsysteme"
+      },
+      "iso45001": {
+        "title": "ISO 45001",
+        "description": "Arbeits- und Gesundheitsschutz"
+      },
+      "enDin": {
+        "title": "EN / DIN Normen",
+        "description": "Einhaltung europäischer Industrienormen"
+      },
+      "en10204": {
+        "title": "EN 10204",
+        "description": "Prüfbescheinigungen (Metalle)"
+      },
+      "welding": {
+        "title": "Schweißstandards",
+        "description": "ISO 15614 / ISO 9606"
+      },
+      "asme": {
+        "title": "ASME Section IX",
+        "description": "Schweiß- und Lötqualifikationen"
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "Einhaltung von Vorschriften"
+      }
+    },
+    "footer": "Konform mit europäischen regulatorischen Standards",
+    "frameworkTitle": "Standards & Qualitätsrahmen",
+    "frameworkDescription": "Unsere QA/QC Dokumentationsunterstützung orientiert sich an gängigen internationalen Normen, unter anderem:",
+    "standardsList": [
+      "ISO 9001 – Qualitätsmanagementsysteme",
+      "ISO 45001 – Arbeits- und Gesundheitsschutz",
+      "ISO 12944 – C5/CX Korrosionsschutz",
+      "ISO 9712 – Zerstörungsfreie Prüfung (ZfP)",
+      "EN 10204 – Prüfbescheinigungen für metallische Erzeugnisse",
+      "ISO 15614 / ISO 9606 – Schweißverfahrens- und Schweißerprüfung",
+      "DNV-ST-0126 – Offshore-Windstrukturen",
+      "Druckgeräterichtlinie 2014/68/EU",
+      "FROSIO/NACE Level 3 – Beschichtungs-Inspektoren-Zertifikation",
+      "ASME Section IX (projektabhängig)",
+      "Anwendbare EN- und DIN-Normen für industrielle Fertigung und Montage"
+    ],
+    "auditNote": "Die Dokumentation wird auditgerecht aufbereitet und unterstützt interne sowie externe Audits.",
+    "qualifications": "Relevante Auditorenqualifikationen und technische Zertifikate stellen wir auf Anfrage zur Verfügung.",
+    "scopeNote": "Die Anwendung der Normen erfolgt ausschließlich im Rahmen des projekt- und kundenspezifischen Leistungsumfangs."
+  },
+  "smartQAQC": {
+    "label": "UNTERSTÜTZT DURCH KI",
+    "title": "Smart QA/QC: Unterstützt durch Pipeline Quality AI",
+    "description": "Manuelle Protokolle gefährden Projektmargen. Mit BW Digit entwickeln wir Tools zur automatisierten MDR-Erstellung, Materialrückverfolgbarkeit zu prüfen sowie Abweichungen vor Audits zu erkennen -- für volle Transparenz bei MTRs, Schweiß- und ZfP-Protokollen.",
+    "features": [
+      "Schweißnaht-Tracking in Echtzeit",
+      "Automatisierte MDR-Erstellung",
+      "KI-gestützte Dokumentationsprüfung"
+    ]
+  },
+  "industries": {
+    "label": "BRANCHEN",
+    "title": "Branchen & Standards, mit denen wir arbeiten",
+    "subtitle": "Wir unterstützen Projekte in folgenden Bereichen:",
+    "description": "Öl & Gas, Pipeline-Bau, EPC-Auftragnehmer, QA/QC & Inspektionsunterstützung",
+    "standardsAlt": "ISO, ASME, API, EN-Normen für Pipeline QA/QC",
+    "list": [
+      "Öl- & Gasindustrie (Onshore-Anlagen)",
+      "Pipeline- und Transportprojekte",
+      "Chemie- und Petrochemieanlagen",
+      "Energie- und Kraftwerksprojekte",
+      "EPC- und Engineering-Projekte",
+      "Industrieanlagenbau und Montage",
+      "Wartungs-, Stillstands- und Revamp-Projekte"
+    ],
+    "experienceNote": "Unsere Erfahrung umfasst Großprojekte mit hohen Qualitäts- und Sicherheitsanforderungen in Europa und Weltweit."
+  },
+  "workProcess": {
+    "label": "ARBEITSWEISE",
+    "title": "Strukturiert. Transparent. Zuverlässig.",
+    "steps": [
+      "Klärung von Projektumfang & Anforderungen",
+      "Dokumentenprüfung gemäß Spezifikation",
+      "Nachverfolgung & Statuslisten",
+      "Laufende Qualitätsunterstützung",
+      "Übergabefertige Projektdokumentation"
+    ],
+    "tagline": "Klare Zuständigkeiten, klare Fristen, klare Dokumentation."
+  },
+  "why": {
+    "label": "WARUM PIPELINE QUALITY",
+    "title": "QA/QC\nDokumentation & Unterstützung",
+    "points": [
+      "Reale Projekterfahrung",
+      "Verständnis für EPC- und Betreiberanforderungen",
+      "Fokus auf Struktur, Nachvollziehbarkeit & Compliance",
+      "Flexible Remote-Zusammenarbeit",
+      "Kommunikation auf Deutsch, Englisch und Serbisch"
+    ],
+    "reasons": [
+      {
+        "title": "Reale Projekterfahrung",
+        "description": "Praktische Projekterfahrung in großen Industrieanlagen, nicht theoretische Beratung."
+      },
+      {
+        "title": "Verständnis für EPC-Anforderungen",
+        "description": "Tiefes Verständnis für EPC- und Betreiberanforderungen."
+      },
+      {
+        "title": "Flexible Remote-Zusammenarbeit",
+        "description": "Flexible Remote-Unterstützung angepasst an Projektphasen und Arbeitsaufkommen."
+      },
+      {
+        "title": "Funktionierende Dokumentation",
+        "description": "Fokus auf Struktur, Nachvollziehbarkeit & Compliance."
+      },
+      {
+        "title": "Europäischer Standards-Fokus",
+        "description": "Starke Ausrichtung an europäischen Vorschriften, EN/DIN-Standards und kundenspezifischen Anforderungen."
+      },
+      {
+        "title": "Klare Kommunikation",
+        "description": "Kommunikation auf Deutsch, Englisch und Serbisch."
+      }
+    ],
+    "builtOn": "Basierend auf realer Projekterfahrung",
+    "companyInfo": "Pipeline Quality ist eine Marke der Backpack Wander GmbH mit Sitz in Berlin. Unsere Leistungen werden durch ein internationales Netzwerk erfahrener QA/QC-Fachkräfte unterstützt."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Was bedeutet Remote QA/QC Dokumentationssupport?",
+        "answer": "Remote QA/QC Dokumentationssupport umfasst die Prüfung, Strukturierung und Erstellung qualitätsrelevanter Projektdokumente ohne dauerhafte Baustellenpräsenz."
+      },
+      {
+        "question": "Arbeiten Sie ausschließlich remote?",
+        "answer": "Der Schwerpunkt liegt auf Remote-Leistungen. Bei Bedarf kann Vor-Ort-Unterstützung über unser Netzwerk organisiert werden."
+      },
+      {
+        "question": "Nach welchen Normen arbeiten Sie?",
+        "answer": "ISO 9001, ISO 45001, projektspezifische EPC-Vorgaben, Schweißnormen sowie kundenspezifische Anforderungen."
+      },
+      {
+        "question": "Welche Branchen unterstützen Sie?",
+        "answer": "Pipelinebau, Öl & Gas, Chemie, Petrochemie, Energie, Industrieanlagen."
+      },
+      {
+        "question": "Unterstützen Sie Audits?",
+        "answer": "Ja. Unsere Dokumentation ist auditgerecht aufgebaut und unterstützt interne sowie externe Prüfungen."
+      },
+      {
+        "question": "Unterstützen Sie EPC-Unternehmen und Ingenieurbüros?",
+        "answer": "Ja. Wir unterstützen regelmäßig EPC-Unternehmen, Ingenieurbüros und Betreiber bei der strukturierten QA/QC-Dokumentation gemäß Projekt- und Vertragsanforderungen."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Projektdokumentation zu optimieren?",
+    "description": "Ob kurzfristige QA/QC Dokumentationsunterstützung oder langfristige Remote-Einbindung – wir unterstützen Ihr Projekt mit strukturierten und zuverlässigen Lösungen.",
+    "button1": "Angebot anfordern",
+    "button2": "Projekt besprechen",
+    "tagline": "Unterstützung europäischer Industrieexzellenz",
+    "altTitle": "Sprechen wir über Ihr Projekt",
+    "responseNote": "Wir antworten schnell und arbeiten transparent"
+  },
+  "contact": {
+    "title": "Anfrage für QA/QC- und Qualitätsunterstützung",
+    "subtitle": "Besprechen wir Ihren QA/QC Dokumentationsbedarf",
+    "description": "Bitte laden Sie relevante Projektdokumente hoch oder beschreiben Sie Ihren QA/QC-Bedarf. Unser Team meldet sich innerhalb von 48–72 Stunden.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "company": "Firma",
+      "companyPlaceholder": "Ihr Firmenname",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre.email@firma.de",
+      "supportType": "Art der Unterstützung",
+      "supportTypePlaceholder": "Art der Unterstützung auswählen",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihren Projektanforderungen...",
+      "fileUpload": "Datei-Upload (optional)",
+      "fileUploadHint": "Spezifikationen, Zeichnungen oder Listen anhängen (PDF, DWG, XLSX, max. 10MB)",
+      "gdprConsent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der",
+      "privacyPolicy": "Datenschutzerklärung",
+      "submit": "QA/QC-Unterstützung anfragen",
+      "submitting": "Wird gesendet...",
+      "successTitle": "Nachricht gesendet!",
+      "successMessage": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns in Kürze bei Ihnen.",
+      "errorTitle": "Fehler",
+      "errorMessage": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per E-Mail.",
+      "required": "Pflichtfeld",
+      "disclaimer": "Wir bieten Remote-Dokumentatio, Vorbereitung und Qualitätsunterstützung an. Vor-Ort-Leistungen sind auf Anfrage über Partner möglich.",
+      "privacyNote": "„Datenschutz-Hinweis: Die Übertragung Ihrer Dokumente erfolgt über eine verschlüsselte SSL-Verbindung. Ihre Daten werden ausschließlich zur Erbringung der Dienstleistung verwendet und nach Projektabschluss DSGVO-konform gelöscht. Serverstandort: Frankfurt, Deutschland.“"
+    },
+    "whatsapp": {
+      "text": "Direkter Kontakt? Schreiben Sie uns per WhatsApp.",
+      "button": "WhatsApp"
+    },
+    "supportTypes": [
+      "QAQC-Dokumentationsunterstützung",
+      "Qualitätsmanagementsystem (ISO 9001) Unterstützung",
+      "HSE-Dokumentation & ISO 45001 Vorbereitung",
+      "Audit-Vorbereitung & interne Audit-Unterstützung",
+      "Qualitätsdokumentation für Projekte & Ausschreibungen",
+      "Sonstiges / Noch nicht sicher"
+    ]
+  },
+  "footer": {
+    "brand": "Pipeline Quality",
+    "description": "Spezialisierter QA/QC-Dienstleister für XXL-Monopiles, Druckbehälter und Rohrleitungen. Digital-first Schweißkontrolle und audit-bereite MDR-Verwaltung.",
+    "services": "Leistungen",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "email": "E-Mail: info@pipelinequality.com",
+    "location": "Standort in Deutschland, Europa",
+    "linkedIn": "LinkedIn",
+    "companyInfo": "Unternehmensinformationen",
+    "companyDescription": "Pipeline Quality ist eine Marke der Backpack Wander GmbH, einem in Deutschland registrierten Unternehmen mit Sitz in Berlin. Technischer Partner: BW Digit. Wir arbeiteten mit einem internationalen Netzwerk qualifizierter Fachkräfte und skalieren unsere Dienstleistungen entsprechend den Projektanforderungen.",
+    "tagline": "Spezialisierter QA/QC-Dienstleister",
+    "copyright": "© 2025 Backpack Wander GmbH. Alle Rechte vorbehalten.",
+    "brandNote": "Pipeline Quality ist eine Marke der Backpack Wander GmbH. Technischer Partner: BW Digit.",
+    "madeBy": "Hergestellt von BW Digit",
+    "privacyPolicy": "Datenschutz",
+    "terms": "AGB",
+    "imprint": "Impressum"
+  },
+  "whatsappFloat": {
+    "tooltip": "Schreiben Sie uns per WhatsApp"
+  },
+  "meta": {
+    "title": "QA/QC Engineering & Dokumentationsprüfung | PipelineQuality",
+    "description": "Remote-QA/QC-Dokumentenprüfung für Öl, Gas und Chemie. Experten-Analyse von ITP, RFI und Schweißprotokollen nach ISO- und ASME-Normen."
+  },
+  "legal": {
+    "imprint": {
+      "title": "Impressum",
+      "subtitle": "Angaben gemäß § 5 TMG",
+      "companyName": "Backpack Wander GmbH",
+      "address": "Kolonnenstrasse 8\n10827, Berlin\nDeutschland",
+      "managingDirectorLabel": "Vertreten durch:",
+      "managingDirector": "Biljana Habel",
+      "registerLabel": "Registereintrag:",
+      "register": "Eingetragen im Handelsregister\nRegistergericht: Charlottenburg, 14057 Berlin\nHandelsregisternummer: HRB 282058 B",
+      "vatLabel": "Umsatzsteuer-ID gemäß §27 a Umsatzsteuergesetz:",
+      "vat": "DE451725510",
+      "contactLabel": "Kontakt:",
+      "contact": "E-Mail: info@backpackwander.de",
+      "brandNote": "Pipeline Quality ist eine Marke der Backpack Wander GmbH."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "title": "1. Allgemeine Hinweise",
+          "content": "Die Backpack Wander GmbH nimmt den Schutz personenbezogener Daten sehr ernst und verarbeitet diese gemäß DSGVO."
+        },
+        {
+          "title": "2. Verantwortliche Stelle",
+          "content": "Backpack Wander GmbH\nKolonnenstrasse 8, 10827, Berlin\nDeutschland\nE-Mail: info@backpackwander.de"
+        },
+        {
+          "title": "3. Geltungsbereich",
+          "content": "Diese Datenschutzerklärung gilt für alle Leistungen und Marken der Backpack Wander GmbH, einschließlich Pipeline Quality."
+        },
+        {
+          "title": "4. Rechtsgrundlagen (Art. 6 DSGVO)",
+          "content": "- Art. 6 Abs. 1 lit. b DSGVO – Vertragserfüllung\n- Art. 6 Abs. 1 lit. f DSGVO – berechtigtes Interesse\n- Art. 6 Abs. 1 lit. a DSGVO – Einwilligung"
+        },
+        {
+          "title": "5. Kontaktformulare & Datei-Uploads",
+          "content": "Übermittelte Daten werden ausschließlich zur Bearbeitung von Anfragen und Projekten verarbeitet."
+        },
+        {
+          "title": "6. WhatsApp-Kommunikation",
+          "content": "Die Kommunikation über WhatsApp erfolgt gemäß der Datenschutzrichtlinie von WhatsApp."
+        },
+        {
+          "title": "7. Analyse-Tools",
+          "content": "Wir nutzen Google Analytics auf Basis einer Einwilligung."
+        },
+        {
+          "title": "8. Speicherdauer",
+          "content": "Daten werden nur so lange gespeichert, wie gesetzlich erforderlich."
+        },
+        {
+          "title": "9. Ihre Rechte",
+          "content": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung und Widerspruch."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "intro": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Leistungen und Angebote der Backpack Wander GmbH.",
+      "servicesTitle": "Die Backpack Wander GmbH erbringt insbesondere folgende Leistungen:",
+      "servicesList": [
+        "Coaching für Privatpersonen und Unternehmen",
+        "Dienstleistungen im Bereich Marketing, digitale Produkte und Online-Angebote",
+        "QA/QC Dokumentationsunterstützung und ingenieurtechnische Dienstleistungen",
+        "Projektbezogene Remote- und Vor-Ort-Unterstützung",
+        "Verkauf digitaler Produkte und Merchandising-Artikel"
+      ],
+      "brandsNote": "Die Leistungen werden unter verschiedenen Marken der Backpack Wander GmbH erbracht, einschließlich der Marke „Pipeline Quality“.",
+      "partnerNote": "Vertragspartner ist ausschließlich die Backpack Wander GmbH, sofern nicht ausdrücklich anders vereinbart.",
+      "liability": "Die Haftung der Backpack Wander GmbH ist auf Vorsatz und grobe Fahrlässigkeit beschränkt, soweit gesetzlich zulässig.\nEine Haftung für mittelbare Schäden oder entgangenen Gewinn ist ausgeschlossen, sofern gesetzlich zulässig.",
+      "law": "Es gilt das Recht der Bundesrepublik Deutschland.",
+      "jurisdiction": "Gerichtsstand ist – soweit gesetzlich zulässig – der Sitz der Gesellschaft."
+    }
+  }
+}
