@@ -123,12 +123,24 @@ export function Footer() {
                             <Link href={`/${locale}/privacy`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
                                 {t('privacyPolicy')}
                             </Link>
-                            <Link href={`/${locale}/terms`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
-                                {t('terms')}
-                            </Link>
-                            <Link href={`/${locale}/imprint`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
-                                {t('imprint')}
-                            </Link>
+                            {locale === 'de' ? (
+                                <Link href={`/${locale}/agb`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
+                                    {t('terms')}
+                                </Link>
+                            ) : (
+                                <Link href={`/${locale}/terms`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
+                                    {t('terms')}
+                                </Link>
+                            )}
+                            {locale === 'de' ? (
+                                <Link href={`/${locale}/impressum`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
+                                    {t('imprint')}
+                                </Link>
+                            ) : (
+                                <Link href={`/${locale}/legal-notice`} className="text-gray-200 text-sm hover:text-muted-gold transition-colors">
+                                    {t('imprint')}
+                                </Link>
+                            )}
                         </div>
                     </div>
                 </div>

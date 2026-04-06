@@ -413,76 +413,102 @@
   },
   "legal": {
     "imprint": {
-      "title": "Imprint",
-      "companyName": "Backpack Wander GmbH",
-      "address": "Kolonnenstrasse 8\n10827, Berlin\nGermany",
-      "managingDirectorLabel": "Managing Director:",
-      "managingDirector": "Biljana Habel",
-      "registerLabel": "Commercial Register:",
-      "register": "Charlottenburg, 14057 Berlin\nHRB 282058 B",
-      "vatLabel": "VAT Identification Number:",
+      "title": "Legal Notice",
+      "companyName": "Company Information",
+      "address": "Backpack Wander GmbH\nKolonnenstrasse 8\n10827 Berlin, Germany",
+      "managingDirectorLabel": "Managing Director",
+      "managingDirector": "Biljana Habel, M.Sc.",
+      "contactLabel": "Contact",
+      "contact": "info@pipelinequality.com",
+      "registerLabel": "Register Entry",
+      "register": "Registered in the Commercial Register (Handelsregister)\nRegistry Court: Amtsgericht Charlottenburg (Berlin)\nRegistration Number: HRB 282058 B",
+      "vatLabel": "VAT ID",
       "vat": "DE451725510",
-      "contactLabel": "Email:",
-      "contact": "info@backpackwander.com",
-      "brandNote": "Pipeline Quality is a brand of Backpack Wander GmbH."
+      "brandNote": "Pipeline Quality is a registered brand of Backpack Wander GmbH.",
+      "sections": [
+        {
+          "title": "Company Information",
+          "content": "Backpack Wander GmbH\nKolonnenstrasse 8\n10827 Berlin, Germany"
+        },
+        {
+          "title": "Represented by",
+          "content": "Managing Director: Biljana Habel, M.Sc."
+        },
+        {
+          "title": "Contact",
+          "content": "Email: info@backpackwander.com / info@pipelinequality.com\nWebsite: https://www.pipelinequality.com"
+        },
+        {
+          "title": "Register Entry",
+          "content": "Registered in the Commercial Register (Handelsregister)\nRegistry Court: Amtsgericht Charlottenburg (Berlin)\nRegistration Number: HRB 282058 B"
+        },
+        {
+          "title": "VAT Identification Number",
+          "content": "VAT ID according to § 27 a of the German Value Added Tax Act:\nDE451725510"
+        },
+        {
+          "title": "Brand Disclaimer",
+          "content": "Pipeline Quality is a registered brand of Backpack Wander GmbH."
+        },
+        {
+          "title": "EU Dispute Resolution",
+          "content": "The European Commission provides a platform for online dispute resolution (ODR): https://europa.eu.\nWe are not obliged or willing to participate in dispute resolution proceedings before a consumer arbitration board."
+        }
+      ]
     },
     "privacy": {
       "title": "Privacy Policy",
       "sections": [
         {
           "title": "1. General Information",
-          "content": "Backpack Wander GmbH takes the protection of personal data seriously and processes personal data in accordance with applicable data protection laws, including the GDPR."
+          "content": "The protection of your personal data is a high priority for Backpack Wander GmbH.\nThis Privacy Policy explains how we process personal data within our online offer and for our brand Pipeline Quality."
         },
         {
-          "title": "2. Responsible Entity",
-          "content": "Backpack Wander GmbH\nKolonnenstrasse 8, 10827, Berlin\nGermany\nEmail: info@backpackwander.com"
+          "title": "2. Controller (Responsible Entity)",
+          "content": "The entity responsible for data processing is:\n\nBackpack Wander GmbH\nKolonnenstrasse 8, 10827 Berlin, Germany\nManaging Director: Biljana Habel, M.Sc.\n\nFor general & legal inquiries: info@backpackwander.com\nFor project & brand inquiries: info@pipelinequality.com"
         },
         {
-          "title": "3. Scope of Application",
-          "content": "This Privacy Policy applies to all services and brands operated by Backpack Wander GmbH, including the Pipeline Quality brand."
+          "title": "3. Hosting and Content Delivery Networks (CDN)",
+          "content": "Our website is hosted by Vercel Inc. (650 California St, San Francisco, CA 94108, USA). Vercel collects server log files (including IP address, browser type, and timestamps) to ensure the technical security and stability of the site.\n\nLegal Basis: Art. 6(1)(f) GDPR (Legitimate interest).\nData Transfer: Vercel is certified under the EU-U.S. Data Privacy Framework, ensuring a level of data protection compliant with EU standards."
         },
         {
-          "title": "4. Legal Basis for Data Processing (Art. 6 GDPR)",
-          "content": "- Art. 6(1)(b) GDPR – performance of a contract or pre-contractual measures\n- Art. 6(1)(f) GDPR – legitimate interest\n- Art. 6(1)(a) GDPR – consent, where applicable"
+          "title": "4. Data Collection & Processing",
+          "content": "Contact Forms & File Uploads: Data submitted via forms or file uploads is processed solely to handle your inquiry and manage project-related communication. (Art. 6(1)(b) GDPR).\n\nWhatsApp Communication: If you contact us via WhatsApp, we process your phone number and chat history exclusively for business purposes. Please note that WhatsApp's own privacy terms apply.\n\nGoogle Analytics: We use Google Analytics with IP Anonymization enabled. This requires your explicit consent via our cookie banner. (Art. 6(1)(a) GDPR)."
         },
         {
-          "title": "5. Contact Forms & File Uploads",
-          "content": "Personal data submitted via contact forms or file uploads is processed solely to handle inquiries and project-related communication."
-        },
-        {
-          "title": "6. WhatsApp Communication",
-          "content": "Communication via WhatsApp is subject to WhatsApp’s privacy policy and used exclusively for business purposes."
-        },
-        {
-          "title": "7. Analytics & Tools",
-          "content": "We use Google Analytics to analyze website usage. Data processing is based on consent."
-        },
-        {
-          "title": "8. Data Retention",
-          "content": "Data is stored only as long as necessary or required by statutory retention obligations."
-        },
-        {
-          "title": "9. Your Rights",
-          "content": "You have the right to access, rectification, erasure, restriction, data portability and objection.\n\nRequests: info@backpackwander.com"
+          "title": "5. Your Rights (Data Subject Rights)",
+          "content": "You have the right to access (Art. 15), rectify (Art. 16), or erase (Art. 17) your data, as well as the right to restrict processing (Art. 18) and data portability (Art. 20).\nYou may withdraw your consent at any time.\nTo exercise these rights, please contact us at info@pipelinequality.com."
         }
       ]
     },
     "terms": {
       "title": "General Terms and Conditions",
-      "intro": "These General Terms and Conditions apply to all services and offers of Backpack Wander GmbH.",
-      "servicesTitle": "Backpack Wander GmbH provides, in particular, the following services:",
-      "servicesList": [
-        "Coaching for individuals and companies",
-        "Services in the areas of marketing, digital products, and online offerings",
-        "QA/QC documentation support and engineering services",
-        "Project-related remote and on-site support",
-        "Sale of digital products and merchandise"
-      ],
-      "brandsNote": "The services are provided under various brands of Backpack Wander GmbH, including the \"Pipeline Quality\" brand.",
-      "partnerNote": "The contractual partner is exclusively Backpack Wander GmbH, unless expressly agreed otherwise.",
-      "liability": "The liability of Backpack Wander GmbH is limited to intent and gross negligence, to the extent permitted by law.\n\nLiability for indirect damages or lost profits is excluded, to the extent permitted by law.",
-      "law": "The laws of the Federal Republic of Germany apply.",
-      "jurisdiction": "The place of jurisdiction is – to the extent permitted by law – the company's registered office."
+      "sections": [
+        {
+          "title": "1. Scope of Application",
+          "content": "These General Terms and Conditions apply to all services, offers, and contracts provided by Backpack Wander GmbH (hereinafter \"the Provider\") specifically under the brand \"Pipeline Quality\"."
+        },
+        {
+          "title": "2. Services",
+          "content": "The Provider offers specialized technical and engineering services, including:\n- Technical consultancy and engineering support.\n- QA/QC documentation and inspection services.\n- Project-related remote and on-site support.\n- Provision of technical digital products and online offerings."
+        },
+        {
+          "title": "3. Contractual Partner",
+          "content": "The sole contractual partner is\nBackpack Wander GmbH, Kolonnenstrasse 8, 10827 Berlin, Managing Director: Biljana Habel, M.Sc."
+        },
+        {
+          "title": "4. Liability",
+          "content": "- The Provider is liable for intent and gross negligence.\n- For slight negligence, the Provider is only liable in the event of a breach of an essential contractual obligation (cardinal obligation). In such cases, liability is limited to the typical, foreseeable damage.\n- Liability for injury to life, body or health remains unaffected.\n- The Provider provides services based on the current state of technology."
+        },
+        {
+          "title": "5. Digital Products",
+          "content": "For the purchase of digital products or technical templates, the right of withdrawal expires once the performance of the contract has begun with the consumer's prior express consent."
+        },
+        {
+          "title": "6. Final Provisions",
+          "content": "- The laws of the Federal Republic of Germany apply.\n- Place of jurisdiction is Berlin, Germany."
+        }
+      ]
     }
   }
 }

@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl'
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 
-export default function TermsPage() {
+export default function AGBPage() {
   const t = useTranslations('legal.terms')
   const sections = t.raw('sections') as Array<{ title: string, content: string }>
 
