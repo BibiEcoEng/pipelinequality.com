@@ -99,13 +99,13 @@ export function Footer() {
 
                         <h4 className="font-semibold text-lg mb-4 text-white">{t('contact')}</h4>
                         <div className="space-y-3 mb-6">
-                            <p className="text-gray-200 text-sm">{t('email')}</p>
+                            <a href="mailto:info@pipelinequality.com" className="text-gray-200 text-sm hover:text-muted-gold transition-colors inline-block">{t('email')}</a>
                             <p className="text-gray-200 text-sm">{t('location')}</p>
                         </div>
 
                         {/* Social Links */}
                         <div className="mb-6 space-y-3 flex flex-col items-center md:items-start">
-                            <Link href="https://www.linkedin.com/company/pipeline-quality" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-white hover:text-muted-gold transition-colors">
+                            <Link href="https://www.linkedin.com/company/pipelinequality/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-white hover:text-muted-gold transition-colors">
                                 <Linkedin className="w-5 h-5" />
                                 <span className="text-sm">{t('linkedIn')}</span>
                             </Link>
