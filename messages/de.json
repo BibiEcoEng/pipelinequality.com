@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "QA/QC Spezialist | Inspektionen & MDR-Dokumentation | Pipeline Quality",
-    "description": "Spezialisierter QA/QC-Service für XXL-Monopiles, Druckbehälter und Offshore-Wind. Digital-first Schweißkontrolle und audit-bereite MDR-Verwaltung gemäß ISO-, DNV- und PED-Normen."
+    "title": "QA/QC Contractor | Inspektion & MDR-Dokumentation für Offshore & Industrieprojekte",
+    "description": "Spezialisierter QA/QC-Dienstleister für XXL-Monopiles, Druckbehälter und Offshore-Wind. Digital-first Schweißinspektion und MDR-Dokumentation."
   },
   "nav": {
     "home": "Startseite",
@@ -84,11 +84,11 @@
     ],
     "sections": {
       "fieldInspection": {
-        "title": "Feldinspektion & Koordination",
-        "description": "Vor-Ort-Schweißkontrollen, Beschichtungsprüfungen und Stahlqualitätssicherung.",
-        "imageAlt": "NDT-Feldinspektion und Schweißüberwachung",
+        "title": "Inspektion vor Ort & Koordination",
+        "description": "Vor-Ort-ZfP-Management, Schweißaufsicht und Beschichtungsprüfungen. Wir stellen sicher, dass der Stahl den Normen entspricht, bevor er das Werk verlässt – zur Reduzierung von Abweichungen (NCRs), Verzögerungen und Kundeneskalationen.\nErfahrung in Offshore-Wind-Fertigung, Schwerindustrie und komplexen Schweißumgebungen.",
+        "imageAlt": "Field Inspection - NDT Close-up",
         "items": [
-          "Vor-Ort-Schweißkontrollen und Überwachung",
+          "Vor-Ort-ZfP-Management und Schweißaufsicht",
           "Beschichtungsprüfungen und Schichtdickenmessungen",
           "Stahlqualitätsprüfung vor Fabrikversand",
           "NCR-Reduzierung und Eskalationsprävention",
@@ -96,9 +96,9 @@
         ]
       },
       "remoteMDR": {
-        "title": "Remote MDR-Verwaltung",
-        "description": "Automatische Manufacturing Data Report-Erstellung und Auditfähigkeit.",
-        "imageAlt": "Digitale MDR-Dokumentation und Rückverfolgbarkeit",
+        "title": "Remote MDR-Management",
+        "description": "Wir gewinnen den \"Dokumentationskrieg\". Automatisierte Erstellung von Fertigungsdokumentationen (MDR) – strukturiert, rückverfolgbar und jederzeit audit-bereit.",
+        "imageAlt": "Digital MDR - Weld Tracking",
         "items": [
           "Automatische MDR-Erstellung und Strukturierung",
           "Materialrückverfolgbarkeit und Schweißprotokollprüfung",

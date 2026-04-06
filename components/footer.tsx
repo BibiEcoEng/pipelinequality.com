@@ -179,7 +179,7 @@ export function Footer() {
                                 >
                                     BW Digit
                                 </a>
-                                .
+                                . Unabhängige QA/QC-Dienstleistungen.
                             </>
                         ) : (
                             <>
@@ -192,7 +192,7 @@ export function Footer() {
                                 >
                                     BW Digit
                                 </a>
-                                .
+                                . Independent QA/QC Contractor Services.
                             </>
                         )}
                     </p>

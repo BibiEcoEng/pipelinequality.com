@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "QA/QC Specialist Contractor | Inspection & MDR Documentation | Pipeline Quality",
-    "description": "Specialist QA/QC contractor for XXL Monopiles, Pressure Vessels, and Offshore Wind. Digital-first welding inspection and audit-ready MDR management aligned with ISO, DNV, and PED standards."
+    "title": "QA/QC Contractor | Inspection & MDR Documentation for Offshore & Industrial Projects",
+    "description": "Specialist QA/QC contractor for XXL Monopiles, Pressure Vessels, and Offshore Wind. Digital-first welding inspection and audit-ready MDR management."
   },
   "nav": {
     "home": "Home",
@@ -85,8 +85,8 @@
     "sections": {
       "fieldInspection": {
         "title": "Field Inspection & Coordination",
-        "description": "On-site NDT management, welding supervision, and coating inspections.",
-        "imageAlt": "NDT field inspection and welding supervision",
+        "description": "On-site NDT management, welding supervision, and coating inspections. We ensure the steel meets the standard before it leaves the yard—reducing NCRs, delays, and client escalations.\nExperience across offshore wind fabrication yards, heavy industry, and complex welding environments.",
+        "imageAlt": "Field Inspection - NDT Close-up",
         "items": [
           "On-site NDT management and welding supervision",
           "Coating inspections and paint thickness verification",
@@ -97,8 +97,8 @@
       },
       "remoteMDR": {
         "title": "Remote MDR Management",
-        "description": "Automated Manufacturing Data Report compilation and audit readiness.",
-        "imageAlt": "Digital MDR documentation and traceability",
+        "description": "We handle the \"Paperwork War.\" Automated compilation of Manufacturing Data Reports (MDR) that are structured, traceable, and audit-ready at any time.",
+        "imageAlt": "Digital MDR - Weld Tracking",
         "items": [
           "Automated MDR compilation and structuring",
           "Material traceability and weld log verification",
