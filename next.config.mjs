@@ -11,6 +11,9 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  // Hide the Next.js "N" badge on the client preview tunnel
+  devIndicators: false,
+  allowedDevOrigins: ['*.trycloudflare.com'],
 }
 
 export default withNextIntl(nextConfig)

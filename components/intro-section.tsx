@@ -1,87 +1,35 @@
-"use client"
+'use client';
 
-import { useTranslations } from 'next-intl'
-import { Check } from "lucide-react"
+import { useTranslations } from 'next-intl';
+import { SectionLabel } from '@/components/section-label';
 
 export function IntroSection() {
-  const t = useTranslations('intro')
-
-  const keyPoints = [
-    t('point1'),
-    t('point2'),
-    t('point3'),
-    t('point4'),
-  ]
+  const t = useTranslations('intro');
 
   return (
-    <>
-      {/* First Section: Main Introduction */}
-      <section className="bg-white py-8 md:py-16 lg:py-20">
-        <div className="max-w-[1352px] mx-auto px-4 md:px-12 lg:px-20">
-          <div className="grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center">
-            {/* Left: Headline & Text */}
-            <div className="space-y-4 md:space-y-5">
-              <div>
-                <p className="text-xs md:text-sm font-semibold text-[var(--steel)] uppercase tracking-wider mb-3">
-                  Introduction
-                </p>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-navy leading-tight text-balance">
-                  {t('headline')}
-                </h2>
-              </div>
-
-              <div className="space-y-3 text-charcoal leading-relaxed text-sm md:text-base">
-                <p>{t('paragraph1')}</p>
-                <p>{t('paragraph2')}</p>
-                <p>{t('paragraph3')}</p>
-              </div>
-            </div>
-
-            {/* Right: Image */}
-            <div className="flex h-full lg:min-h-[350px]">
-              <img
-                src="/introduction.jpg"
-                alt="QA/QC Documentation Review"
-                className="w-full h-full object-cover rounded-lg shadow-md"
-              />
-            </div>
+    <section className='bg-white'>
+      <div className='mx-auto grid max-w-7xl gap-10 px-5 py-16 lg:grid-cols-2 lg:items-center lg:gap-14 lg:px-8 lg:py-20'>
+        <div>
+          <SectionLabel>{t('label')}</SectionLabel>
+          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
+            {t('headline')}
+          </h2>
+          <div className='mt-5 space-y-4 text-[15px] leading-relaxed text-steel-gray'>
+            <p>{t('paragraph1')}</p>
+            <p>{t('paragraph2')}</p>
           </div>
         </div>
-      </section>
-
-      {/* Second Section: Key Points & Description */}
-      <section className="bg-gray-50 py-8 md:py-16 lg:py-20">
-        <div className="max-w-[1352px] mx-auto px-4 md:px-12 lg:px-20">
-          <div className="grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
-            {/* Left: Key Points */}
-            <div className="space-y-6">
-              <div>
-                <p className="text-xs md:text-sm font-semibold text-navy uppercase tracking-wide mb-4">
-                  {t('whatSetsUsApart')}
-                </p>
-                <div className="space-y-3">
-                  {keyPoints.map((point, index) => (
-                    <div key={index} className="flex items-start gap-2.5">
-                      <Check className="w-4 h-4 text-muted-gold flex-shrink-0 mt-0.5" strokeWidth={2.5} />
-                      <span className="text-charcoal text-sm md:text-base">{point}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Right: Tagline & Description */}
-            <div className="space-y-4">
-              <p className="text-lg md:text-xl font-bold text-navy leading-tight">
-                {t('tagline')}
-              </p>
-              <p className="text-sm md:text-base text-charcoal leading-relaxed">
-                {t('description')}
-              </p>
-            </div>
+        <div className='relative aspect-[4/3] overflow-hidden'>
+          <img
+            src='/client/intro-inspection.jpg'
+            alt={t('imageAlt')}
+            className='absolute inset-0 h-full w-full object-cover object-center'
+          />
+          <div className='absolute right-0 bottom-0 left-0 bg-navy/85 px-4 py-3 text-[11px] font-medium tracking-[0.1em] text-white uppercase'>
+            {t('caption')}
           </div>
         </div>
-      </section>
-    </>
-  )
+      </div>
+    </section>
+  );
 }

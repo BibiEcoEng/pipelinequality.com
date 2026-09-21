@@ -1,35 +1,37 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import type React from 'react';
-import { Inter, Outfit, Open_Sans } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
-import { FontLoader } from '@/components/font-loader';
 import { defaultLocale } from '@/i18n';
 
-const inter = Inter({ subsets: ['latin'] });
-const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
-const openSans = Open_Sans({ subsets: ['latin'], weight: ['700'], variable: '--font-open-sans' });
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-montserrat',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-    title: 'Pipeline Quality',
-    description: 'Pipeline Quality Control Services',
+  title: 'Pipeline Quality | Project Quality from Production to Handover',
+  description:
+    'QA/QC Engineering, Inspection, Production Support and Documentation for Offshore Wind, Pipelines, Industrial and Energy projects.',
 };
 
 type Props = {
-    children: React.ReactNode;
+  children: React.ReactNode;
 };
 
 export default function RootLayout({ children }: Props) {
-    return (
-        <html lang={defaultLocale} suppressHydrationWarning>
-            <body
-                className={`${inter.className} ${outfit.variable} ${openSans.variable} font-sans antialiased`}
-                suppressHydrationWarning
-            >
-                <FontLoader />
-                {children}
-                <Analytics />
-            </body>
-        </html>
-    );
+  return (
+    <html lang={defaultLocale} data-scroll-behavior="smooth" suppressHydrationWarning>
+      <body
+        className={`${montserrat.variable} ${montserrat.className} font-sans antialiased`}
+        suppressHydrationWarning
+      >
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
 }

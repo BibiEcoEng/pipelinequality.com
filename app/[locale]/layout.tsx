@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             apple: '/pipleline-fav-icon.png',
         },
         other: {
-            'font-orelega': 'Orelega One',
+            'font-family': 'Montserrat',
         },
     };
 }

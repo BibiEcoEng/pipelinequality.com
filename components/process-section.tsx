@@ -1,51 +1,51 @@
-"use client"
+'use client';
 
-import { useTranslations } from 'next-intl'
-import { Card } from "@/components/ui/card"
-import { FileText, Search, Headphones, BarChart3, CheckCircle2 } from "lucide-react"
+import { useTranslations } from 'next-intl';
+import { SectionLabel } from '@/components/section-label';
+
+type Step = {
+  id: string;
+  title: string;
+  text: string;
+};
 
 export function ProcessSection() {
-  const t = useTranslations('workProcess')
-  const rawSteps = t.raw('steps')
-  const steps = Array.isArray(rawSteps) ? rawSteps as string[] : []
-
-  const icons = [FileText, Search, Headphones, BarChart3, CheckCircle2]
+  const t = useTranslations('workProcess');
+  const steps = t.raw('steps') as Step[];
 
   return (
-    <section className="bg-white py-10 md:py-16 lg:pt-16 lg:pb-24" id="how-we-work">
-      <div className="max-w-[1352px] mx-auto px-4 md:px-12 lg:px-20">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
-          <p className="text-sm font-semibold text-steel uppercase tracking-widest">{t('label')}</p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-navy text-balance">
-            {t('title')}
-          </h2>
-          <p className="text-lg text-charcoal leading-relaxed">
-            {t('tagline')}
-          </p>
-        </div>
-
-        {/* Process Steps */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {steps.map((step, index) => {
-            const Icon = icons[index]
-            return (
-              <Card key={index} className="p-8 bg-white shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-start gap-4 mb-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-muted-gold/10 flex items-center justify-center">
-                      <Icon className="w-6 h-6 text-muted-gold" strokeWidth={2} />
-                    </div>
-                  </div>
-                  <div className="text-3xl font-bold text-muted-gold/20">{String(index + 1).padStart(2, '0')}</div>
-                </div>
-                <h3 className="text-xl font-bold text-navy mb-3">{step}</h3>
-                <p className="text-charcoal leading-relaxed">{step}</p>
-              </Card>
-            )
-          })}
+    <section id='how-we-work' className='bg-white'>
+      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
+        <SectionLabel>{t('label')}</SectionLabel>
+        <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
+          {t('title')}
+        </h2>
+        <div className='mt-10 grid gap-8 border-t border-line pt-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8'>
+          {steps.map((step, index) => (
+            <div key={step.id} className='relative min-w-0'>
+              <div className='text-[12px] font-bold tracking-[0.14em] text-brand'>
+                {step.id}
+              </div>
+              <div className='mt-3 flex items-center'>
+                <h3 className='shrink-0 text-2xl leading-none font-semibold tracking-tight text-navy'>
+                  {step.title}
+                </h3>
+                {index < steps.length - 1 && (
+                  <span
+                    className='hidden flex-1 -mr-8 items-center justify-center text-sm leading-none text-brand/40 lg:flex'
+                    aria-hidden
+                  >
+                    →
+                  </span>
+                )}
+              </div>
+              <p className='mt-3 text-[13px] leading-relaxed text-steel-gray'>
+                {step.text}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

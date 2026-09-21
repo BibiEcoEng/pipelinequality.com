@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "QA/QC Contractor | Inspection & MDR Documentation for Offshore & Industrial Projects",
-    "description": "Specialist QA/QC contractor for XXL Monopiles, Pressure Vessels, and Offshore Wind. Digital-first welding inspection and audit-ready MDR management."
+    "title": "Pipeline Quality | Project Quality from Production to Handover",
+    "description": "QA/QC Engineering, Inspection, Production Support and Documentation for Offshore Wind, Pipelines, Industrial and Energy projects."
   },
   "nav": {
     "home": "Home",
@@ -9,20 +9,29 @@
     "industries": "Industries",
     "howWeWork": "How We Work",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+    "process": "Process"
   },
   "hero": {
-    "tagline": "PIPELINE QUALITY",
-    "titleLine1": "Audit-Ready",
-    "titleLine2": "Fabrication.",
-    "titleLine3": "Delivered Right. First Time.",
-    "title": "Audit-Ready Fabrication. Delivered Right. First Time.",
-    "subtitle": "We help engineering teams deliver on-site QA/QC and compliant documentation for XXL Monopiles, Pressure Vessels, and Industrial Piping—aligned with ISO, DNV, and PED requirements.",
-    "imageAlt": "Heavy steel fabrication and welding inspection",
-    "availability": "Available for short-term and long-term projects across Europe.",
-    "cta1": "Book a Documentation Audit",
-    "cta2": "View Services",
-    "trustBadge": "Specialist QA/QC contractor for offshore and industrial projects"
+    "tagline": "Industrial Partner for Project Quality",
+    "titleLine1": "Project Quality.",
+    "titleLine2": "From Production to Handover.",
+    "titleLine3": "",
+    "title": "Project Quality. From Production to Handover.",
+    "subtitle": "QA/QC | Inspection | Engineering | Documentation",
+    "imageAlt": "Offshore foundation / monopile in production — project quality environment",
+    "availability": "Available for project-based quality support across Europe.",
+    "cta1": "Discuss Your Project",
+    "cta2": "Meet Our Network",
+    "trustBadge": "Industrial partner for project quality — not a freelancer, not a headcount agency.",
+    "subtitleLine2": "Offshore Wind | Pipelines | Industrial & Energy Projects",
+    "chips": [
+      "QA/QC",
+      "Inspection",
+      "Production Support",
+      "Documentation",
+      "Project Quality"
+    ]
   },
   "documentationReviewModal": {
     "title": "Request Technical Review",
@@ -47,40 +56,47 @@
     }
   },
   "intro": {
-    "headline": "Pipeline projects fail or succeed on documentation quality.",
-    "paragraph1": "We help EPCs, operators and engineering teams by delivering structured, compliant and audit-ready QA/QC documentation, without the need for permanent site presence.",
-    "paragraph2": "We operate as a remote QA/QC documentation partner, supporting projects across Europe.",
-    "paragraph3": "This allows our clients to reduce on-site workload, avoid documentation backlogs and stay audit-ready throughout the project lifecycle.",
+    "headline": "Quality Capacity When Your Project Needs It.",
+    "paragraph1": "Projects do not always need another permanent position. Sometimes they need experienced QA/QC capacity for a defined project phase, production ramp-up, inspection campaign, documentation backlog or client requirement.",
+    "paragraph2": "Pipeline Quality provides qualified professionals and project-based support according to the actual scope. We can support individual requirements as well as coordinated project quality teams.",
+    "paragraph3": "",
     "whatSetsUsApart": "What sets us apart:",
-    "point1": "real project experience in large industrial environments",
-    "point2": "strong understanding of European standards and EPC workflows",
-    "point3": "remote-first execution with clear accountability",
-    "point4": "focus on documentation that actually works on real projects",
-    "tagline": "We don't sell theory. We deliver usable documentation.",
-    "description": "Pipeline Quality is a specialized QA/QC documentation and project quality support service for industrial pipeline and process projects."
+    "point1": "practical experience from industrial, pipeline and offshore wind project environments",
+    "point2": "technical competence selected according to the actual project requirement",
+    "point3": "field execution connected to documentation and handover",
+    "point4": "flexible capacity — one specialist or a coordinated quality team",
+    "tagline": "We do not sell theory. We deliver usable project quality.",
+    "description": "Pipeline Quality is an industrial partner for QA/QC engineering, inspection, production support and documentation.",
+    "label": "Introduction",
+    "imageAlt": "Inspector at offshore foundation manufacturing — field inspection",
+    "caption": "Field inspection · Fabrication · Quality control"
   },
   "experience": {
-    "title": "Professional Background & Experience",
-    "description": "Over 15 years of experience in pipeline projects, QA/QC documentation, and inspection support across international standards and compliance frameworks.",
-    "imageAlt": "Pipeline QA/QC expert reviewing technical documents",
-    "paragraph1": "Our experience is based on hands-on involvement in large-scale European industrial projects, supporting QA/QC documentation, welding documentation, and final handover processes.",
-    "paragraph2": "Project environments include chemical, energy, and pipeline-related installations with complex documentation and compliance requirements.",
+    "title": "Real Project Experience",
+    "description": "Practical experience from industrial, pipeline and offshore wind project environments.",
+    "imageAlt": "Industrial project experience in fabrication and inspection",
+    "paragraph1": "Recent project experience includes offshore wind foundation manufacturing in the Netherlands. Our expertise is built on the professional project experience of our founder and our network of qualified specialists.",
+    "paragraph2": "Professional experience includes project environments associated with BASF, Bayernoil, Chemiepark Marl, INEOS and other large-scale industrial and energy projects.",
     "paragraph3": "Experience gained through professional involvement in large-scale industrial projects, including projects associated with companies such as:",
-    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS, Yamal LNG plant, Gazprom and Rosneft."
+    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS and other large-scale industrial and energy projects.",
+    "label": "Experience",
+    "offshoreTitle": "Offshore Wind",
+    "offshoreText": "Foundation manufacturing, monopiles, transition pieces, welding, NDT, dimensional control, client inspection, production support and quality documentation.",
+    "industrialTitle": "Industrial & Pipeline",
+    "industrialText": "Pipelines, oil & gas, chemical / petrochemical, energy, EPC, industrial construction, piping, fabrication, maintenance / shutdown / revamp."
   },
   "services": {
-    "title": "OUR SERVICES",
-    "description": "Specialist QA/QC contractor services for XXL Monopiles, Pressure Vessels, and Industrial Piping. We deliver on-site field inspection, welding supervision, and remote Manufacturing Data Report (MDR) management—aligned with ISO, DNV, and PED standards.",
-    "scopeTitle": "Audit-Ready Fabrication Support",
+    "title": "Services",
+    "description": "Four major service blocks — structured for industrial projects, not one long text list.",
+    "scopeTitle": "QA/QC Engineering + Inspection + Production Support + Documentation",
     "paragraph1": "",
     "paragraph2": "",
     "keyAreasTitle": "What We Offer",
     "serviceAreas": [
-      "Field Inspection & NDT Management",
-      "Remote MDR Management & Documentation Audit",
-      "Welding Supervision & Traceability",
-      "Coating & Paint Inspection",
-      "Client Escalation & Audit Support"
+      "QA/QC Engineering",
+      "Inspection & Production Support",
+      "Documentation & Handover",
+      "Project Quality Support"
     ],
     "sections": {
       "fieldInspection": {
@@ -172,22 +188,92 @@
           "Efficient collaboration with site teams and project management"
         ]
       }
-    }
-  },
-  "smartQAQC": {
-    "label": "POWERED BY AI",
-    "title": "Smart QA/QC: Powered by Pipeline Quality AI",
-    "description": "Manual logs are the graveyard of project margins. In partnership with BW Digit, we develop custom tools to automate MDR generation, cross-check material traceability, and flag inconsistencies before audits, ensuring full traceability across MTRs, weld logs and NDT reports.",
-    "features": [
-      "Real-time Weld Tracking",
-      "Automated MDR Compilation",
-      "AI-Assisted Documentation Audit"
+    },
+    "blocks": [
+      {
+        "title": "QA/QC Engineering",
+        "summary": "Project quality planning, ITP readiness and coordination across the production phase.",
+        "items": [
+          "QA/QC project support",
+          "ITP / PTP",
+          "Inspection readiness",
+          "Quality records",
+          "NCR follow-up",
+          "Client requirements",
+          "Quality coordination",
+          "Project quality reporting",
+          "Remote QA/QC support"
+        ]
+      },
+      {
+        "title": "Inspection & Production Support",
+        "summary": "Hands-on inspection and production support for welding, NDT and manufacturing control.",
+        "items": [
+          "Welding",
+          "NDT coordination",
+          "Dimensional control",
+          "Manufacturing surveillance",
+          "Client / third-party inspection",
+          "Production support",
+          "Inspection coordination",
+          "Supplier / manufacturer follow-up",
+          "Coating inspection",
+          "RFI support"
+        ]
+      },
+      {
+        "title": "Documentation & Handover",
+        "summary": "Traceable quality records prepared for audit, mechanical completion and client handover.",
+        "items": [
+          "MDR / DDP",
+          "Weld books",
+          "MTR / material traceability",
+          "NDT records",
+          "NCR / punch tracking",
+          "Final documentation",
+          "As-built documentation",
+          "Mechanical completion support",
+          "Handover dossiers",
+          "Vendor / manufacturer documentation"
+        ]
+      },
+      {
+        "title": "Project Quality Support",
+        "summary": "Flexible project quality capacity — one specialist or a coordinated quality team.",
+        "items": [
+          "Supplier / manufacturer follow-up",
+          "Quality coordination",
+          "Inspection planning",
+          "Project reporting",
+          "Audit readiness",
+          "Handover support",
+          "Client interface",
+          "Third-party inspection coordination"
+        ]
+      }
     ]
   },
+  "smartQAQC": {
+    "label": "BW Digit Connection",
+    "title": "Quality Execution Meets Digital Intelligence",
+    "description": "Pipeline Quality handles the quality execution side. BW Digit focuses on industrial data, documentation and digital compliance workflows. Together, they connect field activities with the information needed to control, document and complete the project.",
+    "features": [
+      "Weld traceability and inspection management",
+      "NCR tracking and documentation control",
+      "Digital quality workflows through BW Digit"
+    ],
+    "cta": "Explore BW Digit",
+    "fieldLabel": "Field",
+    "fieldText": "Inspector / welding / production execution",
+    "fieldAlt": "Field production — welding and fabrication",
+    "docsLabel": "Documentation",
+    "docsText": "Traceability, records and handover readiness",
+    "docsAlt": "Traceability markings and project documentation"
+  },
   "standards": {
-    "label": "STANDARDS & COMPLIANCE",
-    "title": "Working in accordance with recognized international standards.",
-    "description": "Our QA/QC documentation support aligns with internationally recognized standards and project-specific requirements, ensuring compliance, traceability and audit readiness.",
+    "label": "Standards & Competence",
+    "title": "Qualifications, Standards & Technical Competence",
+    "description": "Standards we work in accordance with — separate from individual qualifications and certificates.",
     "items": {
       "iso9001": {
         "title": "ISO 9001",
@@ -236,70 +322,231 @@
     ],
     "auditNote": "Documentation is prepared with audit readiness in mind, supporting internal and external audits.",
     "qualifications": "Relevant auditor qualifications and technical certifications are available upon request.",
-    "scopeNote": "Standards are applied strictly within the scope defined by the client and project documentation."
+    "scopeNote": "Standards and normative requirements are applied according to the specific project scope, client specifications and contractual requirements. Individual qualifications and certificates are matched to project requirements and are available on request.",
+    "groups": [
+      {
+        "title": "Quality Management",
+        "items": [
+          "ISO 9001",
+          "ISO 45001"
+        ]
+      },
+      {
+        "title": "Inspection & NDT",
+        "items": [
+          "ISO 9712",
+          "VT / NDT capabilities"
+        ]
+      },
+      {
+        "title": "Welding",
+        "items": [
+          "ISO 15614",
+          "ISO 9606",
+          "ASME Section IX where applicable"
+        ]
+      },
+      {
+        "title": "Offshore Wind",
+        "items": [
+          "DNV-ST-0126"
+        ]
+      },
+      {
+        "title": "Pressure Equipment",
+        "items": [
+          "PED 2014/68/EU"
+        ]
+      },
+      {
+        "title": "Corrosion / Coating",
+        "items": [
+          "ISO 12944",
+          "FROSIO / NACE where qualified specialists are assigned"
+        ]
+      },
+      {
+        "title": "Materials / Documentation",
+        "items": [
+          "EN 10204"
+        ]
+      }
+    ]
   },
   "industries": {
-    "label": "INDUSTRIES",
-    "title": "Industries & Standards We Work With",
-    "description": "Oil & Gas, Pipeline Construction, EPC Contractors, QA/QC & Inspection Support",
+    "label": "Industries",
+    "title": "Industries We Support",
+    "description": "Offshore Wind, Pipeline & Transmission, Oil & Gas, Chemical, Energy, EPC and industrial construction.",
     "standardsAlt": "ISO, ASME, API, EN standards for pipeline QA/QC",
     "list": [
-      "Oil & Gas (onshore and related facilities)",
+      "Offshore Wind",
       "Pipeline and transmission projects",
+      "Oil & Gas (onshore and related facilities)",
       "Chemical and petrochemical plants",
       "Energy and power generation",
       "EPC and engineering projects",
       "Industrial construction and installation",
       "Maintenance, shutdowns and revamp projects"
     ],
-    "experienceNote": "Our experience includes large-scale industrial projects executed under strict quality and safety requirements across Europe and worldwide."
+    "experienceNote": "Our experience includes large-scale industrial projects executed under strict quality and safety requirements across Europe and worldwide.",
+    "intro": "Offshore wind added prominently, while retaining useful industrial and pipeline scope from the existing website.",
+    "more": "more",
+    "sectors": [
+      {
+        "title": "Offshore Wind",
+        "items": [
+          "Offshore foundation manufacturing",
+          "Monopiles",
+          "Transition pieces",
+          "Offshore steel structures",
+          "Welding and fabrication",
+          "NDT",
+          "Dimensional control",
+          "Client inspection",
+          "Production quality",
+          "Quality documentation"
+        ]
+      },
+      {
+        "title": "Pipeline & Transmission",
+        "items": [
+          "Pipeline construction",
+          "Transmission projects",
+          "Piping fabrication",
+          "Welding documentation",
+          "NDT",
+          "Material traceability",
+          "Inspection",
+          "Handover"
+        ]
+      },
+      {
+        "title": "Oil & Gas",
+        "items": [
+          "Onshore facilities",
+          "Process systems",
+          "Piping",
+          "Fabrication",
+          "Maintenance / shutdown support"
+        ]
+      },
+      {
+        "title": "Chemical & Petrochemical",
+        "items": [
+          "Chemical plants",
+          "Petrochemical facilities",
+          "Industrial piping",
+          "Fabrication",
+          "Installation",
+          "Quality documentation"
+        ]
+      },
+      {
+        "title": "Energy & Power",
+        "items": [
+          "Energy projects",
+          "Power generation",
+          "Industrial energy infrastructure"
+        ]
+      },
+      {
+        "title": "EPC & Engineering",
+        "items": [
+          "EPC projects",
+          "Engineering contractors",
+          "Supplier / manufacturer quality",
+          "Project documentation",
+          "Inspection coordination"
+        ]
+      },
+      {
+        "title": "Industrial Construction & Installation",
+        "items": [
+          "Industrial fabrication",
+          "Mechanical installation",
+          "Construction support",
+          "Quality coordination"
+        ]
+      },
+      {
+        "title": "Maintenance, Shutdowns & Revamps",
+        "items": [
+          "QA/QC support",
+          "Inspection",
+          "Documentation",
+          "Punch / NCR follow-up",
+          "Handover"
+        ]
+      }
+    ]
   },
   "workProcess": {
-    "label": "HOW WE WORK",
+    "label": "How We Work",
     "title": "Structured. Transparent. Reliable.",
     "steps": [
-      "Initial consultation & scope definition",
-      "Document review based on client specs & standards",
-      "Clear feedback, tracking lists & action points",
-      "Ongoing remote support & coordination",
-      "Final documentation ready for audit & handover"
+      {
+        "id": "01",
+        "title": "Understand",
+        "text": "Project scope, technical requirements, schedule and quality risks."
+      },
+      {
+        "id": "02",
+        "title": "Match",
+        "text": "Select the right specialist or project team according to the actual requirement."
+      },
+      {
+        "id": "03",
+        "title": "Execute",
+        "text": "Provide QA/QC, inspection, engineering and documentation support."
+      },
+      {
+        "id": "04",
+        "title": "Control",
+        "text": "Track inspections, quality records, NCRs, documentation and project actions."
+      },
+      {
+        "id": "05",
+        "title": "Handover",
+        "text": "Deliver complete, traceable and usable project quality documentation."
+      }
     ],
     "tagline": "Clear ownership, clear deadlines, clear documentation."
   },
   "why": {
-    "label": "WHY PIPELINE QUALITY",
-    "title": "Why Pipeline Quality",
+    "label": "Why Pipeline Quality",
+    "title": "Why Pipeline Quality?",
     "points": [
-      "Real project experience – not theoretical consulting",
-      "Strong understanding of EPC & operator requirements",
-      "Focus on documentation quality, traceability & compliance",
-      "Flexible remote support model",
-      "Clear communication in English & German"
+      "Real project experience from industrial, pipeline and offshore wind environments",
+      "Technical competence selected according to the actual project requirement",
+      "Flexible capacity — one specialist or a coordinated project team",
+      "Quality before quantity",
+      "Field execution connected to documentation and handover",
+      "Digital understanding through BW Digit"
     ],
     "reasons": [
       {
         "title": "Real Project Experience",
-        "description": "Hands-on experience gained within large-scale European industrial projects, not theoretical consulting."
+        "description": "Practical experience from industrial, pipeline and offshore wind project environments."
       },
       {
-        "title": "Strong EPC Understanding",
-        "description": "Deep understanding of EPC workflows, documentation requirements and project pressures."
+        "title": "Technical Competence",
+        "description": "Qualified professionals selected according to the actual project requirement."
       },
       {
-        "title": "Remote-First Flexibility",
-        "description": "Flexible remote support models aligned with project phases, workload and timelines."
+        "title": "Flexible Capacity",
+        "description": "Individual specialists or coordinated project teams."
       },
       {
-        "title": "Documentation That Works",
-        "description": "Practical, usable documentation designed for real project execution and audits."
+        "title": "Quality Before Quantity",
+        "description": "We focus on competence and project value rather than headcount."
       },
       {
-        "title": "European Standards Focus",
-        "description": "Strong alignment with European regulations, EN/DIN standards and client-specific requirements."
+        "title": "Field + Documentation",
+        "description": "We understand the connection between what happens in production and what ultimately has to be documented and handed over."
       },
       {
-        "title": "Clear Communication",
-        "description": "Direct, structured communication in English and German, ensuring clarity and accountability."
+        "title": "Digital Understanding",
+        "description": "Through BW Digit, we connect practical quality execution with digital workflows and industrial data."
       }
     ],
     "builtOn": "Built on real project experience",
@@ -309,44 +556,46 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "What is remote QA/QC documentation support?",
-        "answer": "Remote QA/QC documentation support means managing, reviewing and preparing all quality-related project documentation without permanent site presence, ensuring compliance with project specifications and standards."
+        "question": "Do you only provide remote documentation support?",
+        "answer": "No. Pipeline Quality supports both field execution and documentation. Depending on the project, this can include inspection, production support, QA/QC engineering and handover documentation — on site, remotely, or as a combined setup."
       },
       {
-        "question": "Do you work only remotely?",
-        "answer": "Our primary focus is remote documentation support. On-site support can be coordinated through our professional network if required."
+        "question": "Can you provide one specialist or a full team?",
+        "answer": "Both. We can provide an individual specialist, several complementary specialists, or a coordinated project quality team selected according to the actual requirement."
       },
       {
         "question": "Which standards do you work with?",
-        "answer": "We work according to ISO 9001, ISO 45001, project-specific EPC requirements, welding standards and client specifications."
+        "answer": "We work in accordance with ISO 9001, ISO 45001, ISO 9712, welding standards such as ISO 15614 / ISO 9606, DNV-ST-0126, PED 2014/68/EU and project-specific client requirements."
       },
       {
         "question": "Which industries do you support?",
-        "answer": "Pipeline construction, oil & gas, chemical and petrochemical plants, energy, utilities and industrial installations."
+        "answer": "Offshore wind, pipeline and transmission, oil & gas, chemical and petrochemical, energy, EPC, industrial construction, and maintenance / shutdown / revamp projects."
       },
       {
         "question": "Can you support audits and client inspections?",
-        "answer": "Yes. Documentation is prepared with audit-readiness in mind and supports both internal and external audits."
+        "answer": "Yes. Documentation is prepared with audit readiness in mind and supports both internal and external audits, including client and third-party inspection interfaces."
       },
       {
-        "question": "Do you support EPC contractors and engineering companies?",
-        "answer": "Yes. We regularly support EPC contractors, engineering companies and operators with structured QA/QC documentation aligned with project and contractual requirements."
+        "question": "How is BW Digit connected?",
+        "answer": "Pipeline Quality handles quality execution. BW Digit supports industrial data, documentation and digital compliance workflows so field activity can be connected to handover-ready records."
       }
     ]
   },
   "cta": {
-    "title": "Ready to streamline your project's quality documentation?",
-    "description": "Whether you need short-term QA/QC documentation support or long-term remote involvement, we are ready to support your project with structured and reliable solutions.",
-    "button1": "Request a Quote",
-    "button2": "Discuss Your Project",
+    "title": "Does Your Project Need Additional Quality Capacity?",
+    "description": "Whether you need one specialist, additional inspection capacity, documentation support or a coordinated project quality team, let's discuss the requirement.",
+    "button1": "Discuss Your Project",
+    "button2": "Request Project Support",
     "tagline": "Supporting European Industrial Excellence",
     "altTitle": "Let's Talk About Your Project",
-    "responseNote": "We respond fast and work transparently"
+    "responseNote": "We respond fast and work transparently",
+    "label": "Next Step",
+    "button3": "Meet Our Network"
   },
   "contact": {
-    "title": "Request QA/QC & Quality Support",
-    "subtitle": "Let's discuss your QA/QC documentation needs",
-    "description": "Please upload relevant project documentation or describe your QA/QC needs. Our team will respond within 48–72 hours.",
+    "title": "Discuss Your Project",
+    "subtitle": "Tell us the scope, phase and quality requirement.",
+    "description": "Whether you need one specialist, inspection capacity, documentation support or a coordinated quality team, we will respond within 48–72 hours.",
     "form": {
       "name": "Name",
       "namePlaceholder": "Your name",
@@ -387,7 +636,7 @@
   },
   "footer": {
     "brand": "Pipeline Quality",
-    "description": "Specialist QA/QC contractor for XXL Monopiles, Pressure Vessels, and Industrial Piping. Digital-first welding inspection and audit-ready MDR management.",
+    "description": "Industrial partner for project quality — QA/QC engineering, inspection, production support and documentation for offshore wind, pipelines, industrial and energy projects.",
     "services": "Services",
     "company": "Company",
     "contact": "Contact",
@@ -396,7 +645,7 @@
     "linkedIn": "LinkedIn",
     "companyInfo": "Company Information",
     "companyDescription": "Pipeline Quality is a brand of Backpack Wander GmbH, a company registered in Germany, with headquarters in Berlin. Technical partner: BW Digit. We work with an international network of qualified professionals and scale our services according to project requirements.",
-    "tagline": "QA/QC Contractor Services",
+    "tagline": "Project Quality from Production to Handover",
     "copyright": "© 2025 Backpack Wander GmbH. All rights reserved.",
     "brandNote": "Pipeline Quality is a brand of Backpack Wander GmbH. Technical partner: BW Digit.",
     "madeBy": "Made by BW Digit",
@@ -408,8 +657,8 @@
     "tooltip": "Message us on WhatsApp"
   },
   "meta": {
-    "title": "QA/QC Engineering & Documentation Services | PipelineQuality",
-    "description": "Remote QA/QC documentation review for Oil & Gas and Chemical industries. Expert analysis for ITP, RFI, and Welding Logs according to ISO and ASME standards."
+    "title": "Pipeline Quality | Project Quality from Production to Handover",
+    "description": "QA/QC Engineering, Inspection, Production Support and Documentation for Offshore Wind, Pipelines, Industrial and Energy projects."
   },
   "legal": {
     "imprint": {
@@ -510,5 +759,145 @@
         }
       ]
     }
+  },
+  "fieldHandover": {
+    "label": "From Field to Handover",
+    "title": "From Field Data to Final Handover",
+    "description": "A clean engineering flow connecting production activity with final project quality documentation — for Pipeline Quality and BW Digit.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Field",
+        "text": "Inspection activity captured where production happens.",
+        "items": [
+          "Inspection",
+          "Welding",
+          "NDT",
+          "Dimensional",
+          "MTR"
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Quality Control",
+        "text": "Records, actions and approvals kept under control.",
+        "items": [
+          "Inspection records",
+          "NCR",
+          "Traceability",
+          "Status",
+          "Approvals"
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Project",
+        "text": "Complete documentation ready for handover and compliance.",
+        "items": [
+          "Reports",
+          "MDR",
+          "Handover",
+          "Compliance"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "label": "Team Model",
+    "title": "One Specialist or a Complete Project Team",
+    "paragraph1": "Depending on project requirements, Pipeline Quality can provide an individual specialist, several complementary specialists or a coordinated project quality team.",
+    "paragraph2": "Our network consists of qualified independent professionals selected for project fit — not a fixed employee headcount.",
+    "networkLabel": "Our Network",
+    "roles": [
+      "Quality Managers",
+      "Auditors",
+      "Third-Party Inspectors",
+      "Team Leaders",
+      "QA/QC Engineers",
+      "Welding Specialists",
+      "NDT Specialists",
+      "Inspectors",
+      "Dimensional / Technical Specialists",
+      "Quality Documentation Specialists",
+      "Technical / Project Support",
+      "HSE Professionals through qualified partners"
+    ]
+  },
+  "philosophy": {
+    "label": "Quality Philosophy",
+    "title": "We Choose Competence Over Headcount.",
+    "paragraph1": "We carefully build our professional network around experience, qualifications and project fit.",
+    "paragraph2": "We would rather provide one strong specialist than several people who do not add value. Every person joining a project represents our reputation.",
+    "principleLabel": "Guiding principle",
+    "principle": "QUALITY BEFORE QUANTITY."
+  },
+  "digitalQuality": {
+    "label": "Digital Quality",
+    "title": "Practical Digital Quality Support",
+    "description": "In partnership with BW Digit and technology partners, Pipeline Quality can support digital workflows for:",
+    "blocks": [
+      {
+        "title": "Weld Traceability",
+        "items": [
+          "Weld maps",
+          "Weld logs",
+          "Welder data",
+          "NDT status"
+        ]
+      },
+      {
+        "title": "Inspection Management",
+        "items": [
+          "Inspection requests",
+          "Evidence",
+          "Status",
+          "Approvals"
+        ]
+      },
+      {
+        "title": "NCR Management",
+        "items": [
+          "NCR creation",
+          "Actions",
+          "Responsibility",
+          "Closure"
+        ]
+      },
+      {
+        "title": "Documentation",
+        "items": [
+          "MTR",
+          "NDT",
+          "Weld records",
+          "MDR",
+          "Handover"
+        ]
+      },
+      {
+        "title": "Quality Analytics",
+        "items": [
+          "Repair rate",
+          "Trends",
+          "Open items",
+          "Project status"
+        ]
+      },
+      {
+        "title": "HSE Data",
+        "items": [
+          "Reports",
+          "Observations",
+          "Actions",
+          "Evidence"
+        ]
+      }
+    ]
+  },
+  "partners": {
+    "label": "Technology Partnerships",
+    "title": "We Do Not Reinvent Good Technology. We Connect It.",
+    "paragraph1": "We are open to working with established technology providers when their solution can deliver better results, faster implementation or stronger project value.",
+    "paragraph2": "BW Digit can act as an implementation and integration layer between industrial teams, project requirements and existing digital solutions.",
+    "cta": "Become a Technology Partner"
   }
 }

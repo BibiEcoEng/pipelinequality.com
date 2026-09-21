@@ -1,55 +1,44 @@
-"use client"
+'use client';
 
-import { useTranslations } from 'next-intl'
-import { Button } from "@/components/ui/button"
-import { Check } from "lucide-react"
+import { useTranslations } from 'next-intl';
+import { SectionLabel } from '@/components/section-label';
 
 export function CTASection() {
-    const t = useTranslations('cta')
+  const t = useTranslations('cta');
 
-    return (
-        <section className="bg-[#0a0f1a] py-10 md:py-16 lg:py-20">
-            <div className="max-w-[1352px] mx-auto px-4 md:px-12 lg:px-20 text-center">
-                {/* Main heading */}
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 max-w-3xl mx-auto leading-tight">
-                    {t('title')}
-                </h2>
-
-                {/* Description */}
-                <p className="text-white/80 text-base max-w-2xl mx-auto mb-10 leading-relaxed">
-                    {t('description')}
-                </p>
-
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                    <a href="#contact" className="w-full sm:w-auto">
-                        <Button
-                            size="lg"
-                            className="bg-muted-gold text-navy hover:bg-muted-gold/90 font-semibold px-8 h-12 text-base transition-all hover:scale-105 active:scale-95 w-full"
-                        >
-                            {t('button1')}
-                        </Button>
-                    </a>
-                    <a href="#contact" className="w-full sm:w-auto">
-                        <Button
-                            size="lg"
-                            className="bg-muted-gold text-white hover:bg-muted-gold/90 font-semibold px-8 h-12 text-base transition-all hover:scale-105 active:scale-95 w-full"
-                        >
-                            {t('button2')}
-                        </Button>
-                    </a>
-                </div>
-
-                {/* Bottom tagline */}
-                <div className="flex justify-center">
-                    <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#1a2332] border border-[#2a3545]">
-                        <Check className="w-4 h-4 text-muted-gold" strokeWidth={3} />
-                        <p className="text-white text-sm font-semibold">
-                            {t('tagline')}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className='bg-light-gray'>
+      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
+        <div className='max-w-3xl'>
+          <SectionLabel>{t('label')}</SectionLabel>
+          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
+            {t('title')}
+          </h2>
+          <p className='mt-5 text-[15px] leading-relaxed text-steel-gray'>
+            {t('description')}
+          </p>
+          <div className='mt-8 flex flex-wrap gap-3'>
+            <a
+              href='#contact'
+              className='inline-flex items-center justify-center bg-accent px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-white uppercase transition hover:bg-accent-hover'
+            >
+              {t('button1')}
+            </a>
+            <a
+              href='#contact'
+              className='inline-flex items-center justify-center border border-navy/15 bg-white px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-navy uppercase transition hover:border-navy/30'
+            >
+              {t('button2')}
+            </a>
+            <a
+              href='#network'
+              className='inline-flex items-center justify-center border border-navy/15 bg-white px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-navy uppercase transition hover:border-navy/30'
+            >
+              {t('button3')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

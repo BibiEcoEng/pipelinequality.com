@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "QA/QC Contractor | Inspektion & MDR-Dokumentation für Offshore & Industrieprojekte",
-    "description": "Spezialisierter QA/QC-Dienstleister für XXL-Monopiles, Druckbehälter und Offshore-Wind. Digital-first Schweißinspektion und MDR-Dokumentation."
+    "title": "Pipeline Quality | Projektqualität von der Fertigung bis zur Übergabe",
+    "description": "QA/QC Engineering, Inspektion, Fertigungsbegleitung und Dokumentation für Offshore-Wind, Pipelines sowie Industrie- und Energieprojekte."
   },
   "nav": {
     "home": "Startseite",
@@ -9,20 +9,29 @@
     "industries": "Branchen",
     "howWeWork": "Arbeitsweise",
     "experience": "Erfahrung",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "process": "Prozess"
   },
   "hero": {
-    "tagline": "PIPELINE QUALITY",
-    "titleLine1": "Audit-bereite",
-    "titleLine2": "Fertigung.",
-    "titleLine3": "Beim ersten Mal richtig geliefert.",
-    "title": "Audit-bereite Fertigung. Beim ersten Mal richtig geliefert.",
-    "subtitle": "Wir unterstützen Engineering-Teams bei QA/QC vor Ort und normgerechter Dokumentation für XXL-Monopiles, Druckbehälter und Rohrleitungen -- gemäß ISO-, DNV- und PED-Anforderungen.",
-    "imageAlt": "Schwerindustrielle Stahlbauteile und Schweißkontrollen",
-    "availability": "Verfügbar für kurz- und langfristige Projekte europaweit.",
-    "cta1": "Dokumentations-Audit buchen",
-    "cta2": "Dienstleistungen anzeigen",
-    "trustBadge": "Spezialisierter QA/QC-Dienstleister für Offshore- und Industrieprojekte"
+    "tagline": "Industriepartner für Projektqualität",
+    "titleLine1": "Projektqualität.",
+    "titleLine2": "Von der Fertigung bis zur Übergabe.",
+    "titleLine3": "",
+    "title": "Projektqualität. Von der Fertigung bis zur Übergabe.",
+    "subtitle": "QA/QC | Inspektion | Engineering | Dokumentation",
+    "imageAlt": "Offshore-Fundament / Monopile in der Fertigung — Projektumfeld Qualität",
+    "availability": "Verfügbar für projektbezogene Qualitätsunterstützung in Europa.",
+    "cta1": "Projekt besprechen",
+    "cta2": "Unser Netzwerk kennenlernen",
+    "trustBadge": "Industriepartner für Projektqualität — kein Freelancer, keine Headcount-Agentur.",
+    "subtitleLine2": "Offshore-Wind | Pipelines | Industrie- und Energieprojekte",
+    "chips": [
+      "QA/QC",
+      "Inspektion",
+      "Fertigungsbegleitung",
+      "Dokumentation",
+      "Projektqualität"
+    ]
   },
   "documentationReviewModal": {
     "title": "Technische Prüfung anfragen",
@@ -47,40 +56,47 @@
     }
   },
   "intro": {
-    "headline": "Der Erfolg von Pipeline-Projekten steht und fällt mit der Qualität der Dokumentation.",
-    "paragraph1": "Wir unterstützen EPCs, Betreiber und Ingenieurbüros mit strukturierter, normkonformer und auditfähiger QA/QC-Dokumentation – ohne permanente Baustellenpräsenz.",
-    "paragraph2": "Wir arbeiten als remote-basierter QA/QC-Dokumentationspartner für Projekte in ganz Europa.",
-    "paragraph3": "Dies ermöglicht unseren Kunden, die Arbeitslast vor Ort zu reduzieren, Dokumentationsrückstände zu vermeiden und während des gesamten Projektlebenszyklus auditfähig zu bleiben.",
+    "headline": "Qualitätskapazität, wenn Ihr Projekt sie braucht.",
+    "paragraph1": "Projekte brauchen nicht immer eine weitere Festanstellung. Manchmal brauchen sie erfahrene QA/QC-Kapazität für eine definierte Projektphase, einen Produktionshochlauf, eine Inspektionskampagne, einen Dokumentationsrückstand oder eine Kundenanforderung.",
+    "paragraph2": "Pipeline Quality stellt qualifizierte Fachkräfte und projektbezogene Unterstützung entsprechend dem tatsächlichen Leistungsumfang bereit. Wir unterstützen einzelne Anforderungen ebenso wie koordinierte Projektqualitätsteams.",
+    "paragraph3": "",
     "whatSetsUsApart": "Was uns auszeichnet:",
-    "point1": "praktische Projekterfahrung in großen Industrieanlagen",
-    "point2": "tiefes Verständnis europäischer Normen und EPC-Prozesse",
-    "point3": "effiziente Remote-Zusammenarbeit",
-    "point4": "Fokus auf umsetzbare, projektnahe Dokumentation",
-    "tagline": "Keine Theorie. Klare Ergebnisse.",
-    "description": "Pipeline Quality ist ein spezialisierter Dienstleister für QA/QC-Dokumentation und projektbezogene Qualitätsunterstützung im industriellen Anlagen- und Pipelinebau."
+    "point1": "praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten",
+    "point2": "technische Kompetenz, ausgewählt nach dem tatsächlichen Projektbedarf",
+    "point3": "Ausführung vor Ort, verbunden mit Dokumentation und Übergabe",
+    "point4": "flexible Kapazität — ein Spezialist oder ein koordiniertes Qualitätsteam",
+    "tagline": "Keine Theorie. Nutzbare Projektqualität.",
+    "description": "Pipeline Quality ist Industriepartner für QA/QC Engineering, Inspektion, Fertigungsbegleitung und Dokumentation.",
+    "label": "Einführung",
+    "imageAlt": "Inspektor in der Fertigung von Offshore-Fundamenten — Inspektion vor Ort",
+    "caption": "Inspektion vor Ort · Fertigung · Qualitätskontrolle"
   },
   "experience": {
-    "title": "Professioneller Hintergrund & Erfahrung",
-    "description": "Über 15 Jahre Erfahrung in Pipeline-Projekten, QA/QC-Dokumentation und Inspektionsunterstützung nach internationalen Standards und Compliance-Richtlinien.",
-    "imageAlt": "Pipeline-QA/QC-Experte überprüft technische Dokumente",
-    "paragraph1": "Unsere Erfahrung basiert auf praktischer Mitarbeit an großvolumigen europäischen Industrieprojekten mit Fokus auf QA/QC Dokumentation, Schweißdokumentation und Übergabeprozesse.",
-    "paragraph2": "Die Projekte umfassten komplexe Dokumentations- und Compliance-Anforderungen in der Chemie-, Energie- und Pipelineindustrie.",
+    "title": "Reale Projekterfahrung",
+    "description": "Praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten.",
+    "imageAlt": "Industrieprojekte in Fertigung und Inspektion",
+    "paragraph1": "Zur aktuellen Projekterfahrung gehört die Fertigung von Offshore-Wind-Fundamenten in den Niederlanden. Unsere Kompetenz basiert auf der beruflichen Projekterfahrung unserer Gründerin und unseres Netzwerks qualifizierter Fachkräfte.",
+    "paragraph2": "Die berufliche Erfahrung umfasst Projektumfelder im Zusammenhang mit BASF, Bayernoil, Chemiepark Marl, INEOS und weiteren großindustriellen Industrie- und Energieprojekten.",
     "paragraph3": "Erfahrung aus der beruflichen Mitwirkung an großvolumigen Industrieprojekten, einschließlich Projekten im Umfeld von Unternehmen wie:",
-    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS, Yamal LNG-Anlage, Gazprom und Rosneft."
+    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS und weiteren großindustriellen Industrie- und Energieprojekten.",
+    "label": "Erfahrung",
+    "offshoreTitle": "Offshore-Wind",
+    "offshoreText": "Fundamentsfertigung, Monopiles, Transition Pieces, Schweißen, ZfP, Maßkontrolle, Kundeninspektion, Fertigungsbegleitung und Qualitätsdokumentation.",
+    "industrialTitle": "Industrie & Pipeline",
+    "industrialText": "Pipelines, Öl & Gas, Chemie / Petrochemie, Energie, EPC, Industrieanlagenbau, Rohrleitungen, Fertigung, Wartung / Stillstand / Revamp."
   },
   "services": {
-    "title": "WAS MACHEN WIR",
-    "description": "Wir bieten Experten-QA/QC-Dokumentationsdienstleistungen für komplexe Industrieprojekte. Unser Workflow wird durch interne KI-gestützte Analysen ergänzt, um die Einhaltung internationaler Normen wie ISO 9001, VDI 2770 und EN ISO 15614 zu gewährleisten. Alle Prüfungen werden zu 100 % von unserem Ingenieurteam validiert, um maximale Präzision zu garantieren.",
-    "scopeTitle": "QA/QC\nDokumentations-\nunterstützung",
+    "title": "Leistungen",
+    "description": "Vier zentrale Leistungsblöcke — strukturiert für Industrieprojekte, keine lange Textliste.",
+    "scopeTitle": "QA/QC Engineering + Inspektion + Fertigungsbegleitung + Dokumentation",
     "paragraph1": "",
     "paragraph2": "",
-    "keyAreasTitle": "Wesentliche Leistungsbereiche",
+    "keyAreasTitle": "Was wir anbieten",
     "serviceAreas": [
-      "Strukturierte QA/QC-Dokumentation",
-      "Audit-Vorbereitung und -Unterstützung (ISO 9001, ISO 45001)",
-      "Prüfung von Inspektions- und Schweißdokumentation",
-      "Koordination zwischen Baustelle und Projektmanagement",
-      "Hybride und Remote QA/QC-Unterstützung"
+      "QA/QC Engineering",
+      "Inspektion & Fertigungsbegleitung",
+      "Dokumentation & Übergabe",
+      "Projektqualität"
     ],
     "sections": {
       "fieldInspection": {
@@ -172,12 +188,75 @@
           "Effiziente Zusammenarbeit mit Baustellen- und Projektteams"
         ]
       }
-    }
+    },
+    "blocks": [
+      {
+        "title": "QA/QC Engineering",
+        "summary": "Projektqualitätsplanung, ITP-Bereitschaft und Koordination über die Fertigungsphase.",
+        "items": [
+          "QA/QC-Projektunterstützung",
+          "ITP / PTP",
+          "Inspektionsbereitschaft",
+          "Qualitätsaufzeichnungen",
+          "NCR-Nachverfolgung",
+          "Kundenanforderungen",
+          "Qualitätskoordination",
+          "Projektqualitätsreporting",
+          "Remote-QA/QC-Unterstützung"
+        ]
+      },
+      {
+        "title": "Inspektion & Fertigungsbegleitung",
+        "summary": "Praktische Inspektion und Fertigungsbegleitung für Schweißen, ZfP und Fertigungskontrolle.",
+        "items": [
+          "Schweißen",
+          "ZfP-Koordination",
+          "Maßkontrolle",
+          "Fertigungüberwachung",
+          "Kunden- / Drittinspektion",
+          "Fertigungsbegleitung",
+          "Inspektionskoordination",
+          "Lieferanten- / Hersteller-Follow-up",
+          "Beschichtungsinspektion",
+          "RFI-Unterstützung"
+        ]
+      },
+      {
+        "title": "Dokumentation & Übergabe",
+        "summary": "Nachvollziehbare Qualitätsunterlagen für Audit, Mechanical Completion und Kundenübergabe.",
+        "items": [
+          "MDR / DDP",
+          "Schweißbücher",
+          "MTR / Werkstoffrückverfolgbarkeit",
+          "ZfP-Aufzeichnungen",
+          "NCR- / Punch-Tracking",
+          "Abschlussdokumentation",
+          "As-built-Dokumentation",
+          "Mechanical-Completion-Unterstützung",
+          "Übergabedossiers",
+          "Lieferanten- / Herstellerdokumentation"
+        ]
+      },
+      {
+        "title": "Projektqualität",
+        "summary": "Flexible Projektqualitätskapazität — ein Spezialist oder ein koordiniertes Qualitätsteam.",
+        "items": [
+          "Lieferanten- / Hersteller-Follow-up",
+          "Qualitätskoordination",
+          "Inspektionsplanung",
+          "Projektreporting",
+          "Auditbereitschaft",
+          "Übergabeunterstützung",
+          "Kundenschnittstelle",
+          "Koordination von Drittinspektionen"
+        ]
+      }
+    ]
   },
   "standards": {
-    "label": "STANDARDS & COMPLIANCE",
-    "title": "Arbeit in Übereinstimmung mit anerkannten internationalen Standards.",
-    "description": "Unsere QA/QC Dokumentationsunterstützung orientiert sich an international anerkannten Standards und projektspezifischen Anforderungen und gewährleistet Compliance, Rückverfolgbarkeit und Auditfähigkeit.",
+    "label": "Normen & Kompetenz",
+    "title": "Qualifikationen, Normen & technische Kompetenz",
+    "description": "Normen, nach denen wir arbeiten — getrennt von einzelnen Qualifikationen und Zertifikaten.",
     "items": {
       "iso9001": {
         "title": "ISO 9001",
@@ -185,122 +264,290 @@
       },
       "iso45001": {
         "title": "ISO 45001",
-        "description": "Arbeits- und Gesundheitsschutz"
+        "description": "Arbeitsschutz"
       },
       "enDin": {
-        "title": "EN / DIN Normen",
+        "title": "EN- / DIN-Normen",
         "description": "Einhaltung europäischer Industrienormen"
       },
       "en10204": {
         "title": "EN 10204",
-        "description": "Prüfbescheinigungen (Metalle)"
+        "description": "Prüfbescheinigungen metallischer Erzeugnisse"
       },
       "welding": {
-        "title": "Schweißstandards",
+        "title": "Schweißnormen",
         "description": "ISO 15614 / ISO 9606"
       },
       "asme": {
         "title": "ASME Section IX",
-        "description": "Schweiß- und Lötqualifikationen"
+        "description": "Schweiß- und Hartlötqualifikationen"
       },
       "compliance": {
         "title": "Compliance",
-        "description": "Einhaltung von Vorschriften"
+        "description": "Regulatorische Einhaltung"
       }
     },
-    "footer": "Konform mit europäischen regulatorischen Standards",
-    "frameworkTitle": "Standards & Qualitätsrahmen",
-    "frameworkDescription": "Unsere QA/QC Dokumentationsunterstützung orientiert sich an gängigen internationalen Normen, unter anderem:",
+    "footer": "Konform mit europäischen Regelwerken",
+    "frameworkTitle": "Normen- und Regelungsrahmen",
+    "frameworkDescription": "Unsere QA/QC-Unterstützung orientiert sich an gängigen internationalen Normen, unter anderem:",
     "standardsList": [
       "ISO 9001 – Qualitätsmanagementsysteme",
-      "ISO 45001 – Arbeits- und Gesundheitsschutz",
+      "ISO 45001 – Arbeitsschutzmanagement",
       "ISO 12944 – C5/CX Korrosionsschutz",
       "ISO 9712 – Zerstörungsfreie Prüfung (ZfP)",
       "EN 10204 – Prüfbescheinigungen für metallische Erzeugnisse",
-      "ISO 15614 / ISO 9606 – Schweißverfahrens- und Schweißerprüfung",
-      "DNV-ST-0126 – Offshore-Windstrukturen",
-      "Druckgeräterichtlinie 2014/68/EU",
-      "FROSIO/NACE Level 3 – Beschichtungs-Inspektoren-Zertifikation",
+      "ISO 15614 / ISO 9606 – Schweißverfahren und Schweißerqualifikation",
+      "DNV-ST-0126 – Offshore-Wind-Strukturen",
+      "PED 2014/68/EU – Druckgeräterichtlinie",
+      "FROSIO/NACE Level 3 – Beschichtungsinspektion",
       "ASME Section IX (projektabhängig)",
-      "Anwendbare EN- und DIN-Normen für industrielle Fertigung und Montage"
+      "EN- und DIN-Normen für industrielle Fertigung und Montage"
     ],
-    "auditNote": "Die Dokumentation wird auditgerecht aufbereitet und unterstützt interne sowie externe Audits.",
-    "qualifications": "Relevante Auditorenqualifikationen und technische Zertifikate stellen wir auf Anfrage zur Verfügung.",
-    "scopeNote": "Die Anwendung der Normen erfolgt ausschließlich im Rahmen des projekt- und kundenspezifischen Leistungsumfangs."
-  },
-  "smartQAQC": {
-    "label": "UNTERSTÜTZT DURCH KI",
-    "title": "Smart QA/QC: Unterstützt durch Pipeline Quality AI",
-    "description": "Manuelle Protokolle gefährden Projektmargen. Mit BW Digit entwickeln wir Tools zur automatisierten MDR-Erstellung, Materialrückverfolgbarkeit zu prüfen sowie Abweichungen vor Audits zu erkennen -- für volle Transparenz bei MTRs, Schweiß- und ZfP-Protokollen.",
-    "features": [
-      "Schweißnaht-Tracking in Echtzeit",
-      "Automatisierte MDR-Erstellung",
-      "KI-gestützte Dokumentationsprüfung"
+    "auditNote": "Dokumentation wird mit Blick auf Auditfähigkeit erstellt und unterstützt interne sowie externe Prüfungen.",
+    "qualifications": "Relevante Auditorenqualifikationen und technische Zertifikate sind auf Anfrage verfügbar.",
+    "scopeNote": "Normen und normative Anforderungen werden gemäß dem konkreten Projektumfang, den Kundenspezifikationen und den vertraglichen Vorgaben angewendet. Einzelne Qualifikationen und Zertifikate werden projektbezogen zugeordnet und sind auf Anfrage verfügbar.",
+    "groups": [
+      {
+        "title": "Qualitätsmanagement",
+        "items": [
+          "ISO 9001",
+          "ISO 45001"
+        ]
+      },
+      {
+        "title": "Inspektion & ZfP",
+        "items": [
+          "ISO 9712",
+          "VT / ZfP-Kompetenzen"
+        ]
+      },
+      {
+        "title": "Schweißen",
+        "items": [
+          "ISO 15614",
+          "ISO 9606",
+          "ASME Section IX sofern zutreffend"
+        ]
+      },
+      {
+        "title": "Offshore-Wind",
+        "items": [
+          "DNV-ST-0126"
+        ]
+      },
+      {
+        "title": "Druckgeräte",
+        "items": [
+          "PED 2014/68/EU"
+        ]
+      },
+      {
+        "title": "Korrosion / Beschichtung",
+        "items": [
+          "ISO 12944",
+          "FROSIO / NACE, wenn qualifizierte Spezialisten eingesetzt werden"
+        ]
+      },
+      {
+        "title": "Werkstoffe / Dokumentation",
+        "items": [
+          "EN 10204"
+        ]
+      }
     ]
   },
+  "smartQAQC": {
+    "label": "BW Digit Verbindung",
+    "title": "Qualitätsausführung trifft digitale Intelligenz",
+    "description": "Pipeline Quality übernimmt die Qualitätsausführung. BW Digit konzentriert sich auf industrielle Daten, Dokumentation und digitale Compliance-Workflows. Gemeinsam verbinden sie Feldaktivitäten mit den Informationen, die nötig sind, um das Projekt zu steuern, zu dokumentieren und abzuschließen.",
+    "features": [
+      "Schweißrückverfolgbarkeit und Inspektionsmanagement",
+      "NCR-Tracking und Dokumentationskontrolle",
+      "Digitale Qualitätsworkflows über BW Digit"
+    ],
+    "cta": "BW Digit entdecken",
+    "fieldLabel": "Feld",
+    "fieldText": "Inspektor / Schweißen / Fertigungsausführung",
+    "fieldAlt": "Fertigung vor Ort — Schweißen und Fertigung",
+    "docsLabel": "Dokumentation",
+    "docsText": "Rückverfolgbarkeit, Aufzeichnungen und Übergabebereitschaft",
+    "docsAlt": "Kennzeichnungen zur Rückverfolgbarkeit und Projektdokumentation"
+  },
   "industries": {
-    "label": "BRANCHEN",
-    "title": "Branchen & Standards, mit denen wir arbeiten",
+    "label": "Branchen",
+    "title": "Branchen, die wir unterstützen",
     "subtitle": "Wir unterstützen Projekte in folgenden Bereichen:",
-    "description": "Öl & Gas, Pipeline-Bau, EPC-Auftragnehmer, QA/QC & Inspektionsunterstützung",
+    "description": "Offshore-Wind, Pipeline & Transmission, Öl & Gas, Chemie, Energie, EPC und Industrieanlagenbau.",
     "standardsAlt": "ISO, ASME, API, EN-Normen für Pipeline QA/QC",
     "list": [
-      "Öl- & Gasindustrie (Onshore-Anlagen)",
+      "Offshore-Wind",
       "Pipeline- und Transportprojekte",
+      "Öl- & Gasindustrie (Onshore-Anlagen)",
       "Chemie- und Petrochemieanlagen",
       "Energie- und Kraftwerksprojekte",
       "EPC- und Engineering-Projekte",
       "Industrieanlagenbau und Montage",
       "Wartungs-, Stillstands- und Revamp-Projekte"
     ],
-    "experienceNote": "Unsere Erfahrung umfasst Großprojekte mit hohen Qualitäts- und Sicherheitsanforderungen in Europa und Weltweit."
+    "experienceNote": "Unsere Erfahrung umfasst Großprojekte mit hohen Qualitäts- und Sicherheitsanforderungen in Europa und weltweit.",
+    "intro": "Offshore-Wind steht klar im Vordergrund, bei Beibehaltung des industriellen und Pipeline-Leistungsumfangs der bestehenden Website.",
+    "more": "weitere",
+    "sectors": [
+      {
+        "title": "Offshore-Wind",
+        "items": [
+          "Fertigung von Offshore-Fundamenten",
+          "Monopiles",
+          "Transition Pieces",
+          "Offshore-Stahlstrukturen",
+          "Schweißen und Fertigung",
+          "ZfP",
+          "Maßkontrolle",
+          "Kundeninspektion",
+          "Fertigungsqualität",
+          "Qualitätsdokumentation"
+        ]
+      },
+      {
+        "title": "Pipeline & Transmission",
+        "items": [
+          "Pipelinebau",
+          "Transportprojekte",
+          "Rohrleitungsfertigung",
+          "Schweißdokumentation",
+          "ZfP",
+          "Werkstoffrückverfolgbarkeit",
+          "Inspektion",
+          "Übergabe"
+        ]
+      },
+      {
+        "title": "Öl & Gas",
+        "items": [
+          "Onshore-Anlagen",
+          "Prozesssysteme",
+          "Rohrleitungen",
+          "Fertigung",
+          "Wartung / Stillstandsunterstützung"
+        ]
+      },
+      {
+        "title": "Chemie & Petrochemie",
+        "items": [
+          "Chemieanlagen",
+          "Petrochemische Anlagen",
+          "Industrielle Rohrleitungen",
+          "Fertigung",
+          "Montage",
+          "Qualitätsdokumentation"
+        ]
+      },
+      {
+        "title": "Energie & Kraftwerke",
+        "items": [
+          "Energieprojekte",
+          "Stromerzeugung",
+          "Industrielle Energieinfrastruktur"
+        ]
+      },
+      {
+        "title": "EPC & Engineering",
+        "items": [
+          "EPC-Projekte",
+          "Engineering-Auftragnehmer",
+          "Lieferanten- / Herstellerqualität",
+          "Projektdokumentation",
+          "Inspektionskoordination"
+        ]
+      },
+      {
+        "title": "Industrieanlagenbau & Montage",
+        "items": [
+          "Industrielle Fertigung",
+          "Mechanische Montage",
+          "Bauunterstützung",
+          "Qualitätskoordination"
+        ]
+      },
+      {
+        "title": "Wartung, Stillstände & Revamps",
+        "items": [
+          "QA/QC-Unterstützung",
+          "Inspektion",
+          "Dokumentation",
+          "Punch- / NCR-Nachverfolgung",
+          "Übergabe"
+        ]
+      }
+    ]
   },
   "workProcess": {
-    "label": "ARBEITSWEISE",
+    "label": "Arbeitsweise",
     "title": "Strukturiert. Transparent. Zuverlässig.",
     "steps": [
-      "Klärung von Projektumfang & Anforderungen",
-      "Dokumentenprüfung gemäß Spezifikation",
-      "Nachverfolgung & Statuslisten",
-      "Laufende Qualitätsunterstützung",
-      "Übergabefertige Projektdokumentation"
+      {
+        "id": "01",
+        "title": "Verstehen",
+        "text": "Projektumfang, technische Anforderungen, Terminplan und Qualitätsrisiken."
+      },
+      {
+        "id": "02",
+        "title": "Zuordnen",
+        "text": "Den richtigen Spezialisten oder das richtige Projektteam gemäß dem tatsächlichen Bedarf auswählen."
+      },
+      {
+        "id": "03",
+        "title": "Umsetzen",
+        "text": "QA/QC, Inspektion, Engineering und Dokumentationsunterstützung bereitstellen."
+      },
+      {
+        "id": "04",
+        "title": "Steuern",
+        "text": "Inspektionen, Qualitätsaufzeichnungen, NCRs, Dokumentation und Projektmaßnahmen nachverfolgen."
+      },
+      {
+        "id": "05",
+        "title": "Übergeben",
+        "text": "Vollständige, nachvollziehbare und nutzbare Projektqualitätsdokumentation liefern."
+      }
     ],
     "tagline": "Klare Zuständigkeiten, klare Fristen, klare Dokumentation."
   },
   "why": {
-    "label": "WARUM PIPELINE QUALITY",
-    "title": "QA/QC\nDokumentation & Unterstützung",
+    "label": "Warum Pipeline Quality",
+    "title": "Warum Pipeline Quality?",
     "points": [
-      "Reale Projekterfahrung",
-      "Verständnis für EPC- und Betreiberanforderungen",
-      "Fokus auf Struktur, Nachvollziehbarkeit & Compliance",
-      "Flexible Remote-Zusammenarbeit",
-      "Kommunikation auf Deutsch, Englisch und Serbisch"
+      "Reale Projekterfahrung aus Industrie-, Pipeline- und Offshore-Wind-Umfeldern",
+      "Technische Kompetenz, ausgewählt nach dem tatsächlichen Projektbedarf",
+      "Flexible Kapazität — ein Spezialist oder ein koordiniertes Projektteam",
+      "Qualität vor Quantität",
+      "Ausführung vor Ort, verbunden mit Dokumentation und Übergabe",
+      "Digitales Verständnis über BW Digit"
     ],
     "reasons": [
       {
         "title": "Reale Projekterfahrung",
-        "description": "Praktische Projekterfahrung in großen Industrieanlagen, nicht theoretische Beratung."
+        "description": "Praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten."
       },
       {
-        "title": "Verständnis für EPC-Anforderungen",
-        "description": "Tiefes Verständnis für EPC- und Betreiberanforderungen."
+        "title": "Technische Kompetenz",
+        "description": "Qualifizierte Fachkräfte, ausgewählt nach dem tatsächlichen Projektbedarf."
       },
       {
-        "title": "Flexible Remote-Zusammenarbeit",
-        "description": "Flexible Remote-Unterstützung angepasst an Projektphasen und Arbeitsaufkommen."
+        "title": "Flexible Kapazität",
+        "description": "Einzelne Spezialisten oder koordinierte Projektteams."
       },
       {
-        "title": "Funktionierende Dokumentation",
-        "description": "Fokus auf Struktur, Nachvollziehbarkeit & Compliance."
+        "title": "Qualität vor Quantität",
+        "description": "Wir fokussieren auf Kompetenz und Projektnutzen, nicht auf Kopfzahl."
       },
       {
-        "title": "Europäischer Standards-Fokus",
-        "description": "Starke Ausrichtung an europäischen Vorschriften, EN/DIN-Standards und kundenspezifischen Anforderungen."
+        "title": "Feld + Dokumentation",
+        "description": "Wir verstehen die Verbindung zwischen dem, was in der Fertigung passiert, und dem, was dokumentiert und übergeben werden muss."
       },
       {
-        "title": "Klare Kommunikation",
-        "description": "Kommunikation auf Deutsch, Englisch und Serbisch."
+        "title": "Digitales Verständnis",
+        "description": "Über BW Digit verbinden wir praktische Qualitätsausführung mit digitalen Workflows und industriellen Daten."
       }
     ],
     "builtOn": "Basierend auf realer Projekterfahrung",
@@ -310,44 +557,46 @@
     "title": "Häufig gestellte Fragen",
     "items": [
       {
-        "question": "Was bedeutet Remote QA/QC Dokumentationssupport?",
-        "answer": "Remote QA/QC Dokumentationssupport umfasst die Prüfung, Strukturierung und Erstellung qualitätsrelevanter Projektdokumente ohne dauerhafte Baustellenpräsenz."
+        "question": "Bieten Sie nur Remote-Dokumentationssupport?",
+        "answer": "Nein. Pipeline Quality unterstützt sowohl die Ausführung vor Ort als auch die Dokumentation. Je nach Projekt kann das Inspektion, Fertigungsbegleitung, QA/QC Engineering und Übergabedokumentation umfassen — vor Ort, remote oder kombiniert."
       },
       {
-        "question": "Arbeiten Sie ausschließlich remote?",
-        "answer": "Der Schwerpunkt liegt auf Remote-Leistungen. Bei Bedarf kann Vor-Ort-Unterstützung über unser Netzwerk organisiert werden."
+        "question": "Können Sie einen Spezialisten oder ein komplettes Team stellen?",
+        "answer": "Beides. Wir können einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Projektqualitätsteam entsprechend dem tatsächlichen Bedarf bereitstellen."
       },
       {
         "question": "Nach welchen Normen arbeiten Sie?",
-        "answer": "ISO 9001, ISO 45001, projektspezifische EPC-Vorgaben, Schweißnormen sowie kundenspezifische Anforderungen."
+        "answer": "Wir arbeiten gemäß ISO 9001, ISO 45001, ISO 9712, Schweißnormen wie ISO 15614 / ISO 9606, DNV-ST-0126, PED 2014/68/EU sowie projektspezifischen Kundenanforderungen."
       },
       {
         "question": "Welche Branchen unterstützen Sie?",
-        "answer": "Pipelinebau, Öl & Gas, Chemie, Petrochemie, Energie, Industrieanlagen."
+        "answer": "Offshore-Wind, Pipeline und Transmission, Öl & Gas, Chemie und Petrochemie, Energie, EPC, Industrieanlagenbau sowie Wartung / Stillstand / Revamp."
       },
       {
-        "question": "Unterstützen Sie Audits?",
-        "answer": "Ja. Unsere Dokumentation ist auditgerecht aufgebaut und unterstützt interne sowie externe Prüfungen."
+        "question": "Unterstützen Sie Audits und Kundeninspektionen?",
+        "answer": "Ja. Die Dokumentation wird auditgerecht aufgebaut und unterstützt interne sowie externe Prüfungen, einschließlich Kunden- und Drittinspektionen."
       },
       {
-        "question": "Unterstützen Sie EPC-Unternehmen und Ingenieurbüros?",
-        "answer": "Ja. Wir unterstützen regelmäßig EPC-Unternehmen, Ingenieurbüros und Betreiber bei der strukturierten QA/QC-Dokumentation gemäß Projekt- und Vertragsanforderungen."
+        "question": "Wie ist BW Digit angebunden?",
+        "answer": "Pipeline Quality übernimmt die Qualitätsausführung. BW Digit unterstützt industrielle Daten, Dokumentation und digitale Compliance-Workflows, damit Feldaktivitäten mit übergabefähigen Unterlagen verbunden werden können."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, Ihre Projektdokumentation zu optimieren?",
-    "description": "Ob kurzfristige QA/QC Dokumentationsunterstützung oder langfristige Remote-Einbindung – wir unterstützen Ihr Projekt mit strukturierten und zuverlässigen Lösungen.",
-    "button1": "Angebot anfordern",
-    "button2": "Projekt besprechen",
+    "title": "Braucht Ihr Projekt zusätzliche Qualitätskapazität?",
+    "description": "Ob ein Spezialist, zusätzliche Inspektionskapazität, Dokumentationsunterstützung oder ein koordiniertes Projektqualitätsteam — lassen Sie uns den Bedarf besprechen.",
+    "button1": "Projekt besprechen",
+    "button2": "Projektunterstützung anfragen",
     "tagline": "Unterstützung europäischer Industrieexzellenz",
     "altTitle": "Sprechen wir über Ihr Projekt",
-    "responseNote": "Wir antworten schnell und arbeiten transparent"
+    "responseNote": "Wir antworten schnell und arbeiten transparent",
+    "label": "Nächster Schritt",
+    "button3": "Unser Netzwerk kennenlernen"
   },
   "contact": {
-    "title": "Anfrage für QA/QC- und Qualitätsunterstützung",
-    "subtitle": "Besprechen wir Ihren QA/QC Dokumentationsbedarf",
-    "description": "Bitte laden Sie relevante Projektdokumente hoch oder beschreiben Sie Ihren QA/QC-Bedarf. Unser Team meldet sich innerhalb von 48–72 Stunden.",
+    "title": "Projekt besprechen",
+    "subtitle": "Nennen Sie uns Umfang, Phase und Qualitätsbedarf.",
+    "description": "Ob ein Spezialist, Inspektionskapazität, Dokumentationsunterstützung oder ein koordiniertes Qualitätsteam — wir antworten innerhalb von 48–72 Stunden.",
     "form": {
       "name": "Name",
       "namePlaceholder": "Ihr Name",
@@ -388,7 +637,7 @@
   },
   "footer": {
     "brand": "Pipeline Quality",
-    "description": "Spezialisierter QA/QC-Dienstleister für XXL-Monopiles, Druckbehälter und Rohrleitungen. Digital-first Schweißkontrolle und audit-bereite MDR-Verwaltung.",
+    "description": "Industriepartner für Projektqualität — QA/QC Engineering, Inspektion, Fertigungsbegleitung und Dokumentation für Offshore-Wind, Pipelines sowie Industrie- und Energieprojekte.",
     "services": "Leistungen",
     "company": "Unternehmen",
     "contact": "Kontakt",
@@ -397,7 +646,7 @@
     "linkedIn": "LinkedIn",
     "companyInfo": "Unternehmensinformationen",
     "companyDescription": "Pipeline Quality ist eine Marke der Backpack Wander GmbH, einem in Deutschland registrierten Unternehmen mit Sitz in Berlin. Technischer Partner: BW Digit. Wir arbeiteten mit einem internationalen Netzwerk qualifizierter Fachkräfte und skalieren unsere Dienstleistungen entsprechend den Projektanforderungen.",
-    "tagline": "Spezialisierter QA/QC-Dienstleister",
+    "tagline": "Projektqualität von der Fertigung bis zur Übergabe",
     "copyright": "© 2025 Backpack Wander GmbH. Alle Rechte vorbehalten.",
     "brandNote": "Pipeline Quality ist eine Marke der Backpack Wander GmbH. Technischer Partner: BW Digit.",
     "madeBy": "Hergestellt von BW Digit",
@@ -409,8 +658,8 @@
     "tooltip": "Schreiben Sie uns per WhatsApp"
   },
   "meta": {
-    "title": "QA/QC Engineering & Dokumentationsprüfung | PipelineQuality",
-    "description": "Remote-QA/QC-Dokumentenprüfung für Öl, Gas und Chemie. Experten-Analyse von ITP, RFI und Schweißprotokollen nach ISO- und ASME-Normen."
+    "title": "Pipeline Quality | Projektqualität von der Fertigung bis zur Übergabe",
+    "description": "QA/QC Engineering, Inspektion, Fertigungsbegleitung und Dokumentation für Offshore-Wind, Pipelines sowie Industrie- und Energieprojekte."
   },
   "legal": {
     "imprint": {
@@ -511,5 +760,145 @@
         }
       ]
     }
+  },
+  "fieldHandover": {
+    "label": "Vom Feld zur Übergabe",
+    "title": "Von Felddaten zur finalen Übergabe",
+    "description": "Ein klarer Engineering-Ablauf, der Fertigungsaktivitäten mit der finalen Projektqualitätsdokumentation verbindet — für Pipeline Quality und BW Digit.",
+    "stages": [
+      {
+        "id": "01",
+        "title": "Feld",
+        "text": "Inspektionstätigkeit dort erfasst, wo Fertigung stattfindet.",
+        "items": [
+          "Inspektion",
+          "Schweißen",
+          "ZfP",
+          "Maßkontrolle",
+          "MTR"
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Qualitätskontrolle",
+        "text": "Aufzeichnungen, Maßnahmen und Freigaben unter Kontrolle.",
+        "items": [
+          "Inspektionsaufzeichnungen",
+          "NCR",
+          "Rückverfolgbarkeit",
+          "Status",
+          "Freigaben"
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Projekt",
+        "text": "Vollständige Dokumentation für Übergabe und Compliance.",
+        "items": [
+          "Berichte",
+          "MDR",
+          "Übergabe",
+          "Compliance"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "label": "Teammodell",
+    "title": "Ein Spezialist oder ein komplettes Projektteam",
+    "paragraph1": "Je nach Projektanforderung kann Pipeline Quality einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Projektqualitätsteam bereitstellen.",
+    "paragraph2": "Unser Netzwerk besteht aus qualifizierten unabhängigen Fachkräften, ausgewählt nach Projektpassung — nicht nach festem Personalbestand.",
+    "networkLabel": "Unser Netzwerk",
+    "roles": [
+      "Qualitätsmanager",
+      "Auditoren",
+      "Drittinspektoren",
+      "Teamleiter",
+      "QA/QC-Ingenieure",
+      "Schweißfachkräfte",
+      "ZfP-Spezialisten",
+      "Inspektoren",
+      "Maß- / technische Spezialisten",
+      "Spezialisten für Qualitätsdokumentation",
+      "Technische / Projektunterstützung",
+      "HSE-Fachkräfte über qualifizierte Partner"
+    ]
+  },
+  "philosophy": {
+    "label": "Qualitätsphilosophie",
+    "title": "Wir wählen Kompetenz vor Kopfzahl.",
+    "paragraph1": "Wir bauen unser Fachnetzwerk bewusst nach Erfahrung, Qualifikation und Projektpassung auf.",
+    "paragraph2": "Lieber ein starker Spezialist als mehrere Personen ohne Mehrwert. Jede Person im Projekt steht für unseren Ruf.",
+    "principleLabel": "Leitprinzip",
+    "principle": "QUALITY BEFORE QUANTITY."
+  },
+  "digitalQuality": {
+    "label": "Digitale Qualität",
+    "title": "Praktische digitale Qualitätsunterstützung",
+    "description": "In Partnerschaft mit BW Digit und Technologiepartnern kann Pipeline Quality digitale Workflows unterstützen für:",
+    "blocks": [
+      {
+        "title": "Schweißrückverfolgbarkeit",
+        "items": [
+          "Schweißpläne",
+          "Schweißprotokolle",
+          "Schweißerdaten",
+          "ZfP-Status"
+        ]
+      },
+      {
+        "title": "Inspektionsmanagement",
+        "items": [
+          "Inspektionsanfragen",
+          "Nachweise",
+          "Status",
+          "Freigaben"
+        ]
+      },
+      {
+        "title": "NCR-Management",
+        "items": [
+          "NCR-Erstellung",
+          "Maßnahmen",
+          "Verantwortung",
+          "Abschluss"
+        ]
+      },
+      {
+        "title": "Dokumentation",
+        "items": [
+          "MTR",
+          "ZfP",
+          "Schweißaufzeichnungen",
+          "MDR",
+          "Übergabe"
+        ]
+      },
+      {
+        "title": "Qualitätsanalytik",
+        "items": [
+          "Reparaturrate",
+          "Trends",
+          "Offene Punkte",
+          "Projektstatus"
+        ]
+      },
+      {
+        "title": "HSE-Daten",
+        "items": [
+          "Berichte",
+          "Beobachtungen",
+          "Maßnahmen",
+          "Nachweise"
+        ]
+      }
+    ]
+  },
+  "partners": {
+    "label": "Technologiepartnerschaften",
+    "title": "Wir erfinden gute Technologie nicht neu. Wir verbinden sie.",
+    "paragraph1": "Wir sind offen für die Zusammenarbeit mit etablierten Technologieanbietern, wenn ihre Lösung bessere Ergebnisse, schnellere Umsetzung oder höheren Projektnutzen bringt.",
+    "paragraph2": "BW Digit kann als Implementierungs- und Integrationsschicht zwischen Industrieteams, Projektanforderungen und bestehenden digitalen Lösungen wirken.",
+    "cta": "Technologiepartner werden"
   }
 }

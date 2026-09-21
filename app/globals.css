@@ -4,53 +4,51 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated Pipeline Quality color palette */
-  /* Primary text/headings: Dark charcoal #1F2933 */
-  /* Background: White / light gray #F5F7FA */
-  /* Buttons (accent): Safety orange #E58A00 */
-  /* Secondary elements: Steel gray #6B7280 */
-
+  /* Pipeline Quality — logo navy + orange */
   --background: #FFFFFF;
-  --foreground: #1F2933;
+  --foreground: #15202B;
   --card: #FFFFFF;
-  --card-foreground: #1F2933;
+  --card-foreground: #15202B;
   --popover: #FFFFFF;
-  --popover-foreground: #1F2933;
-  --primary: #1F2933;
+  --popover-foreground: #15202B;
+  --primary: #012A60;
   --primary-foreground: #FFFFFF;
-  --secondary: #6B7280;
+  --secondary: #5B6B7C;
   --secondary-foreground: #FFFFFF;
-  --muted: #F5F7FA;
-  --muted-foreground: #6B7280;
-  --accent: #E58A00;
+  --muted: #F4F6F8;
+  --muted-foreground: #5B6B7C;
+  --accent: #F07000;
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #E5E7EB;
-  --input: #E5E7EB;
-  --ring: #E58A00;
-  --chart-1: #E58A00;
-  --chart-2: #6B7280;
-  --chart-3: #1F2933;
-  --chart-4: #F5F7FA;
+  --border: #D7DEE6;
+  --input: #D7DEE6;
+  --ring: #F07000;
+  --chart-1: #F07000;
+  --chart-2: #2A5F8F;
+  --chart-3: #012A60;
+  --chart-4: #F4F6F8;
   --chart-5: #D1D5DB;
-  --radius: 0.5rem;
+  --radius: 0.125rem;
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #1F2933;
-  --sidebar-primary: #1F2933;
+  --sidebar-foreground: #15202B;
+  --sidebar-primary: #012A60;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #F5F7FA;
-  --sidebar-accent-foreground: #1F2933;
-  --sidebar-border: #E5E7EB;
-  --sidebar-ring: #E58A00;
+  --sidebar-accent: #F4F6F8;
+  --sidebar-accent-foreground: #012A60;
+  --sidebar-border: #D7DEE6;
+  --sidebar-ring: #F07000;
 
-  /* Custom Pipeline Quality variables */
-  --navy: #1F2933;
-  --charcoal: #1F2933;
-  --steel-gray: #6B7280;
-  --light-gray: #F5F7FA;
-  --safety-orange: #E58A00;
-  --muted-gold: #E58A00;
+  --navy: #012A60;
+  --navy-deep: #011A3D;
+  --charcoal: #15202B;
+  --steel-gray: #5B6B7C;
+  --light-gray: #F4F6F8;
+  --safety-orange: #F07000;
+  --muted-gold: #F07000;
+  --brand: #2A5F8F;
+  --line: #D7DEE6;
+  --accent-hover: #D96200;
 }
 
 .dark {
@@ -66,13 +64,13 @@
   --secondary-foreground: #FFFFFF;
   --muted: #374151;
   --muted-foreground: #9CA3AF;
-  --accent: #E58A00;
+  --accent: #F07000;
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
   --border: #374151;
   --input: #374151;
-  --ring: #E58A00;
+  --ring: #F07000;
   --sidebar: #1F2933;
   --sidebar-foreground: #FFFFFF;
   --sidebar-primary: #FFFFFF;
@@ -80,14 +78,13 @@
   --sidebar-accent: #374151;
   --sidebar-accent-foreground: #FFFFFF;
   --sidebar-border: #374151;
-  --sidebar-ring: #E58A00;
+  --sidebar-ring: #F07000;
 }
 
 @theme inline {
-  /* Typography - Inter for both headings and body */
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-outfit: var(--font-outfit, "Outfit", ui-sans-serif, system-ui, sans-serif);
-  --font-open-sans: var(--font-open-sans, "Open Sans", ui-sans-serif, system-ui, sans-serif);
+  --font-sans: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-outfit: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-open-sans: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", monospace;
 
   --color-background: var(--background);
@@ -127,13 +124,17 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
-  /* Custom color utilities */
   --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
   --color-charcoal: var(--charcoal);
   --color-steel-gray: var(--steel-gray);
   --color-light-gray: var(--light-gray);
   --color-safety-orange: var(--safety-orange);
   --color-muted-gold: var(--muted-gold);
+  --color-brand: var(--brand);
+  --color-line: var(--line);
+  --color-accent-hover: var(--accent-hover);
+  --color-bg-muted: var(--light-gray);
 }
 
 @layer base {
@@ -190,7 +191,6 @@
   p {
     @apply leading-relaxed;
     font-size: clamp(0.875rem, 1.5vw, 1rem);
-    color: #1F2933;
   }
 
   /* Mobile-first readability */

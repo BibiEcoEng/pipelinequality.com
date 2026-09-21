@@ -1,112 +1,141 @@
-"use client"
+'use client';
 
-import { useTranslations } from 'next-intl'
-import { Check } from "lucide-react"
+import { useTranslations } from 'next-intl';
+import { SectionLabel } from '@/components/section-label';
+
+type IconName = 'engineering' | 'inspection' | 'docs' | 'project';
+
+type ServiceBlock = {
+  title: string;
+  summary: string;
+  items: string[];
+  image: string;
+  icon: IconName;
+};
+
+function TechnicalIcon({ name }: { name: IconName }) {
+  const common = {
+    width: 28,
+    height: 28,
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.6,
+    strokeLinecap: 'round' as const,
+    strokeLinejoin: 'round' as const,
+    'aria-hidden': true,
+  };
+
+  if (name === 'engineering') {
+    return (
+      <svg {...common}>
+        <path d='M4 19V5h10l6 6v8H4z' />
+        <path d='M14 5v6h6' />
+        <path d='M8 13h5M8 16h8' />
+      </svg>
+    );
+  }
+  if (name === 'inspection') {
+    return (
+      <svg {...common}>
+        <circle cx='10' cy='10' r='5.5' />
+        <path d='M14.5 14.5 20 20' />
+        <path d='M8 10h4M10 8v4' />
+      </svg>
+    );
+  }
+  if (name === 'docs') {
+    return (
+      <svg {...common}>
+        <path d='M7 3.5h7l4 4V20.5H7z' />
+        <path d='M14 3.5V8h4' />
+        <path d='M10 12h6M10 15h6M10 18h4' />
+      </svg>
+    );
+  }
+  return (
+    <svg {...common}>
+      <circle cx='8' cy='8' r='2.4' />
+      <circle cx='16' cy='8' r='2.4' />
+      <circle cx='12' cy='16' r='2.4' />
+      <path d='M9.8 9.5 11.2 14M14.2 9.5 12.8 14M10 8h4' />
+    </svg>
+  );
+}
+
+const serviceImages = [
+  '/client/service-engineering.jpg',
+  '/client/service-welding.jpg',
+  '/client/service-docs.jpg',
+  '/client/service-project.jpg',
+];
+
+const serviceIcons: IconName[] = [
+  'engineering',
+  'inspection',
+  'docs',
+  'project',
+];
 
 export function ServicesOverview() {
-  const t = useTranslations('services')
-  const serviceAreas = t.raw('serviceAreas') as string[]
+  const t = useTranslations('services');
+  const blocks = t.raw('blocks') as ServiceBlock[];
 
   return (
-    <section className="bg-white py-8 md:py-20 lg:py-28" id="services">
-
-      {/* ✅ CONTAINER FIX */}
-      <div className="max-w-[1352px] mx-auto px-4 md:px-12 lg:px-20">
-              <div className="mb-12 md:mb-16">
-          <p className="text-xs md:text-sm font-semibold text-[var(--steel)] uppercase tracking-wider mb-3">
-            {t('title')}
-          </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy leading-tight mb-6">
+    <section id='services' className='bg-light-gray'>
+      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
+        <div className='max-w-2xl'>
+          <SectionLabel>{t('title')}</SectionLabel>
+          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
             {t('scopeTitle')}
           </h2>
-          <div className="space-y-3 text-charcoal leading-relaxed text-sm md:text-base max-w-3xl">
-            <p>{t('description')}</p>
-          </div>
-        </div>
-        <div className="space-y-16 mb-16">
-
-          {/* 🔹 Field Inspection */}
-          <div className="space-y-6">
-            
-            {/* TEXT */}
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-navy mb-4">
-                {t('sections.fieldInspection.title')}
-              </h3>
-              <p className="text-charcoal mb-4">
-                {t('sections.fieldInspection.description')}
-              </p>
-              <ul className="space-y-3">
-                {(t.raw('sections.fieldInspection.items') as string[]).map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-muted-gold mt-1 flex-shrink-0" />
-                    <span className="text-sm md:text-base">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* IMAGE */}
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img
-                src="/ndt_close.png"
-                alt="Field Inspection"
-                className="w-full h-64 md:h-80 object-cover"
-              />
-            </div>
-
-          </div>
-
-          {/* 🔹 Remote MDR */}
-          <div className="space-y-6">
-            
-            {/* TEXT */}
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-navy mb-4">
-                {t('sections.remoteMDR.title')}
-              </h3>
-              <p className="text-charcoal mb-4">
-                {t('sections.remoteMDR.description')}
-              </p>
-              <ul className="space-y-3">
-                {(t.raw('sections.remoteMDR.items') as string[]).map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-muted-gold mt-1 flex-shrink-0" />
-                    <span className="text-sm md:text-base">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* IMAGE */}
-            <div className="rounded-lg overflow-hidden shadow-lg">
-              <img
-                src="/weld_tracking.png"
-                alt="Remote MDR"
-                className="w-full h-64 md:h-80 object-cover"
-              />
-            </div>
-
-          </div>
-
+          <p className='mt-4 text-[15px] leading-relaxed text-steel-gray'>
+            {t('description')}
+          </p>
         </div>
 
-        {/* Key Areas */}
-        <div className="bg-gray-50 rounded-lg p-8 md:p-12">
-          <h3 className="text-xl md:text-2xl font-bold text-navy mb-6">
-            {t('keyAreasTitle')}
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {serviceAreas.map((area, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <Check className="w-5 h-5 text-muted-gold mt-1 flex-shrink-0" />
-                <span className="text-sm md:text-base font-medium">{area}</span>
+        <div className='mt-10 space-y-5'>
+          {blocks.map((service, index) => (
+            <article
+              key={service.title}
+              className={`grid overflow-hidden border border-line bg-white lg:grid-cols-2 ${
+                index % 2 === 1 ? 'lg:[&>div:first-child]:order-2' : ''
+              }`}
+            >
+              <div className='relative min-h-[220px] lg:min-h-[280px]'>
+                <img
+                  src={serviceImages[index]}
+                  alt={service.title}
+                  className='absolute inset-0 h-full w-full object-cover'
+                />
               </div>
-            ))}
-          </div>
+              <div className='flex flex-col justify-center p-6 sm:p-8 lg:p-10'>
+                <div className='mb-3 flex items-center gap-3'>
+                  <span className='flex h-10 w-10 shrink-0 items-center justify-center text-navy'>
+                    <TechnicalIcon name={serviceIcons[index]} />
+                  </span>
+                  <h3 className='text-lg font-semibold text-navy'>
+                    {service.title}
+                  </h3>
+                </div>
+                <p className='text-[14px] leading-relaxed text-steel-gray'>
+                  {service.summary}
+                </p>
+                <ul className='mt-5 grid gap-2 sm:grid-cols-2'>
+                  {service.items.map((item) => (
+                    <li
+                      key={item}
+                      className="text-[13px] text-navy before:mr-1.5 before:text-brand before:content-['▸']"
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+          ))}
         </div>
-
       </div>
     </section>
-  )
+  );
 }
