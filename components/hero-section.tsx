@@ -8,21 +8,35 @@ export function HeroSection() {
   return (
     <section
       id='home'
-      className='relative min-h-[92svh] overflow-hidden bg-navy text-white lg:min-h-[72vh]'
+      className='relative min-h-[92svh] overflow-hidden bg-[#0a2748] text-white lg:min-h-[78vh]'
     >
       <img
-        src='/client/hero-offshore.jpg?v=4'
+        src='/client/hero-monopile.jpg?v=3'
         alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full object-cover object-[78%_center]'
+        className='absolute inset-0 h-full w-full scale-[1.03] object-cover object-[70%_40%] brightness-[1.04] contrast-[1.08] saturate-[1.02]'
+      />
+
+      {/* Balanced wash: photo stays visible, navy + soft orange blend for brand */}
+      <div
+        className='absolute inset-0 bg-[linear-gradient(115deg,rgba(1,42,96,0.72)_0%,rgba(1,42,96,0.42)_38%,rgba(1,42,96,0.18)_62%,rgba(1,42,96,0.06)_100%)]'
+        aria-hidden
       />
       <div
-        className='absolute inset-0 bg-[linear-gradient(to_top,rgba(1,42,96,0.88)_0%,rgba(1,42,96,0.55)_38%,rgba(1,42,96,0.28)_62%,rgba(1,42,96,0.18)_100%)] lg:bg-[linear-gradient(90deg,rgba(1,42,96,0.82)_0%,rgba(1,42,96,0.55)_42%,rgba(1,42,96,0.22)_72%,rgba(1,42,96,0.08)_100%)]'
+        className='absolute inset-0 bg-[linear-gradient(to_top,rgba(1,42,96,0.5)_0%,rgba(1,42,96,0.15)_36%,transparent_70%)]'
+        aria-hidden
+      />
+      <div
+        className='pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_120%_90%_at_88%_28%,rgba(251,114,0,0.12)_0%,transparent_48%)]'
+        aria-hidden
+      />
+      <div
+        className='pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_80%_at_12%_55%,rgba(1,42,96,0.5)_0%,transparent_60%)]'
         aria-hidden
       />
 
-      <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[72vh] lg:justify-center lg:pb-14 lg:pt-20'>
+      <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-16 lg:pt-24'>
         <div className='pq-shell'>
-          <div className='max-w-[42rem]'>
+          <div className='max-w-[40rem]'>
             <h1 className='pq-hero-brand pq-fade-up text-[clamp(2.5rem,8vw,3.75rem)] leading-[0.98] font-semibold tracking-[-0.035em] text-white'>
               {t('brand')}
             </h1>
@@ -38,7 +52,7 @@ export function HeroSection() {
               <p className='border-l-2 border-accent pl-3 text-[14px] leading-snug font-semibold text-white sm:text-[15px]'>
                 {t('subtitle')}
               </p>
-              <p className='border-l-2 border-white/35 pl-3 text-[14px] leading-snug font-semibold text-white/90 sm:text-[15px]'>
+              <p className='border-l-2 border-white/40 pl-3 text-[14px] leading-snug font-semibold text-white/95 sm:text-[15px]'>
                 {t('subtitleLine2')}
               </p>
             </div>
@@ -49,7 +63,7 @@ export function HeroSection() {
               </a>
               <a
                 href='#network'
-                className='inline-flex items-center border border-white/40 bg-navy/40 px-5 py-3.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase transition hover:border-white hover:bg-white/10'
+                className='inline-flex items-center border border-white/50 bg-navy/45 px-5 py-3.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase backdrop-blur-[2px] transition hover:border-white hover:bg-white/10'
               >
                 {t('cta2')}
               </a>
