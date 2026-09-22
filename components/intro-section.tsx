@@ -24,17 +24,13 @@ export function IntroSection() {
         </div>
 
         <div className='order-1 lg:order-2 lg:pb-8'>
-          <p className='pq-display text-[clamp(4rem,12vw,8rem)] text-navy/[0.07] select-none'>
-            01
-          </p>
-          <h2 className='-mt-8 max-w-xl text-navy sm:-mt-12'>
-            {t('headline')}
-          </h2>
-          <div className='mt-8 max-w-md space-y-5 border-l-2 border-accent pl-5 pq-subtitle text-steel-gray'>
+          <p className='pq-index'>01 — {t('label')}</p>
+          <h2 className='mt-4 max-w-xl text-navy'>{t('headline')}</h2>
+          <div className='mt-5 max-w-md space-y-4 pq-subtitle text-steel-gray'>
             <p>{t('paragraph1')}</p>
             <p>{t('paragraph2')}</p>
           </div>
-          <p className='mt-8 max-w-sm text-[13px] font-semibold tracking-[0.04em] text-navy'>
+          <p className='mt-6 max-w-sm border-l-2 border-accent pl-3 text-[13px] font-semibold tracking-[0.04em] text-navy'>
             {t('tagline')}
           </p>
         </div>
