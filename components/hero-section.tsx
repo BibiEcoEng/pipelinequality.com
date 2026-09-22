@@ -13,7 +13,7 @@ export function HeroSection() {
       <img
         src='/client/hero-offshore.jpg'
         alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full object-cover object-[68%_center] scale-105'
+        className='absolute inset-0 h-full w-full object-cover object-[72%_center] sm:object-[65%_center] lg:object-center'
       />
       <div className='absolute inset-0 bg-[linear-gradient(105deg,rgba(1,26,61,0.92)_0%,rgba(1,26,61,0.78)_38%,rgba(1,26,61,0.28)_62%,rgba(1,26,61,0.15)_100%)]' />
       <div className='absolute inset-y-0 left-0 hidden w-px bg-white/15 lg:block' />
