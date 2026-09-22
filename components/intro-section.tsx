@@ -7,21 +7,10 @@ export function IntroSection() {
 
   return (
     <section className='relative overflow-hidden bg-white'>
-      <div className='pq-shell pq-section grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-12'>
-        <div className='order-2 lg:order-1'>
-          <div className='relative aspect-[4/3] w-full overflow-hidden sm:aspect-[5/4] lg:aspect-[4/3]'>
-            <img
-              src='/client/intro-inspection.jpg'
-              alt={t('imageAlt')}
-              className='absolute inset-0 h-full w-full object-cover object-center'
-            />
-          </div>
-        </div>
-
-        <div className='order-1 lg:order-2 lg:pt-2'>
-          <p className='pq-index'>{t('label')}</p>
-          <h2 className='mt-3 max-w-xl text-navy'>{t('headline')}</h2>
-          <div className='mt-5 max-w-md space-y-4 pq-subtitle text-steel-gray'>
+      <div className='pq-shell pq-section'>
+        <div className='mx-auto max-w-3xl text-center lg:max-w-4xl'>
+          <h2 className='text-navy'>{t('headline')}</h2>
+          <div className='mx-auto mt-5 max-w-2xl space-y-4 pq-subtitle text-steel-gray lg:mt-6 lg:max-w-3xl'>
             <p>{t('paragraph1')}</p>
             <p>{t('paragraph2')}</p>
           </div>
