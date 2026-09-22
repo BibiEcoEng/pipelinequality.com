@@ -30,7 +30,7 @@ export function IndustriesSection() {
             <p className='pq-index'>05 — {t('label')}</p>
             <h2 className='mt-4 text-navy'>{t('title')}</h2>
           </div>
-          <p className='max-w-xl text-[15px] leading-relaxed text-steel-gray lg:justify-self-end lg:text-right'>
+          <p className='max-w-xl pq-subtitle text-steel-gray lg:justify-self-end lg:text-right'>
             {t('intro')}
           </p>
         </div>
@@ -46,9 +46,7 @@ export function IndustriesSection() {
                   {String(index + 1).padStart(2, '0')}
                 </p>
                 <div className='min-w-0'>
-                  <h3 className='text-[1.35rem] font-bold tracking-tight text-navy'>
-                    {item.title}
-                  </h3>
+                  <h3 className='text-navy'>{item.title}</h3>
                   <ul className='mt-4 columns-1 gap-x-8 sm:columns-2'>
                     {item.items.map((entry) => (
                       <li

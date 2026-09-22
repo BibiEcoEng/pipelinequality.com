@@ -29,13 +29,13 @@ export function HeroSection() {
 
             <div className='pq-fade-up pq-fade-up-delay-1 mt-6 h-px w-24 bg-accent pq-line-grow sm:mt-8' />
 
-            <h1 className='pq-fade-up pq-fade-up-delay-1 mt-6 max-w-xl text-[clamp(1.35rem,2.6vw,2rem)] leading-[1.15] font-semibold tracking-[-0.02em] text-white/95'>
+            <h1 className='pq-fade-up pq-fade-up-delay-1 mt-6 max-w-xl text-white/95'>
               {t('titleLine1')} {t('titleLine2')}
             </h1>
 
-            <p className='pq-fade-up pq-fade-up-delay-2 mt-5 max-w-md text-[15px] leading-relaxed text-white/75'>
+            <p className='pq-fade-up pq-fade-up-delay-2 pq-subtitle mt-5 max-w-md text-white/80'>
               {t('subtitle')}
-              <span className='mt-1 block text-white/55'>{t('subtitleLine2')}</span>
+              <span className='mt-1 block text-white/65'>{t('subtitleLine2')}</span>
             </p>
 
             <div className='pq-fade-up pq-fade-up-delay-3 mt-9 flex flex-wrap items-center gap-x-8 gap-y-4'>

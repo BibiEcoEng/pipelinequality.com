@@ -57,7 +57,7 @@ export function FieldHandoverSection() {
         <div className='max-w-2xl'>
           <p className='pq-index'>03 — {t('label')}</p>
           <h2 className='mt-4 text-white'>{t('title')}</h2>
-          <p className='mt-4 text-[15px] leading-relaxed text-white/65'>
+          <p className='mt-4 pq-subtitle text-white/80'>
             {t('description')}
           </p>
         </div>
@@ -66,11 +66,11 @@ export function FieldHandoverSection() {
           {stages.map((stage, index) => (
             <div
               key={stage.id}
-              className='relative flex h-full flex-col border border-white/15 bg-white/5 p-5'
+              className='relative flex h-full flex-col border border-white/25 bg-white/5 p-5'
             >
               {index < stages.length - 1 && (
                 <span
-                  className='absolute top-1/2 -right-3 z-10 hidden h-6 w-6 -translate-y-1/2 items-center justify-center bg-navy text-xs text-white/45 lg:flex'
+                  className='absolute top-1/2 -right-3 z-10 hidden h-6 w-6 -translate-y-1/2 items-center justify-center bg-navy text-xs text-white/70 lg:flex'
                   aria-hidden
                 >
                   →
@@ -81,22 +81,20 @@ export function FieldHandoverSection() {
                   <FlowIcon stage={stage.title} />
                 </span>
                 <div>
-                  <p className='text-[11px] font-semibold tracking-[0.14em] text-white/50 uppercase'>
-                    {stage.id}
-                  </p>
-                  <h3 className='text-sm font-semibold tracking-[0.1em] text-white uppercase'>
+                  <p className='pq-index text-white/70'>{stage.id}</p>
+                  <h3 className='mt-1 text-white uppercase tracking-[0.08em]'>
                     {stage.title}
                   </h3>
                 </div>
               </div>
-              <p className='mt-4 text-[13px] leading-relaxed text-white/65'>
+              <p className='mt-4 pq-subtitle text-white/80'>
                 {stage.text}
               </p>
               <ul className='mt-auto flex flex-wrap gap-2 pt-4'>
                 {stage.items.map((item) => (
                   <li
                     key={item}
-                    className='border border-white/15 px-2.5 py-1 text-[11px] font-medium tracking-[0.04em] text-white/80 uppercase'
+                    className='border border-white/15 px-2.5 py-1 text-[11px] font-semibold tracking-[0.04em] text-white/80 uppercase'
                   >
                     {item}
                   </li>

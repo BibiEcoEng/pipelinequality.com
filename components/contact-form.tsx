@@ -259,7 +259,7 @@ export function ContactForm() {
 
       {/* Contact Icons */}
       <div className='flex flex-col items-center gap-3 pt-2'>
-        <p className='text-sm text-charcoal/70 font-medium'>Or connect with us directly:</p>
+        <p className='text-sm text-charcoal/70 font-semibold'>Or connect with us directly:</p>
         <div className='flex items-center gap-3'>
           {/* LinkedIn */}
           <a

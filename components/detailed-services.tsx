@@ -59,7 +59,7 @@ export function DetailedServices() {
                                 {/* Content */}
                                 <div className={`${isImageLeft ? "lg:order-2" : "lg:order-1"}`}>
                                     <div className="space-y-6">
-                                        <h3 className="text-2xl md:text-3xl font-bold text-navy break-words hyphens-auto">
+                                        <h3 className="text-navy break-words hyphens-auto">
                                             {sectionData.title}
                                         </h3>
                                         <ul className="space-y-3">

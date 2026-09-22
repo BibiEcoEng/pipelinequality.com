@@ -13,7 +13,7 @@ export function ContactSection() {
           <div>
             <p className='pq-index'>Contact</p>
             <h2 className='mt-4 text-navy'>{t('title')}</h2>
-            <p className='mt-5 text-[15px] leading-relaxed text-steel-gray'>
+            <p className='mt-5 pq-subtitle text-steel-gray'>
               {t('description')}
             </p>
             <div className='mt-10 space-y-3 border-t border-navy/10 pt-8'>

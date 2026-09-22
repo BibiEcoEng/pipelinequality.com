@@ -16,18 +16,14 @@ export function DigitalQualitySection() {
     <section id='digital-quality' className='bg-white'>
       <div className='pq-shell py-20 lg:py-28'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-3xl font-semibold tracking-tight text-navy sm:text-[2rem]'>
-          {t('title')}
-        </h2>
-        <p className='mt-4 max-w-2xl text-[15px] leading-relaxed text-steel-gray'>
+        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
+        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
           {t('description')}
         </p>
         <div className='mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3'>
           {blocks.map((block) => (
             <div key={block.title} className='border-t border-line pt-5'>
-              <h3 className='text-xl leading-snug font-semibold text-navy'>
-                {block.title}
-              </h3>
+              <h3 className='text-navy'>{block.title}</h3>
               <ul className='mt-3 space-y-1.5'>
                 {block.items.map((item) => (
                   <li

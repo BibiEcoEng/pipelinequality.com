@@ -16,14 +16,12 @@ export function WhySection() {
     <section className='bg-white' id='why'>
       <div className='pq-shell py-20 lg:py-28'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='text-3xl font-semibold tracking-tight text-navy sm:text-[2rem]'>
-          {t('title')}
-        </h2>
+        <h2 className='text-navy'>{t('title')}</h2>
         <div className='mt-10 grid gap-x-10 gap-y-8 md:grid-cols-2 xl:grid-cols-3'>
           {reasons.map((item) => (
             <div key={item.title} className='border-t border-line pt-5'>
-              <h3 className='font-semibold text-navy'>{item.title}</h3>
-              <p className='mt-2 text-[14px] leading-relaxed text-steel-gray'>
+              <h3 className='text-navy'>{item.title}</h3>
+              <p className='mt-2 pq-subtitle text-steel-gray'>
                 {item.description}
               </p>
             </div>

@@ -13,7 +13,7 @@ export function CTASection() {
             {t('label')}
           </p>
           <h2 className='mt-4 max-w-3xl text-white'>{t('title')}</h2>
-          <p className='mt-5 max-w-2xl text-[15px] leading-relaxed text-white/80'>
+          <p className='mt-5 max-w-2xl pq-subtitle text-white/80'>
             {t('description')}
           </p>
         </div>

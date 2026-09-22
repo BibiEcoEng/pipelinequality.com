@@ -11,7 +11,7 @@ export function SmartQAQCSection() {
         <div>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-4 text-navy'>{t('title')}</h2>
-          <p className='mt-5 max-w-lg text-[15px] leading-relaxed text-steel-gray'>
+          <p className='mt-5 max-w-lg pq-subtitle text-steel-gray'>
             {t('description')}
           </p>
           <div className='mt-8'>
@@ -36,7 +36,7 @@ export function SmartQAQCSection() {
               <p className='text-[10px] font-bold tracking-[0.16em] text-accent uppercase'>
                 {t('fieldLabel')}
               </p>
-              <p className='mt-1 text-[13px] font-medium text-white'>
+              <p className='mt-1 text-[13px] font-semibold text-white'>
                 {t('fieldText')}
               </p>
             </div>
@@ -51,7 +51,7 @@ export function SmartQAQCSection() {
               <p className='text-[10px] font-bold tracking-[0.16em] text-accent uppercase'>
                 {t('docsLabel')}
               </p>
-              <p className='mt-1 text-[13px] font-medium text-white'>
+              <p className='mt-1 text-[13px] font-semibold text-white'>
                 {t('docsText')}
               </p>
             </div>

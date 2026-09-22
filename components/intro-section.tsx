@@ -30,7 +30,7 @@ export function IntroSection() {
           <h2 className='-mt-8 max-w-xl text-navy sm:-mt-12'>
             {t('headline')}
           </h2>
-          <div className='mt-8 max-w-md space-y-5 border-l-2 border-accent pl-5 text-[15px] leading-relaxed text-steel-gray'>
+          <div className='mt-8 max-w-md space-y-5 border-l-2 border-accent pl-5 pq-subtitle text-steel-gray'>
             <p>{t('paragraph1')}</p>
             <p>{t('paragraph2')}</p>
           </div>

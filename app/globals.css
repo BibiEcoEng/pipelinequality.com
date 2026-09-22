@@ -87,9 +87,7 @@
 
 @theme inline {
   --font-sans: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-outfit: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-open-sans: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", monospace;
+  --font-mono: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -174,13 +172,15 @@
   h5,
   h6 {
     @apply tracking-tight text-balance;
+    font-family: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
   }
 
+  /* Consistent type scale — Montserrat only */
   h1 {
-    font-size: clamp(2.4rem, 6vw, 4.75rem);
+    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
     font-weight: 700;
-    line-height: 0.95;
-    letter-spacing: -0.03em;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
   }
 
   h2 {
@@ -191,28 +191,23 @@
   }
 
   h3 {
-    font-size: clamp(1.1rem, 1.4vw, 1.35rem);
+    font-size: clamp(1.15rem, 1.6vw, 1.35rem);
     font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
   }
 
-  h4 {
-    font-size: clamp(1.125rem, 2vw, 1.5rem);
-    font-weight: 600;
-  }
-
-  h5 {
-    font-size: clamp(1rem, 1.5vw, 1.25rem);
-    font-weight: 600;
-  }
-
+  h4,
+  h5,
   h6 {
-    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-size: 1rem;
     font-weight: 600;
+    line-height: 1.35;
   }
 
   p {
     @apply leading-relaxed;
-    font-size: clamp(0.9rem, 1.2vw, 1.05rem);
+    font-size: 0.9375rem;
     font-weight: 400;
   }
 
@@ -304,13 +299,21 @@
   }
 
   .pq-index {
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 0.6875rem; /* 11px — section eyebrow / subtitle label */
+    font-weight: 600;
     letter-spacing: 0.18em;
+    text-transform: uppercase;
     color: var(--accent);
   }
 
+  .pq-subtitle {
+    font-size: 0.9375rem; /* 15px — supporting section text */
+    font-weight: 400;
+    line-height: 1.65;
+  }
+
   .pq-display {
+    font-family: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
     font-weight: 700;
     letter-spacing: -0.035em;
     line-height: 0.92;

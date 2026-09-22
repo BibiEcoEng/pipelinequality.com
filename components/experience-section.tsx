@@ -13,7 +13,7 @@ export function ExperienceSection() {
         <div className='max-w-2xl'>
           <p className='pq-index'>06 — {t('label')}</p>
           <h2 className='mt-4 text-white'>{t('title')}</h2>
-          <p className='mt-6 text-[15px] leading-relaxed text-white/65'>
+          <p className='mt-6 pq-subtitle text-white/80'>
             {t('paragraph1')}
           </p>
           <p className='mt-4 text-[14px] leading-relaxed text-white/55'>

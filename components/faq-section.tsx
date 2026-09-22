@@ -39,13 +39,13 @@ export function FAQSection() {
                   <span className='pq-index mt-1'>
                     {String(index + 1).padStart(2, '0')}
                   </span>
-                  <span
-                    className={`text-[clamp(1.05rem,2vw,1.45rem)] leading-snug font-semibold tracking-[-0.01em] transition-colors duration-300 ${
-                      open ? 'text-white' : 'text-white/70'
+                  <h3
+                    className={`transition-colors duration-300 ${
+                      open ? 'text-white' : 'text-white/75'
                     }`}
                   >
                     {faq.question}
-                  </span>
+                  </h3>
                   <span
                     className='relative mt-2 h-4 w-4 shrink-0'
                     aria-hidden

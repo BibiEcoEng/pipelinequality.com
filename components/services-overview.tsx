@@ -78,7 +78,7 @@ export function ServicesOverview() {
                 >
                   {String(index + 1).padStart(2, '0')}
                 </span>
-                <span className='mt-1.5 block text-[14px] leading-snug font-semibold tracking-[-0.01em] sm:text-[15px]'>
+                <span className='mt-1.5 block text-[1.05rem] leading-snug font-semibold tracking-[-0.015em]'>
                   {service.title}
                 </span>
               </button>
