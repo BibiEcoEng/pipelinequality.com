@@ -10,7 +10,9 @@ import { ExperienceSection } from '@/components/experience-section';
 import { StandardsSection } from '@/components/standards-section';
 import { ProcessSection } from '@/components/process-section';
 import { SmartQAQCSection } from '@/components/smart-qaqa-section';
+import { DigitalQualitySection } from '@/components/digital-quality-section';
 import { PartnersSection } from '@/components/partners-section';
+import { WhySection } from '@/components/why-section';
 import { CTASection } from '@/components/cta-section';
 import { FAQSection } from '@/components/faq-section';
 import { ContactSection } from '@/components/contact-section';
@@ -57,7 +59,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <StandardsSection />
       <ProcessSection />
       <SmartQAQCSection />
+      <DigitalQualitySection />
       <PartnersSection />
+      <WhySection />
       <CTASection />
       <FAQSection />
       <ContactSection />

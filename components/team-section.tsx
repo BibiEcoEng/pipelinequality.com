@@ -16,9 +16,6 @@ export function TeamSection() {
           <p className='mt-5 pq-subtitle text-steel-gray'>
             {t('paragraph1')}
           </p>
-          <p className='mt-4 pq-subtitle text-steel-gray'>
-            {t('paragraph2')}
-          </p>
         </div>
         <div className='mt-10 lg:mt-0'>
           <p className='pq-index mb-4'>{t('networkLabel')}</p>

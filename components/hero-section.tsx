@@ -24,7 +24,7 @@ export function HeroSection() {
       <div className='relative flex min-h-[100svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:justify-center lg:pb-20 lg:pt-24'>
         <div className='pq-shell'>
           <div className='max-w-[40rem]'>
-            <h1 className='pq-fade-up pq-display text-[clamp(2rem,5.5vw,3.75rem)] leading-[1.08] text-white'>
+            <h1 className='pq-fade-up text-[clamp(2rem,5.5vw,3.75rem)] leading-[1.08] font-semibold tracking-[-0.025em] text-white'>
               {t('titleLine1')}
               <span className='block'>{t('titleLine2')}</span>
             </h1>

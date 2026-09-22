@@ -37,11 +37,6 @@ export function ProcessSection() {
             </div>
           ))}
         </div>
-        {t('tagline') ? (
-          <p className='mt-8 max-w-xl border-t border-line pt-6 pq-subtitle font-semibold text-navy'>
-            {t('tagline')}
-          </p>
-        ) : null}
       </div>
     </section>
   );

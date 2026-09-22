@@ -26,8 +26,8 @@ export function ServicesOverview() {
     <section id='services' className='bg-navy text-white'>
       <div className='pq-shell py-20 lg:py-28'>
         <div>
-          <p className='pq-index'>02 — {t('title')}</p>
-          <h2 className='mt-4 max-w-3xl text-white'>{t('scopeTitle')}</h2>
+          <p className='pq-index'>02</p>
+          <h2 className='mt-4 max-w-3xl text-white'>{t('title')}</h2>
         </div>
 
         <div className='relative mt-10 aspect-[21/9] overflow-hidden sm:mt-12 lg:aspect-[2.4/1]'>

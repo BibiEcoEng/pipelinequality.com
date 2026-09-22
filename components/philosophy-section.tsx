@@ -15,13 +15,13 @@ export function PhilosophySection() {
             <div className='mt-8 max-w-xl space-y-5 pq-subtitle text-steel-gray'>
               <p>{t('paragraph1')}</p>
               <p>{t('paragraph2')}</p>
+              <p>{t('paragraph3')}</p>
             </div>
           </div>
           <div className='relative flex min-h-[240px] items-center justify-center bg-navy px-8 py-12 text-white sm:min-h-[280px] sm:px-10 lg:min-h-[320px]'>
             <div className='absolute top-0 right-0 h-16 w-16 border-t-2 border-r-2 border-accent sm:h-20 sm:w-20' />
             <div className='relative z-10 max-w-[18ch] text-center'>
-              <p className='pq-index'>{t('principleLabel')}</p>
-              <p className='mt-5 text-[clamp(1.75rem,3.2vw,2.5rem)] leading-[1.1] font-semibold tracking-[-0.02em] text-balance uppercase'>
+              <p className='text-[clamp(1.75rem,3.2vw,2.5rem)] leading-[1.1] font-semibold tracking-[-0.02em] text-balance uppercase'>
                 {t('principle')}
               </p>
             </div>

@@ -14,16 +14,6 @@ export function SmartQAQCSection() {
           <p className='mt-4 max-w-lg pq-subtitle text-steel-gray'>
             {t('description')}
           </p>
-          <ul className='mt-5 space-y-2'>
-            {(t.raw('features') as string[]).map((feature) => (
-              <li
-                key={feature}
-                className="pq-subtitle text-navy before:mr-2 before:text-accent before:content-['▸']"
-              >
-                {feature}
-              </li>
-            ))}
-          </ul>
           <div className='mt-7'>
             <a
               href='https://www.bwdigit.com'
@@ -43,14 +33,6 @@ export function SmartQAQCSection() {
               alt={t('fieldAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/85 to-transparent px-3 pb-3 pt-14'>
-              <p className='text-[10px] font-semibold tracking-[0.16em] text-white uppercase'>
-                {t('fieldLabel')}
-              </p>
-              <p className='mt-1 text-[12px] leading-snug text-white/90'>
-                {t('fieldText')}
-              </p>
-            </div>
           </div>
 
           <div className='relative aspect-[3/4] overflow-hidden'>
@@ -59,14 +41,6 @@ export function SmartQAQCSection() {
               alt={t('docsAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/85 to-transparent px-3 pb-3 pt-14'>
-              <p className='text-[10px] font-semibold tracking-[0.16em] text-white uppercase'>
-                {t('docsLabel')}
-              </p>
-              <p className='mt-1 text-[12px] leading-snug text-white/90'>
-                {t('docsText')}
-              </p>
-            </div>
           </div>
         </div>
       </div>

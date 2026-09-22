@@ -17,9 +17,6 @@ export function StandardsSection() {
       <div className='pq-shell py-20 lg:py-28'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
-          {t('description')}
-        </p>
         <div className='mt-10 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {groups.map((group, index) => (
             <div

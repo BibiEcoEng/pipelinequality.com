@@ -25,14 +25,10 @@ export function IndustriesSection() {
   return (
     <section id='industries' className='bg-white'>
       <div className='pq-shell py-20 lg:py-28'>
-        <div className='grid gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:items-end'>
-          <div>
+        <div>
             <p className='pq-index'>05 — {t('label')}</p>
             <h2 className='mt-4 text-navy'>{t('title')}</h2>
           </div>
-          <p className='max-w-xl pq-subtitle text-steel-gray lg:justify-self-end lg:text-right'>
-            {t('intro')}
-          </p>
         </div>
 
         <div className='mt-14 space-y-0 border-t border-navy/10'>

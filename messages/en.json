@@ -503,10 +503,10 @@
       {
         "id": "05",
         "title": "Handover",
-        "text": "Deliver complete, traceable and usable quality documentation."
+        "text": "Deliver complete, traceable and usable project quality documentation."
       }
     ],
-    "tagline": "Clear ownership, clear deadlines, clear documentation."
+    "tagline": ""
   },
   "why": {
     "label": "Why Pipeline Quality",
@@ -802,7 +802,7 @@
     "label": "Team Model",
     "title": "One Specialist or a Complete Project Team",
     "paragraph1": "Depending on project requirements, Pipeline Quality can provide an individual specialist, several complementary specialists or a coordinated project quality team.",
-    "paragraph2": "Our network consists of qualified independent professionals selected for project fit — not a fixed employee headcount.",
+    "paragraph2": "",
     "networkLabel": "Our Network",
     "roles": [
       "Quality Managers",
@@ -823,8 +823,9 @@
     "label": "Quality Philosophy",
     "title": "We Choose Competence Over Headcount.",
     "paragraph1": "We carefully build our professional network around experience, qualifications and project fit.",
-    "paragraph2": "We would rather provide one strong specialist than several people who do not add value. Every person joining a project represents our reputation.",
-    "principleLabel": "Guiding principle",
+    "paragraph2": "We would rather provide one strong specialist than several people who do not add value.",
+    "paragraph3": "Every person joining a project represents our reputation.",
+    "principleLabel": "",
     "principle": "QUALITY BEFORE QUANTITY."
   },
   "digitalQuality": {

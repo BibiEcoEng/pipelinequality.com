@@ -504,10 +504,10 @@
       {
         "id": "05",
         "title": "Übergeben",
-        "text": "Vollständige, nachvollziehbare Qualitätsdokumentation liefern."
+        "text": "Vollständige, nachvollziehbare Projektqualitätsdokumentation liefern."
       }
     ],
-    "tagline": "Klare Zuständigkeiten, klare Fristen, klare Dokumentation."
+    "tagline": ""
   },
   "why": {
     "label": "Warum Pipeline Quality",
@@ -803,7 +803,7 @@
     "label": "Teammodell",
     "title": "Ein Spezialist oder ein komplettes Projektteam",
     "paragraph1": "Je nach Projektanforderung kann Pipeline Quality einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Projektqualitätsteam bereitstellen.",
-    "paragraph2": "Unser Netzwerk besteht aus qualifizierten unabhängigen Fachkräften, ausgewählt nach Projektpassung — nicht nach festem Personalbestand.",
+    "paragraph2": "",
     "networkLabel": "Unser Netzwerk",
     "roles": [
       "Qualitätsmanager",
@@ -824,8 +824,9 @@
     "label": "Qualitätsphilosophie",
     "title": "Wir wählen Kompetenz vor Kopfzahl.",
     "paragraph1": "Wir bauen unser Fachnetzwerk bewusst nach Erfahrung, Qualifikation und Projektpassung auf.",
-    "paragraph2": "Lieber ein starker Spezialist als mehrere Personen ohne Mehrwert. Jede Person im Projekt steht für unseren Ruf.",
-    "principleLabel": "Leitprinzip",
+    "paragraph2": "Lieber ein starker Spezialist als mehrere Personen ohne Mehrwert.",
+    "paragraph3": "Jede Person im Projekt steht für unseren Ruf.",
+    "principleLabel": "",
     "principle": "QUALITY BEFORE QUANTITY."
   },
   "digitalQuality": {

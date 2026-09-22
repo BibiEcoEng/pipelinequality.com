@@ -15,9 +15,12 @@ export function CTASection() {
             {t('description')}
           </p>
         </div>
-        <div className='flex flex-col gap-5 sm:flex-row sm:items-center lg:flex-col lg:items-end'>
+        <div className='flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:items-center lg:flex-col lg:items-end'>
           <a href='#contact' className='pq-btn'>
             {t('button1')}
+          </a>
+          <a href='#contact' className='pq-btn-ghost text-white'>
+            {t('button2')}
           </a>
           <a href='#network' className='pq-btn-ghost text-white'>
             {t('button3')}
