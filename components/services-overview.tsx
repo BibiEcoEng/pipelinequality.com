@@ -42,15 +42,10 @@ export function ServicesOverview() {
             />
           ))}
           <div
-            className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/75 via-transparent to-navy/15'
+            className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-navy/10'
             aria-hidden
           />
           <div className='absolute top-0 right-0 h-12 w-12 border-t-2 border-r-2 border-accent sm:h-14 sm:w-14' />
-          <div className='absolute inset-x-0 bottom-0 p-4 sm:p-5'>
-            <p className='text-[11px] font-semibold tracking-[0.18em] text-accent uppercase'>
-              {String(active + 1).padStart(2, '0')} — {current?.title}
-            </p>
-          </div>
         </div>
 
         <div className='mt-6 grid gap-1 border-t border-white/25 sm:grid-cols-2 lg:grid-cols-4'>
