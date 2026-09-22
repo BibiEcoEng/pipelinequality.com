@@ -24,13 +24,13 @@ export function ServicesOverview() {
 
   return (
     <section id='services' className='bg-navy text-white'>
-      <div className='pq-shell py-20 lg:py-28'>
+      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
         <div>
           <p className='pq-index'>02</p>
-          <h2 className='mt-4 max-w-3xl text-white'>{t('title')}</h2>
+          <h2 className='mt-3 max-w-3xl text-white'>{t('title')}</h2>
         </div>
 
-        <div className='relative mt-10 aspect-[21/9] overflow-hidden sm:mt-12 lg:aspect-[2.4/1]'>
+        <div className='relative mt-6 aspect-[16/9] max-h-[240px] overflow-hidden sm:mt-8 sm:max-h-[280px] lg:aspect-[2.6/1] lg:max-h-[300px]'>
           {serviceImages.map((src, index) => (
             <img
               key={src}
@@ -45,10 +45,10 @@ export function ServicesOverview() {
             className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-navy/10'
             aria-hidden
           />
-          <div className='absolute top-0 right-0 h-12 w-12 border-t-2 border-r-2 border-accent sm:h-14 sm:w-14' />
+          <div className='absolute top-0 right-0 h-10 w-10 border-t-2 border-r-2 border-accent sm:h-12 sm:w-12' />
         </div>
 
-        <div className='mt-6 grid gap-1 border-t border-white/25 sm:grid-cols-2 lg:grid-cols-4'>
+        <div className='mt-5 grid gap-0 border-t border-white/25 sm:grid-cols-2 lg:grid-cols-4'>
           {blocks.map((service, index) => {
             const isActive = active === index;
             return (
@@ -57,7 +57,7 @@ export function ServicesOverview() {
                 type='button'
                 onClick={() => setActive(index)}
                 onMouseEnter={() => setActive(index)}
-                className={`border-b border-white/25 px-0 py-4 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-5 lg:last:border-r-0 ${
+                className={`border-b border-white/25 px-0 py-3 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-4 lg:last:border-r-0 ${
                   isActive ? 'text-white' : 'text-white/75 hover:text-white'
                 }`}
               >
@@ -68,7 +68,7 @@ export function ServicesOverview() {
                 >
                   {String(index + 1).padStart(2, '0')}
                 </span>
-                <span className='mt-1.5 block text-[1.05rem] leading-snug font-semibold tracking-[-0.015em]'>
+                <span className='mt-1 block text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
                   {service.title}
                 </span>
               </button>
@@ -76,8 +76,8 @@ export function ServicesOverview() {
           })}
         </div>
 
-        <div className='mt-6 grid gap-6 border-t border-white/25 pt-6'>
-          <ul className='grid gap-x-6 gap-y-1.5 sm:grid-cols-2 lg:grid-cols-3'>
+        <div className='mt-4 border-t border-white/25 pt-4'>
+          <ul className='grid gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3'>
             {current?.items.map((item) => (
               <li
                 key={item}

@@ -24,7 +24,7 @@ export function IndustriesSection() {
 
   return (
     <section id='industries' className='bg-white'>
-      <div className='pq-shell py-20 lg:py-28'>
+      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
         <p className='pq-index'>05 — {t('label')}</p>
         <h2 className='mt-4 text-navy'>{t('title')}</h2>
 
@@ -47,7 +47,7 @@ export function IndustriesSection() {
                   ))}
                 </ul>
               </div>
-              <div className='relative aspect-[16/10] w-full overflow-hidden bg-light-gray'>
+              <div className='relative aspect-[16/9] w-full overflow-hidden bg-light-gray lg:aspect-[16/10]'>
                 <img
                   src={industryImages[index]}
                   alt={item.title}

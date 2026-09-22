@@ -14,7 +14,7 @@ export function WhySection() {
 
   return (
     <section className='bg-white' id='why'>
-      <div className='pq-shell py-20 lg:py-28'>
+      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='text-navy'>{t('title')}</h2>
         <div className='mt-10 grid gap-x-10 gap-y-8 md:grid-cols-2 xl:grid-cols-3'>

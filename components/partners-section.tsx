@@ -8,7 +8,7 @@ export function PartnersSection() {
 
   return (
     <section id='partners' className='bg-light-gray'>
-      <div className='pq-shell py-20 lg:py-28'>
+      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
         <p className='mt-5 max-w-2xl pq-subtitle text-steel-gray'>

@@ -7,9 +7,9 @@ export function IntroSection() {
 
   return (
     <section className='relative overflow-hidden bg-white'>
-      <div className='pq-shell grid gap-10 py-20 lg:grid-cols-[0.85fr_1.15fr] lg:items-end lg:gap-16 lg:py-28'>
+      <div className='pq-shell grid gap-8 py-14 lg:grid-cols-[0.85fr_1.15fr] lg:items-end lg:gap-12 lg:py-18'>
         <div className='order-2 lg:order-1'>
-          <div className='relative aspect-[4/5] overflow-hidden sm:aspect-[5/6]'>
+          <div className='relative aspect-[4/5] max-h-[420px] overflow-hidden sm:aspect-[5/6] lg:max-h-[480px]'>
             <img
               src='/client/intro-inspection.jpg'
               alt={t('imageAlt')}

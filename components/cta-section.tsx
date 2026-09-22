@@ -7,7 +7,7 @@ export function CTASection() {
 
   return (
     <section className='relative overflow-hidden border-t border-white/10 bg-navy'>
-      <div className='pq-shell grid gap-8 py-14 sm:py-16 lg:grid-cols-[1.4fr_0.6fr] lg:items-center lg:gap-10 lg:py-20'>
+      <div className='pq-shell grid gap-6 py-12 sm:py-14 lg:grid-cols-[1.4fr_0.6fr] lg:items-center lg:gap-8 lg:py-16'>
         <div>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 max-w-3xl text-white'>{t('title')}</h2>

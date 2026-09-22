@@ -10,17 +10,13 @@ export function FAQSection() {
 
   return (
     <section className='relative overflow-hidden bg-navy text-white'>
-      <p className='pointer-events-none absolute top-8 right-4 pq-display text-[clamp(5rem,18vw,14rem)] leading-none text-white/[0.04] select-none sm:right-10'>
-        FAQ
-      </p>
-
-      <div className='pq-shell relative py-20 lg:py-28'>
+      <div className='pq-shell relative py-14 sm:py-16 lg:py-18'>
         <div className='max-w-xl'>
           <p className='pq-index'>Ask</p>
-          <h2 className='mt-4 text-white'>{t('title')}</h2>
+          <h2 className='mt-3 text-white'>{t('title')}</h2>
         </div>
 
-        <div className='mt-14 border-t border-white/15'>
+        <div className='mt-8 border-t border-white/15'>
           {items.map((faq, index) => {
             const open = openIndex === index;
             return (
@@ -33,21 +29,21 @@ export function FAQSection() {
                 <button
                   type='button'
                   onClick={() => setOpenIndex(open ? null : index)}
-                  className='grid w-full grid-cols-[auto_1fr_auto] items-start gap-4 py-7 text-left sm:gap-8'
+                  className='grid w-full grid-cols-[auto_1fr_auto] items-start gap-3 py-4 text-left sm:gap-6 sm:py-5'
                   aria-expanded={open}
                 >
-                  <span className='pq-index mt-1'>
+                  <span className='pq-index mt-0.5'>
                     {String(index + 1).padStart(2, '0')}
                   </span>
-                  <h3
-                    className={`transition-colors duration-300 ${
+                  <span
+                    className={`text-[0.95rem] leading-snug font-semibold tracking-[-0.015em] transition-colors duration-300 sm:text-[1.05rem] ${
                       open ? 'text-white' : 'text-white/75'
                     }`}
                   >
                     {faq.question}
-                  </h3>
+                  </span>
                   <span
-                    className='relative mt-2 h-4 w-4 shrink-0'
+                    className='relative mt-1.5 h-3.5 w-3.5 shrink-0'
                     aria-hidden
                   >
                     <span className='absolute top-1/2 left-0 h-px w-full -translate-y-1/2 bg-accent' />
@@ -63,7 +59,7 @@ export function FAQSection() {
                   style={{ gridTemplateRows: open ? '1fr' : '0fr' }}
                 >
                   <div className='overflow-hidden'>
-                    <p className='max-w-3xl pr-10 pb-8 pl-12 text-[15px] leading-relaxed text-white/60 sm:pl-16'>
+                    <p className='max-w-3xl pr-8 pb-4 pl-10 text-[14px] leading-relaxed text-white/65 sm:pl-14'>
                       {faq.answer}
                     </p>
                   </div>
