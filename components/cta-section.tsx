@@ -7,7 +7,7 @@ export function CTASection() {
 
   return (
     <section className='relative overflow-hidden border-t border-white/10 bg-navy'>
-      <div className='pq-shell pq-section grid gap-6 lg:grid-cols-[1.4fr_0.6fr] lg:items-center lg:gap-8'>
+      <div className='pq-shell pq-section grid gap-6 lg:grid-cols-[1.35fr_0.65fr] lg:items-start lg:gap-10'>
         <div>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 max-w-3xl text-white'>{t('title')}</h2>
@@ -15,7 +15,7 @@ export function CTASection() {
             {t('description')}
           </p>
         </div>
-        <div className='flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:items-center lg:flex-col lg:items-end'>
+        <div className='flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center lg:mt-8 lg:flex-col lg:items-start'>
           <a href='#contact' className='pq-btn'>
             {t('button1')}
           </a>
