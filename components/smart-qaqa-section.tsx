@@ -14,6 +14,16 @@ export function SmartQAQCSection() {
           <p className='mt-4 max-w-lg pq-subtitle text-steel-gray'>
             {t('description')}
           </p>
+          <ul className='mt-5 space-y-2'>
+            {(t.raw('features') as string[]).map((feature) => (
+              <li
+                key={feature}
+                className="pq-subtitle text-navy before:mr-2 before:text-accent before:content-['▸']"
+              >
+                {feature}
+              </li>
+            ))}
+          </ul>
           <div className='mt-7'>
             <a
               href='https://www.bwdigit.com'

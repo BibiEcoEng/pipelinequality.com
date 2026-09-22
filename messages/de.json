@@ -226,15 +226,15 @@
         "summary": "Nachvollziehbare Qualitätsunterlagen für Audit, Mechanical Completion und Kundenübergabe.",
         "items": [
           "MDR / DDP",
-          "Schweißbücher",
+          "WPS / PQR / WPQ Prüfung",
+          "Schweißnahtpläne & Schweißbücher",
           "MTR / Werkstoffrückverfolgbarkeit",
           "ZfP-Aufzeichnungen",
           "NCR- / Punch-Tracking",
           "Abschlussdokumentation",
           "As-built-Dokumentation",
           "Mechanical-Completion-Unterstützung",
-          "Übergabedossiers",
-          "Lieferanten- / Herstellerdokumentation"
+          "Übergabedossiers"
         ]
       },
       {
@@ -367,11 +367,11 @@
     ],
     "cta": "BW Digit entdecken",
     "fieldLabel": "Feld",
-    "fieldText": "Inspektor / Schweißen / Fertigungsausführung",
+    "fieldText": "Schweißen, Inspektion und Fertigung",
     "fieldAlt": "Fertigung vor Ort — Schweißen und Fertigung",
     "docsLabel": "Dokumentation",
-    "docsText": "Rückverfolgbarkeit, Aufzeichnungen und Übergabebereitschaft",
-    "docsAlt": "Kennzeichnungen zur Rückverfolgbarkeit und Projektdokumentation"
+    "docsText": "WPS, Schweißnahtpläne, MDR, NCR-Tracking",
+    "docsAlt": "WPS, Schweißnahtpläne und MDR-Dokumentation in der Fertigung"
   },
   "industries": {
     "label": "Branchen",

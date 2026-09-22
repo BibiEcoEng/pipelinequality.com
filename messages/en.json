@@ -226,15 +226,15 @@
         "summary": "Traceable quality records prepared for audit, mechanical completion and client handover.",
         "items": [
           "MDR / DDP",
-          "Weld books",
+          "WPS / PQR / WPQ review",
+          "Weld maps & weld books",
           "MTR / material traceability",
           "NDT records",
           "NCR / punch tracking",
           "Final documentation",
           "As-built documentation",
           "Mechanical completion support",
-          "Handover dossiers",
-          "Vendor / manufacturer documentation"
+          "Handover dossiers"
         ]
       },
       {
@@ -264,11 +264,11 @@
     ],
     "cta": "Explore BW Digit",
     "fieldLabel": "Field",
-    "fieldText": "Inspector / welding / production execution",
+    "fieldText": "Welding, inspection and production activity",
     "fieldAlt": "Field production — welding and fabrication",
     "docsLabel": "Documentation",
-    "docsText": "Traceability, records and handover readiness",
-    "docsAlt": "Traceability markings and project documentation"
+    "docsText": "WPS, weld maps, MDR, NCR tracking",
+    "docsAlt": "WPS, weld maps and MDR documentation on the shop floor"
   },
   "standards": {
     "label": "Standards & Competence",
