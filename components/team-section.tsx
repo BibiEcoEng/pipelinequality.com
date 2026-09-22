@@ -16,11 +16,11 @@ export function TeamSection() {
           <p className='mt-5 max-w-xl pq-subtitle text-steel-gray'>
             {t('paragraph1')}
           </p>
-          <div className='relative mt-8 aspect-[4/3] w-full overflow-hidden bg-light-gray'>
+          <div className='relative mt-8 aspect-[3/2] w-full overflow-hidden bg-light-gray'>
             <img
               src='/client/team-network.jpg'
               alt={t('imageAlt')}
-              className='absolute inset-0 h-full w-full object-cover object-center'
+              className='absolute inset-0 h-full w-full object-cover object-[center_35%]'
             />
           </div>
         </div>

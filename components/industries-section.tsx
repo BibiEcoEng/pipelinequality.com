@@ -44,7 +44,7 @@ export function IndustriesSection() {
                   ))}
                 </ul>
               </div>
-              <div className='relative aspect-[16/9] w-full overflow-hidden bg-light-gray lg:aspect-[2/1]'>
+              <div className='relative aspect-[16/10] w-full overflow-hidden bg-light-gray sm:aspect-[16/9]'>
                 <img
                   src={industryImages[index]}
                   alt={item.title}

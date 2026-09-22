@@ -28,7 +28,7 @@ export function ServicesOverview() {
           <h2 className='max-w-3xl text-white'>{t('title')}</h2>
         </div>
 
-        <div className='relative mt-6 h-[200px] overflow-hidden sm:mt-7 sm:h-[240px] lg:mt-6 lg:h-[220px]'>
+        <div className='relative mt-6 aspect-[16/10] w-full overflow-hidden sm:aspect-[16/9] lg:aspect-[2.2/1]'>
           {serviceImages.map((src, index) => (
             <img
               key={src}
@@ -40,7 +40,7 @@ export function ServicesOverview() {
             />
           ))}
           <div
-            className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/35 via-transparent to-navy/10'
+            className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/30 via-transparent to-transparent'
             aria-hidden
           />
           <div className='absolute top-0 right-0 h-10 w-10 border-t-2 border-r-2 border-accent sm:h-12 sm:w-12' />

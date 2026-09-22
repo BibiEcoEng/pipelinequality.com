@@ -27,14 +27,14 @@ export function SmartQAQCSection() {
         </div>
 
         <div className='grid grid-cols-2 items-stretch gap-3'>
-          <div className='relative aspect-[3/4] overflow-hidden'>
+          <div className='relative aspect-[4/3] overflow-hidden sm:aspect-[3/4]'>
             <img
               src='/client/bw-field.jpg'
               alt={t('fieldAlt')}
-              className='absolute inset-0 h-full w-full object-cover object-center'
+              className='absolute inset-0 h-full w-full object-cover object-[center_30%]'
             />
           </div>
-          <div className='relative aspect-[3/4] overflow-hidden'>
+          <div className='relative aspect-[4/3] overflow-hidden sm:aspect-[3/4]'>
             <img
               src='/client/bw-digital.jpg?v=2'
               alt={t('docsAlt')}

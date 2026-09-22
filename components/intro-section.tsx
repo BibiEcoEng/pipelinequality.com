@@ -9,7 +9,7 @@ export function IntroSection() {
     <section className='relative overflow-hidden bg-white'>
       <div className='pq-shell pq-section grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-12'>
         <div className='order-2 lg:order-1'>
-          <div className='relative aspect-[4/5] w-full overflow-hidden sm:aspect-[5/6] lg:aspect-[4/5]'>
+          <div className='relative aspect-[4/3] w-full overflow-hidden sm:aspect-[5/4] lg:aspect-[4/3]'>
             <img
               src='/client/intro-inspection.jpg'
               alt={t('imageAlt')}
