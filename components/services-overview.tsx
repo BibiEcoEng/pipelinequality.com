@@ -9,10 +9,17 @@ type ServiceBlock = {
 };
 
 const serviceImages = [
-  '/client/service-engineering.jpg',
-  '/client/service-welding.jpg',
-  '/client/service-docs-yard.jpg',
-  '/client/service-project.jpg',
+  '/client/service-engineering.jpg?v=5',
+  '/client/service-welding.jpg?v=5',
+  '/client/service-docs-yard.jpg?v=5',
+  '/client/service-project.jpg?v=5',
+];
+
+const serviceImagePositions = [
+  'object-[center_42%]', // QA/QC — precision QC dial
+  'object-[center_38%]', // Inspection — ultrasonic NDT
+  'object-center', // Documentation — ITP / drawings
+  'object-[center_48%]', // Project — dimensional measurement
 ];
 
 export function ServicesOverview() {
@@ -30,14 +37,16 @@ export function ServicesOverview() {
 
         <div className='relative mt-6 aspect-[16/10] w-full overflow-hidden sm:aspect-[16/9] lg:aspect-[2.2/1]'>
           {serviceImages.map((src, index) => (
-            <img
-              key={src}
-              src={src}
-              alt={blocks[index]?.title ?? ''}
-              className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-                active === index ? 'opacity-100' : 'opacity-0'
-              }`}
-            />
+                <img
+                  key={src}
+                  src={src}
+                  alt={blocks[index]?.title ?? ''}
+                  className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                    serviceImagePositions[index]
+                  } ${
+                    active === index ? 'opacity-100' : 'opacity-0'
+                  }`}
+                />
           ))}
           <div
             className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/30 via-transparent to-transparent'
