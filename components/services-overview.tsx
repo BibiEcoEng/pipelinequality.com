@@ -1,67 +1,13 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { SectionLabel } from '@/components/section-label';
-
-type IconName = 'engineering' | 'inspection' | 'docs' | 'project';
 
 type ServiceBlock = {
   title: string;
   summary: string;
   items: string[];
-  image: string;
-  icon: IconName;
 };
-
-function TechnicalIcon({ name }: { name: IconName }) {
-  const common = {
-    width: 28,
-    height: 28,
-    viewBox: '0 0 24 24',
-    fill: 'none',
-    stroke: 'currentColor',
-    strokeWidth: 1.6,
-    strokeLinecap: 'round' as const,
-    strokeLinejoin: 'round' as const,
-    'aria-hidden': true,
-  };
-
-  if (name === 'engineering') {
-    return (
-      <svg {...common}>
-        <path d='M4 19V5h10l6 6v8H4z' />
-        <path d='M14 5v6h6' />
-        <path d='M8 13h5M8 16h8' />
-      </svg>
-    );
-  }
-  if (name === 'inspection') {
-    return (
-      <svg {...common}>
-        <circle cx='10' cy='10' r='5.5' />
-        <path d='M14.5 14.5 20 20' />
-        <path d='M8 10h4M10 8v4' />
-      </svg>
-    );
-  }
-  if (name === 'docs') {
-    return (
-      <svg {...common}>
-        <path d='M7 3.5h7l4 4V20.5H7z' />
-        <path d='M14 3.5V8h4' />
-        <path d='M10 12h6M10 15h6M10 18h4' />
-      </svg>
-    );
-  }
-  return (
-    <svg {...common}>
-      <circle cx='8' cy='8' r='2.4' />
-      <circle cx='16' cy='8' r='2.4' />
-      <circle cx='12' cy='16' r='2.4' />
-      <path d='M9.8 9.5 11.2 14M14.2 9.5 12.8 14M10 8h4' />
-    </svg>
-  );
-}
 
 const serviceImages = [
   '/client/service-engineering.jpg',
@@ -70,70 +16,90 @@ const serviceImages = [
   '/client/service-project.jpg',
 ];
 
-const serviceIcons: IconName[] = [
-  'engineering',
-  'inspection',
-  'docs',
-  'project',
-];
-
 export function ServicesOverview() {
+  const [active, setActive] = useState(0);
   const t = useTranslations('services');
   const blocks = t.raw('blocks') as ServiceBlock[];
+  const current = blocks[active];
 
   return (
-    <section id='services' className='bg-light-gray'>
-      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
-        <div className='max-w-2xl'>
-          <SectionLabel>{t('title')}</SectionLabel>
-          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
-            {t('scopeTitle')}
-          </h2>
-          <p className='mt-4 text-[15px] leading-relaxed text-steel-gray'>
+    <section id='services' className='bg-navy text-white'>
+      <div className='pq-shell py-20 lg:py-28'>
+        <div className='grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end'>
+          <div>
+            <p className='pq-index'>02 — {t('title')}</p>
+            <h2 className='mt-4 max-w-3xl text-white'>{t('scopeTitle')}</h2>
+          </div>
+          <p className='max-w-sm text-[14px] leading-relaxed text-white/55 lg:text-right'>
             {t('description')}
           </p>
         </div>
 
-        <div className='mt-10 space-y-5'>
-          {blocks.map((service, index) => (
-            <article
-              key={service.title}
-              className={`grid overflow-hidden border border-line bg-white lg:grid-cols-2 ${
-                index % 2 === 1 ? 'lg:[&>div:first-child]:order-2' : ''
+        <div className='relative mt-10 aspect-[21/9] overflow-hidden sm:mt-12 lg:aspect-[2.4/1]'>
+          {serviceImages.map((src, index) => (
+            <img
+              key={src}
+              src={src}
+              alt={blocks[index]?.title ?? ''}
+              className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                active === index ? 'opacity-100' : 'opacity-0'
               }`}
-            >
-              <div className='relative min-h-[220px] lg:min-h-[280px]'>
-                <img
-                  src={serviceImages[index]}
-                  alt={service.title}
-                  className='absolute inset-0 h-full w-full object-cover'
-                />
-              </div>
-              <div className='flex flex-col justify-center p-6 sm:p-8 lg:p-10'>
-                <div className='mb-3 flex items-center gap-3'>
-                  <span className='flex h-10 w-10 shrink-0 items-center justify-center text-navy'>
-                    <TechnicalIcon name={serviceIcons[index]} />
-                  </span>
-                  <h3 className='text-lg font-semibold text-navy'>
-                    {service.title}
-                  </h3>
-                </div>
-                <p className='text-[14px] leading-relaxed text-steel-gray'>
-                  {service.summary}
-                </p>
-                <ul className='mt-5 grid gap-2 sm:grid-cols-2'>
-                  {service.items.map((item) => (
-                    <li
-                      key={item}
-                      className="text-[13px] text-navy before:mr-1.5 before:text-brand before:content-['▸']"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </article>
+            />
           ))}
+          <div
+            className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/75 via-transparent to-navy/15'
+            aria-hidden
+          />
+          <div className='absolute top-0 right-0 h-12 w-12 border-t-2 border-r-2 border-accent sm:h-14 sm:w-14' />
+          <div className='absolute inset-x-0 bottom-0 p-4 sm:p-5'>
+            <p className='text-[11px] font-semibold tracking-[0.18em] text-accent uppercase'>
+              {String(active + 1).padStart(2, '0')} — {current?.title}
+            </p>
+          </div>
+        </div>
+
+        <div className='mt-6 grid gap-1 border-t border-white/15 sm:grid-cols-2 lg:grid-cols-4'>
+          {blocks.map((service, index) => {
+            const isActive = active === index;
+            return (
+              <button
+                key={service.title}
+                type='button'
+                onClick={() => setActive(index)}
+                onMouseEnter={() => setActive(index)}
+                className={`border-b border-white/15 px-0 py-4 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/15 lg:px-4 lg:py-5 lg:last:border-r-0 ${
+                  isActive ? 'text-white' : 'text-white/40 hover:text-white/70'
+                }`}
+              >
+                <span
+                  className={`block text-[11px] font-semibold tracking-[0.16em] ${
+                    isActive ? 'text-accent' : 'text-white/25'
+                  }`}
+                >
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <span className='mt-1.5 block text-[14px] leading-snug font-semibold tracking-[-0.01em] sm:text-[15px]'>
+                  {service.title}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className='mt-6 grid gap-6 border-t border-white/15 pt-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
+          <p className='max-w-lg text-[14px] leading-relaxed text-white/65'>
+            {current?.summary}
+          </p>
+          <ul className='grid gap-x-6 gap-y-1.5 sm:grid-cols-2'>
+            {current?.items.map((item) => (
+              <li
+                key={item}
+                className='text-[13px] leading-snug text-white/80 before:mr-2 before:text-accent before:content-["▸"]'
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

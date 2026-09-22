@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { SectionLabel } from '@/components/section-label';
 
 type Industry = {
   title: string;
@@ -9,14 +8,14 @@ type Industry = {
 };
 
 const industryImages = [
-  { src: '/client/industry-offshore.jpg', position: 'object-center' },
-  { src: '/client/industry-pipeline.jpg', position: 'object-center' },
-  { src: '/client/industry-oilgas.jpg', position: 'object-[center_68%]' },
-  { src: '/client/industry-chemical.jpg', position: 'object-[center_42%]' },
-  { src: '/client/industry-energy.jpg', position: 'object-center' },
-  { src: '/client/industry-epc.jpg', position: 'object-[center_48%]' },
-  { src: '/client/industry-construction.jpg', position: 'object-[center_30%]' },
-  { src: '/client/industry-maintenance.jpg', position: 'object-[center_12%]' },
+  '/client/industry-offshore.jpg',
+  '/client/industry-pipeline.jpg',
+  '/client/industry-oilgas.jpg',
+  '/client/industry-chemical.jpg',
+  '/client/industry-energy.jpg',
+  '/client/industry-epc.jpg',
+  '/client/industry-construction.jpg',
+  '/client/industry-maintenance.jpg',
 ];
 
 export function IndustriesSection() {
@@ -25,43 +24,49 @@ export function IndustriesSection() {
 
   return (
     <section id='industries' className='bg-white'>
-      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
-        <div className='max-w-2xl'>
-          <SectionLabel>{t('label')}</SectionLabel>
-          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
-            {t('title')}
-          </h2>
-          <p className='mt-4 text-[15px] leading-relaxed text-steel-gray'>
+      <div className='pq-shell py-20 lg:py-28'>
+        <div className='grid gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:items-end'>
+          <div>
+            <p className='pq-index'>05 — {t('label')}</p>
+            <h2 className='mt-4 text-navy'>{t('title')}</h2>
+          </div>
+          <p className='max-w-xl text-[15px] leading-relaxed text-steel-gray lg:justify-self-end lg:text-right'>
             {t('intro')}
           </p>
         </div>
-        <div className='mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4'>
+
+        <div className='mt-14 space-y-0 border-t border-navy/10'>
           {items.map((item, index) => (
             <article
               key={item.title}
-              className='flex h-full flex-col overflow-hidden border border-line bg-light-gray'
+              className='group grid items-center gap-6 border-b border-navy/10 py-8 sm:gap-8 lg:grid-cols-2 lg:gap-12'
             >
-              <div className='relative aspect-[4/5] bg-navy'>
-                <img
-                  src={industryImages[index].src}
-                  alt={item.title}
-                  className={`absolute inset-0 h-full w-full object-cover ${industryImages[index].position}`}
-                />
+              <div className='flex gap-4 sm:gap-6'>
+                <p className='pq-display shrink-0 text-[2rem] leading-none text-navy/10 transition-colors duration-400 group-hover:text-accent/40 sm:text-[2.25rem]'>
+                  {String(index + 1).padStart(2, '0')}
+                </p>
+                <div className='min-w-0'>
+                  <h3 className='text-[1.35rem] font-bold tracking-tight text-navy'>
+                    {item.title}
+                  </h3>
+                  <ul className='mt-4 columns-1 gap-x-8 sm:columns-2'>
+                    {item.items.map((entry) => (
+                      <li
+                        key={entry}
+                        className='mb-1.5 break-inside-avoid text-[13px] text-steel-gray'
+                      >
+                        {entry}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className='flex flex-1 flex-col p-5'>
-                <h3 className='text-[15px] font-semibold text-navy'>
-                  {item.title}
-                </h3>
-                <ul className='mt-3 space-y-1.5'>
-                  {item.items.map((entry) => (
-                    <li
-                      key={entry}
-                      className="text-[12px] leading-snug text-steel-gray before:mr-1.5 before:text-brand before:content-['▸']"
-                    >
-                      {entry}
-                    </li>
-                  ))}
-                </ul>
+              <div className='relative aspect-[4/3] w-full overflow-hidden bg-light-gray'>
+                <img
+                  src={industryImages[index]}
+                  alt={item.title}
+                  className='absolute inset-0 h-full w-full object-cover object-center'
+                />
               </div>
             </article>
           ))}

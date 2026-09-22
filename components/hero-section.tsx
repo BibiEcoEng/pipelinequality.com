@@ -4,54 +4,61 @@ import { useTranslations } from 'next-intl';
 
 export function HeroSection() {
   const t = useTranslations('hero');
-  const chips = t.raw('chips') as string[];
 
   return (
     <section
-      className='relative min-h-[82vh] overflow-hidden bg-navy-deep text-white'
       id='home'
+      className='relative min-h-[100svh] overflow-hidden bg-navy-deep text-white'
     >
       <img
         src='/client/hero-offshore.jpg'
         alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full object-cover object-center'
+        className='absolute inset-0 h-full w-full object-cover object-[68%_center] scale-105'
       />
-      <div className='absolute inset-0 bg-navy-deep/55' />
-      <div className='relative mx-auto flex min-h-[82vh] max-w-7xl flex-col justify-center px-5 py-20 lg:px-8'>
-        <div className='max-w-3xl'>
-          <div className='mb-5 flex items-center gap-3'>
-            <span className='h-px w-10 bg-accent' />
-            <p className='text-[12px] font-semibold tracking-[0.2em] text-white/75 uppercase'>
-              {t('tagline')}
+      <div className='absolute inset-0 bg-[linear-gradient(105deg,rgba(1,26,61,0.92)_0%,rgba(1,26,61,0.78)_38%,rgba(1,26,61,0.28)_62%,rgba(1,26,61,0.15)_100%)]' />
+      <div className='absolute inset-y-0 left-0 hidden w-px bg-white/15 lg:block' />
+      <div className='absolute inset-y-0 right-0 hidden w-px bg-white/15 lg:block' />
+
+      <div className='relative flex min-h-[100svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:justify-center lg:pb-20 lg:pt-24'>
+        <div className='pq-shell'>
+          <div className='max-w-[42rem]'>
+            <p className='pq-fade-up pq-display text-[clamp(2.6rem,8vw,5.6rem)] text-white'>
+              Pipeline
+              <span className='block text-accent'>Quality</span>
             </p>
+
+            <div className='pq-fade-up pq-fade-up-delay-1 mt-6 h-px w-24 bg-accent pq-line-grow sm:mt-8' />
+
+            <h1 className='pq-fade-up pq-fade-up-delay-1 mt-6 max-w-xl text-[clamp(1.35rem,2.6vw,2rem)] leading-[1.15] font-semibold tracking-[-0.02em] text-white/95'>
+              {t('titleLine1')} {t('titleLine2')}
+            </h1>
+
+            <p className='pq-fade-up pq-fade-up-delay-2 mt-5 max-w-md text-[15px] leading-relaxed text-white/75'>
+              {t('subtitle')}
+              <span className='mt-1 block text-white/55'>{t('subtitleLine2')}</span>
+            </p>
+
+            <div className='pq-fade-up pq-fade-up-delay-3 mt-9 flex flex-wrap items-center gap-x-8 gap-y-4'>
+              <a href='#contact' className='pq-btn'>
+                {t('cta1')}
+              </a>
+              <a href='#network' className='pq-btn-ghost text-white'>
+                {t('cta2')}
+              </a>
+            </div>
           </div>
-          <h1 className='text-4xl leading-[1.08] font-bold tracking-tight text-white sm:text-5xl lg:text-[3.5rem]'>
-            {t('titleLine1')}
-            <span className='mt-2 block'>{t('titleLine2')}</span>
-          </h1>
-          <p className='mt-6 max-w-xl text-[15px] leading-relaxed text-white/88 sm:text-base'>
-            {t('subtitle')}
-            <br />
-            {t('subtitleLine2')}
-          </p>
-          <div className='mt-8 flex flex-wrap gap-3'>
-            <a
-              href='#contact'
-              className='inline-flex items-center justify-center bg-accent px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-white uppercase transition hover:bg-accent-hover'
-            >
-              {t('cta1')}
-            </a>
-            <a
-              href='#network'
-              className='inline-flex items-center justify-center border border-white/50 bg-white/5 px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-white uppercase transition hover:border-white hover:bg-white/10'
-            >
-              {t('cta2')}
-            </a>
-          </div>
-          <div className='mt-10 flex flex-wrap gap-x-5 gap-y-2 border-t border-white/20 pt-5 text-[11px] font-medium tracking-[0.08em] text-white/70 uppercase'>
-            {chips.map((chip) => (
-              <span key={chip}>{chip}</span>
-            ))}
+        </div>
+
+        <div className='pq-shell mt-14 hidden lg:block'>
+          <div className='flex items-end justify-between border-t border-white/15 pt-5'>
+            <p className='max-w-xs text-[12px] leading-relaxed tracking-[0.04em] text-white/45'>
+              {t('availability')}
+            </p>
+            <div className='flex gap-8 text-[11px] font-semibold tracking-[0.16em] text-white/40 uppercase'>
+              <span>EU · DE</span>
+              <span>QA / QC</span>
+              <span>Field → Handover</span>
+            </div>
           </div>
         </div>
       </div>

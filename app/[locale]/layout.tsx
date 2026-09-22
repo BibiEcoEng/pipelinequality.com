@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: meta.title,
         description: meta.description,
         icons: {
-            icon: '/pipleline-fav-icon.png',
-            apple: '/pipleline-fav-icon.png',
+            icon: '/logo-mark.png',
+            apple: '/logo-mark.png',
         },
         other: {
             'font-family': 'Montserrat',

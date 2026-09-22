@@ -77,8 +77,8 @@
     "imageAlt": "Industrial project experience in fabrication and inspection",
     "paragraph1": "Recent project experience includes offshore wind foundation manufacturing in the Netherlands. Our expertise is built on the professional project experience of our founder and our network of qualified specialists.",
     "paragraph2": "Professional experience includes project environments associated with BASF, Bayernoil, Chemiepark Marl, INEOS and other large-scale industrial and energy projects.",
-    "paragraph3": "Experience gained through professional involvement in large-scale industrial projects, including projects associated with companies such as:",
-    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS and other large-scale industrial and energy projects.",
+    "paragraph3": "",
+    "companies": "",
     "label": "Experience",
     "offshoreTitle": "Offshore Wind",
     "offshoreText": "Foundation manufacturing, monopiles, transition pieces, welding, NDT, dimensional control, client inspection, production support and quality documentation.",
@@ -87,7 +87,7 @@
   },
   "services": {
     "title": "Services",
-    "description": "Four major service blocks — structured for industrial projects, not one long text list.",
+    "description": "QA/QC engineering, inspection, production support and documentation, scoped to the project.",
     "scopeTitle": "QA/QC Engineering + Inspection + Production Support + Documentation",
     "paragraph1": "",
     "paragraph2": "",
@@ -389,7 +389,7 @@
       "Maintenance, shutdowns and revamp projects"
     ],
     "experienceNote": "Our experience includes large-scale industrial projects executed under strict quality and safety requirements across Europe and worldwide.",
-    "intro": "Offshore wind added prominently, while retaining useful industrial and pipeline scope from the existing website.",
+    "intro": "Quality support across offshore wind, pipelines, energy and industrial construction.",
     "more": "more",
     "sectors": [
       {
@@ -618,7 +618,7 @@
       "errorTitle": "Error",
       "errorMessage": "Something went wrong. Please try again or contact us via email.",
       "required": "Required field",
-      "disclaimer": "We provide remote documentation, preparation and quality support. On-site services are available upon request via partners.",
+      "disclaimer": "Pipeline Quality supports field execution and documentation — on site, remotely, or as a combined setup according to the project.",
       "privacyNote": "Privacy Note: Your documents are transmitted via an encrypted SSL connection. Your data is used solely for service delivery and is deleted upon project completion in compliance with GDPR. Server location: Frankfurt, Germany."
     },
     "whatsapp": {

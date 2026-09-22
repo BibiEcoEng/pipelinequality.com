@@ -6,15 +6,12 @@ export function SectionLabel({
   light?: boolean
 }) {
   return (
-    <div className="mb-3 flex items-center gap-3">
-      <span className="h-px w-8 bg-accent" />
-      <p
-        className={`text-[12px] font-semibold tracking-[0.18em] uppercase ${
-          light ? 'text-white/70' : 'text-brand'
-        }`}
-      >
-        {children}
-      </p>
-    </div>
+    <p
+      className={`mb-4 text-[11px] font-bold tracking-[0.18em] uppercase ${
+        light ? 'text-accent' : 'text-accent'
+      }`}
+    >
+      {children}
+    </p>
   )
 }

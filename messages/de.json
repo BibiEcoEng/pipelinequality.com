@@ -77,8 +77,8 @@
     "imageAlt": "Industrieprojekte in Fertigung und Inspektion",
     "paragraph1": "Zur aktuellen Projekterfahrung gehört die Fertigung von Offshore-Wind-Fundamenten in den Niederlanden. Unsere Kompetenz basiert auf der beruflichen Projekterfahrung unserer Gründerin und unseres Netzwerks qualifizierter Fachkräfte.",
     "paragraph2": "Die berufliche Erfahrung umfasst Projektumfelder im Zusammenhang mit BASF, Bayernoil, Chemiepark Marl, INEOS und weiteren großindustriellen Industrie- und Energieprojekten.",
-    "paragraph3": "Erfahrung aus der beruflichen Mitwirkung an großvolumigen Industrieprojekten, einschließlich Projekten im Umfeld von Unternehmen wie:",
-    "companies": "BASF, Bayernoil, Chemiepark Marl, INEOS und weiteren großindustriellen Industrie- und Energieprojekten.",
+    "paragraph3": "",
+    "companies": "",
     "label": "Erfahrung",
     "offshoreTitle": "Offshore-Wind",
     "offshoreText": "Fundamentsfertigung, Monopiles, Transition Pieces, Schweißen, ZfP, Maßkontrolle, Kundeninspektion, Fertigungsbegleitung und Qualitätsdokumentation.",
@@ -87,7 +87,7 @@
   },
   "services": {
     "title": "Leistungen",
-    "description": "Vier zentrale Leistungsblöcke — strukturiert für Industrieprojekte, keine lange Textliste.",
+    "description": "QA/QC-Engineering, Inspektion, Produktionsunterstützung und Dokumentation, abgestimmt auf das Projekt.",
     "scopeTitle": "QA/QC Engineering + Inspektion + Fertigungsbegleitung + Dokumentation",
     "paragraph1": "",
     "paragraph2": "",
@@ -390,7 +390,7 @@
       "Wartungs-, Stillstands- und Revamp-Projekte"
     ],
     "experienceNote": "Unsere Erfahrung umfasst Großprojekte mit hohen Qualitäts- und Sicherheitsanforderungen in Europa und weltweit.",
-    "intro": "Offshore-Wind steht klar im Vordergrund, bei Beibehaltung des industriellen und Pipeline-Leistungsumfangs der bestehenden Website.",
+    "intro": "Qualitätsunterstützung für Offshore-Wind, Pipelines, Energie und Industrieanlagenbau.",
     "more": "weitere",
     "sectors": [
       {
@@ -619,7 +619,7 @@
       "errorTitle": "Fehler",
       "errorMessage": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per E-Mail.",
       "required": "Pflichtfeld",
-      "disclaimer": "Wir bieten Remote-Dokumentatio, Vorbereitung und Qualitätsunterstützung an. Vor-Ort-Leistungen sind auf Anfrage über Partner möglich.",
+      "disclaimer": "Pipeline Quality unterstützt Feldausführung und Dokumentation — vor Ort, remote oder kombiniert, je nach Projekt.",
       "privacyNote": "„Datenschutz-Hinweis: Die Übertragung Ihrer Dokumente erfolgt über eine verschlüsselte SSL-Verbindung. Ihre Daten werden ausschließlich zur Erbringung der Dienstleistung verwendet und nach Projektabschluss DSGVO-konform gelöscht. Serverstandort: Frankfurt, Deutschland.“"
     },
     "whatsapp": {

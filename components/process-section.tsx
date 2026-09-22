@@ -15,9 +15,9 @@ export function ProcessSection() {
 
   return (
     <section id='how-we-work' className='bg-white'>
-      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
+      <div className='pq-shell py-20 lg:py-28'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
+        <h2 className='text-3xl font-semibold tracking-tight text-navy sm:text-[2rem]'>
           {t('title')}
         </h2>
         <div className='mt-10 grid gap-8 border-t border-line pt-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8'>

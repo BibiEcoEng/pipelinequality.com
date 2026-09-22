@@ -9,10 +9,10 @@ export function TeamSection() {
 
   return (
     <section id='network' className='bg-white'>
-      <div className='mx-auto max-w-7xl px-5 py-16 lg:grid lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:px-8 lg:py-20'>
+      <div className='pq-shell grid py-20 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-28'>
         <div>
           <SectionLabel>{t('label')}</SectionLabel>
-          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
+          <h2 className='text-3xl font-semibold tracking-tight text-navy sm:text-[2rem]'>
             {t('title')}
           </h2>
           <p className='mt-5 text-[15px] leading-relaxed text-steel-gray'>

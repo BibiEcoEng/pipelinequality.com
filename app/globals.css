@@ -4,7 +4,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Pipeline Quality — logo navy + orange */
   --background: #FFFFFF;
   --foreground: #15202B;
   --card: #FFFFFF;
@@ -15,40 +14,41 @@
   --primary-foreground: #FFFFFF;
   --secondary: #5B6B7C;
   --secondary-foreground: #FFFFFF;
-  --muted: #F4F6F8;
+  --muted: #EEF1F4;
   --muted-foreground: #5B6B7C;
-  --accent: #F07000;
+  --accent: #FB7200;
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #D7DEE6;
-  --input: #D7DEE6;
-  --ring: #F07000;
-  --chart-1: #F07000;
+  --border: #C9D2DC;
+  --input: #C9D2DC;
+  --ring: #FB7200;
+  --chart-1: #FB7200;
   --chart-2: #2A5F8F;
   --chart-3: #012A60;
-  --chart-4: #F4F6F8;
+  --chart-4: #EEF1F4;
   --chart-5: #D1D5DB;
-  --radius: 0.125rem;
+  --radius: 0;
   --sidebar: #FFFFFF;
   --sidebar-foreground: #15202B;
   --sidebar-primary: #012A60;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #F4F6F8;
+  --sidebar-accent: #EEF1F4;
   --sidebar-accent-foreground: #012A60;
-  --sidebar-border: #D7DEE6;
-  --sidebar-ring: #F07000;
+  --sidebar-border: #C9D2DC;
+  --sidebar-ring: #FB7200;
 
   --navy: #012A60;
   --navy-deep: #011A3D;
   --charcoal: #15202B;
   --steel-gray: #5B6B7C;
-  --light-gray: #F4F6F8;
-  --safety-orange: #F07000;
-  --muted-gold: #F07000;
-  --brand: #2A5F8F;
-  --line: #D7DEE6;
-  --accent-hover: #D96200;
+  --light-gray: #EEF1F4;
+  --safety-orange: #FB7200;
+  --muted-gold: #FB7200;
+  --brand: #012A60;
+  --line: #C9D2DC;
+  --accent-hover: #E06600;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .dark {
@@ -64,13 +64,13 @@
   --secondary-foreground: #FFFFFF;
   --muted: #374151;
   --muted-foreground: #9CA3AF;
-  --accent: #F07000;
+  --accent: #FB7200;
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
   --border: #374151;
   --input: #374151;
-  --ring: #F07000;
+  --ring: #FB7200;
   --sidebar: #1F2933;
   --sidebar-foreground: #FFFFFF;
   --sidebar-primary: #FFFFFF;
@@ -78,7 +78,7 @@
   --sidebar-accent: #374151;
   --sidebar-accent-foreground: #FFFFFF;
   --sidebar-border: #374151;
-  --sidebar-ring: #F07000;
+  --sidebar-ring: #FB7200;
 }
 
 @theme inline {
@@ -111,10 +111,10 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
@@ -137,6 +137,15 @@
   --color-bg-muted: var(--light-gray);
 }
 
+/* Page content frame — outside Tailwind layers so it always applies */
+.pq-shell {
+  width: 100%;
+  max-width: 72.5rem;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+  box-sizing: border-box;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -151,52 +160,188 @@
     @apply bg-background text-foreground font-sans;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
-  /* Typography hierarchy with fluid sizing */
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply font-sans font-bold text-charcoal;
-    line-height: 1.2;
+    @apply tracking-tight text-balance;
   }
 
   h1 {
-    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(2.4rem, 6vw, 4.75rem);
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
   }
 
   h2 {
-    font-size: clamp(1.75rem, 3.5vw, 3rem);
+    font-size: clamp(1.85rem, 3.8vw, 3.25rem);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
   }
 
   h3 {
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1.1rem, 1.4vw, 1.35rem);
+    font-weight: 600;
   }
 
   h4 {
-    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-size: clamp(1.125rem, 2vw, 1.5rem);
+    font-weight: 600;
   }
 
   h5 {
-    font-size: clamp(1.125rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 600;
   }
 
   h6 {
     font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 600;
   }
 
   p {
     @apply leading-relaxed;
-    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    font-size: clamp(0.9rem, 1.2vw, 1.05rem);
+    font-weight: 400;
   }
 
-  /* Mobile-first readability */
   @media (max-width: 640px) {
     html {
       font-size: 15px;
     }
+  }
+}
+
+@layer components {
+  .pq-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: var(--accent);
+    color: #fff;
+    padding: 1rem 1.35rem;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+    transition: background 0.4s var(--ease-out-expo), transform 0.4s var(--ease-out-expo);
+  }
+  .pq-btn::after {
+    content: "";
+    width: 18px;
+    height: 1.5px;
+    background: currentColor;
+    box-shadow: 6px -4px 0 -0.5px currentColor, 6px 4px 0 -0.5px currentColor;
+    transition: transform 0.4s var(--ease-out-expo), width 0.4s var(--ease-out-expo);
+  }
+  .pq-btn:hover {
+    background: var(--accent-hover);
+    transform: translateX(2px);
+  }
+  .pq-btn:hover::after {
+    width: 26px;
+    transform: translateX(4px);
+  }
+
+  .pq-btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: transparent;
+    color: inherit;
+    padding: 1rem 0;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid currentColor;
+    transition: color 0.35s ease, border-color 0.35s ease, gap 0.35s ease;
+  }
+  .pq-btn-ghost:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    gap: 0.9rem;
+  }
+
+  .pq-burger {
+    position: relative;
+    width: 22px;
+    height: 14px;
+  }
+  .pq-burger span {
+    position: absolute;
+    left: 0;
+    height: 1.5px;
+    background: currentColor;
+    transition: transform 0.45s var(--ease-out-expo), opacity 0.25s ease, top 0.45s var(--ease-out-expo), width 0.45s var(--ease-out-expo);
+  }
+  .pq-burger span:nth-child(1) { top: 0; width: 100%; }
+  .pq-burger span:nth-child(2) { top: 6px; width: 70%; }
+  .pq-burger span:nth-child(3) { top: 12px; width: 100%; }
+  .pq-burger[data-open="true"] span:nth-child(1) {
+    top: 6px;
+    transform: rotate(45deg);
+  }
+  .pq-burger[data-open="true"] span:nth-child(2) {
+    opacity: 0;
+    width: 0;
+  }
+  .pq-burger[data-open="true"] span:nth-child(3) {
+    top: 6px;
+    transform: rotate(-45deg);
+  }
+
+  .pq-index {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+  }
+
+  .pq-display {
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 0.92;
+    text-transform: uppercase;
+  }
+
+  .pq-panel-cut {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 28px), calc(100% - 28px) 100%, 0 100%);
+  }
+
+  .pq-fade-up {
+    animation: pqFadeUp 0.9s var(--ease-out-expo) both;
+  }
+  .pq-fade-up-delay-1 { animation-delay: 0.12s; }
+  .pq-fade-up-delay-2 { animation-delay: 0.24s; }
+  .pq-fade-up-delay-3 { animation-delay: 0.36s; }
+
+  @keyframes pqFadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pqLineGrow {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+
+  .pq-line-grow {
+    transform-origin: left center;
+    animation: pqLineGrow 1s var(--ease-out-expo) 0.4s both;
   }
 }

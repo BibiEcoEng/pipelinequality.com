@@ -3,25 +3,32 @@
 import { useTranslations } from 'next-intl';
 import { ContactForm } from './contact-form';
 
-
 export function ContactSection() {
   const t = useTranslations('contact');
 
   return (
-    <section className='border-t border-line bg-white py-16 lg:py-20' id='contact'>
-      <div className='mx-auto max-w-7xl px-5 lg:px-8'>
-        <div className='mb-10 max-w-3xl'>
-          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
-            {t('title')}
-          </h2>
-          <p className='mt-4 text-[15px] leading-relaxed text-steel-gray'>
-            {t('description')}
-          </p>
-        </div>
-
-        {/* Contact Form - Full Width */}
-        <div className='max-w-3xl mx-auto'>
-          <ContactForm />
+    <section className='bg-light-gray' id='contact'>
+      <div className='pq-shell py-20 lg:py-28'>
+        <div className='grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20'>
+          <div>
+            <p className='pq-index'>Contact</p>
+            <h2 className='mt-4 text-navy'>{t('title')}</h2>
+            <p className='mt-5 text-[15px] leading-relaxed text-steel-gray'>
+              {t('description')}
+            </p>
+            <div className='mt-10 space-y-3 border-t border-navy/10 pt-8'>
+              <a
+                href='mailto:info@pipelinequality.com'
+                className='block text-[18px] font-semibold text-navy transition hover:text-accent'
+              >
+                info@pipelinequality.com
+              </a>
+              <p className='text-[13px] text-steel-gray'>{t('subtitle')}</p>
+            </div>
+          </div>
+          <div className='bg-white p-6 sm:p-8 lg:p-10'>
+            <ContactForm />
+          </div>
         </div>
       </div>
     </section>

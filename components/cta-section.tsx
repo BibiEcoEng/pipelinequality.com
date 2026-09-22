@@ -1,42 +1,32 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { SectionLabel } from '@/components/section-label';
 
 export function CTASection() {
   const t = useTranslations('cta');
 
   return (
-    <section className='bg-light-gray'>
-      <div className='mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20'>
-        <div className='max-w-3xl'>
-          <SectionLabel>{t('label')}</SectionLabel>
-          <h2 className='text-3xl font-bold tracking-tight text-navy sm:text-[2rem]'>
-            {t('title')}
-          </h2>
-          <p className='mt-5 text-[15px] leading-relaxed text-steel-gray'>
+    <section className='relative overflow-hidden bg-accent'>
+      <div className='pq-shell grid gap-10 py-16 lg:grid-cols-[1.4fr_0.6fr] lg:items-center lg:py-20'>
+        <div>
+          <p className='text-[11px] font-bold tracking-[0.18em] text-white/70 uppercase'>
+            {t('label')}
+          </p>
+          <h2 className='mt-4 max-w-3xl text-white'>{t('title')}</h2>
+          <p className='mt-5 max-w-2xl text-[15px] leading-relaxed text-white/80'>
             {t('description')}
           </p>
-          <div className='mt-8 flex flex-wrap gap-3'>
-            <a
-              href='#contact'
-              className='inline-flex items-center justify-center bg-accent px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-white uppercase transition hover:bg-accent-hover'
-            >
-              {t('button1')}
-            </a>
-            <a
-              href='#contact'
-              className='inline-flex items-center justify-center border border-navy/15 bg-white px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-navy uppercase transition hover:border-navy/30'
-            >
-              {t('button2')}
-            </a>
-            <a
-              href='#network'
-              className='inline-flex items-center justify-center border border-navy/15 bg-white px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-navy uppercase transition hover:border-navy/30'
-            >
-              {t('button3')}
-            </a>
-          </div>
+        </div>
+        <div className='flex flex-col gap-5 lg:items-end'>
+          <a
+            href='#contact'
+            className='inline-flex items-center bg-navy px-6 py-4 text-[11px] font-bold tracking-[0.14em] text-white uppercase transition hover:bg-navy-deep'
+          >
+            {t('button1')}
+          </a>
+          <a href='#network' className='pq-btn-ghost text-white'>
+            {t('button3')}
+          </a>
         </div>
       </div>
     </section>
