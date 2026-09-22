@@ -25,31 +25,37 @@ export function SmartQAQCSection() {
             </a>
           </div>
         </div>
-        <div className='grid grid-cols-2 gap-3 lg:gap-4'>
+
+        <div className='grid grid-cols-2 items-stretch gap-3 lg:gap-4'>
           <div className='relative aspect-[3/4] overflow-hidden'>
             <img
               src='/client/bw-field.jpg'
               alt={t('fieldAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/80 to-transparent p-4 pt-12'>
-              <p className='text-[11px] font-semibold tracking-[0.18em] text-white uppercase'>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/85 to-transparent px-3 pb-3 pt-14'>
+              <p className='text-[10px] font-semibold tracking-[0.16em] text-white uppercase'>
                 {t('fieldLabel')}
               </p>
-              <p className='mt-1 pq-subtitle text-white/90'>{t('fieldText')}</p>
+              <p className='mt-1 text-[12px] leading-snug text-white/90'>
+                {t('fieldText')}
+              </p>
             </div>
           </div>
-          <div className='relative aspect-[3/4] overflow-hidden self-end'>
+
+          <div className='relative aspect-[3/4] overflow-hidden'>
             <img
               src='/client/bw-digital.jpg'
               alt={t('docsAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/80 to-transparent p-4 pt-12'>
-              <p className='text-[11px] font-semibold tracking-[0.18em] text-white uppercase'>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/85 to-transparent px-3 pb-3 pt-14'>
+              <p className='text-[10px] font-semibold tracking-[0.16em] text-white uppercase'>
                 {t('docsLabel')}
               </p>
-              <p className='mt-1 pq-subtitle text-white/90'>{t('docsText')}</p>
+              <p className='mt-1 text-[12px] leading-snug text-white/90'>
+                {t('docsText')}
+              </p>
             </div>
           </div>
         </div>
