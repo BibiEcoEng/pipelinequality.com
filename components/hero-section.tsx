@@ -13,9 +13,13 @@ export function HeroSection() {
       <img
         src='/client/hero-offshore.jpg'
         alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full object-cover object-[72%_center] sm:object-[65%_center] lg:object-center'
+        className='absolute inset-0 h-full w-full object-cover object-[78%_center] sm:object-[70%_center] lg:object-[62%_center]'
       />
-      <div className='absolute inset-0 bg-[linear-gradient(105deg,rgba(1,26,61,0.92)_0%,rgba(1,26,61,0.78)_38%,rgba(1,26,61,0.28)_62%,rgba(1,26,61,0.15)_100%)]' />
+      {/* Solid navy behind copy so text never sits on bright yellow highlights */}
+      <div
+        className='absolute inset-0 bg-[linear-gradient(105deg,#012A60_0%,#012A60_42%,rgba(1,42,96,0.88)_58%,rgba(1,42,96,0.35)_78%,rgba(1,42,96,0.2)_100%)]'
+        aria-hidden
+      />
       <div className='absolute inset-y-0 left-0 hidden w-px bg-white/15 lg:block' />
       <div className='absolute inset-y-0 right-0 hidden w-px bg-white/15 lg:block' />
 
@@ -29,14 +33,14 @@ export function HeroSection() {
 
             <div className='pq-fade-up pq-fade-up-delay-1 mt-6 h-px w-24 bg-accent pq-line-grow sm:mt-8' />
 
-            <h1 className='pq-fade-up pq-fade-up-delay-1 mt-6 max-w-xl text-white/95'>
+            <h1 className='pq-fade-up pq-fade-up-delay-1 mt-6 max-w-xl text-white'>
               {t('titleLine1')} {t('titleLine2')}
             </h1>
 
-            <p className='pq-fade-up pq-fade-up-delay-2 pq-subtitle mt-5 max-w-md text-white/80'>
-              {t('subtitle')}
-              <span className='mt-1 block text-white/65'>{t('subtitleLine2')}</span>
-            </p>
+            <div className='pq-fade-up pq-fade-up-delay-2 pq-subtitle mt-5 max-w-md space-y-1.5 text-white/85'>
+              <p>{t('subtitle')}</p>
+              <p>{t('subtitleLine2')}</p>
+            </div>
 
             <div className='pq-fade-up pq-fade-up-delay-3 mt-9 flex flex-wrap items-center gap-x-8 gap-y-4'>
               <a href='#contact' className='pq-btn'>
