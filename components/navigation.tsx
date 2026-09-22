@@ -97,18 +97,24 @@ export function Navigation() {
             href='#home'
             onClick={handleSmoothScroll}
             className='group flex shrink-0 items-center gap-3'
+            aria-label='Pipeline Quality'
           >
             <img
               src={onDark ? '/logo-mark-white.png' : '/logo-mark.png'}
-              alt='Pipeline Quality'
-              className='h-10 w-auto object-contain sm:h-11'
+              alt=''
+              className='h-11 w-auto object-contain sm:h-12'
             />
-            <span
-              className={`max-w-[9.5rem] truncate text-[10px] font-bold tracking-[0.14em] uppercase sm:max-w-none sm:text-[11px] sm:tracking-[0.18em] ${
-                onDark ? 'text-white' : 'text-navy'
-              }`}
-            >
-              Pipeline Quality
+            <span className='flex flex-col leading-[1.05]'>
+              <span
+                className={`text-[13px] font-bold tracking-[0.16em] uppercase sm:text-[15px] sm:tracking-[0.18em] ${
+                  onDark ? 'text-white' : 'text-navy'
+                }`}
+              >
+                Pipeline
+              </span>
+              <span className='text-[13px] font-bold tracking-[0.16em] text-accent uppercase sm:text-[15px] sm:tracking-[0.18em]'>
+                Quality
+              </span>
             </span>
           </a>
 

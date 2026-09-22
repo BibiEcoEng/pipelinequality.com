@@ -22,11 +22,15 @@ export function HeroSection() {
 
       <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[72vh] lg:justify-center lg:pb-14 lg:pt-20'>
         <div className='pq-shell'>
-          <div className='max-w-[40rem]'>
-            <h1 className='pq-fade-up text-[clamp(1.85rem,4.5vw,2.75rem)] leading-[1.1] font-semibold tracking-[-0.025em] text-white lg:text-[clamp(1.75rem,2.4vw,2.35rem)]'>
+          <div className='max-w-[42rem]'>
+            <h1 className='pq-hero-brand pq-fade-up text-[clamp(2.5rem,8vw,3.75rem)] leading-[0.98] font-semibold tracking-[-0.035em] text-white'>
+              {t('brand')}
+            </h1>
+
+            <p className='pq-fade-up pq-fade-up-delay-1 mt-4 max-w-2xl text-[clamp(1.2rem,3vw,1.6rem)] leading-[1.2] font-semibold tracking-[-0.02em] text-white lg:mt-5 lg:text-[1.35rem]'>
               {t('titleLine1')}
               <span className='block'>{t('titleLine2')}</span>
-            </h1>
+            </p>
 
             <div className='pq-fade-up pq-fade-up-delay-1 mt-5 h-px w-20 bg-accent pq-line-grow lg:mt-6' />
 
