@@ -25,14 +25,9 @@ export function ServicesOverview() {
   return (
     <section id='services' className='bg-navy text-white'>
       <div className='pq-shell py-20 lg:py-28'>
-        <div className='grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end'>
-          <div>
-            <p className='pq-index'>02 — {t('title')}</p>
-            <h2 className='mt-4 max-w-3xl text-white'>{t('scopeTitle')}</h2>
-          </div>
-          <p className='max-w-sm pq-subtitle text-white/80 lg:text-right'>
-            {t('description')}
-          </p>
+        <div>
+          <p className='pq-index'>02 — {t('title')}</p>
+          <h2 className='mt-4 max-w-3xl text-white'>{t('scopeTitle')}</h2>
         </div>
 
         <div className='relative mt-10 aspect-[21/9] overflow-hidden sm:mt-12 lg:aspect-[2.4/1]'>
