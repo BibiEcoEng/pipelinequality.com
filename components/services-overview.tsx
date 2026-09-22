@@ -12,7 +12,7 @@ type ServiceBlock = {
 const serviceImages = [
   '/client/service-engineering.jpg',
   '/client/service-welding.jpg',
-  '/client/service-docs.jpg?v=2',
+  '/client/service-docs.jpg?v=3',
   '/client/service-project.jpg',
 ];
 
