@@ -8,14 +8,14 @@ type Industry = {
 };
 
 const industryImages = [
-  '/client/industry-offshore.jpg',
-  '/client/industry-pipeline.jpg?v=2',
-  '/client/industry-oilgas.jpg',
-  '/client/industry-chemical.jpg?v=2',
-  '/client/industry-energy.jpg',
-  '/client/industry-epc.jpg',
-  '/client/industry-construction.jpg',
-  '/client/industry-maintenance.jpg',
+  '/client/industry-offshore.jpg?v=3',
+  '/client/industry-pipeline.jpg?v=3',
+  '/client/industry-oilgas.jpg?v=3',
+  '/client/industry-chemical.jpg?v=3',
+  '/client/industry-energy.jpg?v=3',
+  '/client/industry-epc.jpg?v=3',
+  '/client/industry-construction.jpg?v=3',
+  '/client/industry-maintenance.jpg?v=3',
 ];
 
 export function IndustriesSection() {
@@ -39,19 +39,19 @@ export function IndustriesSection() {
           {items.map((item, index) => (
             <article
               key={item.title}
-              className='group grid items-center gap-6 border-b border-navy/10 py-8 sm:gap-8 lg:grid-cols-2 lg:gap-12'
+              className='group grid items-start gap-6 border-b border-navy/10 py-8 sm:gap-8 lg:grid-cols-2 lg:items-center lg:gap-12'
             >
               <div className='flex gap-4 sm:gap-6'>
                 <p className='pq-display shrink-0 text-[2rem] leading-none text-navy/10 transition-colors duration-400 group-hover:text-accent/40 sm:text-[2.25rem]'>
                   {String(index + 1).padStart(2, '0')}
                 </p>
-                <div className='min-w-0'>
+                <div className='min-w-0 flex-1'>
                   <h3 className='text-navy'>{item.title}</h3>
-                  <ul className='mt-4 columns-1 gap-x-8 sm:columns-2'>
+                  <ul className='mt-4 space-y-2'>
                     {item.items.map((entry) => (
                       <li
                         key={entry}
-                        className='mb-1.5 break-inside-avoid text-[13px] text-steel-gray'
+                        className='pq-subtitle text-steel-gray'
                       >
                         {entry}
                       </li>
