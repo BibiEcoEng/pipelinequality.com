@@ -6,15 +6,15 @@ export function SmartQAQCSection() {
   const t = useTranslations('smartQAQC');
 
   return (
-    <section id='bw-digit' className='bg-white'>
-      <div className='pq-shell grid gap-12 py-20 lg:grid-cols-2 lg:items-center lg:gap-16 lg:py-28'>
+    <section id='bw-digit' className='border-t border-line bg-light-gray'>
+      <div className='pq-shell grid gap-8 py-12 sm:gap-10 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-16 lg:py-24'>
         <div>
           <p className='pq-index'>{t('label')}</p>
-          <h2 className='mt-4 text-navy'>{t('title')}</h2>
-          <p className='mt-5 max-w-lg pq-subtitle text-steel-gray'>
+          <h2 className='mt-3 text-navy'>{t('title')}</h2>
+          <p className='mt-4 max-w-lg pq-subtitle text-steel-gray'>
             {t('description')}
           </p>
-          <div className='mt-8'>
+          <div className='mt-7'>
             <a
               href='https://www.bwdigit.com'
               target='_blank'

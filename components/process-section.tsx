@@ -15,14 +15,14 @@ export function ProcessSection() {
 
   return (
     <section id='how-we-work' className='bg-white'>
-      <div className='pq-shell py-20 lg:py-28'>
+      <div className='pq-shell pt-16 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='text-navy'>{t('title')}</h2>
-        <div className='mt-10 grid gap-8 border-t border-line pt-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8'>
+        <div className='mt-8 grid gap-6 border-t border-line pt-8 sm:grid-cols-2 sm:gap-8 lg:grid-cols-5'>
           {steps.map((step, index) => (
             <div key={step.id} className='relative min-w-0'>
               <div className='pq-index'>{step.id}</div>
-              <div className='mt-3 flex items-center'>
+              <div className='mt-2 flex items-center'>
                 <h3 className='shrink-0 text-navy'>{step.title}</h3>
                 {index < steps.length - 1 && (
                   <span
@@ -33,12 +33,15 @@ export function ProcessSection() {
                   </span>
                 )}
               </div>
-              <p className='mt-3 pq-subtitle text-steel-gray'>
-                {step.text}
-              </p>
+              <p className='mt-2 pq-subtitle text-steel-gray'>{step.text}</p>
             </div>
           ))}
         </div>
+        {t('tagline') ? (
+          <p className='mt-8 max-w-xl border-t border-line pt-6 pq-subtitle font-semibold text-navy'>
+            {t('tagline')}
+          </p>
+        ) : null}
       </div>
     </section>
   );
