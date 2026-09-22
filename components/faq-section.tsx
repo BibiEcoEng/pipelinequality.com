@@ -16,8 +16,8 @@ export function FAQSection() {
 
       <div className='pq-shell relative py-20 lg:py-28'>
         <div className='max-w-xl'>
-          <p className='pq-index'>Ask</p>
-          <h2 className='mt-4 text-white'>{t('title')}</h2>
+          <p className='pq-index'>15 — {t('title')}</p>
+          <h2 className='mt-3 text-white'>{t('title')}</h2>
         </div>
 
         <div className='mt-14 border-t border-white/15'>

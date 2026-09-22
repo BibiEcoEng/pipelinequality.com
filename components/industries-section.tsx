@@ -25,7 +25,7 @@ export function IndustriesSection() {
   return (
     <section id='industries' className='bg-white'>
       <div className='pq-shell py-14 sm:py-16 lg:py-18'>
-        <p className='pq-index'>05 — {t('label')}</p>
+        <p className='pq-index'>06 — {t('label')}</p>
         <h2 className='mt-4 text-navy'>{t('title')}</h2>
 
         <div className='mt-12 space-y-0 border-t border-navy/10'>

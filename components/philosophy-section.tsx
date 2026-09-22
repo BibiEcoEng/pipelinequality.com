@@ -8,7 +8,7 @@ export function PhilosophySection() {
   return (
     <section className='bg-navy text-white'>
       <div className='pq-shell py-14 sm:py-16 lg:py-18'>
-        <p className='pq-index text-accent'>04 — {t('label')}</p>
+        <p className='pq-index text-accent'>05 — {t('label')}</p>
         <div className='mt-6 max-w-3xl'>
           <h2 className='text-white'>{t('title')}</h2>
           <div className='mt-6 space-y-4 pq-subtitle text-white/80'>

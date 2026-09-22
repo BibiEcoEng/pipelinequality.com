@@ -11,7 +11,7 @@ export function ExperienceSection() {
 
       <div className='pq-shell relative py-14 sm:py-16 lg:py-18'>
         <div className='max-w-2xl'>
-          <p className='pq-index'>06 — {t('label')}</p>
+          <p className='pq-index'>07 — {t('label')}</p>
           <h2 className='mt-4 text-white'>{t('title')}</h2>
           <p className='mt-6 pq-subtitle text-white/80'>
             {t('paragraph1')}

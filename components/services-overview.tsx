@@ -20,12 +20,13 @@ export function ServicesOverview() {
   const [active, setActive] = useState(0);
   const t = useTranslations('services');
   const blocks = t.raw('blocks') as ServiceBlock[];
+  const current = blocks[active];
 
   return (
     <section id='services' className='bg-navy text-white'>
       <div className='pq-shell py-14 sm:py-16 lg:py-18'>
         <div>
-          <p className='pq-index'>02</p>
+          <p className='pq-index'>02 — {t('title')}</p>
           <h2 className='mt-3 max-w-3xl text-white'>{t('title')}</h2>
         </div>
 
@@ -56,35 +57,36 @@ export function ServicesOverview() {
                 type='button'
                 onClick={() => setActive(index)}
                 onMouseEnter={() => setActive(index)}
-                className={`border-b border-white/25 px-0 py-4 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-5 lg:last:border-r-0 ${
-                  isActive ? 'text-white' : 'text-white/70 hover:text-white'
+                className={`border-b border-white/25 px-0 py-3 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-4 lg:last:border-r-0 ${
+                  isActive ? 'text-white' : 'text-white/75 hover:text-white'
                 }`}
               >
                 <span
                   className={`block text-[11px] font-semibold tracking-[0.16em] ${
-                    isActive ? 'text-accent' : 'text-white/55'
+                    isActive ? 'text-accent' : 'text-white/70'
                   }`}
                 >
                   {String(index + 1).padStart(2, '0')}
                 </span>
-                <span className='mt-1.5 block min-h-[2.6em] text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
+                <span className='mt-1 block text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
                   {service.title}
                 </span>
-                <ul className='mt-4 space-y-1.5 border-t border-white/15 pt-4'>
-                  {service.items.map((item) => (
-                    <li
-                      key={item}
-                      className={`text-[12px] leading-snug before:mr-2 before:text-accent before:content-["▸"] ${
-                        isActive ? 'text-white/90' : 'text-white/55'
-                      }`}
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
               </button>
             );
           })}
+        </div>
+
+        <div className='mt-4 border-t border-white/25 pt-4'>
+          <ul className='grid gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3'>
+            {current?.items.map((item) => (
+              <li
+                key={item}
+                className='text-[13px] leading-snug text-white before:mr-2 before:text-accent before:content-["▸"]'
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
