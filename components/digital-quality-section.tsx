@@ -20,9 +20,9 @@ export function DigitalQualitySection() {
         <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
           {t('description')}
         </p>
-        <div className='mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3'>
+        <div className='mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3'>
           {blocks.map((block) => (
-            <div key={block.title} className='border-t border-line pt-5'>
+            <div key={block.title} className='border-t border-line pt-4'>
               <h3 className='text-navy'>{block.title}</h3>
               <ul className='mt-3 space-y-1.5'>
                 {block.items.map((item) => (

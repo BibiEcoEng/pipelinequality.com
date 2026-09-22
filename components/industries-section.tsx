@@ -26,13 +26,13 @@ export function IndustriesSection() {
     <section id='industries' className='bg-white'>
       <div className='pq-shell pq-section'>
         <p className='pq-index'>06 — {t('label')}</p>
-        <h2 className='mt-4 text-navy'>{t('title')}</h2>
+        <h2 className='mt-3 text-navy'>{t('title')}</h2>
 
-        <div className='mt-8 space-y-0 border-t border-navy/10 lg:mt-8'>
+        <div className='mt-8 space-y-0 border-t border-navy/10'>
           {items.map((item, index) => (
             <article
               key={item.title}
-              className='grid items-center gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-2 lg:gap-10 lg:py-5'
+              className='grid items-start gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-2 lg:gap-10 lg:py-6'
             >
               <div>
                 <p className='pq-index text-accent/80'>
@@ -47,7 +47,7 @@ export function IndustriesSection() {
                   ))}
                 </ul>
               </div>
-              <div className='relative aspect-[16/9] w-full overflow-hidden bg-light-gray lg:aspect-auto lg:h-[160px]'>
+              <div className='relative aspect-[16/9] w-full overflow-hidden bg-light-gray lg:aspect-[2/1]'>
                 <img
                   src={industryImages[index]}
                   alt={item.title}

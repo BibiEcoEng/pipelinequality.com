@@ -18,12 +18,12 @@ export function TeamSection() {
           </p>
         </div>
         <div className='mt-10 lg:mt-0'>
-          <p className='pq-index mb-4'>{t('networkLabel')}</p>
+          <p className='pq-index mb-3'>{t('networkLabel')}</p>
           <ul className='divide-y divide-line border-y border-line'>
             {roles.map((role) => (
               <li
                 key={role}
-                className='flex items-center gap-3 py-2.5 text-[13px] font-semibold text-navy'
+                className='flex items-center gap-3 py-2 text-[13px] font-semibold text-navy'
               >
                 <span className='h-px w-4 bg-brand' />
                 {role}

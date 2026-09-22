@@ -17,9 +17,9 @@ export function WhySection() {
       <div className='pq-shell pq-section'>
         <SectionLabel index='13'>{t('label')}</SectionLabel>
         <h2 className='text-navy'>{t('title')}</h2>
-        <div className='mt-10 grid gap-x-10 gap-y-8 md:grid-cols-2 xl:grid-cols-3'>
+        <div className='mt-8 grid gap-x-8 gap-y-6 md:grid-cols-2 xl:grid-cols-3'>
           {reasons.map((item) => (
-            <div key={item.title} className='border-t border-line pt-5'>
+            <div key={item.title} className='border-t border-line pt-4'>
               <h3 className='text-navy'>{item.title}</h3>
               <p className='mt-2 pq-subtitle text-steel-gray'>
                 {item.description}

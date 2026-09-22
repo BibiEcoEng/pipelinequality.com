@@ -7,14 +7,14 @@ export function SmartQAQCSection() {
 
   return (
     <section id='bw-digit' className='border-t border-line bg-light-gray'>
-      <div className='pq-shell pq-section grid gap-6 lg:grid-cols-2 lg:items-center lg:gap-10'>
+      <div className='pq-shell pq-section grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-10'>
         <div>
           <p className='pq-index'>10 — {t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 max-w-lg pq-subtitle text-steel-gray'>
             {t('description')}
           </p>
-          <div className='mt-7'>
+          <div className='mt-6'>
             <a
               href='https://www.bwdigit.com'
               target='_blank'
@@ -26,16 +26,15 @@ export function SmartQAQCSection() {
           </div>
         </div>
 
-        <div className='grid grid-cols-2 items-stretch gap-3 lg:gap-3'>
-          <div className='relative aspect-[4/5] max-h-[280px] overflow-hidden lg:aspect-auto lg:h-[220px] lg:max-h-none'>
+        <div className='grid grid-cols-2 items-stretch gap-3'>
+          <div className='relative aspect-[3/4] overflow-hidden'>
             <img
               src='/client/bw-field.jpg'
               alt={t('fieldAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
           </div>
-
-          <div className='relative aspect-[4/5] max-h-[280px] overflow-hidden lg:aspect-auto lg:h-[220px] lg:max-h-none'>
+          <div className='relative aspect-[3/4] overflow-hidden'>
             <img
               src='/client/bw-digital.jpg?v=2'
               alt={t('docsAlt')}

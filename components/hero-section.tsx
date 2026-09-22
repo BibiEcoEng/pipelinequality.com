@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section
       id='home'
-      className='relative min-h-[100svh] overflow-hidden bg-navy text-white lg:min-h-[78vh]'
+      className='relative min-h-[92svh] overflow-hidden bg-navy text-white lg:min-h-[72vh]'
     >
       <img
         src='/client/hero-offshore.jpg?v=4'
@@ -20,7 +20,7 @@ export function HeroSection() {
         aria-hidden
       />
 
-      <div className='relative flex min-h-[100svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-14 lg:pt-20'>
+      <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[72vh] lg:justify-center lg:pb-14 lg:pt-20'>
         <div className='pq-shell'>
           <div className='max-w-[40rem]'>
             <h1 className='pq-fade-up text-[clamp(1.85rem,4.5vw,2.75rem)] leading-[1.1] font-semibold tracking-[-0.025em] text-white lg:text-[clamp(1.75rem,2.4vw,2.35rem)]'>

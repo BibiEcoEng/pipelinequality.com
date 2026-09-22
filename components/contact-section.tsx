@@ -9,7 +9,7 @@ export function ContactSection() {
   return (
     <section className='bg-light-gray' id='contact'>
       <div className='pq-shell pq-section'>
-        <div className='grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20'>
+        <div className='grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
           <div>
             <p className='pq-index'>16 — Contact</p>
             <h2 className='mt-4 text-navy'>{t('title')}</h2>
