@@ -763,7 +763,7 @@
   "fieldHandover": {
     "label": "From Field to Handover",
     "title": "From Field Data to Final Handover",
-    "description": "A clean engineering flow connecting production activity with final project quality documentation — for Pipeline Quality and BW Digit.",
+    "description": "A clean engineering flow connecting production activity with final project quality documentation for Pipeline Quality and BW Digit.",
     "stages": [
       {
         "id": "01",

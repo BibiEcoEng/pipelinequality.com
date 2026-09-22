@@ -764,7 +764,7 @@
   "fieldHandover": {
     "label": "Vom Feld zur Übergabe",
     "title": "Von Felddaten zur finalen Übergabe",
-    "description": "Ein klarer Engineering-Ablauf, der Fertigungsaktivitäten mit der finalen Projektqualitätsdokumentation verbindet — für Pipeline Quality und BW Digit.",
+    "description": "Ein klarer Engineering-Ablauf, der Fertigungsaktivitäten mit der finalen Projektqualitätsdokumentation für Pipeline Quality und BW Digit verbindet.",
     "stages": [
       {
         "id": "01",
