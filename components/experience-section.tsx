@@ -8,27 +8,35 @@ export function ExperienceSection() {
   return (
     <section id='experience' className='bg-navy text-white'>
       <div className='pq-shell pq-section'>
-        <div className='max-w-2xl'>
+        <div className='max-w-3xl'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-white'>{t('title')}</h2>
-          <p className='mt-4 pq-subtitle text-white/80'>{t('paragraph1')}</p>
-          <p className='mt-3 pq-subtitle text-white/70'>{t('paragraph2')}</p>
+          <p className='mt-4 pq-subtitle text-white/80'>{t('intro')}</p>
         </div>
 
-        <div className='mt-8 grid gap-px bg-white/15 sm:grid-cols-2'>
-          <div className='bg-navy p-6 sm:p-7'>
-            <p className='text-[11px] font-bold tracking-[0.16em] text-accent uppercase'>
-              {t('offshoreTitle')}
+        <div className='mt-8 max-w-3xl space-y-6 border-t border-white/15 pt-8'>
+          <div>
+            <p className='text-[12px] font-bold tracking-[0.12em] text-accent uppercase'>
+              {t('referenceLabel')}
             </p>
-            <p className='mt-3 pq-subtitle text-white/80'>{t('offshoreText')}</p>
+            <h3 className='mt-2 text-[1.05rem] font-semibold text-white sm:text-[1.15rem]'>
+              {t('referenceTitle')}
+            </h3>
+            <p className='mt-3 pq-subtitle text-white/80'>{t('referenceText')}</p>
           </div>
-          <div className='bg-navy p-6 sm:p-7'>
-            <p className='text-[11px] font-bold tracking-[0.16em] text-accent uppercase'>
-              {t('industrialTitle')}
+
+          <div>
+            <p className='text-[12px] font-bold tracking-[0.12em] text-accent uppercase'>
+              {t('scopeTitle')}
             </p>
-            <p className='mt-3 pq-subtitle text-white/80'>
-              {t('industrialText')}
+            <p className='mt-3 pq-subtitle text-white/80'>{t('scopeText')}</p>
+          </div>
+
+          <div>
+            <p className='text-[12px] font-bold tracking-[0.12em] text-accent uppercase'>
+              {t('trackTitle')}
             </p>
+            <p className='mt-3 pq-subtitle text-white/80'>{t('trackText')}</p>
           </div>
         </div>
       </div>
