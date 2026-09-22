@@ -9,7 +9,7 @@ export function ExperienceSection() {
     <section id='experience' className='relative overflow-hidden bg-navy text-white'>
       <div className='absolute inset-y-0 right-0 hidden w-1/2 bg-gradient-to-l from-navy/80 to-transparent lg:block' />
 
-      <div className='pq-shell relative py-14 sm:py-16 lg:py-18'>
+      <div className='pq-shell pq-section relative'>
         <div className='max-w-2xl'>
           <p className='pq-index'>07 — {t('label')}</p>
           <h2 className='mt-4 text-white'>{t('title')}</h2>

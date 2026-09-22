@@ -7,7 +7,7 @@ export function SmartQAQCSection() {
 
   return (
     <section id='bw-digit' className='border-t border-line bg-light-gray'>
-      <div className='pq-shell grid gap-8 py-12 sm:gap-8 sm:py-14 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-16'>
+      <div className='pq-shell pq-section grid gap-6 lg:grid-cols-2 lg:items-center lg:gap-10'>
         <div>
           <p className='pq-index'>10 — {t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
@@ -26,8 +26,8 @@ export function SmartQAQCSection() {
           </div>
         </div>
 
-        <div className='grid grid-cols-2 items-stretch gap-3 lg:gap-4'>
-          <div className='relative aspect-[4/5] max-h-[320px] overflow-hidden lg:max-h-[380px]'>
+        <div className='grid grid-cols-2 items-stretch gap-3 lg:gap-3'>
+          <div className='relative aspect-[4/5] max-h-[280px] overflow-hidden lg:aspect-auto lg:h-[220px] lg:max-h-none'>
             <img
               src='/client/bw-field.jpg'
               alt={t('fieldAlt')}
@@ -35,7 +35,7 @@ export function SmartQAQCSection() {
             />
           </div>
 
-          <div className='relative aspect-[4/5] max-h-[320px] overflow-hidden lg:max-h-[380px]'>
+          <div className='relative aspect-[4/5] max-h-[280px] overflow-hidden lg:aspect-auto lg:h-[220px] lg:max-h-none'>
             <img
               src='/client/bw-digital.jpg?v=2'
               alt={t('docsAlt')}

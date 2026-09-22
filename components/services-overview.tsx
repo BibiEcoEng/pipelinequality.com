@@ -24,13 +24,13 @@ export function ServicesOverview() {
 
   return (
     <section id='services' className='bg-navy text-white'>
-      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
+      <div className='pq-shell pq-section'>
         <div>
           <p className='pq-index'>02 — {t('title')}</p>
           <h2 className='mt-3 max-w-3xl text-white'>{t('title')}</h2>
         </div>
 
-        <div className='relative mt-6 aspect-[16/9] max-h-[240px] overflow-hidden sm:mt-8 sm:max-h-[280px] lg:aspect-[2.6/1] lg:max-h-[300px]'>
+        <div className='relative mt-6 aspect-[16/9] max-h-[220px] overflow-hidden sm:mt-7 sm:max-h-[260px] lg:mt-6 lg:aspect-auto lg:h-[200px] lg:max-h-none'>
           {serviceImages.map((src, index) => (
             <img
               key={src}

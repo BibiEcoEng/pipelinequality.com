@@ -7,16 +7,16 @@ export function PhilosophySection() {
 
   return (
     <section className='bg-navy text-white'>
-      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
+      <div className='pq-shell pq-section'>
         <p className='pq-index text-accent'>05 — {t('label')}</p>
-        <div className='mt-6 max-w-3xl'>
+        <div className='mt-4 max-w-3xl lg:mt-5'>
           <h2 className='text-white'>{t('title')}</h2>
-          <div className='mt-6 space-y-4 pq-subtitle text-white/80'>
+          <div className='mt-4 space-y-3 pq-subtitle text-white/80 lg:mt-5'>
             <p>{t('paragraph1')}</p>
             <p>{t('paragraph2')}</p>
             <p>{t('paragraph3')}</p>
           </div>
-          <p className='mt-10 border-t border-white/20 pt-8 text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] font-semibold tracking-[-0.02em] text-white'>
+          <p className='mt-7 border-t border-white/20 pt-5 text-[clamp(1.25rem,2.2vw,1.75rem)] leading-[1.15] font-semibold tracking-[-0.02em] text-white lg:mt-8 lg:pt-6'>
             {t('principle')}
           </p>
         </div>

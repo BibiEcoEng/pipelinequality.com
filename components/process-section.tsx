@@ -15,7 +15,7 @@ export function ProcessSection() {
 
   return (
     <section id='how-we-work' className='bg-white'>
-      <div className='pq-shell pt-16 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16'>
+      <div className='pq-shell pq-section'>
         <SectionLabel index='09'>{t('label')}</SectionLabel>
         <h2 className='text-navy'>{t('title')}</h2>
         <div className='mt-8 grid gap-6 border-t border-line pt-8 sm:grid-cols-2 sm:gap-8 lg:grid-cols-5'>

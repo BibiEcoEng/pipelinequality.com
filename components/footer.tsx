@@ -40,7 +40,7 @@ export function Footer() {
     <footer className='bg-navy text-white'>
       <div className='h-1 bg-accent' />
 
-      <div className='pq-shell py-12 sm:py-14 lg:py-16'>
+      <div className='pq-shell pq-section'>
         <div className='grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start'>
           <div>
             <div className='flex items-center gap-3'>

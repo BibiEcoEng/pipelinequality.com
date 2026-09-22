@@ -8,7 +8,7 @@ export function ContactSection() {
 
   return (
     <section className='bg-light-gray' id='contact'>
-      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
+      <div className='pq-shell pq-section'>
         <div className='grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20'>
           <div>
             <p className='pq-index'>16 — Contact</p>

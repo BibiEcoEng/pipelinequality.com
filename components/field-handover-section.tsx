@@ -15,7 +15,7 @@ export function FieldHandoverSection() {
 
   return (
     <section id='process' className='bg-navy text-white'>
-      <div className='pq-shell py-14 sm:py-16 lg:py-18'>
+      <div className='pq-shell pq-section'>
         <div className='max-w-2xl'>
           <p className='pq-index'>03 — {t('label')}</p>
           <h2 className='mt-4 text-white'>{t('title')}</h2>
@@ -26,7 +26,7 @@ export function FieldHandoverSection() {
           {stages.map((stage, index) => (
             <article
               key={stage.id}
-              className={`border-b border-white/25 py-8 lg:border-b-0 lg:px-6 lg:py-10 ${
+              className={`border-b border-white/25 py-6 lg:border-b-0 lg:px-5 lg:py-6 ${
                 index < stages.length - 1 ? 'lg:border-r lg:border-white/25' : ''
               } ${index === 0 ? 'lg:pl-0' : ''} ${
                 index === stages.length - 1 ? 'lg:pr-0' : ''

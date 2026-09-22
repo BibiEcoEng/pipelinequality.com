@@ -148,6 +148,31 @@
   box-sizing: border-box;
 }
 
+/* Shared section rhythm — denser on desktop only */
+.pq-section {
+  padding-block: 3.5rem;
+}
+@media (min-width: 640px) {
+  .pq-section {
+    padding-block: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .pq-section {
+    padding-block: 2.75rem;
+  }
+
+  h1 {
+    font-size: clamp(1.45rem, 2vw, 1.95rem) !important;
+  }
+  h2 {
+    font-size: clamp(1.3rem, 1.7vw, 1.75rem) !important;
+  }
+  h3 {
+    font-size: 1.05rem !important;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
