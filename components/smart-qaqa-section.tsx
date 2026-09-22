@@ -32,9 +32,11 @@ export function SmartQAQCSection() {
               alt={t('fieldAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-4'>
-              <p className='pq-index'>{t('fieldLabel')}</p>
-              <p className='mt-1 pq-subtitle text-white'>{t('fieldText')}</p>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/80 to-transparent p-4 pt-12'>
+              <p className='text-[11px] font-semibold tracking-[0.18em] text-white uppercase'>
+                {t('fieldLabel')}
+              </p>
+              <p className='mt-1 pq-subtitle text-white/90'>{t('fieldText')}</p>
             </div>
           </div>
           <div className='relative aspect-[3/4] overflow-hidden self-end'>
@@ -43,9 +45,11 @@ export function SmartQAQCSection() {
               alt={t('docsAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-4'>
-              <p className='pq-index'>{t('docsLabel')}</p>
-              <p className='mt-1 pq-subtitle text-white'>{t('docsText')}</p>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy via-navy/80 to-transparent p-4 pt-12'>
+              <p className='text-[11px] font-semibold tracking-[0.18em] text-white uppercase'>
+                {t('docsLabel')}
+              </p>
+              <p className='mt-1 pq-subtitle text-white/90'>{t('docsText')}</p>
             </div>
           </div>
         </div>
