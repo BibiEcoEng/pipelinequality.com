@@ -55,7 +55,7 @@ export function SmartQAQCSection() {
 
           <div className='relative aspect-[3/4] overflow-hidden'>
             <img
-              src='/client/bw-digital.jpg'
+              src='/client/bw-digital.jpg?v=2'
               alt={t('docsAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
