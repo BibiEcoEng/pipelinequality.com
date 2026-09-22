@@ -9,7 +9,7 @@ export function SmartQAQCSection() {
     <section id='bw-digit' className='border-t border-line bg-light-gray'>
       <div className='pq-shell pq-section grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-10'>
         <div>
-          <p className='pq-index'>10 — {t('label')}</p>
+          <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 max-w-lg pq-subtitle text-steel-gray'>
             {t('description')}

@@ -11,7 +11,7 @@ export function ContactSection() {
       <div className='pq-shell pq-section'>
         <div className='grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
           <div>
-            <p className='pq-index'>16 — Contact</p>
+            <p className='pq-index'>Contact</p>
             <h2 className='mt-4 text-navy'>{t('title')}</h2>
             <p className='mt-5 pq-subtitle text-steel-gray'>
               {t('description')}

@@ -19,7 +19,7 @@ export function IntroSection() {
         </div>
 
         <div className='order-1 lg:order-2 lg:pt-2'>
-          <p className='pq-index'>01 — {t('label')}</p>
+          <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 max-w-xl text-navy'>{t('headline')}</h2>
           <div className='mt-5 max-w-md space-y-4 pq-subtitle text-steel-gray'>
             <p>{t('paragraph1')}</p>

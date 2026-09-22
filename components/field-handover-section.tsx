@@ -16,7 +16,7 @@ export function FieldHandoverSection() {
     <section id='process' className='bg-navy text-white'>
       <div className='pq-shell pq-section'>
         <div className='max-w-2xl'>
-          <p className='pq-index'>03</p>
+          <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-white'>{t('title')}</h2>
         </div>
 
@@ -30,8 +30,7 @@ export function FieldHandoverSection() {
                 index === stages.length - 1 ? 'lg:pr-0' : ''
               }`}
             >
-              <p className='pq-index text-accent'>{stage.id}</p>
-              <h3 className='mt-2 text-white'>{stage.title}</h3>
+              <h3 className='text-white'>{stage.title}</h3>
               <ul className='mt-4 space-y-1.5'>
                 {stage.items.map((item) => (
                   <li

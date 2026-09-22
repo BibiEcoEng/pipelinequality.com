@@ -16,13 +16,12 @@ export function ProcessSection() {
   return (
     <section id='how-we-work' className='bg-white'>
       <div className='pq-shell pq-section'>
-        <SectionLabel index='09'>{t('label')}</SectionLabel>
+        <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='text-navy'>{t('title')}</h2>
         <div className='mt-6 grid gap-5 border-t border-line pt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5'>
           {steps.map((step, index) => (
             <div key={step.id} className='relative min-w-0'>
-              <div className='pq-index'>{step.id}</div>
-              <div className='mt-2 flex items-center'>
+              <div className='mt-0 flex items-center'>
                 <h3 className='shrink-0 text-navy'>{step.title}</h3>
                 {index < steps.length - 1 && (
                   <span

@@ -11,7 +11,7 @@ export function TeamSection() {
     <section id='network' className='bg-white'>
       <div className='pq-shell pq-section grid items-start lg:grid-cols-[1.05fr_0.95fr] lg:gap-12'>
         <div>
-          <SectionLabel index='04'>{t('label')}</SectionLabel>
+          <SectionLabel>{t('label')}</SectionLabel>
           <h2 className='text-navy'>{t('title')}</h2>
           <p className='mt-5 max-w-xl pq-subtitle text-steel-gray'>
             {t('paragraph1')}

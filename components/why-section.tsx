@@ -15,7 +15,7 @@ export function WhySection() {
   return (
     <section className='bg-white' id='why'>
       <div className='pq-shell pq-section'>
-        <SectionLabel index='13'>{t('label')}</SectionLabel>
+        <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='text-navy'>{t('title')}</h2>
         <div className='mt-8 grid gap-x-8 gap-y-6 md:grid-cols-2 xl:grid-cols-3'>
           {reasons.map((item) => (

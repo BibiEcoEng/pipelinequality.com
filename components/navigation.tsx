@@ -210,7 +210,6 @@ export function Navigation() {
                   transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(16px)',
                 }}
               >
-                <span className='pq-index'>{String(index + 1).padStart(2, '0')}</span>
                 <span className='text-[clamp(1.6rem,7vw,2.4rem)] font-bold tracking-[-0.03em]'>
                   {item.label}
                 </span>

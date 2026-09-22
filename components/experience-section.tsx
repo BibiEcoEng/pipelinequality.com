@@ -9,7 +9,7 @@ export function ExperienceSection() {
     <section id='experience' className='bg-navy text-white'>
       <div className='pq-shell pq-section'>
         <div className='max-w-2xl'>
-          <p className='pq-index'>07 — {t('label')}</p>
+          <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-white'>{t('title')}</h2>
           <p className='mt-4 pq-subtitle text-white/80'>{t('paragraph1')}</p>
           <p className='mt-3 pq-subtitle text-white/70'>{t('paragraph2')}</p>

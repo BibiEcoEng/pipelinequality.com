@@ -15,7 +15,7 @@ export function StandardsSection() {
   return (
     <section id='standards' className='border-y border-line bg-white'>
       <div className='pq-shell pq-section'>
-        <SectionLabel index='08'>{t('label')}</SectionLabel>
+        <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
         <div className='mt-10 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {groups.map((group, index) => (

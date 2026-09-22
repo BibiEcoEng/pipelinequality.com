@@ -25,8 +25,7 @@ export function ServicesOverview() {
     <section id='services' className='bg-navy text-white'>
       <div className='pq-shell pq-section'>
         <div>
-          <p className='pq-index'>02</p>
-          <h2 className='mt-3 max-w-3xl text-white'>{t('title')}</h2>
+          <h2 className='max-w-3xl text-white'>{t('title')}</h2>
         </div>
 
         <div className='relative mt-6 h-[200px] overflow-hidden sm:mt-7 sm:h-[240px] lg:mt-6 lg:h-[220px]'>
@@ -60,14 +59,7 @@ export function ServicesOverview() {
                   isActive ? 'text-white' : 'text-white/75 hover:text-white'
                 }`}
               >
-                <span
-                  className={`block text-[11px] font-semibold tracking-[0.16em] ${
-                    isActive ? 'text-accent' : 'text-white/70'
-                  }`}
-                >
-                  {String(index + 1).padStart(2, '0')}
-                </span>
-                <span className='mt-1 block text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
+                <span className='block text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
                   {service.title}
                 </span>
               </button>

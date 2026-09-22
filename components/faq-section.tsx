@@ -12,7 +12,7 @@ export function FAQSection() {
     <section className='relative overflow-hidden bg-navy text-white'>
       <div className='pq-shell pq-section relative'>
         <div className='max-w-xl'>
-          <p className='pq-index'>15 — FAQ</p>
+          <p className='pq-index'>FAQ</p>
           <h2 className='mt-2 text-white'>{t('title')}</h2>
         </div>
 
@@ -29,12 +29,9 @@ export function FAQSection() {
                 <button
                   type='button'
                   onClick={() => setOpenIndex(open ? null : index)}
-                  className='grid w-full grid-cols-[auto_1fr_auto] items-start gap-3 py-3.5 text-left sm:gap-5 lg:py-3.5'
+                  className='grid w-full grid-cols-[1fr_auto] items-start gap-3 py-3.5 text-left sm:gap-5 lg:py-3.5'
                   aria-expanded={open}
                 >
-                  <span className='pq-index mt-0.5'>
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
                   <span
                     className={`text-[0.9rem] leading-snug font-semibold tracking-[-0.015em] transition-colors duration-300 lg:text-[0.95rem] ${
                       open ? 'text-white' : 'text-white/75'
@@ -59,7 +56,7 @@ export function FAQSection() {
                   style={{ gridTemplateRows: open ? '1fr' : '0fr' }}
                 >
                   <div className='overflow-hidden'>
-                    <p className='max-w-3xl pr-8 pb-3.5 pl-10 text-[13px] leading-relaxed text-white/65 sm:pl-14 lg:pb-3'>
+                    <p className='max-w-3xl pr-8 pb-3.5 text-[13px] leading-relaxed text-white/65 lg:pb-3'>
                       {faq.answer}
                     </p>
                   </div>
