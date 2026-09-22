@@ -135,9 +135,6 @@ export function Footer() {
             ))}
           </div>
         </div>
-        <div className='pq-shell pb-6'>
-          <p className='text-[12px] leading-relaxed text-white/65'>{t('brandNote')}</p>
-        </div>
       </div>
     </footer>
   );

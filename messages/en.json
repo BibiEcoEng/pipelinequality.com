@@ -651,8 +651,8 @@
     "companyInfo": "Company Information",
     "companyDescription": "Pipeline Quality is a brand of Backpack Wander GmbH, a company registered in Germany, with headquarters in Berlin. Technical partner: BW Digit. We work with an international network of qualified professionals and scale our services according to project requirements.",
     "tagline": "Project Quality from Production to Handover",
-    "copyright": "© 2026 Backpack Wander GmbH. All rights reserved.",
-    "brandNote": "Pipeline Quality is a brand of Backpack Wander GmbH. Technical partner: BW Digit.",
+    "copyright": "© 2026 Pipeline Quality. All rights reserved.",
+    "brandNote": "Pipeline Quality is a brand of Backpack Wander GmbH.",
     "madeBy": "Made by BW Digit",
     "privacyPolicy": "Privacy Policy",
     "terms": "Terms & Conditions",
@@ -678,7 +678,7 @@
       "register": "Registered in the Commercial Register (Handelsregister)\nRegistry Court: Amtsgericht Charlottenburg (Berlin)\nRegistration Number: HRB 282058 B",
       "vatLabel": "VAT ID",
       "vat": "DE451725510",
-      "brandNote": "Pipeline Quality is a registered brand of Backpack Wander GmbH.",
+      "brandNote": "Pipeline Quality is a brand of Backpack Wander GmbH.",
       "sections": [
         {
           "title": "Company Information",
@@ -702,7 +702,7 @@
         },
         {
           "title": "Brand Disclaimer",
-          "content": "Pipeline Quality is a registered brand of Backpack Wander GmbH."
+          "content": "Pipeline Quality is a brand of Backpack Wander GmbH."
         },
         {
           "title": "EU Dispute Resolution",
