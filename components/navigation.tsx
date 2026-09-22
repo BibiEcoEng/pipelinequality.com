@@ -98,17 +98,11 @@ export function Navigation() {
             onClick={handleSmoothScroll}
             className='group flex shrink-0 items-center gap-3'
           >
-            <span
-              className={`inline-flex items-center justify-center transition duration-500 ${
-                onDark ? 'rounded-full bg-white p-1.5 shadow-sm' : ''
-              }`}
-            >
-              <img
-                src='/logo-mark.png'
-                alt='Pipeline Quality'
-                className='h-10 w-auto object-contain sm:h-11'
-              />
-            </span>
+            <img
+              src={onDark ? '/logo-mark-white.png' : '/logo-mark.png'}
+              alt='Pipeline Quality'
+              className='h-10 w-auto object-contain sm:h-11'
+            />
             <span
               className={`max-w-[9.5rem] truncate text-[10px] font-bold tracking-[0.14em] uppercase sm:max-w-none sm:text-[11px] sm:tracking-[0.18em] ${
                 onDark ? 'text-white' : 'text-navy'
