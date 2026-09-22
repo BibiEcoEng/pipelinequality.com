@@ -11,13 +11,13 @@ export function HeroSection() {
       className='relative min-h-[100svh] overflow-hidden bg-navy text-white'
     >
       <img
-        src='/client/hero-offshore.jpg'
+        src='/client/hero-offshore.jpg?v=2'
         alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full object-cover object-[78%_center] sm:object-[70%_center] lg:object-[62%_center]'
+        className='absolute inset-0 h-full w-full object-cover object-[70%_center]'
       />
-      {/* Solid navy behind copy so text never sits on bright yellow highlights */}
+      {/* Same navy wash on mobile and desktop so the photo never washes out the copy */}
       <div
-        className='absolute inset-0 bg-[linear-gradient(105deg,#012A60_0%,#012A60_42%,rgba(1,42,96,0.88)_58%,rgba(1,42,96,0.35)_78%,rgba(1,42,96,0.2)_100%)]'
+        className='absolute inset-0 bg-[linear-gradient(100deg,#012A60_0%,#012A60_48%,rgba(1,42,96,0.92)_62%,rgba(1,42,96,0.55)_82%,rgba(1,42,96,0.4)_100%)]'
         aria-hidden
       />
       <div className='absolute inset-y-0 left-0 hidden w-px bg-white/15 lg:block' />
