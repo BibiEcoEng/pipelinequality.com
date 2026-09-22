@@ -18,13 +18,13 @@
     "titleLine2": "Von der Fertigung bis zur Übergabe.",
     "titleLine3": "",
     "title": "Projektqualität. Von der Fertigung bis zur Übergabe.",
-    "subtitle": "QA/QC · Inspektion · Engineering · Dokumentation",
+    "subtitle": "QA/QC | Inspektion | Engineering | Dokumentation",
     "imageAlt": "Öl- und Gas-Transportpipelines — industrielles Projektqualität-Umfeld",
     "availability": "Verfügbar für projektbezogene Qualitätsunterstützung in Europa.",
     "cta1": "Projekt besprechen",
     "cta2": "Unser Netzwerk kennenlernen",
     "trustBadge": "Industriepartner für Projektqualität — kein Freelancer, keine Headcount-Agentur.",
-    "subtitleLine2": "Offshore-Wind · Pipelines · Öl & Gas · Industrie & Energie",
+    "subtitleLine2": "Offshore-Wind | Pipelines | Industrie- & Energieprojekte",
     "chips": [
       "QA/QC",
       "Inspektion",
@@ -88,7 +88,7 @@
   "services": {
     "title": "Leistungen",
     "description": "QA/QC-Engineering, Inspektion, Produktionsunterstützung und Dokumentation, abgestimmt auf das Projekt.",
-    "scopeTitle": "QA/QC Engineering + Inspektion + Fertigungsbegleitung + Dokumentation",
+    "scopeTitle": "QA/QC Engineering + Inspektion + Fertigungsbegleitung + Dokumentation + Projektqualität",
     "paragraph1": "",
     "paragraph2": "",
     "keyAreasTitle": "Was wir anbieten",
@@ -192,7 +192,7 @@
     "blocks": [
       {
         "title": "QA/QC Engineering",
-        "summary": "Projektqualitätsplanung, ITP-Bereitschaft und Koordination über die Fertigungsphase.",
+        "summary": "",
         "items": [
           "QA/QC-Projektunterstützung",
           "ITP / PTP",
@@ -201,13 +201,12 @@
           "NCR-Nachverfolgung",
           "Kundenanforderungen",
           "Qualitätskoordination",
-          "Projektqualitätsreporting",
-          "Remote-QA/QC-Unterstützung"
+          "Projektqualitätsreporting"
         ]
       },
       {
         "title": "Inspektion & Fertigungsbegleitung",
-        "summary": "Praktische Inspektion und Fertigungsbegleitung für Schweißen, ZfP und Fertigungskontrolle.",
+        "summary": "",
         "items": [
           "Schweißen",
           "ZfP-Koordination",
@@ -216,18 +215,15 @@
           "Kunden- / Drittinspektion",
           "Fertigungsbegleitung",
           "Inspektionskoordination",
-          "Lieferanten- / Hersteller-Follow-up",
-          "Beschichtungsinspektion",
-          "RFI-Unterstützung"
+          "Lieferanten- / Hersteller-Follow-up"
         ]
       },
       {
         "title": "Dokumentation & Übergabe",
-        "summary": "Nachvollziehbare Qualitätsunterlagen für Audit, Mechanical Completion und Kundenübergabe.",
+        "summary": "",
         "items": [
           "MDR / DDP",
-          "WPS / PQR / WPQ Prüfung",
-          "Schweißnahtpläne & Schweißbücher",
+          "Schweißbücher",
           "MTR / Werkstoffrückverfolgbarkeit",
           "ZfP-Aufzeichnungen",
           "NCR- / Punch-Tracking",
@@ -239,9 +235,9 @@
       },
       {
         "title": "Projektqualität",
-        "summary": "Flexible Projektqualitätskapazität — ein Spezialist oder ein koordiniertes Qualitätsteam.",
+        "summary": "",
         "items": [
-          "Lieferanten- / Hersteller-Follow-up",
+          "Lieferanten-/Hersteller-Follow-up",
           "Qualitätskoordination",
           "Inspektionsplanung",
           "Projektreporting",

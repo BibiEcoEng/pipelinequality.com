@@ -76,11 +76,8 @@ export function ServicesOverview() {
           })}
         </div>
 
-        <div className='mt-6 grid gap-6 border-t border-white/25 pt-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
-          <p className='max-w-lg pq-subtitle text-white/85'>
-            {current?.summary}
-          </p>
-          <ul className='grid gap-x-6 gap-y-1.5 sm:grid-cols-2'>
+        <div className='mt-6 grid gap-6 border-t border-white/25 pt-6'>
+          <ul className='grid gap-x-6 gap-y-1.5 sm:grid-cols-2 lg:grid-cols-3'>
             {current?.items.map((item) => (
               <li
                 key={item}

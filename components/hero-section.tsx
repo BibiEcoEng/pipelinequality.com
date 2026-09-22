@@ -23,19 +23,14 @@ export function HeroSection() {
 
       <div className='relative flex min-h-[100svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:justify-center lg:pb-20 lg:pt-24'>
         <div className='pq-shell'>
-          <div className='max-w-[36rem]'>
-            <p className='pq-fade-up pq-display text-[clamp(2.6rem,8vw,5.6rem)] text-white'>
-              Pipeline
-              <span className='block text-white'>Quality</span>
-            </p>
+          <div className='max-w-[40rem]'>
+            <h1 className='pq-fade-up pq-display text-[clamp(2rem,5.5vw,3.75rem)] leading-[1.08] text-white'>
+              {t('titleLine1')}
+              <span className='block'>{t('titleLine2')}</span>
+            </h1>
 
             <div className='pq-fade-up pq-fade-up-delay-1 mt-6 h-px w-24 bg-accent pq-line-grow sm:mt-8' />
 
-            <h1 className='pq-fade-up pq-fade-up-delay-1 mt-6 max-w-xl text-white'>
-              {t('titleLine1')} {t('titleLine2')}
-            </h1>
-
-            {/* Two clearly divided rows — services vs industries */}
             <div className='pq-fade-up pq-fade-up-delay-2 mt-6 max-w-lg space-y-3'>
               <p className='border-l-2 border-accent pl-3 text-[14px] leading-snug font-semibold text-white sm:text-[15px]'>
                 {t('subtitle')}
@@ -56,14 +51,6 @@ export function HeroSection() {
                 {t('cta2')}
               </a>
             </div>
-          </div>
-        </div>
-
-        <div className='pq-shell mt-14 hidden lg:block'>
-          <div className='flex max-w-[36rem] items-end justify-between border-t border-white/20 pt-5'>
-            <p className='max-w-xs text-[12px] leading-relaxed tracking-[0.04em] text-white/70'>
-              {t('availability')}
-            </p>
           </div>
         </div>
       </div>

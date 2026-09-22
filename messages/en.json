@@ -18,13 +18,13 @@
     "titleLine2": "From Production to Handover.",
     "titleLine3": "",
     "title": "Project Quality. From Production to Handover.",
-    "subtitle": "QA/QC · Inspection · Engineering · Documentation",
+    "subtitle": "QA/QC | Inspection | Engineering | Documentation",
     "imageAlt": "Oil and gas transmission pipelines — industrial project quality environment",
     "availability": "Available for project-based quality support across Europe.",
     "cta1": "Discuss Your Project",
     "cta2": "Meet Our Network",
     "trustBadge": "Industrial partner for project quality — not a freelancer, not a headcount agency.",
-    "subtitleLine2": "Offshore Wind · Pipelines · Oil & Gas · Industrial & Energy",
+    "subtitleLine2": "Offshore Wind | Pipelines | Industrial & Energy Projects",
     "chips": [
       "QA/QC",
       "Inspection",
@@ -88,7 +88,7 @@
   "services": {
     "title": "Services",
     "description": "QA/QC engineering, inspection, production support and documentation, scoped to the project.",
-    "scopeTitle": "QA/QC Engineering + Inspection + Production Support + Documentation",
+    "scopeTitle": "QA/QC Engineering + Inspection + Production Support + Documentation + Project Quality",
     "paragraph1": "",
     "paragraph2": "",
     "keyAreasTitle": "What We Offer",
@@ -192,22 +192,21 @@
     "blocks": [
       {
         "title": "QA/QC Engineering",
-        "summary": "Project quality planning, ITP readiness and coordination across the production phase.",
+        "summary": "",
         "items": [
           "QA/QC project support",
           "ITP / PTP",
-          "Inspection readiness",
-          "Quality records",
+          "inspection readiness",
+          "quality records",
           "NCR follow-up",
-          "Client requirements",
-          "Quality coordination",
-          "Project quality reporting",
-          "Remote QA/QC support"
+          "client requirements",
+          "quality coordination",
+          "project quality reporting"
         ]
       },
       {
         "title": "Inspection & Production Support",
-        "summary": "Hands-on inspection and production support for welding, NDT and manufacturing control.",
+        "summary": "",
         "items": [
           "Welding",
           "NDT coordination",
@@ -216,18 +215,15 @@
           "Client / third-party inspection",
           "Production support",
           "Inspection coordination",
-          "Supplier / manufacturer follow-up",
-          "Coating inspection",
-          "RFI support"
+          "Supplier / manufacturer follow-up"
         ]
       },
       {
         "title": "Documentation & Handover",
-        "summary": "Traceable quality records prepared for audit, mechanical completion and client handover.",
+        "summary": "",
         "items": [
           "MDR / DDP",
-          "WPS / PQR / WPQ review",
-          "Weld maps & weld books",
+          "Weld books",
           "MTR / material traceability",
           "NDT records",
           "NCR / punch tracking",
@@ -239,9 +235,9 @@
       },
       {
         "title": "Project Quality Support",
-        "summary": "Flexible project quality capacity — one specialist or a coordinated quality team.",
+        "summary": "",
         "items": [
-          "Supplier / manufacturer follow-up",
+          "Supplier/manufacturer follow-up",
           "Quality coordination",
           "Inspection planning",
           "Project reporting",
