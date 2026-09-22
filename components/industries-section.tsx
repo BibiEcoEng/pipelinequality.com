@@ -11,7 +11,7 @@ const industryImages = [
   '/client/industry-offshore.jpg',
   '/client/industry-pipeline.jpg?v=2',
   '/client/industry-oilgas.jpg',
-  '/client/industry-chemical.jpg',
+  '/client/industry-chemical.jpg?v=2',
   '/client/industry-energy.jpg',
   '/client/industry-epc.jpg',
   '/client/industry-construction.jpg',
@@ -59,7 +59,7 @@ export function IndustriesSection() {
                   </ul>
                 </div>
               </div>
-              <div className='relative aspect-[4/3] w-full overflow-hidden bg-light-gray'>
+              <div className='relative aspect-[16/10] w-full overflow-hidden bg-light-gray'>
                 <img
                   src={industryImages[index]}
                   alt={item.title}
