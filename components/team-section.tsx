@@ -18,9 +18,9 @@ export function TeamSection() {
           </p>
           <div className='relative mt-8 aspect-[3/2] w-full overflow-hidden bg-light-gray'>
             <img
-              src='/client/team-network.jpg'
+              src='/client/team-network.jpg?v=2'
               alt={t('imageAlt')}
-              className='absolute inset-0 h-full w-full object-cover object-[center_35%]'
+              className='absolute inset-0 h-full w-full object-cover object-[center_40%]'
             />
           </div>
         </div>
