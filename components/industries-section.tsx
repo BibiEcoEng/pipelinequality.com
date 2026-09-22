@@ -15,7 +15,7 @@ const industryImages = [
   '/client/industry-energy.jpg?v=3',
   '/client/industry-epc.jpg?v=4',
   '/client/industry-construction.jpg?v=4',
-  '/client/industry-maintenance.jpg?v=3',
+  '/client/industry-maintenance.jpg?v=4',
 ];
 
 export function IndustriesSection() {
