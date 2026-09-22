@@ -15,9 +15,9 @@ export function HeroSection() {
         alt={t('imageAlt')}
         className='absolute inset-0 h-full w-full object-cover object-[78%_center]'
       />
-      {/* Full navy panel under copy — never place text on the photo colors */}
+      {/* Soft wash — photo stays visible; copy stays readable */}
       <div
-        className='absolute inset-0 bg-[linear-gradient(90deg,#012A60_0%,#012A60_58%,rgba(1,42,96,0.94)_70%,rgba(1,42,96,0.55)_88%,rgba(1,42,96,0.35)_100%)]'
+        className='absolute inset-0 bg-[linear-gradient(to_top,rgba(1,42,96,0.88)_0%,rgba(1,42,96,0.55)_38%,rgba(1,42,96,0.28)_62%,rgba(1,42,96,0.18)_100%)] lg:bg-[linear-gradient(90deg,rgba(1,42,96,0.82)_0%,rgba(1,42,96,0.55)_42%,rgba(1,42,96,0.22)_72%,rgba(1,42,96,0.08)_100%)]'
         aria-hidden
       />
 
