@@ -11,13 +11,13 @@ export function HeroSection() {
       className='relative min-h-[100svh] overflow-hidden bg-navy text-white'
     >
       <img
-        src='/client/hero-offshore.jpg?v=2'
+        src='/client/hero-offshore.jpg?v=3'
         alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full object-cover object-[70%_center]'
+        className='absolute inset-0 h-full w-full object-cover object-[72%_center]'
       />
-      {/* Same navy wash on mobile and desktop so the photo never washes out the copy */}
+      {/* Solid navy behind the copy column so subtitles stay readable */}
       <div
-        className='absolute inset-0 bg-[linear-gradient(100deg,#012A60_0%,#012A60_48%,rgba(1,42,96,0.92)_62%,rgba(1,42,96,0.55)_82%,rgba(1,42,96,0.4)_100%)]'
+        className='absolute inset-0 bg-[linear-gradient(90deg,#012A60_0%,#012A60_55%,rgba(1,42,96,0.85)_68%,rgba(1,42,96,0.45)_85%,rgba(1,42,96,0.3)_100%)]'
         aria-hidden
       />
       <div className='absolute inset-y-0 left-0 hidden w-px bg-white/15 lg:block' />
@@ -37,9 +37,13 @@ export function HeroSection() {
               {t('titleLine1')} {t('titleLine2')}
             </h1>
 
-            <div className='pq-fade-up pq-fade-up-delay-2 pq-subtitle mt-5 max-w-md space-y-1.5 text-white/85'>
-              <p>{t('subtitle')}</p>
-              <p>{t('subtitleLine2')}</p>
+            <div className='pq-fade-up pq-fade-up-delay-2 mt-5 max-w-lg space-y-2'>
+              <p className='text-[14px] leading-snug font-semibold tracking-[0.01em] text-white sm:text-[15px]'>
+                {t('subtitle')}
+              </p>
+              <p className='text-[14px] leading-snug font-semibold tracking-[0.01em] text-white sm:text-[15px]'>
+                {t('subtitleLine2')}
+              </p>
             </div>
 
             <div className='pq-fade-up pq-fade-up-delay-3 mt-9 flex flex-wrap items-center gap-x-8 gap-y-4'>
