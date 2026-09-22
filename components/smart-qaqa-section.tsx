@@ -32,7 +32,7 @@ export function SmartQAQCSection() {
               alt={t('fieldAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-deep/90 to-transparent p-4'>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-4'>
               <p className='text-[10px] font-bold tracking-[0.16em] text-accent uppercase'>
                 {t('fieldLabel')}
               </p>
@@ -47,7 +47,7 @@ export function SmartQAQCSection() {
               alt={t('docsAlt')}
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-deep/90 to-transparent p-4'>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-4'>
               <p className='text-[10px] font-bold tracking-[0.16em] text-accent uppercase'>
                 {t('docsLabel')}
               </p>

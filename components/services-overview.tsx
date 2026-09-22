@@ -30,7 +30,7 @@ export function ServicesOverview() {
             <p className='pq-index'>02 — {t('title')}</p>
             <h2 className='mt-4 max-w-3xl text-white'>{t('scopeTitle')}</h2>
           </div>
-          <p className='max-w-sm text-[14px] leading-relaxed text-white/55 lg:text-right'>
+          <p className='max-w-sm text-[14px] leading-relaxed text-white/80 lg:text-right'>
             {t('description')}
           </p>
         </div>
@@ -58,7 +58,7 @@ export function ServicesOverview() {
           </div>
         </div>
 
-        <div className='mt-6 grid gap-1 border-t border-white/15 sm:grid-cols-2 lg:grid-cols-4'>
+        <div className='mt-6 grid gap-1 border-t border-white/25 sm:grid-cols-2 lg:grid-cols-4'>
           {blocks.map((service, index) => {
             const isActive = active === index;
             return (
@@ -67,13 +67,13 @@ export function ServicesOverview() {
                 type='button'
                 onClick={() => setActive(index)}
                 onMouseEnter={() => setActive(index)}
-                className={`border-b border-white/15 px-0 py-4 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/15 lg:px-4 lg:py-5 lg:last:border-r-0 ${
-                  isActive ? 'text-white' : 'text-white/40 hover:text-white/70'
+                className={`border-b border-white/25 px-0 py-4 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-5 lg:last:border-r-0 ${
+                  isActive ? 'text-white' : 'text-white/75 hover:text-white'
                 }`}
               >
                 <span
                   className={`block text-[11px] font-semibold tracking-[0.16em] ${
-                    isActive ? 'text-accent' : 'text-white/25'
+                    isActive ? 'text-accent' : 'text-white/70'
                   }`}
                 >
                   {String(index + 1).padStart(2, '0')}
@@ -86,15 +86,15 @@ export function ServicesOverview() {
           })}
         </div>
 
-        <div className='mt-6 grid gap-6 border-t border-white/15 pt-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
-          <p className='max-w-lg text-[14px] leading-relaxed text-white/65'>
+        <div className='mt-6 grid gap-6 border-t border-white/25 pt-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
+          <p className='max-w-lg text-[14px] leading-relaxed text-white/85'>
             {current?.summary}
           </p>
           <ul className='grid gap-x-6 gap-y-1.5 sm:grid-cols-2'>
             {current?.items.map((item) => (
               <li
                 key={item}
-                className='text-[13px] leading-snug text-white/80 before:mr-2 before:text-accent before:content-["▸"]'
+                className='text-[13px] leading-snug text-white before:mr-2 before:text-accent before:content-["▸"]'
               >
                 {item}
               </li>

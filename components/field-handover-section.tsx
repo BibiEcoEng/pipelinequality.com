@@ -52,7 +52,7 @@ export function FieldHandoverSection() {
   const stages = t.raw('stages') as Stage[];
 
   return (
-    <section id='process' className='bg-navy-deep text-white'>
+    <section id='process' className='bg-navy text-white'>
       <div className='pq-shell py-20 lg:py-28'>
         <div className='max-w-2xl'>
           <p className='pq-index'>03 — {t('label')}</p>
@@ -70,7 +70,7 @@ export function FieldHandoverSection() {
             >
               {index < stages.length - 1 && (
                 <span
-                  className='absolute top-1/2 -right-3 z-10 hidden h-6 w-6 -translate-y-1/2 items-center justify-center bg-navy-deep text-xs text-white/45 lg:flex'
+                  className='absolute top-1/2 -right-3 z-10 hidden h-6 w-6 -translate-y-1/2 items-center justify-center bg-navy text-xs text-white/45 lg:flex'
                   aria-hidden
                 >
                   →

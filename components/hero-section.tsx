@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section
       id='home'
-      className='relative min-h-[100svh] overflow-hidden bg-navy-deep text-white'
+      className='relative min-h-[100svh] overflow-hidden bg-navy text-white'
     >
       <img
         src='/client/hero-offshore.jpg'

@@ -20,7 +20,7 @@ export function CTASection() {
         <div className='flex flex-col gap-5 lg:items-end'>
           <a
             href='#contact'
-            className='inline-flex items-center bg-navy px-6 py-4 text-[11px] font-bold tracking-[0.14em] text-white uppercase transition hover:bg-navy-deep'
+            className='inline-flex items-center bg-navy px-6 py-4 text-[11px] font-bold tracking-[0.14em] text-white uppercase transition hover:bg-navy'
           >
             {t('button1')}
           </a>

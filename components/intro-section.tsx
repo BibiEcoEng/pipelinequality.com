@@ -15,7 +15,7 @@ export function IntroSection() {
               alt={t('imageAlt')}
               className='absolute inset-0 h-full w-full object-cover'
             />
-            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-deep/90 to-transparent px-5 py-6'>
+            <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent px-5 py-6'>
               <p className='text-[11px] font-semibold tracking-[0.16em] text-white/80 uppercase'>
                 {t('caption')}
               </p>

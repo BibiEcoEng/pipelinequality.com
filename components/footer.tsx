@@ -37,7 +37,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className='bg-navy-deep text-white'>
+    <footer className='bg-navy text-white'>
       <div className='h-1 bg-accent' />
 
       <div className='pq-shell py-16 lg:py-20'>

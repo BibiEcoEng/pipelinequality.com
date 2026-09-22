@@ -7,7 +7,7 @@ export function ExperienceSection() {
 
   return (
     <section id='experience' className='relative overflow-hidden bg-navy text-white'>
-      <div className='absolute inset-y-0 right-0 hidden w-1/2 bg-gradient-to-l from-navy-deep/80 to-transparent lg:block' />
+      <div className='absolute inset-y-0 right-0 hidden w-1/2 bg-gradient-to-l from-navy/80 to-transparent lg:block' />
 
       <div className='pq-shell relative py-20 lg:py-28'>
         <div className='max-w-2xl'>

@@ -4,50 +4,54 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  /* Brand: max 3 colors — navy, orange, white (+ opacity mixes only) */
+  --navy: #012A60;
+  --accent: #FB7200;
+  --white: #FFFFFF;
+
   --background: #FFFFFF;
-  --foreground: #15202B;
+  --foreground: #012A60;
   --card: #FFFFFF;
-  --card-foreground: #15202B;
+  --card-foreground: #012A60;
   --popover: #FFFFFF;
-  --popover-foreground: #15202B;
+  --popover-foreground: #012A60;
   --primary: #012A60;
   --primary-foreground: #FFFFFF;
-  --secondary: #5B6B7C;
+  --secondary: color-mix(in srgb, #012A60 58%, #FFFFFF);
   --secondary-foreground: #FFFFFF;
-  --muted: #EEF1F4;
-  --muted-foreground: #5B6B7C;
-  --accent: #FB7200;
+  --muted: color-mix(in srgb, #012A60 6%, #FFFFFF);
+  --muted-foreground: color-mix(in srgb, #012A60 58%, #FFFFFF);
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #C9D2DC;
-  --input: #C9D2DC;
+  --border: color-mix(in srgb, #012A60 16%, #FFFFFF);
+  --input: color-mix(in srgb, #012A60 16%, #FFFFFF);
   --ring: #FB7200;
   --chart-1: #FB7200;
-  --chart-2: #2A5F8F;
+  --chart-2: #012A60;
   --chart-3: #012A60;
-  --chart-4: #EEF1F4;
-  --chart-5: #D1D5DB;
+  --chart-4: color-mix(in srgb, #012A60 6%, #FFFFFF);
+  --chart-5: color-mix(in srgb, #012A60 16%, #FFFFFF);
   --radius: 0;
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #15202B;
+  --sidebar-foreground: #012A60;
   --sidebar-primary: #012A60;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #EEF1F4;
+  --sidebar-accent: color-mix(in srgb, #012A60 6%, #FFFFFF);
   --sidebar-accent-foreground: #012A60;
-  --sidebar-border: #C9D2DC;
+  --sidebar-border: color-mix(in srgb, #012A60 16%, #FFFFFF);
   --sidebar-ring: #FB7200;
 
-  --navy: #012A60;
-  --navy-deep: #011A3D;
-  --charcoal: #15202B;
-  --steel-gray: #5B6B7C;
-  --light-gray: #EEF1F4;
+  /* Aliases — same navy family only (no separate blues/greys) */
+  --navy-deep: #012A60;
+  --charcoal: #012A60;
+  --steel-gray: color-mix(in srgb, #012A60 58%, #FFFFFF);
+  --light-gray: color-mix(in srgb, #012A60 6%, #FFFFFF);
   --safety-orange: #FB7200;
   --muted-gold: #FB7200;
   --brand: #012A60;
-  --line: #C9D2DC;
-  --accent-hover: #E06600;
+  --line: color-mix(in srgb, #012A60 16%, #FFFFFF);
+  --accent-hover: color-mix(in srgb, #FB7200 88%, #000000);
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
