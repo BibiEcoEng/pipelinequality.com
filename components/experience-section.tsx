@@ -16,7 +16,7 @@ export function ExperienceSection() {
           <p className='mt-6 pq-subtitle text-white/80'>
             {t('paragraph1')}
           </p>
-          <p className='mt-4 text-[14px] leading-relaxed text-white/55'>
+          <p className='mt-4 pq-subtitle text-white/70'>
             {t('paragraph2')}
           </p>
         </div>
@@ -26,7 +26,7 @@ export function ExperienceSection() {
             <p className='text-[11px] font-bold tracking-[0.16em] text-accent uppercase'>
               {t('offshoreTitle')}
             </p>
-            <p className='mt-4 text-[14px] leading-relaxed text-white/70'>
+            <p className='mt-4 pq-subtitle text-white/80'>
               {t('offshoreText')}
             </p>
           </div>
@@ -34,7 +34,7 @@ export function ExperienceSection() {
             <p className='text-[11px] font-bold tracking-[0.16em] text-accent uppercase'>
               {t('industrialTitle')}
             </p>
-            <p className='mt-4 text-[14px] leading-relaxed text-white/70'>
+            <p className='mt-4 pq-subtitle text-white/80'>
               {t('industrialText')}
             </p>
           </div>

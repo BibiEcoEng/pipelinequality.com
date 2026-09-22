@@ -33,12 +33,8 @@ export function SmartQAQCSection() {
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
             <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-4'>
-              <p className='text-[10px] font-bold tracking-[0.16em] text-accent uppercase'>
-                {t('fieldLabel')}
-              </p>
-              <p className='mt-1 text-[13px] font-semibold text-white'>
-                {t('fieldText')}
-              </p>
+              <p className='pq-index'>{t('fieldLabel')}</p>
+              <p className='mt-1 pq-subtitle text-white'>{t('fieldText')}</p>
             </div>
           </div>
           <div className='relative aspect-[3/4] overflow-hidden self-end'>
@@ -48,12 +44,8 @@ export function SmartQAQCSection() {
               className='absolute inset-0 h-full w-full object-cover object-center'
             />
             <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-4'>
-              <p className='text-[10px] font-bold tracking-[0.16em] text-accent uppercase'>
-                {t('docsLabel')}
-              </p>
-              <p className='mt-1 text-[13px] font-semibold text-white'>
-                {t('docsText')}
-              </p>
+              <p className='pq-index'>{t('docsLabel')}</p>
+              <p className='mt-1 pq-subtitle text-white'>{t('docsText')}</p>
             </div>
           </div>
         </div>

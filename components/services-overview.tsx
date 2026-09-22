@@ -30,7 +30,7 @@ export function ServicesOverview() {
             <p className='pq-index'>02 — {t('title')}</p>
             <h2 className='mt-4 max-w-3xl text-white'>{t('scopeTitle')}</h2>
           </div>
-          <p className='max-w-sm text-[14px] leading-relaxed text-white/80 lg:text-right'>
+          <p className='max-w-sm pq-subtitle text-white/80 lg:text-right'>
             {t('description')}
           </p>
         </div>
@@ -87,7 +87,7 @@ export function ServicesOverview() {
         </div>
 
         <div className='mt-6 grid gap-6 border-t border-white/25 pt-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
-          <p className='max-w-lg text-[14px] leading-relaxed text-white/85'>
+          <p className='max-w-lg pq-subtitle text-white/85'>
             {current?.summary}
           </p>
           <ul className='grid gap-x-6 gap-y-1.5 sm:grid-cols-2'>

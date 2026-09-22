@@ -33,7 +33,7 @@ export function ProcessSection() {
                   </span>
                 )}
               </div>
-              <p className='mt-3 text-[13px] leading-relaxed text-steel-gray'>
+              <p className='mt-3 pq-subtitle text-steel-gray'>
                 {step.text}
               </p>
             </div>
