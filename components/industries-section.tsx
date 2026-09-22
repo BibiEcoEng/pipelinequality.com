@@ -9,7 +9,7 @@ type Industry = {
 
 const industryImages = [
   '/client/industry-offshore.jpg',
-  '/client/industry-pipeline.jpg',
+  '/client/industry-pipeline.jpg?v=2',
   '/client/industry-oilgas.jpg',
   '/client/industry-chemical.jpg',
   '/client/industry-energy.jpg',
