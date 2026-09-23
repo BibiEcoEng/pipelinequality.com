@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
 type ServiceBlock = {
@@ -16,64 +15,57 @@ const serviceImages = [
 ];
 
 export function ServicesOverview() {
-  const [active, setActive] = useState(0);
   const t = useTranslations('services');
   const blocks = t.raw('blocks') as ServiceBlock[];
-  const current = blocks[active];
 
   return (
-    <section id='services' className='bg-navy text-white'>
+    <section id='services' className='bg-white text-navy'>
       <div className='pq-shell pq-section'>
-        <div>
-          <h2 className='max-w-3xl text-white'>{t('title')}</h2>
+        <div className='max-w-3xl'>
+          <p className='pq-index'>{t('keyAreasTitle')}</p>
+          <h2 className='mt-3 text-navy'>{t('title')}</h2>
+          {t('description') ? (
+            <p className='mt-4 pq-subtitle text-navy/70'>{t('description')}</p>
+          ) : null}
         </div>
 
-        <div className='relative mt-6 aspect-[16/9] w-full overflow-hidden bg-[#0a2748] sm:aspect-[2.1/1] lg:aspect-[2.2/1]'>
-          {serviceImages.map((src, index) => (
-            <img
-              key={src}
-              src={src}
-              alt={blocks[index]?.title ?? ''}
-              className={`absolute inset-0 h-full w-full object-contain object-center transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-                active === index ? 'opacity-100' : 'opacity-0'
-              }`}
-            />
-          ))}
-          <div className='absolute top-0 right-0 h-10 w-10 border-t-2 border-r-2 border-accent sm:h-12 sm:w-12' />
-        </div>
-
-        <div className='mt-5 grid gap-0 border-t border-white/25 sm:grid-cols-2 lg:grid-cols-4'>
-          {blocks.map((service, index) => {
-            const isActive = active === index;
-            return (
-              <button
-                key={service.title}
-                type='button'
-                onClick={() => setActive(index)}
-                onMouseEnter={() => setActive(index)}
-                className={`border-b border-white/25 px-0 py-3 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-4 lg:last:border-r-0 ${
-                  isActive ? 'text-white' : 'text-white/75 hover:text-white'
-                }`}
-              >
-                <span className='block text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
+        <div className='mt-8 space-y-0 border-t border-navy/10'>
+          {blocks.map((service, index) => (
+            <article
+              key={service.title}
+              className='grid items-center gap-6 border-b border-navy/10 py-7 sm:gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10 lg:py-8'
+            >
+              <div className='min-w-0'>
+                <h3 className='font-sans text-[1.05rem] font-semibold tracking-[-0.02em] text-navy'>
                   {service.title}
-                </span>
-              </button>
-            );
-          })}
-        </div>
+                </h3>
+                <ul className='mt-3 space-y-1.5'>
+                  {service.items.map((item) => (
+                    <li
+                      key={item}
+                      className='pq-subtitle text-navy/75 before:mr-2 before:text-accent before:content-["▸"]'
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-        <div className='mt-4 border-t border-white/25 pt-4'>
-          <ul className='grid gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3'>
-            {current?.items.map((item) => (
-              <li
-                key={item}
-                className='text-[13px] leading-snug text-white before:mr-2 before:text-accent before:content-["▸"]'
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
+              <div className='relative w-full max-w-sm overflow-hidden bg-light-gray sm:max-w-md lg:max-w-none lg:justify-self-end'>
+                <div className='aspect-[16/10] max-h-56 w-full sm:max-h-64'>
+                  <img
+                    src={serviceImages[index]}
+                    alt={service.title}
+                    className='h-full w-full object-cover object-center'
+                  />
+                </div>
+                <div
+                  className='pointer-events-none absolute top-0 right-0 h-8 w-8 border-t-2 border-r-2 border-accent'
+                  aria-hidden
+                />
+              </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>
