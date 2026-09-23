@@ -4,25 +4,36 @@ import { useTranslations } from 'next-intl';
 
 export function PhilosophySection() {
   const t = useTranslations('philosophy');
+  const points = [t('paragraph1'), t('paragraph2'), t('paragraph3')];
 
   return (
     <section className='bg-navy text-white'>
       <div className='pq-shell pq-section'>
-        <div className='max-w-3xl'>
-          <p className='pq-index text-accent'>{t('label')}</p>
+        <div className='grid items-end gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16'>
+          <div>
+            <p className='pq-index text-accent'>{t('label')}</p>
+            <h2 className='mt-3 max-w-2xl text-white'>{t('title')}</h2>
 
-          <p className='mt-6 font-sans text-[clamp(2rem,5vw,3.35rem)] leading-[1.02] font-semibold tracking-[-0.035em] text-white uppercase lg:mt-8'>
-            {t('principle')}
-          </p>
+            <ul className='mt-7 space-y-5 border-t border-white/15 pt-7 lg:mt-8 lg:pt-8'>
+              {points.map((point) => (
+                <li
+                  key={point}
+                  className='grid grid-cols-[auto_1fr] gap-4 font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/85'
+                >
+                  <span
+                    className='mt-2.5 h-px w-6 shrink-0 bg-accent'
+                    aria-hidden
+                  />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-          <div className='mt-5 h-px w-16 bg-accent lg:mt-6' />
-
-          <h2 className='mt-7 text-white lg:mt-8'>{t('title')}</h2>
-
-          <div className='mt-6 space-y-4 font-sans text-[0.9375rem] leading-[1.7] font-normal text-white/80 lg:mt-7'>
-            <p>{t('paragraph1')}</p>
-            <p>{t('paragraph2')}</p>
-            <p>{t('paragraph3')}</p>
+          <div className='border-t border-accent pt-6 lg:border-t-0 lg:border-l lg:border-accent lg:pt-0 lg:pl-10'>
+            <p className='font-sans text-[clamp(1.65rem,3.2vw,2.45rem)] leading-[1.1] font-semibold tracking-[-0.03em] text-white uppercase'>
+              {t('principle')}
+            </p>
           </div>
         </div>
       </div>

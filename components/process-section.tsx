@@ -14,25 +14,25 @@ export function ProcessSection() {
   const steps = t.raw('steps') as Step[];
 
   return (
-    <section id='how-we-work' className='border-t border-navy/15 bg-white'>
+    <section id='how-we-work' className='bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <div className='mt-6 grid gap-5 border-t border-navy/15 pt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5'>
+        <h2 className='text-navy'>{t('title')}</h2>
+        <div className='mt-6 grid gap-5 border-t border-line pt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5'>
           {steps.map((step, index) => (
             <div key={step.id} className='relative min-w-0'>
               <div className='mt-0 flex items-center'>
                 <h3 className='shrink-0 text-navy'>{step.title}</h3>
                 {index < steps.length - 1 && (
                   <span
-                    className='hidden flex-1 -mr-8 items-center justify-center text-sm leading-none text-navy/30 lg:flex'
+                    className='hidden flex-1 -mr-8 items-center justify-center text-sm leading-none text-brand/40 lg:flex'
                     aria-hidden
                   >
                     →
                   </span>
                 )}
               </div>
-              <p className='mt-2 pq-subtitle text-navy/70'>{step.text}</p>
+              <p className='mt-2 pq-subtitle text-steel-gray'>{step.text}</p>
             </div>
           ))}
         </div>

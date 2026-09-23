@@ -13,15 +13,17 @@ export function WhySection() {
   const reasons = t.raw('reasons') as Reason[];
 
   return (
-    <section className='border-t border-navy/15 bg-white' id='why'>
+    <section className='bg-white' id='why'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
+        <h2 className='text-navy'>{t('title')}</h2>
         <div className='mt-8 grid gap-x-8 gap-y-6 md:grid-cols-2 xl:grid-cols-3'>
           {reasons.map((item) => (
-            <div key={item.title} className='border-t border-navy/15 pt-4'>
+            <div key={item.title} className='border-t border-line pt-4'>
               <h3 className='text-navy'>{item.title}</h3>
-              <p className='mt-2 pq-subtitle text-navy/70'>{item.description}</p>
+              <p className='mt-2 pq-subtitle text-steel-gray'>
+                {item.description}
+              </p>
             </div>
           ))}
         </div>

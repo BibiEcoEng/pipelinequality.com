@@ -13,15 +13,15 @@ export function StandardsSection() {
   const groups = t.raw('groups') as Group[];
 
   return (
-    <section id='standards' className='border-y border-navy/15 bg-white'>
+    <section id='standards' className='border-y border-line bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <div className='mt-8 grid gap-px bg-navy/15 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+        <div className='mt-10 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {groups.map((group, index) => (
             <div
               key={group.title}
-              className={`bg-white p-5 ${
+              className={`bg-light-gray p-5 ${
                 index === groups.length - 1
                   ? 'sm:col-span-2 lg:col-span-3 xl:col-span-2'
                   : ''
@@ -38,7 +38,7 @@ export function StandardsSection() {
             </div>
           ))}
         </div>
-        <p className='mt-6 max-w-3xl text-[13px] leading-relaxed text-navy/70'>
+        <p className='mt-6 max-w-3xl text-[13px] leading-relaxed text-steel-gray'>
           {t('scopeNote')}
         </p>
       </div>

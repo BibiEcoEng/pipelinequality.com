@@ -13,22 +13,22 @@ export function DigitalQualitySection() {
   const blocks = t.raw('blocks') as Block[];
 
   return (
-    <section id='digital-quality' className='border-t border-navy/15 bg-white'>
+    <section id='digital-quality' className='bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <p className='mt-4 max-w-3xl pq-subtitle text-navy/70'>
+        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
           {t('description')}
         </p>
-        <div className='mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3'>
+        <div className='mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3'>
           {blocks.map((block) => (
-            <div key={block.title} className='border-t border-navy/15 pt-4'>
+            <div key={block.title} className='border-t border-line pt-4'>
               <h3 className='text-navy'>{block.title}</h3>
               <ul className='mt-3 space-y-1.5'>
                 {block.items.map((item) => (
                   <li
                     key={item}
-                    className="text-[13px] text-navy/70 before:mr-1.5 before:text-accent before:content-['▸']"
+                    className="text-[13px] text-steel-gray before:mr-1.5 before:text-brand before:content-['▸']"
                   >
                     {item}
                   </li>

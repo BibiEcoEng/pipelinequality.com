@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section
       id='home'
-      className='relative min-h-[92svh] overflow-hidden bg-navy text-white lg:min-h-[78vh]'
+      className='relative min-h-[92svh] overflow-hidden bg-[#0a2748] text-white lg:min-h-[78vh]'
     >
       <img
         src='/client/hero-monopile.jpg?v=3'
