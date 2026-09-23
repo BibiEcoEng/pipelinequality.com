@@ -92,39 +92,39 @@ export function Navigation() {
             : 'bg-gradient-to-b from-navy/55 via-navy/25 to-transparent text-white'
         }`}
       >
-        <div className='pq-shell flex h-[4.5rem] items-center gap-6'>
+        <div className='pq-shell flex h-[5.5rem] items-center gap-7'>
           <a
             href='#home'
             onClick={handleSmoothScroll}
-            className='group flex shrink-0 items-center gap-3'
+            className='group flex shrink-0 items-center gap-3.5'
             aria-label='Pipeline Quality'
           >
             <img
               src={onDark ? '/logo-mark-white.png' : '/logo-mark.png'}
               alt=''
-              className='h-11 w-auto object-contain sm:h-12'
+              className='h-12 w-auto object-contain sm:h-14'
             />
             <span className='flex flex-col leading-[1.05]'>
               <span
-                className={`text-[13px] font-semibold tracking-[0.16em] uppercase sm:text-[15px] sm:tracking-[0.18em] ${
+                className={`text-[16px] font-semibold tracking-[0.16em] uppercase sm:text-[18px] sm:tracking-[0.18em] ${
                   onDark ? 'text-white' : 'text-navy'
                 }`}
               >
                 Pipeline
               </span>
-              <span className='text-[13px] font-semibold tracking-[0.16em] text-accent uppercase sm:text-[15px] sm:tracking-[0.18em]'>
+              <span className='text-[16px] font-semibold tracking-[0.16em] text-accent uppercase sm:text-[18px] sm:tracking-[0.18em]'>
                 Quality
               </span>
             </span>
           </a>
 
-          <nav className='ml-auto hidden items-center gap-1 lg:flex'>
+          <nav className='ml-auto hidden items-center gap-1.5 lg:flex'>
             {links.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
                 onClick={handleSmoothScroll}
-                className={`relative px-3 py-2 text-[12px] font-semibold tracking-[0.08em] uppercase transition-colors duration-300 after:absolute after:right-3 after:bottom-1 after:left-3 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${
+                className={`relative px-3.5 py-2.5 text-[14px] font-semibold tracking-[0.08em] uppercase transition-colors duration-300 after:absolute after:right-3.5 after:bottom-1 after:left-3.5 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${
                   onDark ? 'text-white/75 hover:text-white' : 'text-navy/70 hover:text-navy'
                 }`}
               >
@@ -133,12 +133,12 @@ export function Navigation() {
             ))}
           </nav>
 
-          <div className='hidden items-center gap-5 lg:flex'>
+          <div className='hidden items-center gap-6 lg:flex'>
             <div className='relative'>
               <button
                 type='button'
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className={`flex items-center gap-2 text-[11px] font-semibold tracking-[0.16em] uppercase ${
+                className={`flex items-center gap-2 text-[13px] font-semibold tracking-[0.16em] uppercase ${
                   onDark ? 'text-white/80' : 'text-navy'
                 }`}
                 aria-label='Language'
@@ -153,7 +153,7 @@ export function Navigation() {
                       key={lang.code}
                       type='button'
                       onClick={() => switchLocale(lang.code)}
-                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-light-gray ${
+                      className={`block w-full px-4 py-2.5 text-left text-[13px] font-semibold tracking-[0.12em] transition hover:bg-light-gray ${
                         locale === lang.code ? 'text-accent' : ''
                       }`}
                     >
@@ -166,7 +166,7 @@ export function Navigation() {
             <a
               href='#contact'
               onClick={handleSmoothScroll}
-              className={`text-[11px] font-semibold tracking-[0.14em] uppercase transition ${
+              className={`text-[13px] font-semibold tracking-[0.14em] uppercase transition ${
                 onDark
                   ? 'text-white drop-shadow-[0_1px_2px_rgba(1,42,96,0.75)] hover:text-accent'
                   : 'text-accent hover:text-navy'
