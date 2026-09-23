@@ -36,24 +36,24 @@ export function HeroSection() {
 
       <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-16 lg:pt-24'>
         <div className='pq-shell'>
-          <div className='max-w-[40rem]'>
-            {/* Size 1 — same heading scale as the rest of the site */}
+          <div className='max-w-[42rem]'>
             <h1 className='pq-hero-brand pq-fade-up text-white'>{t('brand')}</h1>
 
-            {/* Size 2 — same body/subtitle scale used sitewide */}
             <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle font-semibold text-white lg:mt-5'>
               {t('titleLine1')} {t('titleLine2')}
             </p>
 
             <div className='pq-fade-up pq-fade-up-delay-1 mt-5 h-px w-20 bg-accent pq-line-grow lg:mt-6' />
 
-            <div className='pq-fade-up pq-fade-up-delay-2 mt-5 max-w-lg space-y-2.5 lg:mt-6'>
-              <p className='border-l-2 border-accent pl-3 pq-subtitle font-semibold text-white'>
-                {t('subtitle')}
-              </p>
-              <p className='border-l-2 border-white/40 pl-3 pq-subtitle font-semibold text-white/95'>
-                {t('subtitleLine2')}
-              </p>
+            <div className='pq-fade-up pq-fade-up-delay-2 mt-5 space-y-2.5 lg:mt-6'>
+              <div className='flex items-stretch gap-3'>
+                <span className='w-0.5 shrink-0 bg-accent' aria-hidden />
+                <p className='pq-subtitle m-0 font-semibold text-white'>{t('subtitle')}</p>
+              </div>
+              <div className='flex items-stretch gap-3'>
+                <span className='w-0.5 shrink-0 bg-white/40' aria-hidden />
+                <p className='pq-subtitle m-0 font-semibold text-white/95'>{t('subtitleLine2')}</p>
+              </div>
             </div>
 
             <div className='pq-fade-up pq-fade-up-delay-3 mt-7 flex flex-wrap items-center gap-4 lg:mt-8'>
