@@ -9,7 +9,7 @@ type ServiceBlock = {
 };
 
 const serviceImages = [
-  '/client/service-engineering.jpg?v=5',
+  '/client/service-engineering.jpg?v=6',
   '/client/service-welding.jpg?v=5',
   '/client/service-docs-yard.jpg?v=7',
   '/client/service-project.jpg?v=6',
