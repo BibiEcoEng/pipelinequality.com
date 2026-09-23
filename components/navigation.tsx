@@ -17,8 +17,11 @@ export function Navigation() {
   const switchLocale = (newLocale: string) => {
     if (newLocale === locale) return;
     const scrollY = window.scrollY;
-    router.replace(pathname, { locale: newLocale as 'en' | 'de' });
-    setTimeout(() => window.scrollTo(0, scrollY), 50);
+    const nextLocale = newLocale as 'en' | 'de';
+    document.cookie = `NEXT_LOCALE=${nextLocale}; path=/; max-age=31536000; SameSite=lax`;
+    router.replace(pathname || '/', { locale: nextLocale });
+    router.refresh();
+    setTimeout(() => window.scrollTo(0, scrollY), 80);
     setIsLangOpen(false);
   };
 

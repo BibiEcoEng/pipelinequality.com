@@ -5,8 +5,9 @@ export const routing = defineRouting({
   defaultLocale: 'en',
   // Keep the address bar as pipelinequality.com (no /en or /de)
   localePrefix: 'never',
-  // Always open in English unless the user switches language
-  localeDetection: false,
+  // Cookie must be read so language switching works; first visit
+  // is forced to English in middleware (ignore browser language).
+  localeDetection: true,
 });
 
 export const locales = routing.locales;
