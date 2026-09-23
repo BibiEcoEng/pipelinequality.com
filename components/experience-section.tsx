@@ -8,27 +8,29 @@ export function ExperienceSection() {
   return (
     <section id='experience' className='bg-white text-navy'>
       <div className='pq-shell pq-section'>
-        <div className='max-w-2xl'>
+        <div className='max-w-3xl'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
-          <p className='mt-4 pq-subtitle text-navy/70'>{t('paragraph1')}</p>
-          <p className='mt-3 pq-subtitle text-navy/70'>{t('paragraph2')}</p>
-        </div>
+          <p className='mt-4 pq-subtitle text-navy/70'>{t('intro')}</p>
 
-        <div className='mt-8 grid gap-px border border-navy/15 bg-navy/15 sm:grid-cols-2'>
-          <div className='bg-white p-6 sm:p-7'>
-            <p className='text-[11px] font-semibold tracking-[0.16em] text-accent uppercase'>
-              {t('offshoreTitle')}
-            </p>
-            <p className='mt-3 pq-subtitle text-navy/70'>{t('offshoreText')}</p>
-          </div>
-          <div className='bg-white p-6 sm:p-7'>
-            <p className='text-[11px] font-semibold tracking-[0.16em] text-accent uppercase'>
-              {t('industrialTitle')}
-            </p>
-            <p className='mt-3 pq-subtitle text-navy/70'>
-              {t('industrialText')}
-            </p>
+          <div className='mt-8 space-y-7 border-t border-navy/15 pt-7'>
+            <div>
+              <p className='pq-index'>{t('referenceLabel')}</p>
+              <h3 className='mt-2 font-sans text-[1.05rem] font-semibold tracking-[-0.02em] text-navy'>
+                {t('referenceTitle')}
+              </h3>
+              <p className='mt-2 pq-subtitle text-navy/70'>{t('referenceText')}</p>
+            </div>
+
+            <div>
+              <p className='pq-index'>{t('scopeTitle')}</p>
+              <p className='mt-2 pq-subtitle text-navy/70'>{t('scopeText')}</p>
+            </div>
+
+            <div>
+              <p className='pq-index'>{t('trackTitle')}</p>
+              <p className='mt-2 pq-subtitle text-navy/70'>{t('trackText')}</p>
+            </div>
           </div>
         </div>
       </div>
