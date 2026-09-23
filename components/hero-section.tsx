@@ -16,7 +16,6 @@ export function HeroSection() {
         className='absolute inset-0 h-full w-full scale-[1.03] object-cover object-[70%_40%] brightness-[1.04] contrast-[1.08] saturate-[1.02]'
       />
 
-      {/* Balanced wash: photo stays visible, navy + soft orange blend for brand */}
       <div
         className='absolute inset-0 bg-[linear-gradient(115deg,rgba(1,42,96,0.72)_0%,rgba(1,42,96,0.42)_38%,rgba(1,42,96,0.18)_62%,rgba(1,42,96,0.06)_100%)]'
         aria-hidden
@@ -36,33 +35,33 @@ export function HeroSection() {
 
       <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-16 lg:pt-24'>
         <div className='pq-shell'>
-          {/* Shared left edge: brand, tagline, lists, and buttons all start here */}
-          <div className='max-w-[42rem]'>
-            <h1 className='pq-hero-brand pq-fade-up text-white'>{t('brand')}</h1>
+          {/*
+            Shared 2-column grid: gutter | text
+            Brand, tagline, lists, and buttons all sit in the same text column.
+          */}
+          <div className='grid max-w-[42rem] grid-cols-[2px_1fr] gap-x-3'>
+            <span aria-hidden className='block' />
+            <h1 className='pq-hero-brand pq-fade-up m-0 text-white'>{t('brand')}</h1>
 
-            <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle font-semibold text-white lg:mt-5'>
+            <span aria-hidden className='block' />
+            <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle m-0 font-semibold text-white lg:mt-5'>
               {t('titleLine1')} {t('titleLine2')}
             </p>
 
+            <span aria-hidden className='block' />
             <div className='pq-fade-up pq-fade-up-delay-1 mt-5 h-px w-20 bg-accent pq-line-grow lg:mt-6' />
 
-            <div className='pq-fade-up pq-fade-up-delay-2 mt-5 space-y-2.5 lg:mt-6'>
-              <p className='relative m-0 pq-subtitle font-semibold text-white'>
-                <span
-                  className='absolute top-[0.2em] bottom-[0.2em] -left-3 w-0.5 bg-accent'
-                  aria-hidden
-                />
-                {t('subtitle')}
-              </p>
-              <p className='relative m-0 pq-subtitle font-semibold text-white/95'>
-                <span
-                  className='absolute top-[0.2em] bottom-[0.2em] -left-3 w-0.5 bg-white/40'
-                  aria-hidden
-                />
-                {t('subtitleLine2')}
-              </p>
-            </div>
+            <span aria-hidden className='mt-5 self-stretch bg-accent lg:mt-6' />
+            <p className='pq-fade-up pq-fade-up-delay-2 mt-5 pq-subtitle m-0 font-semibold text-white lg:mt-6'>
+              {t('subtitle')}
+            </p>
 
+            <span aria-hidden className='mt-2.5 self-stretch bg-white/40' />
+            <p className='pq-fade-up pq-fade-up-delay-2 mt-2.5 pq-subtitle m-0 font-semibold text-white/95'>
+              {t('subtitleLine2')}
+            </p>
+
+            <span aria-hidden className='block' />
             <div className='pq-fade-up pq-fade-up-delay-3 mt-7 flex flex-wrap items-center gap-4 lg:mt-8'>
               <a href='#contact' className='pq-btn'>
                 {t('cta1')}
