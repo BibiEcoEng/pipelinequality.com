@@ -12,7 +12,7 @@ const serviceImages = [
   '/client/service-engineering.jpg?v=6',
   '/client/service-welding.jpg?v=6',
   '/client/service-docs-yard.jpg?v=7',
-  '/client/service-project.jpg?v=6',
+  '/client/service-project.jpg?v=7',
 ];
 
 export function ServicesOverview() {
