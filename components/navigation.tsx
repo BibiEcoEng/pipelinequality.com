@@ -166,7 +166,7 @@ export function Navigation() {
             <a
               href='#contact'
               onClick={handleSmoothScroll}
-              className='inline-flex items-center bg-accent px-4 py-2.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase shadow-[0_1px_0_rgba(1,42,96,0.12)] transition hover:bg-accent-hover'
+              className='inline-flex items-center bg-accent px-3.5 py-1.5 text-[11px] font-semibold tracking-[0.12em] text-white uppercase transition hover:bg-accent-hover'
             >
               {tCTA('button1')}
             </a>
