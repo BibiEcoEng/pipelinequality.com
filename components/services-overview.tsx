@@ -51,9 +51,16 @@ export function ServicesOverview() {
       />
 
       <div className='pq-shell pq-section'>
+        <p
+          className={`pq-index transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+            visible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+          }`}
+        >
+          {t('keyAreasTitle')}
+        </p>
         <h2 className='sr-only'>{t('title')}</h2>
         <div
-          className={`grid items-start gap-8 lg:grid-cols-[1fr_0.95fr] lg:gap-14 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          className={`mt-6 grid items-start gap-8 lg:mt-8 lg:grid-cols-[1fr_0.95fr] lg:gap-14 transition-all duration-700 delay-100 ease-[cubic-bezier(0.16,1,0.3,1)] ${
             visible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`}
         >
