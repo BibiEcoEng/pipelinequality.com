@@ -38,7 +38,7 @@ export function HeroSection() {
         <div className='pq-shell'>
           <div className='max-w-[40rem]'>
             {/* Size 1 — same heading scale as the rest of the site */}
-            <h1 className='pq-fade-up text-white'>{t('brand')}</h1>
+            <h1 className='pq-hero-brand pq-fade-up text-white'>{t('brand')}</h1>
 
             {/* Size 2 — same body/subtitle scale used sitewide */}
             <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle font-semibold text-white lg:mt-5'>
