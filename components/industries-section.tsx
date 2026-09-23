@@ -25,29 +25,23 @@ export function IndustriesSection() {
   return (
     <section id='industries' className='bg-white'>
       <div className='pq-shell pq-section'>
-        <p className='pq-index'>{t('label')}</p>
-        <h2 className='mt-3 text-navy'>{t('title')}</h2>
+        <p className='pq-index font-sans'>{t('label')}</p>
+        <h2 className='mt-3 font-sans font-semibold text-navy'>{t('title')}</h2>
 
         <div className='mt-8 space-y-0 border-t border-navy/10'>
           {items.map((item, index) => (
             <article
               key={item.title}
-              className='group grid items-center gap-6 border-b border-navy/10 py-7 sm:gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:py-8'
+              className='grid items-center gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-2 lg:gap-10 lg:py-6'
             >
-              <div className='min-w-0'>
-                <div className='flex items-baseline gap-4'>
-                  <span className='font-sans text-[11px] font-semibold tracking-[0.18em] text-accent'>
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
-                  <h3 className='font-sans text-[1.05rem] font-semibold tracking-[-0.02em] text-navy'>
-                    {item.title}
-                  </h3>
-                </div>
-                <ul className='mt-3 space-y-1.5 sm:pl-[2.75rem]'>
+              {/* Left text — unchanged from previous industries layout */}
+              <div>
+                <h3 className='font-sans font-semibold text-navy'>{item.title}</h3>
+                <ul className='mt-3 space-y-1.5'>
                   {item.items.map((entry) => (
                     <li
                       key={entry}
-                      className='pq-subtitle text-navy/70 before:mr-2 before:text-accent before:content-["▸"]'
+                      className='font-sans text-[0.9375rem] leading-[1.65] font-normal tracking-normal text-navy/75'
                     >
                       {entry}
                     </li>
@@ -55,7 +49,8 @@ export function IndustriesSection() {
                 </ul>
               </div>
 
-              <div className='pq-service-visual pq-service-visual--landscape w-full max-w-xl lg:max-w-none lg:justify-self-end'>
+              {/* Image frame only — same editorial treatment as What We Offer */}
+              <div className='pq-service-visual pq-service-visual--landscape w-full'>
                 <div className='pq-service-visual__glow' aria-hidden />
                 <div className='pq-service-visual__back' aria-hidden />
 
