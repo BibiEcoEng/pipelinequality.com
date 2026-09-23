@@ -7,17 +7,6 @@ type Industry = {
   items: string[];
 };
 
-const industryImages = [
-  '/client/industry-offshore.jpg?v=3',
-  '/client/industry-pipeline.jpg?v=3',
-  '/client/industry-oilgas.jpg?v=4',
-  '/client/industry-chemical.jpg?v=3',
-  '/client/industry-energy.jpg?v=3',
-  '/client/industry-epc.jpg?v=4',
-  '/client/industry-construction.jpg?v=4',
-  '/client/industry-maintenance.jpg?v=4',
-];
-
 export function IndustriesSection() {
   const t = useTranslations('industries');
   const items = t.raw('sectors') as Industry[];
@@ -25,32 +14,30 @@ export function IndustriesSection() {
   return (
     <section id='industries' className='bg-white'>
       <div className='pq-shell pq-section'>
-        <p className='pq-index'>{t('label')}</p>
-        <h2 className='mt-3 text-navy'>{t('title')}</h2>
+        <div className='max-w-3xl'>
+          <p className='pq-index'>{t('label')}</p>
+          <h2 className='mt-3 text-navy'>{t('title')}</h2>
+        </div>
 
-        <div className='mt-8 space-y-0 border-t border-navy/10'>
-          {items.map((item, index) => (
+        <div className='mt-8 border-t border-line'>
+          {items.map((item) => (
             <article
               key={item.title}
-              className='grid items-start gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-2 lg:gap-10 lg:py-6'
+              className='grid gap-4 border-b border-line py-7 lg:grid-cols-[minmax(12rem,0.9fr)_1.6fr] lg:gap-10 lg:py-8'
             >
-              <div>
-                <h3 className='text-navy'>{item.title}</h3>
-                <ul className='mt-3 space-y-1.5'>
-                  {item.items.map((entry) => (
-                    <li key={entry} className='pq-subtitle text-steel-gray'>
-                      {entry}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className='relative aspect-[16/10] w-full overflow-hidden bg-light-gray sm:aspect-[16/9]'>
-                <img
-                  src={industryImages[index]}
-                  alt={item.title}
-                  className='absolute inset-0 h-full w-full object-cover object-center'
-                />
-              </div>
+              <h3 className='font-sans text-[1.05rem] font-semibold leading-snug tracking-[-0.015em] text-navy lg:pt-0.5'>
+                {item.title}
+              </h3>
+              <ul className='grid gap-x-8 gap-y-0 sm:grid-cols-2'>
+                {item.items.map((entry) => (
+                  <li
+                    key={entry}
+                    className='border-b border-line/80 py-2.5 font-sans text-[0.9375rem] font-normal leading-snug text-navy/75 last:border-b-0 sm:[&:nth-last-child(-n+2)]:border-b-0'
+                  >
+                    {entry}
+                  </li>
+                ))}
+              </ul>
             </article>
           ))}
         </div>
