@@ -134,42 +134,40 @@ export function ServicesOverview() {
             </div>
           </div>
 
-          {/* Right: image stage */}
+          {/* Right: editorial image stage */}
           <div className='relative lg:sticky lg:top-28'>
-            <div className='relative overflow-hidden bg-[#0a2748] pq-panel-cut shadow-[0_24px_60px_-28px_rgba(1,42,96,0.35)]'>
-              <div className='relative aspect-[5/4] w-full sm:aspect-[4/3] lg:aspect-[5/4]'>
-                {serviceImages.map((src, index) => (
-                  <img
-                    key={src}
-                    src={src}
-                    alt={blocks[index]?.title ?? ''}
-                    className={`absolute inset-0 h-full w-full object-cover object-center transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-                      active === index
-                        ? 'scale-100 opacity-100'
-                        : 'scale-105 opacity-0'
-                    }`}
-                  />
-                ))}
-                <div
-                  className='pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/45 via-transparent to-transparent'
-                  aria-hidden
-                />
-                <div
-                  className='pointer-events-none absolute top-0 right-0 h-10 w-10 border-t-2 border-r-2 border-accent'
-                  aria-hidden
-                />
-              </div>
+            <div className='pq-service-visual'>
+              <div className='pq-service-visual__glow' aria-hidden />
+              <div className='pq-service-visual__back' aria-hidden />
 
-              <div className='absolute right-0 bottom-0 left-0 p-5 sm:p-6'>
-                <p className='font-sans text-[11px] font-semibold tracking-[0.16em] text-accent uppercase'>
-                  {String(active + 1).padStart(2, '0')} / {String(blocks.length).padStart(2, '0')}
-                </p>
-                <p
-                  key={current?.title}
-                  className='mt-1 max-w-sm text-[1.05rem] leading-snug font-semibold tracking-[-0.02em] text-white animate-[pqFadeUp_0.55s_cubic-bezier(0.16,1,0.3,1)_both]'
-                >
-                  {current?.title}
-                </p>
+              <div className='pq-service-visual__frame'>
+                <div className='pq-service-visual__media'>
+                  {serviceImages.map((src, index) => (
+                    <img
+                      key={src}
+                      src={src}
+                      alt={blocks[index]?.title ?? ''}
+                      className={`pq-service-visual__img${
+                        active === index ? ' is-active' : ''
+                      }`}
+                    />
+                  ))}
+                  <div className='pq-service-visual__veil' aria-hidden />
+                  <div className='pq-service-visual__mark' aria-hidden>
+                    <span />
+                    <span />
+                  </div>
+                </div>
+
+                <div className='pq-service-visual__caption'>
+                  <p className='pq-service-visual__index'>
+                    {String(active + 1).padStart(2, '0')} /{' '}
+                    {String(blocks.length).padStart(2, '0')}
+                  </p>
+                  <p key={current?.title} className='pq-service-visual__title pq-fade-up'>
+                    {current?.title}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
