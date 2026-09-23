@@ -13,7 +13,7 @@ const industryImages = [
   '/client/industry-oilgas.jpg?v=4',
   '/client/industry-chemical.jpg?v=3',
   '/client/industry-energy.jpg?v=3',
-  '/client/industry-epc.jpg?v=7',
+  '/client/industry-epc.jpg?v=6',
   '/client/industry-construction.jpg?v=4',
   '/client/industry-maintenance.jpg?v=4',
 ];
