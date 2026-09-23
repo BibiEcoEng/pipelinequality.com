@@ -13,6 +13,14 @@ export function ExperienceSection() {
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 pq-subtitle text-navy/70'>{t('intro')}</p>
 
+          <div className='relative mt-6 aspect-[3/4] w-full overflow-hidden border border-navy/15 bg-white sm:aspect-[4/5]'>
+            <img
+              src='/client/experience-sif.jpg?v=1'
+              alt={t('referenceTitle')}
+              className='absolute inset-0 h-full w-full object-contain object-center'
+            />
+          </div>
+
           <div className='mt-8 space-y-7 border-t border-navy/15 pt-7'>
             <div>
               <p className='pq-index'>{t('referenceLabel')}</p>
