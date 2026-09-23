@@ -42,9 +42,11 @@ export function Navigation() {
   }, [isMobileMenuOpen]);
 
   const languages = [
-    { code: 'en', name: 'EN' },
-    { code: 'de', name: 'DE' },
+    { code: 'en', name: 'English' },
+    { code: 'de', name: 'German' },
   ];
+  const currentLanguage =
+    languages.find((lang) => lang.code === locale)?.name ?? 'English';
 
   const closeMenu = () => setIsMobileMenuOpen(false);
 
@@ -138,12 +140,12 @@ export function Navigation() {
               <button
                 type='button'
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className={`flex items-center gap-2 text-[13px] font-semibold tracking-[0.16em] uppercase ${
+                className={`flex items-center gap-2 whitespace-nowrap text-[13px] font-semibold tracking-[0.16em] uppercase ${
                   onDark ? 'text-white/80' : 'text-navy'
                 }`}
                 aria-label='Language'
               >
-                {locale.toUpperCase()}
+                {currentLanguage}
                 <span className='text-accent'>+</span>
               </button>
               {isLangOpen && (
