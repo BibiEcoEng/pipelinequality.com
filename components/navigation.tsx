@@ -166,7 +166,7 @@ export function Navigation() {
             <a
               href='#contact'
               onClick={handleSmoothScroll}
-              className={`text-[13px] font-semibold tracking-[0.14em] uppercase transition ${
+              className={`whitespace-nowrap text-[13px] font-semibold tracking-[0.14em] uppercase transition ${
                 onDark
                   ? 'text-white drop-shadow-[0_1px_2px_rgba(1,42,96,0.75)] hover:text-accent'
                   : 'text-accent hover:text-navy'
