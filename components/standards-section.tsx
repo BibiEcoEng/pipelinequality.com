@@ -21,7 +21,7 @@ export function StandardsSection() {
           {groups.map((group, index) => (
             <div
               key={group.title}
-              className={`bg-light-gray p-5 ${
+              className={`bg-white p-5 ${
                 index === groups.length - 1
                   ? 'sm:col-span-2 lg:col-span-3 xl:col-span-2'
                   : ''
@@ -38,7 +38,7 @@ export function StandardsSection() {
             </div>
           ))}
         </div>
-        <p className='mt-6 max-w-3xl text-[13px] leading-relaxed text-steel-gray'>
+        <p className='mt-6 max-w-3xl text-[13px] leading-relaxed text-navy/70'>
           {t('scopeNote')}
         </p>
       </div>

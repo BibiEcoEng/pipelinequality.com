@@ -22,13 +22,13 @@ export function ServicesOverview() {
   const current = blocks[active];
 
   return (
-    <section id='services' className='bg-navy text-white'>
+    <section id='services' className='bg-white text-navy'>
       <div className='pq-shell pq-section'>
         <div>
-          <h2 className='max-w-3xl text-white'>{t('title')}</h2>
+          <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
         </div>
 
-        <div className='relative mt-6 aspect-[16/9] w-full overflow-hidden bg-[#0a2748] sm:aspect-[2.1/1] lg:aspect-[2.2/1]'>
+        <div className='relative mt-6 aspect-[16/9] w-full overflow-hidden border border-navy/15 bg-white sm:aspect-[2.1/1] lg:aspect-[2.2/1]'>
           {serviceImages.map((src, index) => (
             <img
               key={src}
@@ -42,7 +42,7 @@ export function ServicesOverview() {
           <div className='absolute top-0 right-0 h-10 w-10 border-t-2 border-r-2 border-accent sm:h-12 sm:w-12' />
         </div>
 
-        <div className='mt-5 grid gap-0 border-t border-white/25 sm:grid-cols-2 lg:grid-cols-4'>
+        <div className='mt-5 grid gap-0 border-t border-navy/15 sm:grid-cols-2 lg:grid-cols-4'>
           {blocks.map((service, index) => {
             const isActive = active === index;
             return (
@@ -51,8 +51,8 @@ export function ServicesOverview() {
                 type='button'
                 onClick={() => setActive(index)}
                 onMouseEnter={() => setActive(index)}
-                className={`border-b border-white/25 px-0 py-3 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-white/25 lg:px-4 lg:py-4 lg:last:border-r-0 ${
-                  isActive ? 'text-white' : 'text-white/75 hover:text-white'
+                className={`border-b border-navy/15 px-0 py-3 text-left transition-colors duration-400 lg:border-b-0 lg:border-r lg:border-navy/15 lg:px-4 lg:py-4 lg:last:border-r-0 ${
+                  isActive ? 'text-navy' : 'text-navy/70 hover:text-navy'
                 }`}
               >
                 <span className='block text-[0.95rem] leading-snug font-semibold tracking-[-0.015em]'>
@@ -63,12 +63,12 @@ export function ServicesOverview() {
           })}
         </div>
 
-        <div className='mt-4 border-t border-white/25 pt-4'>
+        <div className='mt-4 border-t border-navy/15 pt-4'>
           <ul className='grid gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3'>
             {current?.items.map((item) => (
               <li
                 key={item}
-                className='text-[13px] leading-snug text-white before:mr-2 before:text-accent before:content-["▸"]'
+                className='text-[13px] leading-snug text-navy/70 before:mr-2 before:text-accent before:content-["▸"]'
               >
                 {item}
               </li>

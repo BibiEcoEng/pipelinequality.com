@@ -17,7 +17,7 @@ export function DigitalQualitySection() {
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
+        <p className='mt-4 max-w-2xl pq-subtitle text-navy/70'>
           {t('description')}
         </p>
         <div className='mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3'>
@@ -28,7 +28,7 @@ export function DigitalQualitySection() {
                 {block.items.map((item) => (
                   <li
                     key={item}
-                    className="text-[13px] text-steel-gray before:mr-1.5 before:text-brand before:content-['▸']"
+                    className="text-[13px] text-navy/70 before:mr-1.5 before:text-brand before:content-['▸']"
                   >
                     {item}
                   </li>

@@ -6,7 +6,7 @@ export function CTASection() {
   const t = useTranslations('cta');
 
   return (
-    <section className='relative overflow-hidden border-t border-white/10 bg-navy'>
+    <section className='relative overflow-hidden border-t border-white/20 bg-navy'>
       <div className='pq-shell pq-section grid gap-6 lg:grid-cols-[1.35fr_0.65fr] lg:items-start lg:gap-10'>
         <div>
           <p className='pq-index'>{t('label')}</p>

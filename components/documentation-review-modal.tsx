@@ -145,7 +145,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
           <div className="flex-shrink-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between rounded-t-2xl">
             <div className="flex items-center gap-3">
               <img src="/pipleline-quality-logo.png" alt="Pipeline Quality" className="w-10 h-10" />
-              <h2 className="text-xl md:text-2xl font-bold text-navy">
+              <h2 className="text-xl md:text-2xl font-semibold text-navy">
                 {t('title')}
               </h2>
             </div>
@@ -177,7 +177,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-muted-gold focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2.5 border border-navy/15 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
                     placeholder={t('form.namePlaceholder')}
                   />
                 </div>
@@ -194,7 +194,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                     required
                     value={formData.company}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-muted-gold focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2.5 border border-navy/15 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
                     placeholder={t('form.companyPlaceholder')}
                   />
                 </div>
@@ -211,7 +211,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-muted-gold focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2.5 border border-navy/15 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
                     placeholder={t('form.emailPlaceholder')}
                   />
                 </div>
@@ -227,7 +227,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-muted-gold focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2.5 border border-navy/15 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
                     placeholder={t('form.phonePlaceholder')}
                   />
                 </div>
@@ -243,11 +243,11 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-muted-gold focus:border-transparent outline-none transition-all resize-none"
+                    className="w-full px-4 py-2.5 border border-navy/15 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all resize-none"
                     placeholder={t('form.messagePlaceholder')}
                   />
                 </div>
-                <div className="text-[10px] md:text-xs text-gray-500 italic leading-relaxed py-2">
+                <div className="text-[10px] md:text-xs text-navy/70 italic leading-relaxed py-2">
                   {t('form.privacyNote')}
                 </div>
 
@@ -256,7 +256,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-muted-gold text-white hover:bg-muted-gold/90 font-semibold py-4 px-6 rounded-lg text-base transition-all duration-300 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center justify-center gap-2"
+                    className="w-full bg-accent text-white hover:bg-accent/90 font-semibold py-4 px-6 rounded-lg text-base transition-all duration-300 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
                       <>

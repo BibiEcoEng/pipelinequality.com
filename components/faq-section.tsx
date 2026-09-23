@@ -9,22 +9,20 @@ export function FAQSection() {
   const items = t.raw('items') as Array<{ question: string; answer: string }>;
 
   return (
-    <section className='relative overflow-hidden bg-navy text-white'>
+    <section className='relative overflow-hidden border-t border-navy/15 bg-white text-navy'>
       <div className='pq-shell pq-section relative'>
         <div className='max-w-xl'>
           <p className='pq-index'>FAQ</p>
-          <h2 className='mt-2 text-white'>{t('title')}</h2>
+          <h2 className='mt-2 text-navy'>{t('title')}</h2>
         </div>
 
-        <div className='mt-6 border-t border-white/15 lg:mt-8'>
+        <div className='mt-6 border-t border-navy/15 lg:mt-8'>
           {items.map((faq, index) => {
             const open = openIndex === index;
             return (
               <div
                 key={faq.question}
-                className={`border-b border-white/15 transition-colors duration-400 ${
-                  open ? 'bg-white/[0.03]' : ''
-                }`}
+                className='border-b border-navy/15 transition-colors duration-400'
               >
                 <button
                   type='button'
@@ -34,7 +32,7 @@ export function FAQSection() {
                 >
                   <span
                     className={`text-[0.9rem] leading-snug font-semibold tracking-[-0.015em] transition-colors duration-300 lg:text-[0.95rem] ${
-                      open ? 'text-white' : 'text-white/75'
+                      open ? 'text-navy' : 'text-navy/70'
                     }`}
                   >
                     {faq.question}
@@ -56,7 +54,7 @@ export function FAQSection() {
                   style={{ gridTemplateRows: open ? '1fr' : '0fr' }}
                 >
                   <div className='overflow-hidden'>
-                    <p className='max-w-3xl pr-8 pb-3.5 text-[13px] leading-relaxed text-white/65 lg:pb-3'>
+                    <p className='max-w-3xl pr-8 pb-3.5 text-[13px] leading-relaxed text-navy/70 lg:pb-3'>
                       {faq.answer}
                     </p>
                   </div>

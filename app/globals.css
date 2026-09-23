@@ -45,10 +45,10 @@
   /* Aliases — same navy family only (no separate blues/greys) */
   --navy-deep: #012A60;
   --charcoal: #012A60;
-  --steel-gray: color-mix(in srgb, #012A60 58%, #FFFFFF);
-  --light-gray: color-mix(in srgb, #012A60 6%, #FFFFFF);
+  --steel-gray: color-mix(in srgb, #012A60 70%, #FFFFFF);
+  --light-gray: #FFFFFF;
   --safety-orange: #FB7200;
-  --muted-gold: #FB7200;
+  --muted-gold: #FB7200; /* alias of accent */
   --brand: #012A60;
   --line: color-mix(in srgb, #012A60 16%, #FFFFFF);
   --accent-hover: color-mix(in srgb, #FB7200 88%, #000000);
@@ -355,7 +355,7 @@
 
   .pq-display {
     font-family: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: -0.035em;
     line-height: 0.92;
     text-transform: uppercase;

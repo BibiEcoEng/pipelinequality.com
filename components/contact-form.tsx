@@ -90,7 +90,7 @@ export function ContactForm() {
           name='name'
           required
           placeholder={t('namePlaceholder')}
-          className='w-full px-4 py-3 border border-steel/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-muted-gold focus:border-transparent'
+          className='w-full px-4 py-3 border border-navy/15 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent'
         />
       </div>
 
@@ -108,7 +108,7 @@ export function ContactForm() {
           name='company'
           required
           placeholder={t('companyPlaceholder')}
-          className='w-full px-4 py-3 border border-steel/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-muted-gold focus:border-transparent'
+          className='w-full px-4 py-3 border border-navy/15 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent'
         />
       </div>
 
@@ -126,7 +126,7 @@ export function ContactForm() {
           name='email'
           required
           placeholder={t('emailPlaceholder')}
-          className='w-full px-4 py-3 border border-steel/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-muted-gold focus:border-transparent'
+          className='w-full px-4 py-3 border border-navy/15 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent'
         />
       </div>
 
@@ -141,7 +141,7 @@ export function ContactForm() {
         <select
           id='supportType'
           name='supportType'
-          className='w-full px-4 py-3 border border-steel/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-muted-gold focus:border-transparent bg-white'
+          className='w-full px-4 py-3 border border-navy/15 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent bg-white'
         >
           <option value=''>{t('supportTypePlaceholder')}</option>
           {supportTypes.map((type, index) => (
@@ -166,7 +166,7 @@ export function ContactForm() {
           required
           rows={5}
           placeholder={t('messagePlaceholder')}
-          className='w-full px-4 py-3 border border-steel/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-muted-gold focus:border-transparent resize-none'
+          className='w-full px-4 py-3 border border-navy/15 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none'
         ></textarea>
       </div>
 
@@ -189,10 +189,10 @@ export function ContactForm() {
           />
           <label
             htmlFor='attachment'
-            className='flex items-center justify-center gap-2 w-full px-4 py-3 border-2 border-dashed border-steel/30 rounded-lg hover:border-muted-gold cursor-pointer transition-colors'
+            className='flex items-center justify-center gap-2 w-full px-4 py-3 border-2 border-dashed border-navy/15 rounded-lg hover:border-accent cursor-pointer transition-colors'
           >
-            <Upload className='w-5 h-5 text-steel' strokeWidth={2} />
-            <span className='text-sm text-charcoal'>
+            <Upload className='w-5 h-5 text-navy/70' strokeWidth={2} />
+            <span className='text-sm text-navy'>
               {fileName || t('fileUploadHint')}
             </span>
           </label>
@@ -207,17 +207,17 @@ export function ContactForm() {
             id='gdpr'
             name='gdpr'
             required
-            className='mt-1 w-4 h-4 text-muted-gold border-steel/30 rounded focus:ring-2 focus:ring-muted-gold'
+            className='mt-1 w-4 h-4 text-accent border-navy/15 rounded focus:ring-2 focus:ring-accent'
           />
-          <label htmlFor='gdpr' className='text-sm text-charcoal'>
+          <label htmlFor='gdpr' className='text-sm text-navy'>
             {t('gdprConsent')}{' '}
-            <a href={`/${locale}/privacy`} target='_blank' rel='noopener noreferrer' className='text-muted-gold hover:underline'>
+            <a href={`/${locale}/privacy`} target='_blank' rel='noopener noreferrer' className='text-accent hover:underline'>
               {t('privacyPolicy')}
             </a>
             . *
           </label>
         </div>
-        <p className='text-[10px] md:text-xs text-charcoal/60 leading-relaxed italic'>
+        <p className='text-[10px] md:text-xs text-navy/70 leading-relaxed italic'>
           {t('privacyNote')}
         </p>
       </div>
@@ -259,7 +259,7 @@ export function ContactForm() {
 
       {/* Contact Icons */}
       <div className='flex flex-col items-center gap-3 pt-2'>
-        <p className='text-sm text-charcoal/70 font-semibold'>Or connect with us directly:</p>
+        <p className='text-sm text-navy/70 font-semibold'>Or connect with us directly:</p>
         <div className='flex items-center gap-3'>
           {/* LinkedIn */}
           <a
@@ -290,7 +290,7 @@ export function ContactForm() {
       </div>
 
       {/* Disclaimer */}
-      <p className='text-sm text-charcoal/70 text-center'>{t('disclaimer')}</p>
+      <p className='text-sm text-navy/70 text-center'>{t('disclaimer')}</p>
     </form>
 
     {/* Toast Notification */}

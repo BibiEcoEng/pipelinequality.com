@@ -61,7 +61,7 @@ export function Footer() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className='text-[12px] font-semibold tracking-[0.12em] text-white/85 uppercase transition hover:text-accent'
+                  className='text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
                 >
                   {item.label}
                 </Link>
@@ -76,13 +76,13 @@ export function Footer() {
             >
               info@pipelinequality.com
             </a>
-            <p className='text-[13px] text-white/75'>{t('location')}</p>
+            <p className='text-[13px] text-white/80'>{t('location')}</p>
             <div className='flex gap-5 lg:justify-end'>
               <a
                 href='https://www.linkedin.com/company/pipelinequality/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-[12px] font-semibold tracking-[0.12em] text-white/85 uppercase transition hover:text-accent'
+                className='text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
               >
                 LinkedIn
               </a>
@@ -90,7 +90,7 @@ export function Footer() {
                 href='https://wa.me/491728137111'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='text-[12px] font-semibold tracking-[0.12em] text-white/85 uppercase transition hover:text-accent'
+                className='text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
               >
                 WhatsApp
               </a>
@@ -100,17 +100,17 @@ export function Footer() {
                 type='button'
                 onClick={() => switchLocale('en')}
                 className={`text-[12px] font-semibold tracking-[0.16em] ${
-                  locale === 'en' ? 'text-accent' : 'text-white/70'
+                  locale === 'en' ? 'text-accent' : 'text-white/80'
                 }`}
               >
                 EN
               </button>
-              <span className='text-white/40'>/</span>
+              <span className='text-white/20'>/</span>
               <button
                 type='button'
                 onClick={() => switchLocale('de')}
                 className={`text-[12px] font-semibold tracking-[0.16em] ${
-                  locale === 'de' ? 'text-accent' : 'text-white/70'
+                  locale === 'de' ? 'text-accent' : 'text-white/80'
                 }`}
               >
                 DE
@@ -120,15 +120,15 @@ export function Footer() {
         </div>
       </div>
 
-      <div className='border-t border-white/15'>
+      <div className='border-t border-white/20'>
         <div className='pq-shell flex flex-col gap-4 py-5 sm:flex-row sm:items-center sm:justify-between'>
-          <p className='text-[12px] text-white/70'>{t('copyright')}</p>
+          <p className='text-[12px] text-white/80'>{t('copyright')}</p>
           <div className='flex flex-wrap gap-x-5 gap-y-2'>
             {legal.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className='text-[11px] tracking-[0.08em] text-white/70 uppercase transition hover:text-white'
+                className='text-[11px] tracking-[0.08em] text-white/80 uppercase transition hover:text-white'
               >
                 {item.label}
               </Link>

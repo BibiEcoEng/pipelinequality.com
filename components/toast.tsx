@@ -45,7 +45,7 @@ export function Toast({ type, message, description, onClose, duration = 5000 }: 
           {/* Content */}
           <div className="flex-1 pt-0.5">
             <h3 className={`
-              font-bold text-base mb-1
+              font-semibold text-base mb-1
               ${type === 'success' ? 'text-green-900' : 'text-red-900'}
             `}>
               {message}

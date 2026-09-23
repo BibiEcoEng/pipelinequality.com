@@ -21,7 +21,7 @@ export function WhySection() {
           {reasons.map((item) => (
             <div key={item.title} className='border-t border-line pt-4'>
               <h3 className='text-navy'>{item.title}</h3>
-              <p className='mt-2 pq-subtitle text-steel-gray'>
+              <p className='mt-2 pq-subtitle text-navy/70'>
                 {item.description}
               </p>
             </div>

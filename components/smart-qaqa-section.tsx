@@ -6,12 +6,12 @@ export function SmartQAQCSection() {
   const t = useTranslations('smartQAQC');
 
   return (
-    <section id='bw-digit' className='border-t border-line bg-light-gray'>
+    <section id='bw-digit' className='border-t border-line bg-white'>
       <div className='pq-shell pq-section grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-10'>
         <div>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
-          <p className='mt-4 max-w-lg pq-subtitle text-steel-gray'>
+          <p className='mt-4 max-w-lg pq-subtitle text-navy/70'>
             {t('description')}
           </p>
           <div className='mt-6'>

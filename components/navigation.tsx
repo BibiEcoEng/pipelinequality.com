@@ -106,13 +106,13 @@ export function Navigation() {
             />
             <span className='flex flex-col leading-[1.05]'>
               <span
-                className={`text-[13px] font-bold tracking-[0.16em] uppercase sm:text-[15px] sm:tracking-[0.18em] ${
+                className={`text-[13px] font-semibold tracking-[0.16em] uppercase sm:text-[15px] sm:tracking-[0.18em] ${
                   onDark ? 'text-white' : 'text-navy'
                 }`}
               >
                 Pipeline
               </span>
-              <span className='text-[13px] font-bold tracking-[0.16em] text-accent uppercase sm:text-[15px] sm:tracking-[0.18em]'>
+              <span className='text-[13px] font-semibold tracking-[0.16em] text-accent uppercase sm:text-[15px] sm:tracking-[0.18em]'>
                 Quality
               </span>
             </span>
@@ -125,7 +125,7 @@ export function Navigation() {
                 href={item.href}
                 onClick={handleSmoothScroll}
                 className={`relative px-3 py-2 text-[12px] font-semibold tracking-[0.08em] uppercase transition-colors duration-300 after:absolute after:right-3 after:bottom-1 after:left-3 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${
-                  onDark ? 'text-white/75 hover:text-white' : 'text-navy/70 hover:text-navy'
+                  onDark ? 'text-white/80 hover:text-white' : 'text-navy/70 hover:text-navy'
                 }`}
               >
                 {item.label}
@@ -138,7 +138,7 @@ export function Navigation() {
               <button
                 type='button'
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className={`flex items-center gap-2 text-[11px] font-bold tracking-[0.16em] uppercase ${
+                className={`flex items-center gap-2 text-[11px] font-semibold tracking-[0.16em] uppercase ${
                   onDark ? 'text-white/80' : 'text-navy'
                 }`}
                 aria-label='Language'
@@ -153,7 +153,7 @@ export function Navigation() {
                       key={lang.code}
                       type='button'
                       onClick={() => switchLocale(lang.code)}
-                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-light-gray ${
+                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-white ${
                         locale === lang.code ? 'text-accent' : ''
                       }`}
                     >
@@ -166,7 +166,7 @@ export function Navigation() {
             <a
               href='#contact'
               onClick={handleSmoothScroll}
-              className={`text-[11px] font-bold tracking-[0.14em] uppercase transition ${
+              className={`text-[11px] font-semibold tracking-[0.14em] uppercase transition ${
                 onDark
                   ? 'text-accent hover:text-white'
                   : 'text-accent hover:text-navy'
@@ -209,14 +209,14 @@ export function Navigation() {
                 key={item.href}
                 href={item.href}
                 onClick={handleSmoothScroll}
-                className='group flex items-baseline gap-4 border-b border-white/10 py-4 text-white transition-all duration-500'
+                className='group flex items-baseline gap-4 border-b border-white/20 py-4 text-white transition-all duration-500'
                 style={{
                   transitionDelay: isMobileMenuOpen ? `${100 + index * 60}ms` : '0ms',
                   opacity: isMobileMenuOpen ? 1 : 0,
                   transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(16px)',
                 }}
               >
-                <span className='text-[clamp(1.6rem,7vw,2.4rem)] font-bold tracking-[-0.03em]'>
+                <span className='text-[clamp(1.6rem,7vw,2.4rem)] font-semibold tracking-[-0.03em]'>
                   {item.label}
                 </span>
               </a>
@@ -242,8 +242,8 @@ export function Navigation() {
                     switchLocale(lang.code);
                     closeMenu();
                   }}
-                  className={`text-[13px] font-bold tracking-[0.16em] ${
-                    locale === lang.code ? 'text-accent' : 'text-white/50'
+                  className={`text-[13px] font-semibold tracking-[0.16em] ${
+                    locale === lang.code ? 'text-accent' : 'text-white/80'
                   }`}
                 >
                   {lang.name}

@@ -21,7 +21,7 @@ export function PhilosophySection() {
             {t('title')}
           </h2>
 
-          <div className='mt-6 max-w-2xl space-y-4 font-sans text-[0.9375rem] leading-[1.7] font-normal text-white/85 lg:mt-7'>
+          <div className='mt-6 max-w-2xl space-y-4 font-sans text-[0.9375rem] leading-[1.7] font-normal text-white/80 lg:mt-7'>
             <p>{t('paragraph1')}</p>
             <p>{t('paragraph2')}</p>
             <p>{t('paragraph3')}</p>

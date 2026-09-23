@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section
       id='home'
-      className='relative min-h-[92svh] overflow-hidden bg-[#0a2748] text-white lg:min-h-[78vh]'
+      className='relative min-h-[92svh] overflow-hidden bg-navy text-white lg:min-h-[78vh]'
     >
       <img
         src='/client/hero-monopile.jpg?v=3'
@@ -52,7 +52,7 @@ export function HeroSection() {
               <p className='border-l-2 border-accent pl-3 text-[14px] leading-snug font-semibold text-white sm:text-[15px]'>
                 {t('subtitle')}
               </p>
-              <p className='border-l-2 border-white/40 pl-3 text-[14px] leading-snug font-semibold text-white/95 sm:text-[15px]'>
+              <p className='border-l-2 border-white/20 pl-3 text-[14px] leading-snug font-semibold text-white/80 sm:text-[15px]'>
                 {t('subtitleLine2')}
               </p>
             </div>
@@ -63,7 +63,7 @@ export function HeroSection() {
               </a>
               <a
                 href='#network'
-                className='inline-flex items-center border border-white/50 bg-navy/45 px-5 py-3.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase backdrop-blur-[2px] transition hover:border-white hover:bg-white/10'
+                className='inline-flex items-center border border-white/20 bg-navy/45 px-5 py-3.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase backdrop-blur-[2px] transition hover:border-white hover:bg-white/10'
               >
                 {t('cta2')}
               </a>

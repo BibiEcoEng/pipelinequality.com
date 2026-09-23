@@ -64,8 +64,8 @@ export function DetailedServices() {
                                         </h3>
                                         <ul className="space-y-3">
                                             {sectionData.items.map((item, idx) => (
-                                                <li key={idx} className="flex items-start gap-3 text-charcoal">
-                                                    <Check className="text-muted-gold w-5 h-5 mt-1 flex-shrink-0" strokeWidth={2.5} />
+                                                <li key={idx} className="flex items-start gap-3 text-navy">
+                                                    <Check className="text-accent w-5 h-5 mt-1 flex-shrink-0" strokeWidth={2.5} />
                                                     <span className="text-base md:text-lg leading-relaxed break-words hyphens-auto">{item}</span>
                                                 </li>
                                             ))}
