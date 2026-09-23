@@ -404,26 +404,25 @@
   .pq-service-visual {
     position: relative;
     isolation: isolate;
-    width: 100%;
   }
 
   .pq-service-visual__glow {
     position: absolute;
-    inset: 8% -4% -6% 10%;
+    inset: 12% -6% -8% 18%;
     z-index: 0;
     background:
-      radial-gradient(ellipse 80% 70% at 70% 80%, rgba(251, 114, 0, 0.16), transparent 70%),
-      radial-gradient(ellipse 60% 50% at 30% 20%, rgba(1, 42, 96, 0.06), transparent 65%);
+      radial-gradient(ellipse 80% 70% at 70% 80%, rgba(251, 114, 0, 0.18), transparent 70%),
+      radial-gradient(ellipse 60% 50% at 30% 20%, rgba(1, 42, 96, 0.08), transparent 65%);
     filter: blur(2px);
     pointer-events: none;
   }
 
   .pq-service-visual__back {
     position: absolute;
-    inset: 12px -10px -10px 12px;
+    inset: 18px -14px -14px 18px;
     z-index: 0;
-    background: color-mix(in srgb, var(--navy) 6%, transparent);
-    border: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
+    background: color-mix(in srgb, var(--navy) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--navy) 12%, transparent);
     pointer-events: none;
   }
 
@@ -431,7 +430,6 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    width: 100%;
     background: #071a33;
     box-shadow:
       0 1px 0 rgba(255, 255, 255, 0.06) inset,
@@ -469,30 +467,19 @@
 
   .pq-service-visual__media {
     position: relative;
+    aspect-ratio: 5 / 4;
     width: 100%;
-    aspect-ratio: 16 / 11;
-    min-height: 16rem;
   }
 
   @media (min-width: 640px) {
     .pq-service-visual__media {
-      aspect-ratio: 16 / 11;
-      min-height: 20rem;
+      aspect-ratio: 4 / 3;
     }
   }
 
   @media (min-width: 1024px) {
     .pq-service-visual__media {
-      aspect-ratio: 4 / 3;
-      min-height: 26rem;
-      max-height: none;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .pq-service-visual__media {
       aspect-ratio: 5 / 4;
-      min-height: 28rem;
     }
   }
 
