@@ -6,41 +6,29 @@ export function ExperienceSection() {
   const t = useTranslations('experience');
 
   return (
-    <section id='experience' className='bg-navy text-white'>
+    <section id='experience' className='bg-white text-navy'>
       <div className='pq-shell pq-section'>
-        <div className='mx-auto w-full max-w-4xl'>
-          <p className='pq-index font-sans'>{t('label')}</p>
-          <h2 className='mt-3 font-sans font-semibold text-white'>
-            {t('title')}
-          </h2>
-          <p className='mt-4 font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-            {t('intro')}
-          </p>
+        <div className='max-w-2xl'>
+          <p className='pq-index'>{t('label')}</p>
+          <h2 className='mt-3 text-navy'>{t('title')}</h2>
+          <p className='mt-4 pq-subtitle text-navy/70'>{t('paragraph1')}</p>
+          <p className='mt-3 pq-subtitle text-navy/70'>{t('paragraph2')}</p>
+        </div>
 
-          <div className='mt-8 space-y-8 border-t border-white/15 pt-8'>
-            <div>
-              <p className='pq-index font-sans'>{t('referenceLabel')}</p>
-              <h3 className='mt-3 font-sans font-semibold text-white'>
-                {t('referenceTitle')}
-              </h3>
-              <p className='mt-3 font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-                {t('referenceText')}
-              </p>
-            </div>
-
-            <div>
-              <p className='pq-index font-sans'>{t('scopeTitle')}</p>
-              <p className='mt-3 font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-                {t('scopeText')}
-              </p>
-            </div>
-
-            <div>
-              <p className='pq-index font-sans'>{t('trackTitle')}</p>
-              <p className='mt-3 font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-                {t('trackText')}
-              </p>
-            </div>
+        <div className='mt-8 grid gap-px border border-navy/15 bg-navy/15 sm:grid-cols-2'>
+          <div className='bg-white p-6 sm:p-7'>
+            <p className='text-[11px] font-semibold tracking-[0.16em] text-accent uppercase'>
+              {t('offshoreTitle')}
+            </p>
+            <p className='mt-3 pq-subtitle text-navy/70'>{t('offshoreText')}</p>
+          </div>
+          <div className='bg-white p-6 sm:p-7'>
+            <p className='text-[11px] font-semibold tracking-[0.16em] text-accent uppercase'>
+              {t('industrialTitle')}
+            </p>
+            <p className='mt-3 pq-subtitle text-navy/70'>
+              {t('industrialText')}
+            </p>
           </div>
         </div>
       </div>
