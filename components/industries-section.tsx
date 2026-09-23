@@ -13,7 +13,7 @@ const industryImages = [
   '/client/industry-oilgas.jpg?v=4',
   '/client/industry-chemical.jpg?v=3',
   '/client/industry-energy.jpg?v=3',
-  '/client/industry-epc.jpg?v=5',
+  '/client/industry-epc.jpg?v=6',
   '/client/industry-construction.jpg?v=4',
   '/client/industry-maintenance.jpg?v=4',
 ];
@@ -30,12 +30,9 @@ export function IndustriesSection() {
 
         <div className='mt-8 space-y-0 border-t border-navy/15'>
           {items.map((item, index) => {
-            const isPortrait = index === 5; // EPC replacement is tall
+            const isEpc = index === 5;
             return (
-              <article
-                key={item.title}
-                className='border-b border-navy/15 py-6'
-              >
+              <article key={item.title} className='border-b border-navy/15 py-6'>
                 <h3 className='font-sans font-semibold text-navy'>{item.title}</h3>
                 <ul className='mt-3 space-y-1.5'>
                   {item.items.map((entry) => (
@@ -49,9 +46,9 @@ export function IndustriesSection() {
                 </ul>
 
                 <div
-                  className={`relative mt-5 w-full max-w-2xl overflow-hidden border border-navy/15 bg-white ${
-                    isPortrait
-                      ? 'aspect-[3/4] sm:aspect-[4/5]'
+                  className={`relative mt-5 w-full max-w-3xl overflow-hidden border border-navy/15 bg-white ${
+                    isEpc
+                      ? 'aspect-[4/5] sm:aspect-[5/6]'
                       : 'aspect-[16/10] sm:aspect-[16/9]'
                   }`}
                 >
