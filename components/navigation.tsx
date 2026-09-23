@@ -140,7 +140,7 @@ export function Navigation() {
               <button
                 type='button'
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className={`flex items-center gap-2 whitespace-nowrap text-[13px] font-semibold tracking-[0.16em] uppercase ${
+                className={`flex items-center gap-2 whitespace-nowrap text-[13px] font-semibold tracking-[0.08em] ${
                   onDark ? 'text-white/80' : 'text-navy'
                 }`}
                 aria-label='Language'
