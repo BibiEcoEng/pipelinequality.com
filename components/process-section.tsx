@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { SectionLabel } from '@/components/section-label';
 
 type Step = {
@@ -11,28 +11,34 @@ type Step = {
 
 export function ProcessSection() {
   const t = useTranslations('workProcess');
+  const locale = useLocale();
   const steps = t.raw('steps') as Step[];
 
   return (
-    <section id='how-we-work' className='bg-white'>
+    <section id='how-we-work' className='border-t border-navy/15 bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='text-navy'>{t('title')}</h2>
-        <div className='mt-6 grid gap-5 border-t border-line pt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5'>
+        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
+        <div className='mt-6 grid gap-6 border-t border-navy/15 pt-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 xl:gap-5'>
           {steps.map((step, index) => (
-            <div key={step.id} className='relative min-w-0'>
-              <div className='mt-0 flex items-center'>
-                <h3 className='shrink-0 text-navy'>{step.title}</h3>
+            <div key={step.id} className='min-w-0'>
+              <div className='flex items-baseline gap-2'>
+                <h3 className='min-w-0 text-navy'>{step.title}</h3>
                 {index < steps.length - 1 && (
                   <span
-                    className='hidden flex-1 -mr-8 items-center justify-center text-sm leading-none text-brand/40 lg:flex'
+                    className='hidden shrink-0 text-sm leading-none text-navy/30 xl:inline'
                     aria-hidden
                   >
                     →
                   </span>
                 )}
               </div>
-              <p className='mt-2 pq-subtitle text-steel-gray'>{step.text}</p>
+              <p
+                lang={locale}
+                className='mt-2 break-words hyphens-auto pq-subtitle text-navy/70'
+              >
+                {step.text}
+              </p>
             </div>
           ))}
         </div>
