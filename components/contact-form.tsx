@@ -211,7 +211,7 @@ export function ContactForm() {
           />
           <label htmlFor='gdpr' className='text-sm text-charcoal'>
             {t('gdprConsent')}{' '}
-            <a href={`/${locale}/privacy`} target='_blank' rel='noopener noreferrer' className='text-muted-gold hover:underline'>
+            <a href='/privacy' target='_blank' rel='noopener noreferrer' className='text-muted-gold hover:underline'>
               {t('privacyPolicy')}
             </a>
             . *

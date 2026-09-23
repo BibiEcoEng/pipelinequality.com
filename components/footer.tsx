@@ -1,8 +1,8 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
-import Link from 'next/link';
+import { useRouter, usePathname } from '@/navigation';
+import { Link } from '@/navigation';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -14,26 +14,25 @@ export function Footer() {
   const switchLocale = (newLocale: string) => {
     if (newLocale === locale) return;
     const scrollY = window.scrollY;
-    const pathWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
-    router.push(`/${newLocale}${pathWithoutLocale}`);
+    router.replace(pathname, { locale: newLocale as 'en' | 'de' });
     setTimeout(() => window.scrollTo(0, scrollY), 50);
   };
 
   const links = [
-    { href: `/${locale}#services`, label: tNav('services') },
-    { href: `/${locale}#industries`, label: tNav('industries') },
-    { href: `/${locale}#experience`, label: tNav('experience') },
-    { href: `/${locale}#contact`, label: tNav('contact') },
+    { href: '/#services', label: tNav('services') },
+    { href: '/#industries', label: tNav('industries') },
+    { href: '/#experience', label: tNav('experience') },
+    { href: '/#contact', label: tNav('contact') },
   ];
 
   const legal = [
-    { href: `/${locale}/privacy`, label: t('privacyPolicy') },
+    { href: '/privacy', label: t('privacyPolicy') },
     locale === 'de'
-      ? { href: `/${locale}/agb`, label: t('terms') }
-      : { href: `/${locale}/terms`, label: t('terms') },
+      ? { href: '/agb', label: t('terms') }
+      : { href: '/terms', label: t('terms') },
     locale === 'de'
-      ? { href: `/${locale}/impressum`, label: t('imprint') }
-      : { href: `/${locale}/legal-notice`, label: t('imprint') },
+      ? { href: '/impressum', label: t('imprint') }
+      : { href: '/legal-notice', label: t('imprint') },
   ];
 
   return (

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter, usePathname } from '@/navigation';
 
 export function Navigation() {
   const [isLangOpen, setIsLangOpen] = useState(false);
@@ -17,8 +17,7 @@ export function Navigation() {
   const switchLocale = (newLocale: string) => {
     if (newLocale === locale) return;
     const scrollY = window.scrollY;
-    const pathWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
-    router.push(`/${newLocale}${pathWithoutLocale}`);
+    router.replace(pathname, { locale: newLocale as 'en' | 'de' });
     setTimeout(() => window.scrollTo(0, scrollY), 50);
     setIsLangOpen(false);
   };
@@ -55,7 +54,7 @@ export function Navigation() {
     const href = e.currentTarget.getAttribute('href');
 
     if (href?.startsWith('#')) {
-      if (pathname === `/${locale}` || pathname === `/${locale}/` || pathname === '/') {
+      if (pathname === '/' || pathname === '') {
         const element = document.querySelector(href);
         if (element) {
           const offset = 0;
@@ -66,7 +65,7 @@ export function Navigation() {
           });
         }
       } else {
-        router.push(`/${locale}${href}`);
+        window.location.assign(`/${href}`);
       }
     } else if (href) {
       router.push(href);
