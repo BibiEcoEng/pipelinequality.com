@@ -13,7 +13,7 @@ export function CTASection() {
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 pq-subtitle text-navy/70'>{t('description')}</p>
 
-          <div className='mt-6 flex flex-wrap items-center gap-x-6 gap-y-3'>
+          <div className='mt-6 flex flex-col items-start gap-3'>
             <a href='#contact' className='pq-btn'>
               {t('button1')}
             </a>
