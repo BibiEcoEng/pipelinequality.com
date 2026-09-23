@@ -7,28 +7,25 @@ export function ContactSection() {
   const t = useTranslations('contact');
 
   return (
-    <section className='bg-white' id='contact'>
+    <section className='border-t border-navy/15 bg-white' id='contact'>
       <div className='pq-shell pq-section'>
-        <div className='grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12'>
-          <div>
-            <p className='pq-index'>Contact</p>
-            <h2 className='mt-4 text-navy'>{t('title')}</h2>
-            <p className='mt-5 pq-subtitle text-navy/70'>
-              {t('description')}
-            </p>
-            <div className='mt-10 space-y-3 border-t border-navy/15 pt-8'>
-              <a
-                href='mailto:info@pipelinequality.com'
-                className='block text-[18px] font-semibold text-navy transition hover:text-accent'
-              >
-                info@pipelinequality.com
-              </a>
-              <p className='text-[13px] text-navy/70'>{t('subtitle')}</p>
-            </div>
+        <div className='max-w-3xl'>
+          <p className='pq-index'>Contact</p>
+          <h2 className='mt-3 text-navy'>{t('title')}</h2>
+          <p className='mt-4 pq-subtitle text-navy/70'>{t('description')}</p>
+          <div className='mt-5 flex flex-wrap items-baseline gap-x-4 gap-y-1'>
+            <a
+              href='mailto:info@pipelinequality.com'
+              className='text-[16px] font-semibold text-navy transition hover:text-accent'
+            >
+              info@pipelinequality.com
+            </a>
+            <p className='text-[13px] text-navy/70'>{t('subtitle')}</p>
           </div>
-          <div className='bg-white p-6 sm:p-8 lg:p-10'>
-            <ContactForm />
-          </div>
+        </div>
+
+        <div className='mt-8 max-w-3xl border-t border-navy/15 pt-8'>
+          <ContactForm />
         </div>
       </div>
     </section>
