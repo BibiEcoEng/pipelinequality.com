@@ -45,10 +45,10 @@
   /* Aliases — same navy family only (no separate blues/greys) */
   --navy-deep: #012A60;
   --charcoal: #012A60;
-  --steel-gray: color-mix(in srgb, #012A60 70%, #FFFFFF);
-  --light-gray: #FFFFFF;
+  --steel-gray: color-mix(in srgb, #012A60 58%, #FFFFFF);
+  --light-gray: color-mix(in srgb, #012A60 6%, #FFFFFF);
   --safety-orange: #FB7200;
-  --muted-gold: #FB7200; /* alias of accent */
+  --muted-gold: #FB7200;
   --brand: #012A60;
   --line: color-mix(in srgb, #012A60 16%, #FFFFFF);
   --accent-hover: color-mix(in srgb, #FB7200 88%, #000000);

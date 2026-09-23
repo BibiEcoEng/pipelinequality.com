@@ -7,14 +7,14 @@ export function PartnersSection() {
   const t = useTranslations('partners');
 
   return (
-    <section id='partners' className='bg-white'>
+    <section id='partners' className='bg-light-gray'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
         <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <p className='mt-5 max-w-2xl pq-subtitle text-navy/70'>
+        <p className='mt-5 max-w-2xl pq-subtitle text-steel-gray'>
           {t('paragraph1')}
         </p>
-        <p className='mt-4 max-w-2xl pq-subtitle text-navy/70'>
+        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
           {t('paragraph2')}
         </p>
         <div className='mt-8'>

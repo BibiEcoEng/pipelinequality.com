@@ -30,12 +30,12 @@ export default function ImprintPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-sm text-white/80 mb-1">{t('managingDirectorLabel')}</p>
-                <p className="text-lg font-medium">{t('managingDirector')}</p>
+                <p className="text-lg font-semibold">{t('managingDirector')}</p>
               </div>
               
               <div>
                 <p className="text-sm text-white/80 mb-1">{t('contactLabel')}</p>
-                <p className="text-lg font-medium hover:text-[var(--accent)] transition-colors">
+                <p className="text-lg font-semibold hover:text-[var(--accent)] transition-colors">
                   <a href={`mailto:${t('contact')}`}>{t('contact')}</a>
                 </p>
               </div>
@@ -47,12 +47,12 @@ export default function ImprintPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-sm text-white/80 mb-1">{t('registerLabel')}</p>
-                <p className="whitespace-pre-line text-lg font-medium">{t('register')}</p>
+                <p className="whitespace-pre-line text-lg font-semibold">{t('register')}</p>
               </div>
 
               <div>
                 <p className="text-sm text-white/80 mb-1">{t('vatLabel')}</p>
-                <p className="text-lg font-medium">{t('vat')}</p>
+                <p className="text-lg font-semibold">{t('vat')}</p>
               </div>
             </div>
 

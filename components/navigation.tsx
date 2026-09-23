@@ -125,7 +125,7 @@ export function Navigation() {
                 href={item.href}
                 onClick={handleSmoothScroll}
                 className={`relative px-3 py-2 text-[12px] font-semibold tracking-[0.08em] uppercase transition-colors duration-300 after:absolute after:right-3 after:bottom-1 after:left-3 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${
-                  onDark ? 'text-white/80 hover:text-white' : 'text-navy/70 hover:text-navy'
+                  onDark ? 'text-white/75 hover:text-white' : 'text-navy/70 hover:text-navy'
                 }`}
               >
                 {item.label}
@@ -153,7 +153,7 @@ export function Navigation() {
                       key={lang.code}
                       type='button'
                       onClick={() => switchLocale(lang.code)}
-                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-white ${
+                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-light-gray ${
                         locale === lang.code ? 'text-accent' : ''
                       }`}
                     >
@@ -209,7 +209,7 @@ export function Navigation() {
                 key={item.href}
                 href={item.href}
                 onClick={handleSmoothScroll}
-                className='group flex items-baseline gap-4 border-b border-white/20 py-4 text-white transition-all duration-500'
+                className='group flex items-baseline gap-4 border-b border-white/10 py-4 text-white transition-all duration-500'
                 style={{
                   transitionDelay: isMobileMenuOpen ? `${100 + index * 60}ms` : '0ms',
                   opacity: isMobileMenuOpen ? 1 : 0,
@@ -243,7 +243,7 @@ export function Navigation() {
                     closeMenu();
                   }}
                   className={`text-[13px] font-semibold tracking-[0.16em] ${
-                    locale === lang.code ? 'text-accent' : 'text-white/80'
+                    locale === lang.code ? 'text-accent' : 'text-white/50'
                   }`}
                 >
                   {lang.name}

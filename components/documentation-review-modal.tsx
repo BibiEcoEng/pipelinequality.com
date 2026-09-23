@@ -160,14 +160,14 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
           {/* Scrollable Content - Hidden scrollbar */}
           <div className="flex-1 overflow-y-auto scrollbar-hide">
             <div className="px-6 py-6">
-              <p className="text-gray-600 mb-6">
+              <p className="text-navy/70 mb-6">
                 {t('description')}
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
                 {/* Name */}
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="name" className="block text-sm font-semibold text-navy mb-1">
                     {t('form.name')} <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -184,7 +184,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
 
                 {/* Company */}
                 <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="company" className="block text-sm font-semibold text-navy mb-1">
                     {t('form.company')} <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -201,7 +201,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
 
                 {/* Email */}
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="email" className="block text-sm font-semibold text-navy mb-1">
                     {t('form.email')} <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -218,7 +218,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
 
                 {/* Phone */}
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="phone" className="block text-sm font-semibold text-navy mb-1">
                     {t('form.phone')}
                   </label>
                   <input
@@ -234,7 +234,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
 
                 {/* Message */}
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="message" className="block text-sm font-semibold text-navy mb-1">
                     {t('form.message')}
                   </label>
                   <textarea
@@ -278,7 +278,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
           {/* Footer with Social Icons */}
           <div className="flex-shrink-0 border-t border-gray-200 px-6 py-4 bg-gray-50 rounded-b-2xl">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-              <span className="text-sm text-gray-600 font-medium">{t('footer.connectWith')}</span>
+              <span className="text-sm text-navy/70 font-semibold">{t('footer.connectWith')}</span>
               <div className="flex items-center gap-3">
                 {/* LinkedIn */}
                 <a
@@ -288,7 +288,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                   className="flex items-center gap-2 px-4 py-2 bg-[#0A66C2] text-white rounded-lg hover:bg-[#004182] transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95"
                 >
                   <Linkedin className="w-4 h-4" />
-                  <span className="text-sm font-medium">LinkedIn</span>
+                  <span className="text-sm font-semibold">LinkedIn</span>
                 </a>
 
                 {/* WhatsApp */}
@@ -299,7 +299,7 @@ export function DocumentationReviewModal({ isOpen, onClose }: DocumentationRevie
                   className="flex items-center gap-2 px-4 py-2 bg-[#25D366] text-white rounded-lg hover:bg-[#1DA851] transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  <span className="text-sm font-medium">WhatsApp</span>
+                  <span className="text-sm font-semibold">WhatsApp</span>
                 </a>
               </div>
             </div>

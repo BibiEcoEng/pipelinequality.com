@@ -12,7 +12,7 @@ export function TeamSection() {
         <div className='max-w-3xl'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
-          <p className='mt-4 pq-subtitle text-navy/70'>{t('paragraph1')}</p>
+          <p className='mt-4 pq-subtitle text-steel-gray'>{t('paragraph1')}</p>
         </div>
 
         <div className='mt-8 border-t border-line pt-6'>
