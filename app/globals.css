@@ -88,6 +88,11 @@
 @theme inline {
   --font-sans: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  /* Brand lock: only regular + semibold (no 500/700) */
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 600;
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -199,6 +204,8 @@
 
   body {
     @apply bg-background text-foreground font-sans;
+    font-family: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
