@@ -167,8 +167,7 @@
     padding-block: 2.5rem;
   }
 
-  /* Keep section headings dense — do not shrink the hero brand H1 */
-  h1:not(.pq-hero-brand) {
+  h1 {
     font-size: clamp(1.45rem, 2vw, 1.95rem) !important;
   }
   h2 {
@@ -176,19 +175,6 @@
   }
   h3 {
     font-size: 1.05rem !important;
-  }
-}
-
-.pq-hero-brand {
-  font-size: clamp(2.5rem, 8vw, 3.75rem) !important;
-  line-height: 0.98;
-  font-weight: 600;
-  letter-spacing: -0.035em;
-}
-
-@media (min-width: 1024px) {
-  .pq-hero-brand {
-    font-size: clamp(2.75rem, 4.5vw, 3.75rem) !important;
   }
 }
 

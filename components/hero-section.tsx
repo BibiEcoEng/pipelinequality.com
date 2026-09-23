@@ -37,22 +37,21 @@ export function HeroSection() {
       <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-16 lg:pt-24'>
         <div className='pq-shell'>
           <div className='max-w-[40rem]'>
-            <h1 className='pq-hero-brand pq-fade-up text-[clamp(2.5rem,8vw,3.75rem)] leading-[0.98] font-semibold tracking-[-0.035em] text-white'>
-              {t('brand')}
-            </h1>
+            {/* Size 1 — same heading scale as the rest of the site */}
+            <h1 className='pq-fade-up text-white'>{t('brand')}</h1>
 
-            <p className='pq-fade-up pq-fade-up-delay-1 mt-4 max-w-2xl text-[clamp(1.2rem,3vw,1.6rem)] leading-[1.2] font-semibold tracking-[-0.02em] text-white lg:mt-5 lg:text-[1.35rem]'>
-              {t('titleLine1')}
-              <span className='block'>{t('titleLine2')}</span>
+            {/* Size 2 — same body/subtitle scale used sitewide */}
+            <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle font-semibold text-white lg:mt-5'>
+              {t('titleLine1')} {t('titleLine2')}
             </p>
 
             <div className='pq-fade-up pq-fade-up-delay-1 mt-5 h-px w-20 bg-accent pq-line-grow lg:mt-6' />
 
             <div className='pq-fade-up pq-fade-up-delay-2 mt-5 max-w-lg space-y-2.5 lg:mt-6'>
-              <p className='border-l-2 border-accent pl-3 text-[14px] leading-snug font-semibold text-white sm:text-[15px]'>
+              <p className='border-l-2 border-accent pl-3 pq-subtitle font-semibold text-white'>
                 {t('subtitle')}
               </p>
-              <p className='border-l-2 border-white/40 pl-3 text-[14px] leading-snug font-semibold text-white/95 sm:text-[15px]'>
+              <p className='border-l-2 border-white/40 pl-3 pq-subtitle font-semibold text-white/95'>
                 {t('subtitleLine2')}
               </p>
             </div>
