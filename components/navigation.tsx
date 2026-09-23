@@ -89,7 +89,7 @@ export function Navigation() {
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
           solid
             ? 'bg-white/95 text-navy shadow-[0_1px_0_rgba(1,42,96,0.08)] backdrop-blur'
-            : 'bg-transparent text-white'
+            : 'bg-gradient-to-b from-navy/55 via-navy/25 to-transparent text-white'
         }`}
       >
         <div className='pq-shell flex h-[4.5rem] items-center gap-6'>
@@ -125,7 +125,7 @@ export function Navigation() {
                 href={item.href}
                 onClick={handleSmoothScroll}
                 className={`relative px-3 py-2 text-[12px] font-semibold tracking-[0.08em] uppercase transition-colors duration-300 after:absolute after:right-3 after:bottom-1 after:left-3 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${
-                  onDark ? 'text-white/80 hover:text-white' : 'text-navy/70 hover:text-navy'
+                  onDark ? 'text-white/75 hover:text-white' : 'text-navy/70 hover:text-navy'
                 }`}
               >
                 {item.label}
@@ -147,13 +147,13 @@ export function Navigation() {
                 <span className='text-accent'>+</span>
               </button>
               {isLangOpen && (
-                <div className='absolute right-0 z-50 mt-3 min-w-[5.5rem] border border-navy/15 bg-white text-navy shadow-xl'>
+                <div className='absolute right-0 z-50 mt-3 min-w-[5.5rem] border border-line bg-white text-navy shadow-xl'>
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
                       type='button'
                       onClick={() => switchLocale(lang.code)}
-                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-white ${
+                      className={`block w-full px-4 py-2.5 text-left text-[12px] font-semibold tracking-[0.12em] transition hover:bg-light-gray ${
                         locale === lang.code ? 'text-accent' : ''
                       }`}
                     >
@@ -166,11 +166,7 @@ export function Navigation() {
             <a
               href='#contact'
               onClick={handleSmoothScroll}
-              className={`text-[11px] font-semibold tracking-[0.14em] uppercase transition ${
-                onDark
-                  ? 'text-accent hover:text-white'
-                  : 'text-accent hover:text-navy'
-              }`}
+              className='inline-flex items-center bg-accent px-4 py-2.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase shadow-[0_1px_0_rgba(1,42,96,0.12)] transition hover:bg-accent-hover'
             >
               {tCTA('button1')}
             </a>
