@@ -32,7 +32,7 @@ export function IndustriesSection() {
           {items.map((item, index) => (
             <article
               key={item.title}
-              className='grid items-center gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-2 lg:gap-10 lg:py-6'
+              className='grid items-center gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12 lg:py-6'
             >
               {/* Left text — unchanged from previous industries layout */}
               <div>
@@ -50,26 +50,28 @@ export function IndustriesSection() {
               </div>
 
               {/* Image frame only — same editorial treatment as What We Offer */}
-              <div className='pq-service-visual pq-service-visual--landscape w-full lg:max-w-[34rem] lg:ml-auto'>
-                <div className='pq-service-visual__glow' aria-hidden />
-                <div className='pq-service-visual__back' aria-hidden />
+              <div className='mx-auto w-full max-w-[22rem] sm:max-w-[24rem] md:max-w-[26rem] lg:mx-0 lg:ml-auto lg:max-w-[28rem] xl:max-w-[30rem]'>
+                <div className='pq-service-visual pq-service-visual--landscape w-full'>
+                  <div className='pq-service-visual__glow' aria-hidden />
+                  <div className='pq-service-visual__back' aria-hidden />
 
-                <div className='pq-service-visual__frame'>
-                  <div className='pq-service-visual__media'>
-                    <img
-                      src={industryImages[index]}
-                      alt={item.title}
-                      className='pq-service-visual__img is-static is-active'
-                    />
-                    <div className='pq-service-visual__veil' aria-hidden />
-                    <div className='pq-service-visual__mark' aria-hidden>
-                      <span />
-                      <span />
+                  <div className='pq-service-visual__frame'>
+                    <div className='pq-service-visual__media'>
+                      <img
+                        src={industryImages[index]}
+                        alt={item.title}
+                        className='pq-service-visual__img is-static is-active'
+                      />
+                      <div className='pq-service-visual__veil' aria-hidden />
+                      <div className='pq-service-visual__mark' aria-hidden>
+                        <span />
+                        <span />
+                      </div>
                     </div>
-                  </div>
 
-                  <div className='pq-service-visual__caption'>
-                    <p className='pq-service-visual__title'>{item.title}</p>
+                    <div className='pq-service-visual__caption'>
+                      <p className='pq-service-visual__title'>{item.title}</p>
+                    </div>
                   </div>
                 </div>
               </div>
