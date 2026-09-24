@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 
 const bodyText =
-  'text-[1.0625rem] leading-[1.7] font-normal text-navy/70 text-balance lg:text-[1.125rem] lg:text-pretty';
+  'text-[1.0625rem] leading-[1.7] font-normal text-navy/70 lg:text-[1.125rem]';
 
 export function ExperienceSection() {
   const t = useTranslations('experience');
@@ -32,7 +32,8 @@ export function ExperienceSection() {
 
             <div>
               <p className='pq-index'>{t('trackTitle')}</p>
-              <p className={`mt-2 ${bodyText}`}>{t('trackText')}</p>
+              <p className={`mt-2 ${bodyText}`}>{t('trackLead')}</p>
+              <p className={`mt-1.5 ${bodyText}`}>{t('trackProjects')}</p>
             </div>
           </div>
         </div>
