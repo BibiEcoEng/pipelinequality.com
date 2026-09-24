@@ -20,7 +20,7 @@ export function PartnersSection() {
         <div className='mt-8'>
           <a
             href='mailto:info@pipelinequality.com'
-            className='inline-flex items-center justify-center border border-navy/15 bg-white px-5 py-3 text-[13px] font-semibold tracking-[0.04em] text-navy uppercase transition duration-300 hover:border-accent hover:bg-accent hover:text-white'
+            className='inline-flex items-center justify-center border border-navy/15 bg-white px-3.5 py-2.5 text-[10px] font-semibold tracking-[0.1em] text-navy uppercase transition duration-300 hover:border-accent hover:bg-accent hover:text-white lg:px-5 lg:py-3 lg:text-[13px] lg:tracking-[0.04em]'
           >
             {t('cta')}
           </a>
