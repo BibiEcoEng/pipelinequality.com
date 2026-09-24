@@ -14,14 +14,23 @@ export function CTASection() {
           <p className='mt-4 pq-subtitle text-navy/70'>{t('description')}</p>
         </div>
 
-        <div className='mt-6 flex flex-wrap items-center gap-x-6 gap-y-3'>
-          <a href='#contact' className='pq-btn shrink-0 whitespace-nowrap'>
+        <div className='mt-6 flex flex-wrap items-center gap-x-4 gap-y-2.5 lg:gap-x-6 lg:gap-y-3'>
+          <a
+            href='#contact'
+            className='pq-btn shrink-0 whitespace-nowrap !gap-2 !px-3.5 !py-2.5 text-[10px] tracking-[0.12em] lg:!gap-[0.85rem] lg:!px-[1.35rem] lg:!py-4 lg:text-[11px] lg:tracking-[0.14em]'
+          >
             {t('button1')}
           </a>
-          <a href='#contact' className='pq-btn-ghost shrink-0 whitespace-nowrap text-navy'>
+          <a
+            href='#contact'
+            className='pq-btn-ghost shrink-0 whitespace-nowrap !py-2 text-[10px] tracking-[0.12em] text-navy lg:!py-4 lg:text-[11px] lg:tracking-[0.14em]'
+          >
             {t('button2')}
           </a>
-          <a href='#network' className='pq-btn-ghost shrink-0 whitespace-nowrap text-navy'>
+          <a
+            href='#network'
+            className='pq-btn-ghost shrink-0 whitespace-nowrap !py-2 text-[10px] tracking-[0.12em] text-navy lg:!py-4 lg:text-[11px] lg:tracking-[0.14em]'
+          >
             {t('button3')}
           </a>
         </div>
