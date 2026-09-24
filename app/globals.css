@@ -700,7 +700,10 @@
   }
 
   .pq-service-visual--landscape .pq-service-visual__title {
-    font-size: 0.98rem;
+    margin-top: 0;
+    max-width: none;
+    white-space: nowrap;
+    font-size: clamp(0.72rem, 2.1vw, 0.98rem);
   }
 
   /* Contact social icon buttons */
