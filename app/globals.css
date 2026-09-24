@@ -560,7 +560,7 @@
     bottom: 0;
     left: 0;
     z-index: 5;
-    padding: 1.35rem 1.35rem 1.25rem;
+    padding: 0.85rem 0.9rem 0.8rem;
     background: linear-gradient(
       180deg,
       transparent 0%,
@@ -570,6 +570,12 @@
   }
 
   @media (min-width: 640px) {
+    .pq-service-visual__caption {
+      padding: 1.15rem 1.2rem 1.05rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
     .pq-service-visual__caption {
       padding: 1.6rem 1.6rem 1.4rem;
     }
@@ -585,14 +591,27 @@
   }
 
   .pq-service-visual__title {
-    margin-top: 0.3rem;
+    margin-top: 0;
     max-width: 18rem;
     font-family: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
-    font-size: 1.05rem;
+    font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    .pq-service-visual__title {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .pq-service-visual__title {
+      margin-top: 0.3rem;
+      font-size: 1.05rem;
+    }
   }
 
   .pq-service-visual__mark {
