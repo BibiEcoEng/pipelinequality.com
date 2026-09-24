@@ -43,35 +43,37 @@ export function Footer() {
       <div className='h-1 bg-accent' />
 
       <div className='pq-shell pq-section'>
-        <div className='max-w-3xl'>
-          <div className='flex items-center gap-3'>
-            <img
-              src='/logo-mark-white.png'
-              alt='Pipeline Quality'
-              className='h-9 w-auto object-contain'
-            />
-            <p className='font-sans text-[13px] font-semibold tracking-[0.14em] text-white uppercase'>
-              Pipeline Quality
+        <div className='grid gap-8 lg:grid-cols-[1.4fr_0.8fr] lg:items-start lg:gap-16'>
+          <div className='min-w-0'>
+            <div className='flex items-center gap-3'>
+              <img
+                src='/logo-mark-white.png'
+                alt='Pipeline Quality'
+                className='h-9 w-auto object-contain'
+              />
+              <p className='font-sans text-[13px] font-semibold tracking-[0.14em] text-white uppercase'>
+                Pipeline Quality
+              </p>
+            </div>
+
+            <p className='mt-5 max-w-xl font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
+              {t('description')}
             </p>
+
+            <div className='mt-6 flex flex-wrap gap-x-5 gap-y-2'>
+              {links.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
           </div>
 
-          <p className='mt-5 font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-            {t('description')}
-          </p>
-
-          <div className='mt-6 flex flex-wrap gap-x-5 gap-y-2'>
-            {links.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-
-          <div className='mt-8 space-y-3 border-t border-white/20 pt-6'>
+          <div className='min-w-0 space-y-3 lg:pt-1 lg:text-right'>
             <a
               href='mailto:info@pipelinequality.com'
               className='block font-sans text-[16px] font-semibold tracking-tight text-white transition hover:text-accent'
@@ -81,47 +83,26 @@ export function Footer() {
             <p className='font-sans text-[13px] font-normal text-white/80'>
               {t('location')}
             </p>
-            <div className='flex flex-wrap items-center gap-x-5 gap-y-2'>
-              <a
-                href='https://www.linkedin.com/company/pipelinequality/'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
+            <div className='flex items-center gap-2 lg:justify-end'>
+              <button
+                type='button'
+                onClick={() => switchLocale('en')}
+                className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
+                  locale === 'en' ? 'text-accent' : 'text-white/80'
+                }`}
               >
-                LinkedIn
-              </a>
-              <a
-                href='https://wa.me/491728137111'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
+                EN
+              </button>
+              <span className='text-white/20'>/</span>
+              <button
+                type='button'
+                onClick={() => switchLocale('de')}
+                className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
+                  locale === 'de' ? 'text-accent' : 'text-white/80'
+                }`}
               >
-                WhatsApp
-              </a>
-              <span className='hidden text-white/20 sm:inline' aria-hidden>
-                |
-              </span>
-              <div className='flex items-center gap-2'>
-                <button
-                  type='button'
-                  onClick={() => switchLocale('en')}
-                  className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
-                    locale === 'en' ? 'text-accent' : 'text-white/80'
-                  }`}
-                >
-                  EN
-                </button>
-                <span className='text-white/20'>/</span>
-                <button
-                  type='button'
-                  onClick={() => switchLocale('de')}
-                  className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
-                    locale === 'de' ? 'text-accent' : 'text-white/80'
-                  }`}
-                >
-                  DE
-                </button>
-              </div>
+                DE
+              </button>
             </div>
           </div>
         </div>
