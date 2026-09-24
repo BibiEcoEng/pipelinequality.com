@@ -32,10 +32,10 @@ export function IndustriesSection() {
           {items.map((item, index) => (
             <article
               key={item.title}
-              className='grid items-center gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12 lg:py-6'
+              className='grid items-center gap-5 border-b border-navy/10 py-6 sm:gap-6 lg:flex lg:items-center lg:justify-start lg:gap-10 lg:py-6'
             >
               {/* Left text — unchanged from previous industries layout */}
-              <div>
+              <div className='min-w-0 w-full max-w-xl lg:max-w-2xl lg:shrink'>
                 <h3 className='font-sans font-semibold text-navy'>{item.title}</h3>
                 <ul className='mt-3 space-y-1.5'>
                   {item.items.map((entry) => (
@@ -50,7 +50,7 @@ export function IndustriesSection() {
               </div>
 
               {/* Image frame only — same editorial treatment as What We Offer */}
-              <div className='mx-auto w-full max-w-[22rem] sm:max-w-[24rem] md:max-w-[26rem] lg:mx-0 lg:ml-auto lg:max-w-[28rem] xl:max-w-[30rem]'>
+              <div className='mx-auto w-full max-w-[22rem] sm:max-w-[24rem] md:max-w-[26rem] lg:mx-0 lg:w-[28rem] lg:max-w-[28rem] lg:shrink-0 xl:w-[30rem] xl:max-w-[30rem]'>
                 <div className='pq-service-visual pq-service-visual--landscape w-full'>
                   <div className='pq-service-visual__glow' aria-hidden />
                   <div className='pq-service-visual__back' aria-hidden />
