@@ -32,8 +32,15 @@ export function ExperienceSection() {
 
             <div>
               <p className='pq-index'>{t('trackTitle')}</p>
-              <p className={`mt-2 ${bodyText}`}>{t('trackLead')}</p>
-              <p className={`mt-1.5 ${bodyText}`}>{t('trackProjects')}</p>
+              <p className={`mt-2 ${bodyText} lg:hidden`}>
+                {t('trackLead')}
+              </p>
+              <p className={`mt-1.5 ${bodyText} lg:hidden`}>
+                {t('trackProjects')}
+              </p>
+              <p className={`mt-2 hidden ${bodyText} lg:block`}>
+                {t('trackText')}
+              </p>
             </div>
           </div>
         </div>
