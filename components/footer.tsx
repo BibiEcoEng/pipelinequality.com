@@ -42,7 +42,7 @@ export function Footer() {
     <footer className='bg-navy text-white'>
       <div className='h-1 bg-accent' />
 
-      <div className='pq-shell pq-section'>
+      <div className='pq-shell py-8 lg:py-10'>
         <div className='flex items-center gap-3'>
           <img
             src='/logo-mark-white.png'
@@ -54,11 +54,11 @@ export function Footer() {
           </p>
         </div>
 
-        <p className='mt-5 max-w-xl font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
+        <p className='mt-4 max-w-xl font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
           {t('description')}
         </p>
 
-        <div className='mt-6 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between sm:gap-10'>
+        <div className='mt-4 flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between sm:gap-10'>
           <div className='flex flex-wrap gap-x-5 gap-y-2'>
             {links.map((item) => (
               <Link
@@ -71,10 +71,10 @@ export function Footer() {
             ))}
           </div>
 
-          <div className='min-w-0 space-y-2 sm:text-right'>
+          <div className='min-w-0 space-y-1.5 sm:text-right'>
             <a
               href='mailto:info@pipelinequality.com'
-              className='block font-sans text-[16px] font-semibold tracking-tight text-white transition hover:text-accent'
+              className='block font-sans text-[15px] font-semibold tracking-tight text-white transition hover:text-accent'
             >
               info@pipelinequality.com
             </a>
