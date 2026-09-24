@@ -13,7 +13,7 @@ export function HeroSection() {
       <picture>
         <source
           media='(min-width: 1024px)'
-          srcSet='/client/hero-monopile.jpg?v=3'
+          srcSet='/client/hero-monopile.jpg?v=4'
         />
         <img
           src='/client/hero-monopile-mobile.jpg?v=1'
