@@ -257,7 +257,7 @@ export function ContactForm() {
         )}
       </Button>
 
-          {/* Contact Icons */}
+      {/* Contact Icons */}
       <div className='flex flex-col items-center gap-4 pt-2'>
         <p className='text-sm font-semibold text-navy/70'>Or connect with us directly:</p>
         <div className='flex items-center gap-3'>
@@ -265,7 +265,7 @@ export function ContactForm() {
             href='https://www.linkedin.com/company/pipelinequality'
             target='_blank'
             rel='noopener noreferrer'
-            className='pq-social-btn pq-social-btn--linkedin'
+            className='pq-social pq-social--linkedin'
             aria-label='LinkedIn'
           >
             <svg viewBox='0 0 24 24' aria-hidden>
@@ -277,7 +277,7 @@ export function ContactForm() {
             href='https://wa.me/491728137111'
             target='_blank'
             rel='noopener noreferrer'
-            className='pq-social-btn pq-social-btn--whatsapp'
+            className='pq-social pq-social--whatsapp'
             aria-label='WhatsApp'
           >
             <svg viewBox='0 0 24 24' aria-hidden>
