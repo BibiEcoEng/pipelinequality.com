@@ -17,7 +17,7 @@ export function SmartQAQCSection() {
               href='https://www.bwdigit.com'
               target='_blank'
               rel='noreferrer'
-              className='pq-btn'
+              className='pq-btn !gap-2 !px-3.5 !py-2.5 text-[10px] tracking-[0.12em] lg:!gap-[0.85rem] lg:!px-[1.35rem] lg:!py-4 lg:text-[11px] lg:tracking-[0.14em]'
             >
               {t('cta')}
             </a>
