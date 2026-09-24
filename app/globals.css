@@ -522,6 +522,12 @@
       filter 0.75s ease;
   }
 
+  .pq-service-visual__media > picture {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
   .pq-service-visual__img.is-active {
     opacity: 1;
     transform: scale(1);

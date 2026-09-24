@@ -9,10 +9,13 @@ type ServiceBlock = {
 };
 
 const serviceImages = [
-  '/client/service-engineering.jpg?v=9',
-  '/client/service-welding.jpg?v=6',
-  '/client/service-docs-yard.jpg?v=7',
-  '/client/service-project.jpg?v=7',
+  { src: '/client/service-engineering.jpg?v=9' },
+  { src: '/client/service-welding.jpg?v=6' },
+  { src: '/client/service-docs-yard.jpg?v=7' },
+  {
+    src: '/client/service-project.jpg?v=7',
+    mobileSrc: '/client/service-project-mobile.jpg?v=1',
+  },
 ];
 
 export function ServicesOverview() {
@@ -142,15 +145,22 @@ export function ServicesOverview() {
 
               <div className='pq-service-visual__frame'>
                 <div className='pq-service-visual__media'>
-                  {serviceImages.map((src, index) => (
-                    <img
-                      key={src}
-                      src={src}
-                      alt={blocks[index]?.title ?? ''}
-                      className={`pq-service-visual__img${
-                        active === index ? ' is-active' : ''
-                      }`}
-                    />
+                  {serviceImages.map((image, index) => (
+                    <picture key={image.src}>
+                      {image.mobileSrc ? (
+                        <source
+                          media='(min-width: 1024px)'
+                          srcSet={image.src}
+                        />
+                      ) : null}
+                      <img
+                        src={image.mobileSrc ?? image.src}
+                        alt={blocks[index]?.title ?? ''}
+                        className={`pq-service-visual__img${
+                          active === index ? ' is-active' : ''
+                        }`}
+                      />
+                    </picture>
                   ))}
                   <div className='pq-service-visual__veil' aria-hidden />
                   <div className='pq-service-visual__mark' aria-hidden>
