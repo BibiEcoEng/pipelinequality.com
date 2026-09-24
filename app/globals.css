@@ -528,6 +528,18 @@
     filter: saturate(1.05) contrast(1.06);
   }
 
+  /* Project Quality Support — keep inspector in frame and readable */
+  .pq-service-visual__img.is-focus-inspector {
+    object-position: 26% 62%;
+    transform: scale(1.42);
+    transform-origin: 26% 62%;
+  }
+
+  .pq-service-visual__img.is-focus-inspector.is-active {
+    transform: scale(1.32);
+    transform-origin: 26% 62%;
+  }
+
   .pq-service-visual__veil {
     position: absolute;
     inset: 0;
