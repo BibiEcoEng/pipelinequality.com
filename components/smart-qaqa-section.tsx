@@ -31,7 +31,7 @@ export function SmartQAQCSection() {
             <div className='pq-service-visual__frame'>
               <div className='pq-service-visual__media'>
                 <img
-                  src='/client/bw-digit.jpg?v=1'
+                  src='/client/bw-digit.jpg?v=2'
                   alt={t('docsAlt')}
                   width={1536}
                   height={1024}
