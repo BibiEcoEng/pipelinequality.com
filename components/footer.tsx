@@ -73,36 +73,41 @@ export function Footer() {
             </div>
           </div>
 
-          <div className='min-w-0 space-y-1 lg:text-right'>
+          <div className='min-w-0 flex flex-col gap-1.5 lg:items-end lg:text-right'>
             <a
               href='mailto:info@pipelinequality.com'
-              className='block font-sans text-[15px] font-semibold tracking-tight text-white transition hover:text-accent'
+              className='font-sans text-[15px] font-semibold tracking-tight text-white transition hover:text-accent'
             >
               info@pipelinequality.com
             </a>
-            <p className='font-sans text-[13px] font-normal text-white/80'>
-              {t('location')}
-            </p>
-            <div className='flex items-center gap-2 lg:justify-end'>
-              <button
-                type='button'
-                onClick={() => switchLocale('en')}
-                className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
-                  locale === 'en' ? 'text-accent' : 'text-white/80'
-                }`}
-              >
-                EN
-              </button>
-              <span className='text-white/20'>/</span>
-              <button
-                type='button'
-                onClick={() => switchLocale('de')}
-                className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
-                  locale === 'de' ? 'text-accent' : 'text-white/80'
-                }`}
-              >
-                DE
-              </button>
+            <div className='flex flex-wrap items-center gap-x-3 gap-y-1 lg:justify-end'>
+              <p className='font-sans text-[13px] font-normal text-white/80'>
+                {t('location')}
+              </p>
+              <span className='hidden text-white/25 lg:inline' aria-hidden>
+                |
+              </span>
+              <div className='flex items-center gap-2'>
+                <button
+                  type='button'
+                  onClick={() => switchLocale('en')}
+                  className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
+                    locale === 'en' ? 'text-accent' : 'text-white/80'
+                  }`}
+                >
+                  EN
+                </button>
+                <span className='text-white/20'>/</span>
+                <button
+                  type='button'
+                  onClick={() => switchLocale('de')}
+                  className={`font-sans text-[12px] font-semibold tracking-[0.16em] ${
+                    locale === 'de' ? 'text-accent' : 'text-white/80'
+                  }`}
+                >
+                  DE
+                </button>
+              </div>
             </div>
           </div>
         </div>
