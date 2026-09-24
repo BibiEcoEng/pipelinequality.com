@@ -160,10 +160,6 @@ export function ServicesOverview() {
                 </div>
 
                 <div className='pq-service-visual__caption'>
-                  <p className='pq-service-visual__index'>
-                    {String(active + 1).padStart(2, '0')} /{' '}
-                    {String(blocks.length).padStart(2, '0')}
-                  </p>
                   <p key={current?.title} className='pq-service-visual__title pq-fade-up'>
                     {current?.title}
                   </p>

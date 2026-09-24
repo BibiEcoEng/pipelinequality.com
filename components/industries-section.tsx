@@ -69,10 +69,6 @@ export function IndustriesSection() {
                   </div>
 
                   <div className='pq-service-visual__caption'>
-                    <p className='pq-service-visual__index'>
-                      {String(index + 1).padStart(2, '0')} /{' '}
-                      {String(items.length).padStart(2, '0')}
-                    </p>
                     <p className='pq-service-visual__title'>{item.title}</p>
                   </div>
                 </div>
