@@ -13,7 +13,7 @@ export function ContactSection() {
           <p className='pq-index'>Contact</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 pq-subtitle text-navy/70'>{t('description')}</p>
-          <div className='mt-5 flex flex-wrap items-baseline gap-x-4 gap-y-1'>
+          <div className='mt-5 hidden flex-wrap items-baseline gap-x-4 gap-y-1 lg:flex'>
             <a
               href='mailto:info@pipelinequality.com'
               className='text-[16px] font-semibold text-navy transition hover:text-accent'

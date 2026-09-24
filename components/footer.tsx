@@ -86,7 +86,7 @@ export function Footer() {
           <div className='min-w-0 flex flex-col gap-1 lg:items-end lg:text-right'>
             <a
               href='mailto:info@pipelinequality.com'
-              className='font-sans text-[14px] font-semibold tracking-tight text-white transition hover:text-accent md:text-[15px]'
+              className='hidden font-sans text-[14px] font-semibold tracking-tight text-white transition hover:text-accent md:text-[15px] lg:inline'
             >
               info
               <span className='text-accent'>@</span>

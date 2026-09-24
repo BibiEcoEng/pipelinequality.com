@@ -285,6 +285,12 @@ export function ContactForm() {
             </svg>
           </a>
         </div>
+        <a
+          href='mailto:info@pipelinequality.com'
+          className='text-[15px] font-semibold text-navy transition hover:text-accent lg:hidden'
+        >
+          info@pipelinequality.com
+        </a>
       </div>
 
       {/* Disclaimer */}
