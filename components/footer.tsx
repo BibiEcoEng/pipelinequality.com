@@ -43,37 +43,35 @@ export function Footer() {
       <div className='h-1 bg-accent' />
 
       <div className='pq-shell pq-section'>
-        <div className='grid gap-8 lg:grid-cols-[1.4fr_0.8fr] lg:items-start lg:gap-16'>
-          <div className='min-w-0'>
-            <div className='flex items-center gap-3'>
-              <img
-                src='/logo-mark-white.png'
-                alt='Pipeline Quality'
-                className='h-9 w-auto object-contain'
-              />
-              <p className='font-sans text-[13px] font-semibold tracking-[0.14em] text-white uppercase'>
-                Pipeline Quality
-              </p>
-            </div>
+        <div className='flex items-center gap-3'>
+          <img
+            src='/logo-mark-white.png'
+            alt='Pipeline Quality'
+            className='h-9 w-auto object-contain'
+          />
+          <p className='font-sans text-[13px] font-semibold tracking-[0.14em] text-white uppercase'>
+            Pipeline Quality
+          </p>
+        </div>
 
-            <p className='mt-5 max-w-xl font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-              {t('description')}
-            </p>
+        <p className='mt-5 max-w-xl font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
+          {t('description')}
+        </p>
 
-            <div className='mt-6 flex flex-wrap gap-x-5 gap-y-2'>
-              {links.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
+        <div className='mt-6 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between sm:gap-10'>
+          <div className='flex flex-wrap gap-x-5 gap-y-2'>
+            {links.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
 
-          <div className='min-w-0 space-y-3 lg:pt-1 lg:text-right'>
+          <div className='min-w-0 space-y-2 sm:text-right'>
             <a
               href='mailto:info@pipelinequality.com'
               className='block font-sans text-[16px] font-semibold tracking-tight text-white transition hover:text-accent'
@@ -83,7 +81,7 @@ export function Footer() {
             <p className='font-sans text-[13px] font-normal text-white/80'>
               {t('location')}
             </p>
-            <div className='flex items-center gap-2 lg:justify-end'>
+            <div className='flex items-center gap-2 sm:justify-end'>
               <button
                 type='button'
                 onClick={() => switchLocale('en')}
