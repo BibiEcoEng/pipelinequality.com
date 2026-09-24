@@ -123,7 +123,7 @@ export function Footer() {
               <Link
                 key={item.href}
                 href={item.href}
-                className='font-sans text-[11px] font-semibold tracking-[0.08em] text-white/80 uppercase transition hover:text-white'
+                className='font-sans text-[11px] font-semibold tracking-[0.08em] text-white/80 uppercase transition hover:text-accent'
               >
                 {item.label}
               </Link>
