@@ -25,7 +25,7 @@ export function SmartQAQCSection() {
         </div>
 
         <div className='flex min-w-0 w-full items-center justify-center self-center'>
-          <div className='pq-service-visual pq-service-visual--landscape w-full max-w-[28rem] sm:max-w-[32rem] lg:max-w-[34rem]'>
+          <div className='pq-service-visual pq-service-visual--landscape w-full max-w-[22rem] sm:max-w-[24rem] lg:max-w-[26rem]'>
             <div className='pq-service-visual__glow' aria-hidden />
             <div className='pq-service-visual__back' aria-hidden />
             <div className='pq-service-visual__frame'>
