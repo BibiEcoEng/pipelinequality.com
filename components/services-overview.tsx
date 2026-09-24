@@ -12,15 +12,7 @@ const serviceImages = [
   '/client/service-engineering.jpg?v=8',
   '/client/service-welding.jpg?v=6',
   '/client/service-docs-yard.jpg?v=7',
-  '/client/service-project.jpg?v=8',
-];
-
-/** Extra crop/zoom for frames where the subject sits off-center */
-const serviceImageClass = [
-  '',
-  '',
-  '',
-  ' is-focus-inspector',
+  '/client/service-project.jpg?v=7',
 ];
 
 export function ServicesOverview() {
@@ -156,8 +148,8 @@ export function ServicesOverview() {
                       src={src}
                       alt={blocks[index]?.title ?? ''}
                       className={`pq-service-visual__img${
-                        serviceImageClass[index] ?? ''
-                      }${active === index ? ' is-active' : ''}`}
+                        active === index ? ' is-active' : ''
+                      }`}
                     />
                   ))}
                   <div className='pq-service-visual__veil' aria-hidden />
