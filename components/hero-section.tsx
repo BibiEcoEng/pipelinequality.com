@@ -10,11 +10,17 @@ export function HeroSection() {
       id='home'
       className='relative min-h-[92svh] overflow-hidden bg-[#0a2748] text-white lg:min-h-[78vh]'
     >
-      <img
-        src='/client/hero-monopile.jpg?v=3'
-        alt={t('imageAlt')}
-        className='absolute inset-0 h-full w-full scale-[1.03] object-cover object-[70%_40%] brightness-[1.04] contrast-[1.08] saturate-[1.02]'
-      />
+      <picture>
+        <source
+          media='(min-width: 1024px)'
+          srcSet='/client/hero-monopile.jpg?v=3'
+        />
+        <img
+          src='/client/hero-monopile-mobile.jpg?v=1'
+          alt={t('imageAlt')}
+          className='absolute inset-0 h-full w-full scale-[1.03] object-cover object-[50%_42%] brightness-[1.04] contrast-[1.08] saturate-[1.02] lg:object-[70%_40%]'
+        />
+      </picture>
 
       <div
         className='absolute inset-0 bg-[linear-gradient(115deg,rgba(1,42,96,0.72)_0%,rgba(1,42,96,0.42)_38%,rgba(1,42,96,0.18)_62%,rgba(1,42,96,0.06)_100%)]'
