@@ -473,7 +473,7 @@
 
   .pq-service-visual__media {
     position: relative;
-    aspect-ratio: 5 / 4;
+    aspect-ratio: 16 / 11;
     width: 100%;
   }
 
@@ -486,6 +486,23 @@
   @media (min-width: 1024px) {
     .pq-service-visual__media {
       aspect-ratio: 5 / 4;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .pq-service-visual__back {
+      inset: 12px -10px -10px 12px;
+    }
+
+    .pq-service-visual__glow {
+      inset: 16% -4% -6% 14%;
+    }
+
+    .pq-service-visual__frame {
+      box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.06) inset,
+        0 18px 36px -20px rgba(1, 42, 96, 0.4),
+        0 8px 16px -12px rgba(1, 42, 96, 0.22);
     }
   }
 

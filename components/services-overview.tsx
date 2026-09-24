@@ -135,7 +135,7 @@ export function ServicesOverview() {
           </div>
 
           {/* Right: editorial image stage */}
-          <div className='relative lg:sticky lg:top-28'>
+          <div className='relative mx-auto w-full max-w-[18.5rem] sm:max-w-[22rem] md:max-w-[26rem] lg:mx-0 lg:max-w-none lg:sticky lg:top-28'>
             <div className='pq-service-visual'>
               <div className='pq-service-visual__glow' aria-hidden />
               <div className='pq-service-visual__back' aria-hidden />
