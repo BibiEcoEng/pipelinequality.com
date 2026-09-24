@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 
 const bodyText =
-  'text-[1.0625rem] leading-[1.7] font-normal text-navy/70 text-pretty lg:text-[1.125rem]';
+  'text-[1.0625rem] leading-[1.7] font-normal text-navy/70 text-balance lg:text-[1.125rem] lg:text-pretty';
 
 export function ExperienceSection() {
   const t = useTranslations('experience');
