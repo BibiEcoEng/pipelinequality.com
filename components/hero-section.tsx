@@ -51,7 +51,7 @@ export function HeroSection() {
 
       <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-16 lg:pt-24'>
         <div className='pq-shell'>
-          <div className='max-w-[42rem] [text-shadow:0_1px_2px_rgba(1,42,96,0.55),0_8px_24px_rgba(1,42,96,0.35)]'>
+          <div className='max-w-[42rem] [text-shadow:0_1px_2px_rgba(1,42,96,0.55),0_8px_24px_rgba(1,42,96,0.35)] lg:max-w-[48rem]'>
             <h1 className='pq-hero-brand pq-fade-up m-0 text-white'>{t('brand')}</h1>
 
             <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle m-0 font-semibold text-white lg:mt-5'>

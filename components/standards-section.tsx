@@ -16,7 +16,7 @@ export function StandardsSection() {
     <section id='standards' className='border-y border-line bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
+        <h2 className='max-w-3xl text-navy lg:max-w-5xl'>{t('title')}</h2>
         <div className='mt-10 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {groups.map((group, index) => (
             <div
@@ -38,7 +38,7 @@ export function StandardsSection() {
             </div>
           ))}
         </div>
-        <p className='mt-6 max-w-3xl text-[13px] leading-relaxed text-steel-gray'>
+        <p className='mt-6 max-w-3xl text-[13px] leading-relaxed text-steel-gray lg:max-w-5xl'>
           {t('scopeNote')}
         </p>
       </div>

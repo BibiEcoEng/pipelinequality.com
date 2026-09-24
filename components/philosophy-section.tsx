@@ -12,7 +12,7 @@ export function PhilosophySection() {
         <div className='grid items-end gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16'>
           <div>
             <p className='pq-index'>{t('label')}</p>
-            <h2 className='mt-3 max-w-2xl text-navy'>{t('title')}</h2>
+            <h2 className='mt-3 max-w-2xl text-navy lg:max-w-none'>{t('title')}</h2>
 
             <ul className='mt-7 space-y-5 border-t border-navy/10 pt-7 lg:mt-8 lg:pt-8'>
               {points.map((point) => (

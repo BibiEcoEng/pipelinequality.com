@@ -15,7 +15,7 @@ export function FieldHandoverSection() {
   return (
     <section id='process' className='bg-light-gray text-navy'>
       <div className='pq-shell pq-section'>
-        <div className='max-w-2xl'>
+        <div className='max-w-2xl lg:max-w-none'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
         </div>

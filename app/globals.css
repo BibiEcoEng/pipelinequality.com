@@ -153,6 +153,20 @@
   box-sizing: border-box;
 }
 
+/* Desktop: use more of the screen left-to-right (mobile/tablet unchanged) */
+@media (min-width: 1024px) {
+  .pq-shell {
+    max-width: 90rem;
+    padding-inline: clamp(2rem, 3.5vw, 4rem);
+  }
+}
+
+@media (min-width: 1536px) {
+  .pq-shell {
+    max-width: 96rem;
+  }
+}
+
 /* Shared section rhythm — denser on desktop only */
 .pq-section {
   padding-block: 3.5rem;

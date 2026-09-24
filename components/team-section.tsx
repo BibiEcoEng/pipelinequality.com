@@ -9,7 +9,7 @@ export function TeamSection() {
   return (
     <section id='network' className='bg-white'>
       <div className='pq-shell pq-section'>
-        <div className='max-w-3xl'>
+        <div className='max-w-3xl lg:max-w-5xl'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 pq-subtitle text-steel-gray'>{t('paragraph1')}</p>

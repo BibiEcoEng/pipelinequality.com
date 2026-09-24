@@ -18,7 +18,7 @@ export function ProcessSection() {
     <section id='how-we-work' className='border-t border-navy/15 bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
+        <h2 className='max-w-3xl text-navy lg:max-w-5xl'>{t('title')}</h2>
         <div className='mt-6 grid gap-6 border-t border-navy/15 pt-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 xl:gap-5'>
           {steps.map((step, index) => (
             <div key={step.id} className='min-w-0'>

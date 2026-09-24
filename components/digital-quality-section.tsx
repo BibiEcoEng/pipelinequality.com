@@ -16,8 +16,8 @@ export function DigitalQualitySection() {
     <section id='digital-quality' className='bg-white'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
+        <h2 className='max-w-3xl text-navy lg:max-w-5xl'>{t('title')}</h2>
+        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray lg:max-w-4xl'>
           {t('description')}
         </p>
         <div className='mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3'>

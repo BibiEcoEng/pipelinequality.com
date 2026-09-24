@@ -11,7 +11,7 @@ export function ExperienceSection() {
   return (
     <section id='experience' className='bg-white text-navy'>
       <div className='pq-shell pq-section'>
-        <div className='max-w-3xl'>
+        <div className='max-w-3xl lg:max-w-5xl'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className={`mt-4 ${bodyText}`}>{t('intro')}</p>

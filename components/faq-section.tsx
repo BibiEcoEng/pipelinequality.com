@@ -11,7 +11,7 @@ export function FAQSection() {
   return (
     <section className='relative overflow-hidden border-t border-navy/15 bg-white text-navy'>
       <div className='pq-shell pq-section relative'>
-        <div className='max-w-xl'>
+        <div className='max-w-xl lg:max-w-3xl'>
           <p className='pq-index'>FAQ</p>
           <h2 className='mt-2 text-navy'>{t('title')}</h2>
         </div>
@@ -54,7 +54,7 @@ export function FAQSection() {
                   style={{ gridTemplateRows: open ? '1fr' : '0fr' }}
                 >
                   <div className='overflow-hidden'>
-                    <p className='max-w-3xl pr-8 pb-3.5 text-[13px] leading-relaxed text-navy/70 lg:pb-3'>
+                    <p className='max-w-3xl pr-8 pb-3.5 text-[13px] leading-relaxed text-navy/70 lg:max-w-5xl lg:pb-3'>
                       {faq.answer}
                     </p>
                   </div>

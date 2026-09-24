@@ -10,11 +10,11 @@ export function PartnersSection() {
     <section id='partners' className='bg-light-gray'>
       <div className='pq-shell pq-section'>
         <SectionLabel>{t('label')}</SectionLabel>
-        <h2 className='max-w-3xl text-navy'>{t('title')}</h2>
-        <p className='mt-5 max-w-2xl pq-subtitle text-steel-gray'>
+        <h2 className='max-w-3xl text-navy lg:max-w-5xl'>{t('title')}</h2>
+        <p className='mt-5 max-w-2xl pq-subtitle text-steel-gray lg:max-w-4xl'>
           {t('paragraph1')}
         </p>
-        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray'>
+        <p className='mt-4 max-w-2xl pq-subtitle text-steel-gray lg:max-w-4xl'>
           {t('paragraph2')}
         </p>
         <div className='mt-8'>

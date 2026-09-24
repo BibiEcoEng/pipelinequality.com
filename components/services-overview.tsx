@@ -63,7 +63,7 @@ export function ServicesOverview() {
         </p>
         <h2 className='sr-only'>{t('title')}</h2>
         <div
-          className={`mt-6 grid items-start gap-8 lg:mt-8 lg:grid-cols-[1fr_0.95fr] lg:gap-14 transition-all duration-700 delay-100 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          className={`mt-6 grid items-start gap-8 lg:mt-8 lg:grid-cols-2 lg:gap-14 transition-all duration-700 delay-100 ease-[cubic-bezier(0.16,1,0.3,1)] ${
             visible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`}
         >
