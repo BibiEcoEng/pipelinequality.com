@@ -24,22 +24,24 @@ export function SmartQAQCSection() {
           </div>
         </div>
 
-        <div className='pq-service-visual pq-service-visual--landscape min-w-0 w-full'>
-          <div className='pq-service-visual__glow' aria-hidden />
-          <div className='pq-service-visual__back' aria-hidden />
-          <div className='pq-service-visual__frame'>
-            <div className='pq-service-visual__media'>
-              <img
-                src='/client/bw-digit.jpg?v=1'
-                alt={t('docsAlt')}
-                width={1536}
-                height={1024}
-                className='pq-service-visual__img is-static is-active'
-              />
-              <div className='pq-service-visual__veil' aria-hidden />
-              <div className='pq-service-visual__mark' aria-hidden>
-                <span />
-                <span />
+        <div className='flex min-w-0 w-full justify-center lg:justify-end'>
+          <div className='pq-service-visual pq-service-visual--landscape w-full max-w-[28rem] sm:max-w-[32rem] lg:max-w-[34rem]'>
+            <div className='pq-service-visual__glow' aria-hidden />
+            <div className='pq-service-visual__back' aria-hidden />
+            <div className='pq-service-visual__frame'>
+              <div className='pq-service-visual__media'>
+                <img
+                  src='/client/bw-digit.jpg?v=1'
+                  alt={t('docsAlt')}
+                  width={1536}
+                  height={1024}
+                  className='pq-service-visual__img is-static is-active'
+                />
+                <div className='pq-service-visual__veil' aria-hidden />
+                <div className='pq-service-visual__mark' aria-hidden>
+                  <span />
+                  <span />
+                </div>
               </div>
             </div>
           </div>
