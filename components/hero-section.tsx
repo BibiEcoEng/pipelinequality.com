@@ -62,13 +62,16 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div className='pq-fade-up pq-fade-up-delay-3 mt-7 flex flex-wrap items-center gap-4 lg:mt-8'>
-              <a href='#contact' className='pq-btn'>
+            <div className='pq-fade-up pq-fade-up-delay-3 mt-7 flex flex-wrap items-center gap-3 lg:mt-8 lg:gap-4'>
+              <a
+                href='#contact'
+                className='pq-btn !gap-2.5 !px-4 !py-2.5 text-[10px] tracking-[0.12em] lg:!gap-[0.85rem] lg:!px-[1.35rem] lg:!py-4 lg:text-[11px] lg:tracking-[0.14em]'
+              >
                 {t('cta1')}
               </a>
               <a
                 href='#network'
-                className='inline-flex items-center border border-white/50 bg-navy/45 px-5 py-3.5 text-[11px] font-semibold tracking-[0.14em] text-white uppercase backdrop-blur-[2px] transition hover:border-white hover:bg-white/10'
+                className='inline-flex items-center border border-white/50 bg-navy/45 px-4 py-2.5 text-[10px] font-semibold tracking-[0.12em] text-white uppercase backdrop-blur-[2px] transition hover:border-white hover:bg-white/10 lg:px-5 lg:py-3.5 lg:text-[11px] lg:tracking-[0.14em]'
               >
                 {t('cta2')}
               </a>
