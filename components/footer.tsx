@@ -42,36 +42,38 @@ export function Footer() {
     <footer className='bg-navy text-white'>
       <div className='h-1 bg-accent' />
 
-      <div className='pq-shell py-8 lg:py-10'>
-        <div className='flex items-center gap-3'>
-          <img
-            src='/logo-mark-white.png'
-            alt='Pipeline Quality'
-            className='h-9 w-auto object-contain'
-          />
-          <p className='font-sans text-[13px] font-semibold tracking-[0.14em] text-white uppercase'>
-            Pipeline Quality
-          </p>
-        </div>
+      <div className='pq-shell py-5 lg:py-6'>
+        <div className='grid gap-5 lg:grid-cols-[1.35fr_1fr] lg:items-end lg:gap-12'>
+          <div className='min-w-0'>
+            <div className='flex items-center gap-3'>
+              <img
+                src='/logo-mark-white.png'
+                alt='Pipeline Quality'
+                className='h-8 w-auto object-contain'
+              />
+              <p className='font-sans text-[13px] font-semibold tracking-[0.14em] text-white uppercase'>
+                Pipeline Quality
+              </p>
+            </div>
 
-        <p className='mt-4 max-w-xl font-sans text-[0.9375rem] leading-[1.65] font-normal text-white/80'>
-          {t('description')}
-        </p>
+            <p className='mt-3 max-w-xl font-sans text-[0.9375rem] leading-[1.55] font-normal text-white/80'>
+              {t('description')}
+            </p>
 
-        <div className='mt-4 flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between sm:gap-10'>
-          <div className='flex flex-wrap gap-x-5 gap-y-2'>
-            {links.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
-              >
-                {item.label}
-              </Link>
-            ))}
+            <div className='mt-3 flex flex-wrap gap-x-5 gap-y-2'>
+              {links.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className='font-sans text-[12px] font-semibold tracking-[0.12em] text-white/80 uppercase transition hover:text-accent'
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
           </div>
 
-          <div className='min-w-0 space-y-1.5 sm:text-right'>
+          <div className='min-w-0 space-y-1 lg:text-right'>
             <a
               href='mailto:info@pipelinequality.com'
               className='block font-sans text-[15px] font-semibold tracking-tight text-white transition hover:text-accent'
@@ -81,7 +83,7 @@ export function Footer() {
             <p className='font-sans text-[13px] font-normal text-white/80'>
               {t('location')}
             </p>
-            <div className='flex items-center gap-2 sm:justify-end'>
+            <div className='flex items-center gap-2 lg:justify-end'>
               <button
                 type='button'
                 onClick={() => switchLocale('en')}
@@ -107,7 +109,7 @@ export function Footer() {
       </div>
 
       <div className='border-t border-white/20'>
-        <div className='pq-shell flex flex-col gap-3 py-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5'>
+        <div className='pq-shell flex flex-col gap-2 py-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5'>
           <p className='font-sans text-[12px] font-normal text-white/80'>
             {t('copyright')}
           </p>
