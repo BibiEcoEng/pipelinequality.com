@@ -654,4 +654,58 @@
   .pq-service-visual--landscape .pq-service-visual__title {
     font-size: 0.98rem;
   }
+
+  /* Contact social icon buttons */
+  .pq-social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    color: var(--navy);
+    background: #fff;
+    border: 1.5px solid color-mix(in srgb, var(--navy) 22%, transparent);
+    box-shadow: 0 8px 20px -14px rgba(1, 42, 96, 0.45);
+    transition:
+      color 0.35s var(--ease-out-expo),
+      background 0.35s var(--ease-out-expo),
+      border-color 0.35s var(--ease-out-expo),
+      transform 0.35s var(--ease-out-expo),
+      box-shadow 0.35s var(--ease-out-expo);
+  }
+
+  .pq-social-btn svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: currentColor;
+    transition: transform 0.35s var(--ease-out-expo);
+  }
+
+  .pq-social-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px -16px rgba(1, 42, 96, 0.5);
+  }
+
+  .pq-social-btn:hover svg {
+    transform: scale(1.06);
+  }
+
+  .pq-social-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .pq-social-btn--linkedin:hover {
+    color: #fff;
+    background: #0a66c2;
+    border-color: #0a66c2;
+    box-shadow: 0 14px 28px -14px rgba(10, 102, 194, 0.55);
+  }
+
+  .pq-social-btn--whatsapp:hover {
+    color: #fff;
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 14px 28px -14px rgba(251, 114, 0, 0.5);
+  }
 }
