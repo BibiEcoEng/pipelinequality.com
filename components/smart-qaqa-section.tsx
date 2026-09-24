@@ -7,7 +7,7 @@ export function SmartQAQCSection() {
 
   return (
     <section id='bw-digit' className='border-t border-navy/15 bg-white'>
-      <div className='pq-shell pq-section grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-14'>
+      <div className='pq-shell pq-section grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-12'>
         <div className='min-w-0 self-center lg:max-w-none'>
           <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
@@ -24,8 +24,8 @@ export function SmartQAQCSection() {
           </div>
         </div>
 
-        <div className='flex min-w-0 w-full items-center justify-center self-center lg:block'>
-          <div className='pq-service-visual pq-service-visual--landscape w-full max-w-[22rem] sm:max-w-[24rem] md:max-w-[26rem] lg:max-w-[32rem]'>
+        <div className='flex min-w-0 w-full items-center justify-center self-center lg:justify-end'>
+          <div className='pq-service-visual pq-service-visual--landscape w-full max-w-[22rem] sm:max-w-[24rem] md:max-w-[26rem] lg:max-w-[28rem] xl:max-w-[30rem]'>
             <div className='pq-service-visual__glow' aria-hidden />
             <div className='pq-service-visual__back' aria-hidden />
             <div className='pq-service-visual__frame'>
