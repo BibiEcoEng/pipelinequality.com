@@ -127,7 +127,7 @@ export function Footer() {
 
       <div className='border-t border-accent/25'>
         <div className='pq-shell flex flex-col gap-1.5 py-2.5 md:py-3 lg:flex-row lg:flex-wrap lg:items-center lg:gap-x-5'>
-          <p className='font-sans text-[11px] font-normal text-white/80 md:text-[12px]'>
+          <p className='font-sans text-[11px] font-normal text-accent md:text-[12px]'>
             {t('copyright')}
           </p>
           <nav
