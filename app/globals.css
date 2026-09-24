@@ -180,10 +180,16 @@
 }
 
 .pq-hero-brand {
-  font-size: clamp(2.5rem, 8vw, 3.75rem) !important;
+  font-size: clamp(1.85rem, 6.2vw, 2.35rem) !important;
   line-height: 0.98;
   font-weight: 600;
   letter-spacing: -0.035em;
+}
+
+@media (min-width: 768px) {
+  .pq-hero-brand {
+    font-size: clamp(2.15rem, 4.2vw, 2.7rem) !important;
+  }
 }
 
 @media (min-width: 1024px) {
