@@ -50,7 +50,7 @@ export function IndustriesSection() {
               </div>
 
               {/* Image frame only — same editorial treatment as What We Offer */}
-              <div className='pq-service-visual pq-service-visual--landscape w-full'>
+              <div className='pq-service-visual pq-service-visual--landscape w-full lg:max-w-[34rem] lg:ml-auto'>
                 <div className='pq-service-visual__glow' aria-hidden />
                 <div className='pq-service-visual__back' aria-hidden />
 

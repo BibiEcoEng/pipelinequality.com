@@ -63,7 +63,7 @@ export function ServicesOverview() {
         </p>
         <h2 className='sr-only'>{t('title')}</h2>
         <div
-          className={`mt-6 grid items-start gap-8 lg:mt-8 lg:grid-cols-2 lg:gap-14 transition-all duration-700 delay-100 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          className={`mt-6 grid items-start gap-8 lg:mt-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12 transition-all duration-700 delay-100 ease-[cubic-bezier(0.16,1,0.3,1)] ${
             visible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`}
         >
@@ -138,7 +138,7 @@ export function ServicesOverview() {
           </div>
 
           {/* Right: editorial image stage */}
-          <div className='relative mx-auto w-full max-w-[18.5rem] sm:max-w-[22rem] md:max-w-[26rem] lg:mx-0 lg:max-w-none lg:sticky lg:top-28'>
+          <div className='relative mx-auto w-full max-w-[18.5rem] sm:max-w-[22rem] md:max-w-[26rem] lg:mx-0 lg:ml-auto lg:max-w-[28rem] xl:max-w-[30rem] lg:sticky lg:top-28'>
             <div className='pq-service-visual'>
               <div className='pq-service-visual__glow' aria-hidden />
               <div className='pq-service-visual__back' aria-hidden />
