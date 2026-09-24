@@ -31,17 +31,13 @@ export function SmartQAQCSection() {
             <div className='pq-service-visual__frame'>
               <div className='pq-service-visual__media'>
                 <img
-                  src='/client/bw-digit.jpg?v=2'
+                  src='/client/bw-digit.jpg?v=3'
                   alt={t('docsAlt')}
                   width={1536}
                   height={1024}
-                  className='pq-service-visual__img is-static is-active'
+                  className='pq-service-visual__img is-static is-active is-bw-digit'
                 />
                 <div className='pq-service-visual__veil' aria-hidden />
-                <div className='pq-service-visual__mark' aria-hidden>
-                  <span />
-                  <span />
-                </div>
               </div>
             </div>
           </div>

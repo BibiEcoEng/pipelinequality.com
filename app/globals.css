@@ -673,6 +673,16 @@
     filter: saturate(1.06) contrast(1.06);
   }
 
+  .pq-service-visual__img.is-static.is-bw-digit {
+    object-position: 52% 42%;
+    transform: scale(1.08);
+    transform-origin: 52% 42%;
+  }
+
+  .pq-service-visual:hover .pq-service-visual__img.is-static.is-bw-digit {
+    transform: scale(1.12);
+  }
+
   .pq-service-visual--landscape .pq-service-visual__veil {
     background:
       linear-gradient(
