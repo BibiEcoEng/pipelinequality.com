@@ -45,13 +45,13 @@ export function Footer() {
       <div className='pq-shell py-4 md:py-5 lg:py-6'>
         <div className='grid gap-4 md:gap-5 lg:grid-cols-[1.35fr_1fr] lg:items-end lg:gap-12'>
           <div className='min-w-0'>
-            <div className='flex items-center gap-2.5 md:gap-3'>
+            <div className='flex items-center gap-3 md:gap-3.5'>
               <img
-                src='/logo-mark-white.png?v=2'
+                src='/logo-mark-footer.png?v=1'
                 alt='Pipeline Quality'
-                className='h-7 w-auto object-contain md:h-8'
+                className='h-10 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255,255,0.18)] md:h-11'
               />
-              <p className='font-sans text-[12px] font-semibold tracking-[0.14em] uppercase md:text-[13px]'>
+              <p className='font-sans text-[13px] font-semibold tracking-[0.14em] uppercase md:text-[14px]'>
                 <span className='text-white'>Pipeline </span>
                 <span className='text-accent'>Quality</span>
               </p>
