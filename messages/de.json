@@ -76,8 +76,8 @@
     "title": "Referenzen & Branchenkompetenz",
     "description": "Praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten.",
     "imageAlt": "Industrieprojekte in Fertigung und Inspektion",
-    "intro": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in stark regulierten industriellen Umfeldern. Dazu zählen Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
-    "paragraph1": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in stark regulierten industriellen Umfeldern. Dazu zählen Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
+    "intro": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in streng regulierten Industrieumgebungen. Dazu zählen Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
+    "paragraph1": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in streng regulierten Industrieumgebungen. Dazu zählen Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
     "paragraph2": "",
     "paragraph3": "",
     "companies": "",
@@ -260,7 +260,7 @@
   },
   "smartQAQC": {
     "label": "BW Digit Anbindung",
-    "title": "Qualitätsausführung trifft digitale Intelligenz",
+    "title": "Qualitätsarbeit trifft digitale Intelligenz",
     "description": "Pipeline Quality übernimmt die Qualitätsausführung. BW Digit fokussiert sich auf industrielle Daten, Dokumentation und digitale Compliance-Workflows. Gemeinsam verbinden sie Feldaktivitäten mit den Informationen, die nötig sind, um das Projekt zu steuern, zu dokumentieren und abzuschließen.",
     "features": [
       "Schweißrückverfolgbarkeit und Inspektionsmanagement",
@@ -521,7 +521,7 @@
     "label": "Warum Pipeline Quality",
     "title": "Warum Pipeline Quality?",
     "points": [
-      "Reale Projekterfahrung aus Industrie-, Pipeline- und Offshore-Wind-Umfeldern",
+      "Echte Projekterfahrung aus Industrie-, Pipeline- und Offshore-Wind-Umfeldern",
       "Technische Kompetenz, ausgewählt nach dem tatsächlichen Projektbedarf",
       "Flexible Besetzung — ein Spezialist oder ein koordiniertes Projektteam",
       "Qualität vor Quantität",
@@ -530,7 +530,7 @@
     ],
     "reasons": [
       {
-        "title": "Reale Projekterfahrung",
+        "title": "Echte Projekterfahrung",
         "description": "Praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten."
       },
       {
@@ -554,7 +554,7 @@
         "description": "Über BW Digit verbinden wir praktische Qualitätsausführung mit digitalen Workflows und industriellen Daten."
       }
     ],
-    "builtOn": "Aufgebaut auf realer Projekterfahrung",
+    "builtOn": "Aufgebaut auf echter Projekterfahrung",
     "companyInfo": "Pipeline Quality wird von der Backpack Wander GmbH betrieben — registriert in Deutschland, mit Sitz in Berlin. Wir arbeiten mit einem Netzwerk erfahrener QA/QC-Fachkräfte und skalieren unsere Unterstützung nach Projektbedarf."
   },
   "faq": {
@@ -598,9 +598,11 @@
     "button3": "Unser Netzwerk kennenlernen"
   },
   "contact": {
+    "label": "Kontakt",
     "title": "Projekt besprechen",
     "subtitle": "Nennen Sie uns Umfang, Phase und Qualitätsbedarf.",
     "description": "Ob ein Spezialist, Inspektionskapazität, Dokumentationsunterstützung oder ein koordiniertes Qualitätsteam — wir antworten innerhalb von 48–72 Stunden.",
+    "connectDirectly": "Oder kontaktieren Sie uns direkt:",
     "form": {
       "name": "Name",
       "namePlaceholder": "Ihr Name",
@@ -817,7 +819,7 @@
     "roles": [
       "Qualitätsmanager",
       "Auditoren",
-      "Drittinspektoren",
+      "Unabhängige Inspektoren",
       "Teamleiter",
       "QA/QC-Ingenieure",
       "Schweißfachkräfte",

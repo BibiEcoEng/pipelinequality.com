@@ -259,7 +259,9 @@ export function ContactForm() {
 
       {/* Contact Icons */}
       <div className='flex flex-col items-center gap-4 pt-2'>
-        <p className='text-sm font-semibold text-navy/70'>Or connect with us directly:</p>
+        <p className='text-sm font-semibold text-navy/70'>
+          {tTypes('connectDirectly')}
+        </p>
         <div className='flex items-center gap-3'>
           <a
             href='https://www.linkedin.com/company/pipelinequality'

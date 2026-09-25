@@ -10,7 +10,7 @@ export function ContactSection() {
     <section className='border-t border-navy/15 bg-white' id='contact'>
       <div className='pq-shell pq-section'>
         <div className='max-w-3xl lg:max-w-5xl'>
-          <p className='pq-index'>Contact</p>
+          <p className='pq-index'>{t('label')}</p>
           <h2 className='mt-3 text-navy'>{t('title')}</h2>
           <p className='mt-4 pq-subtitle text-navy/70'>{t('description')}</p>
           <p className='mt-5 hidden text-[13px] text-navy/70 lg:block'>
