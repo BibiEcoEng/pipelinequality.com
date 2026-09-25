@@ -84,12 +84,6 @@ export function Footer() {
           </div>
 
           <div className='min-w-0 flex flex-col gap-1 lg:items-end lg:text-right'>
-            <a
-              href='mailto:info@pipelinequality.com'
-              className='hidden font-sans text-[14px] font-semibold tracking-tight text-white transition hover:text-accent md:text-[15px] lg:inline'
-            >
-              info@pipelinequality.com
-            </a>
             <div className='flex flex-wrap items-center gap-x-3 gap-y-1 lg:justify-end'>
               <p className='font-sans text-[12px] font-normal text-white/80 md:text-[13px]'>
                 {t('location')}
