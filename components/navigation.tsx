@@ -9,7 +9,6 @@ export function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const t = useTranslations('nav');
-  const tCTA = useTranslations('cta');
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -87,6 +86,14 @@ export function Navigation() {
   const solid = scrolled && !isMobileMenuOpen;
   const onDark = !solid;
 
+  const linkClass = onDark
+    ? 'text-white hover:text-white'
+    : 'text-navy hover:text-navy';
+
+  const langShell = onDark
+    ? 'border-white/35 bg-white/10 text-accent hover:bg-white/15'
+    : 'border-accent/35 bg-accent/10 text-accent hover:bg-accent/15';
+
   return (
     <>
       <header
@@ -104,7 +111,11 @@ export function Navigation() {
             aria-label='Pipeline Quality'
           >
             <img
-              src={onDark ? '/logo-mark-white.png' : '/logo-mark.png'}
+              src={
+                onDark
+                  ? '/logo-mark-white.png?v=2'
+                  : '/logo-mark.png?v=2'
+              }
               alt=''
               className='h-12 w-auto object-contain sm:h-14'
             />
@@ -122,43 +133,38 @@ export function Navigation() {
             </span>
           </a>
 
-          <nav className='ml-auto hidden items-center gap-1.5 lg:flex'>
+          <nav className='ml-auto hidden items-center gap-1 lg:flex'>
             {links.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
                 onClick={handleSmoothScroll}
-                className={`relative px-3.5 py-2.5 text-[14px] font-semibold tracking-[0.08em] uppercase transition-colors duration-300 after:absolute after:right-3.5 after:bottom-1 after:left-3.5 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${
-                  onDark ? 'text-white/75 hover:text-white' : 'text-navy/70 hover:text-navy'
-                }`}
+                className={`relative px-3.5 py-2.5 text-[13px] font-semibold tracking-[0.14em] uppercase transition-colors duration-300 after:absolute after:right-3.5 after:bottom-1 after:left-3.5 after:h-px after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-400 hover:after:scale-x-100 ${linkClass}`}
               >
                 {item.label}
               </a>
             ))}
-          </nav>
 
-          <div className='hidden items-center gap-6 lg:flex'>
-            <div className='relative'>
+            <div className='relative ml-3'>
               <button
                 type='button'
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className={`flex items-center gap-2 whitespace-nowrap text-[13px] font-semibold tracking-[0.08em] ${
-                  onDark ? 'text-white/80' : 'text-navy'
-                }`}
+                className={`flex items-center gap-2 whitespace-nowrap border px-3 py-2 text-[13px] font-semibold tracking-[0.14em] uppercase backdrop-blur-[2px] transition ${langShell}`}
                 aria-label='Language'
+                aria-expanded={isLangOpen}
               >
                 {currentLanguage}
-                <span className='text-accent'>+</span>
+                <span aria-hidden>+</span>
               </button>
               {isLangOpen && (
-                <div className='absolute right-0 z-50 mt-3 min-w-[5.5rem] border border-line bg-white text-navy shadow-xl'>
+                <div className='absolute right-0 z-50 mt-2 min-w-[7.5rem] border border-line bg-white text-navy shadow-xl'>
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
                       type='button'
                       onClick={() => switchLocale(lang.code)}
-                      className={`block w-full px-4 py-2.5 text-left text-[13px] font-semibold tracking-[0.12em] transition hover:bg-light-gray ${
-                        locale === lang.code ? 'text-accent' : ''
+                      className={`block w-full px-4 py-2.5 text-left text-[13px] font-semibold tracking-[0.12em] uppercase transition hover:bg-light-gray ${
+                        locale === lang.code ? 'text-accent' : 'text-navy'
                       }`}
                     >
                       {lang.name}
@@ -167,18 +173,7 @@ export function Navigation() {
                 </div>
               )}
             </div>
-            <a
-              href='#contact'
-              onClick={handleSmoothScroll}
-              className={`whitespace-nowrap text-[13px] font-semibold tracking-[0.14em] uppercase transition ${
-                onDark
-                  ? 'text-white drop-shadow-[0_1px_2px_rgba(1,42,96,0.75)] hover:text-accent'
-                  : 'text-accent hover:text-navy'
-              }`}
-            >
-              {tCTA('button1')}
-            </a>
-          </div>
+          </nav>
 
           <button
             type='button'
@@ -215,9 +210,13 @@ export function Navigation() {
                 onClick={handleSmoothScroll}
                 className='group flex items-baseline gap-4 border-b border-white/10 py-4 text-white transition-all duration-500'
                 style={{
-                  transitionDelay: isMobileMenuOpen ? `${100 + index * 60}ms` : '0ms',
+                  transitionDelay: isMobileMenuOpen
+                    ? `${100 + index * 60}ms`
+                    : '0ms',
                   opacity: isMobileMenuOpen ? 1 : 0,
-                  transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(16px)',
+                  transform: isMobileMenuOpen
+                    ? 'translateY(0)'
+                    : 'translateY(16px)',
                 }}
               >
                 <span className='text-[clamp(1.6rem,7vw,2.4rem)] font-semibold tracking-[-0.03em]'>
@@ -228,16 +227,13 @@ export function Navigation() {
           </div>
 
           <div
-            className='space-y-6 transition-all duration-500'
+            className='transition-all duration-500'
             style={{
               transitionDelay: isMobileMenuOpen ? '380ms' : '0ms',
               opacity: isMobileMenuOpen ? 1 : 0,
             }}
           >
-            <a href='#contact' onClick={handleSmoothScroll} className='pq-btn'>
-              {tCTA('button1')}
-            </a>
-            <div className='flex gap-6'>
+            <div className='inline-flex items-center gap-1 border border-accent/40 bg-accent/10 p-1'>
               {languages.map((lang) => (
                 <button
                   key={lang.code}
@@ -246,8 +242,10 @@ export function Navigation() {
                     switchLocale(lang.code);
                     closeMenu();
                   }}
-                  className={`text-[13px] font-semibold tracking-[0.16em] ${
-                    locale === lang.code ? 'text-accent' : 'text-white/50'
+                  className={`px-3.5 py-2 text-[13px] font-semibold tracking-[0.14em] uppercase transition ${
+                    locale === lang.code
+                      ? 'bg-accent text-white'
+                      : 'text-accent hover:bg-accent/15'
                   }`}
                 >
                   {lang.name}

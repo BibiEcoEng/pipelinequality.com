@@ -47,7 +47,7 @@ export function Footer() {
           <div className='min-w-0'>
             <div className='flex items-center gap-2.5 md:gap-3'>
               <img
-                src='/logo-mark-white.png'
+                src='/logo-mark-white.png?v=2'
                 alt='Pipeline Quality'
                 className='h-7 w-auto object-contain md:h-8'
               />
