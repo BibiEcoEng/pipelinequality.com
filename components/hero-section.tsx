@@ -52,9 +52,11 @@ export function HeroSection() {
       <div className='relative flex min-h-[92svh] flex-col justify-end pb-10 pt-28 sm:pb-14 lg:min-h-[78vh] lg:justify-center lg:pb-16 lg:pt-24'>
         <div className='pq-shell'>
           <div className='max-w-[42rem] [text-shadow:0_1px_2px_rgba(1,42,96,0.55),0_8px_24px_rgba(1,42,96,0.35)] lg:max-w-[48rem]'>
-            <h1 className='pq-hero-brand pq-fade-up m-0 text-white'>{t('brand')}</h1>
+            <h1 className='pq-hero-brand pq-fade-up m-0 font-sans text-white'>
+              {t('brand')}
+            </h1>
 
-            <p className='pq-fade-up pq-fade-up-delay-1 mt-4 pq-subtitle m-0 font-semibold text-white lg:mt-5'>
+            <p className='pq-fade-up pq-fade-up-delay-1 pq-hero-line mt-4 m-0 lg:mt-5'>
               {t('titleLine1')} {t('titleLine2')}
             </p>
 
@@ -63,11 +65,11 @@ export function HeroSection() {
             <div className='pq-fade-up pq-fade-up-delay-2 mt-5 space-y-2.5 lg:mt-6'>
               <div className='flex items-stretch gap-3'>
                 <span className='w-0.5 shrink-0 bg-accent shadow-[0_0_8px_rgba(251,114,0,0.5)]' aria-hidden />
-                <p className='pq-subtitle m-0 font-semibold text-white'>{t('subtitle')}</p>
+                <p className='pq-hero-line m-0'>{t('subtitle')}</p>
               </div>
               <div className='flex items-stretch gap-3'>
                 <span className='w-0.5 shrink-0 bg-white/55' aria-hidden />
-                <p className='pq-subtitle m-0 font-semibold text-white'>{t('subtitleLine2')}</p>
+                <p className='pq-hero-line m-0'>{t('subtitleLine2')}</p>
               </div>
             </div>
 
