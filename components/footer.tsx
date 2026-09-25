@@ -118,13 +118,13 @@ export function Footer() {
       </div>
 
       <div className='border-t border-accent/25'>
-        <div className='pq-shell flex flex-col gap-1.5 py-2.5 md:py-3 lg:flex-row lg:flex-wrap lg:items-center lg:gap-x-5'>
+        <div className='pq-shell flex flex-col gap-1.5 py-2.5 md:py-3 lg:flex-row lg:items-center lg:justify-between lg:gap-x-8'>
           <p className='font-sans text-[11px] font-normal text-accent md:text-[12px]'>
             {t('copyright')}
           </p>
           <nav
             aria-label='Legal'
-            className='flex w-full flex-nowrap items-center justify-between gap-1.5 lg:w-auto lg:justify-start lg:gap-x-3'
+            className='flex w-full flex-nowrap items-center justify-between gap-1.5 lg:w-auto lg:justify-end lg:gap-x-4'
           >
             {legal.map((item, index) => (
               <span key={item.href} className='contents'>
