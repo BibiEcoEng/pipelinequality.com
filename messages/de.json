@@ -20,8 +20,8 @@
     "titleLine3": "",
     "title": "Projektqualität. Von der Fertigung bis zur Übergabe.",
     "subtitle": "QA/QC | Inspektion | Engineering | Dokumentation",
-    "imageAlt": "XXL-Monopile-Fundament in einem Offshore-Wind-Fertigungsplatz",
-    "availability": "Verfügbar für projektbezogene Qualitätsunterstützung in ganz Europa.",
+    "imageAlt": "XXL-Monopile-Fundament in einem Offshore-Wind-Fertigungswerk",
+    "availability": "Verfügbar für projektbezogene QA/QC-Unterstützung europaweit.",
     "cta1": "Projekt besprechen",
     "cta2": "Unser Netzwerk kennenlernen",
     "trustBadge": "Industriepartner für Projektqualität — kein Freelancer, keine Personalvermittlung nach Kopfzahl.",
@@ -36,7 +36,7 @@
   },
   "documentationReviewModal": {
     "title": "Technische Prüfung anfragen",
-    "description": "Laden Sie Ihre ITP-, RFI- oder Schweißprotokolle hoch. Unser Team führt eine detaillierte Gap-Analyse durch und erstellt einen fachlich fundierten Feedback-Bericht.",
+    "description": "Laden Sie Ihre ITP, RFI oder Schweißprotokolle hoch. Unser Team prüft die Unterlagen auf Lücken und Abweichungen und erstellt einen fachlichen Feedback-Bericht.",
     "form": {
       "name": "Name",
       "namePlaceholder": "Ihr vollständiger Name",
@@ -47,7 +47,7 @@
       "phone": "Telefon (optional)",
       "phonePlaceholder": "+49 123 456 7890",
       "message": "Zusätzliche Informationen (optional)",
-      "messagePlaceholder": "Beschreiben Sie kurz Ihren Bedarf an der Dokumentationsprüfung …",
+      "messagePlaceholder": "Kurzbeschreibung Ihres Bedarfs an der Dokumentationsprüfung …",
       "submit": "Anfrage senden",
       "submitting": "Wird gesendet …",
       "privacyNote": "Datenschutzhinweis: Die Übertragung Ihrer Dokumente erfolgt über eine verschlüsselte SSL-Verbindung. Ihre Daten werden ausschließlich zur Leistungserbringung verwendet und nach Projektabschluss DSGVO-konform gelöscht. Serverstandort: Frankfurt, Deutschland."
@@ -57,15 +57,15 @@
     }
   },
   "intro": {
-    "headline": "Qualitätskapazität, wenn Ihr Projekt sie braucht.",
-    "paragraph1": "Projekte brauchen nicht immer eine weitere Festanstellung. Manchmal brauchen sie erfahrene QA/QC-Kapazität für eine klar definierte Projektphase, einen Produktionshochlauf, eine Inspektionskampagne, einen Dokumentationsrückstand oder eine Kundenanforderung.",
-    "paragraph2": "Pipeline Quality stellt qualifizierte Fachkräfte und projektbezogene Unterstützung entsprechend dem tatsächlichen Leistungsumfang bereit. Wir unterstützen einzelne Anforderungen ebenso wie koordinierte Projektqualitätsteams.",
+    "headline": "Erfahrenes QA/QC-Personal, wenn Ihr Projekt es braucht.",
+    "paragraph1": "Projekte brauchen nicht immer eine weitere Festanstellung. Manchmal brauchen sie erfahrene QA/QC-Fachkräfte für eine klar definierte Projektphase, einen Produktionshochlauf, eine Inspektionskampagne, einen Dokumentationsrückstand oder eine Kundenanforderung.",
+    "paragraph2": "Pipeline Quality stellt qualifizierte Fachkräfte und projektbezogene Unterstützung entsprechend dem tatsächlichen Leistungsumfang bereit — vom einzelnen Spezialisten bis zum koordinierten Qualitätsteam.",
     "paragraph3": "",
     "whatSetsUsApart": "Was uns auszeichnet:",
     "point1": "praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten",
     "point2": "technische Kompetenz, ausgewählt nach dem tatsächlichen Projektbedarf",
     "point3": "Ausführung vor Ort, verbunden mit Dokumentation und Übergabe",
-    "point4": "flexible Kapazität — ein Spezialist oder ein koordiniertes Qualitätsteam",
+    "point4": "flexible Besetzung — ein Spezialist oder ein koordiniertes Qualitätsteam",
     "tagline": "Wir verkaufen keine Theorie. Wir liefern nutzbare Projektqualität.",
     "description": "Pipeline Quality ist Industriepartner für QA/QC Engineering, Inspektion, Fertigungsbegleitung und Dokumentation.",
     "label": "Einführung",
@@ -73,11 +73,11 @@
     "caption": "Inspektion vor Ort · Fertigung · Qualitätskontrolle"
   },
   "experience": {
-    "title": "Track Record & Branchenkompetenz",
+    "title": "Referenzen & Branchenkompetenz",
     "description": "Praktische Erfahrung aus Industrie-, Pipeline- und Offshore-Wind-Projekten.",
     "imageAlt": "Industrieprojekte in Fertigung und Inspektion",
-    "intro": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in stark regulierten industriellen Umfeldern. Unser Track Record umfasst Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
-    "paragraph1": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in stark regulierten industriellen Umfeldern. Unser Track Record umfasst Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
+    "intro": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in stark regulierten industriellen Umfeldern. Dazu zählen Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
+    "paragraph1": "Unsere Kernkompetenz basiert auf über 20 Jahren praktischer Projekterfahrung in stark regulierten industriellen Umfeldern. Dazu zählen Qualitätsausführung und Einsätze vor Ort bei großen Projekten im Umfeld führender Branchennamen wie BASF, Bayernoil, Chemiepark Marl, JSC Yamal LNG, Technip, AO Messoyakhaneftegaz, Gazprom Neft und INEOS.",
     "paragraph2": "",
     "paragraph3": "",
     "companies": "",
@@ -87,10 +87,10 @@
     "referenceText": "QA/QC-Unterstützung während der Fertigung schwerer Offshore-Wind-Fundamente, einschließlich XXL-Monopiles und Transition Pieces, mit Fokus auf Inspektionskoordination, Schweißdokumentation, NCR-Nachverfolgung und\u00a0Qualitätsberichterstattung.",
     "scopeTitle": "Leistungsumfang",
     "scopeText": "Koordination mit Kunden und unabhängigen Prüfstellen, Inspektionsnachverfolgung, Produktionsbesprechungen, Fortschrittsberichte, Zusammenstellung der End-of-Manufacturing Data Records (MDR), NCR-Nachverfolgung und Berichte zur\u00a0Reparaturrate.",
-    "trackTitle": "Projekt-Track-Record",
+    "trackTitle": "Projektreferenzen",
     "trackText": "Mitwirkung an internationalen Offshore-Wind-Projekten, darunter East Anglia, Baltic, Orange Wind, DolWin, BorWin und IJmuiden Ver Gamma.",
     "offshoreTitle": "Offshore-Wind",
-    "offshoreText": "Fundamentsfertigung, Monopiles, Transition Pieces, Schweißen, ZfP, Maßkontrolle, Kundeninspektion, Fertigungsbegleitung und Qualitätsdokumentation.",
+    "offshoreText": "Fundamentsfertigung, Monopiles, Transition Pieces, Schweißen, NDT/ZfP, Maßkontrolle, Kundeninspektion, Fertigungsbegleitung und Qualitätsdokumentation.",
     "industrialTitle": "Industrie & Pipeline",
     "industrialText": "Pipelines, Öl & Gas, Chemie / Petrochemie, Energie, EPC, Industrieanlagenbau, Rohrleitungen, Fertigung, Wartung / Stillstand / Revamp."
   },
@@ -110,10 +110,10 @@
     "sections": {
       "fieldInspection": {
         "title": "Inspektion vor Ort & Koordination",
-        "description": "ZfP-Management, Schweißaufsicht und Beschichtungsprüfungen vor Ort. Wir stellen sicher, dass der Stahl den Anforderungen entspricht, bevor er das Werk verlässt — und reduzieren so NCRs, Verzögerungen und Kundeneskalationen.\nErfahrung in Offshore-Wind-Fertigungswerken, der Schwerindustrie und komplexen Schweißumgebungen.",
-        "imageAlt": "Inspektion vor Ort — ZfP-Nahaufnahme",
+        "description": "NDT/ZfP-Management, Schweißaufsicht und Beschichtungsprüfungen vor Ort. Wir stellen sicher, dass der Stahl den Anforderungen entspricht, bevor er das Werk verlässt — und reduzieren so NCRs, Verzögerungen und Kundeneskalationen.\nErfahrung in Offshore-Wind-Fertigungswerken, der Schwerindustrie und komplexen Schweißumgebungen.",
+        "imageAlt": "Inspektion vor Ort — NDT/ZfP-Nahaufnahme",
         "items": [
-          "ZfP-Management und Schweißaufsicht vor Ort",
+          "NDT/ZfP-Management und Schweißaufsicht vor Ort",
           "Beschichtungsprüfungen und Schichtdickenmessung",
           "Stahlqualitätsprüfung vor dem Verlassen des Werks",
           "NCR-Reduzierung und Vermeidung von Kundeneskalationen",
@@ -122,14 +122,14 @@
       },
       "remoteMDR": {
         "title": "Remote MDR-Management",
-        "description": "Wir übernehmen den „Dokumentationskrieg“. Automatisierte Zusammenstellung von Manufacturing Data Reports (MDR) — strukturiert, rückverfolgbar und jederzeit auditbereit.",
+        "description": "Wir übernehmen die Dokumentationsarbeit im Projektalltag: automatisierte Zusammenstellung von Manufacturing Data Reports (MDR) — strukturiert, rückverfolgbar und jederzeit auditbereit.",
         "imageAlt": "Digitales MDR — Schweißnaht-Tracking",
         "items": [
           "Automatisierte MDR-Zusammenstellung und Strukturierung",
           "Werkstoffrückverfolgbarkeit und Prüfung der Schweißprotokolle",
           "Echtzeit-Nachverfolgung von Inspektions- und Prüfunterlagen",
           "Jederzeit auditbereite Dokumentation",
-          "KI-gestützte Konsistenzprüfungen und Gap-Identifikation"
+          "KI-gestützte Konsistenzprüfungen und Identifikation von Lücken"
         ]
       },
       "docControl": {
@@ -154,7 +154,7 @@
       },
       "quality": {
         "title": "QA / QC Leistungen",
-        "description": "Inspektionen vor Ort, Qualitätskontrollwerkzeuge und Compliance-Prüfung.",
+        "description": "Inspektionen vor Ort, Werkzeuge zur Qualitätskontrolle und Prüfung der Konformität.",
         "imageAlt": "Feldingenieur bei der Pipeline-Inspektion mit PSA",
         "items": [
           "Erstellung, Prüfung und Verifizierung von Inspection & Test Plans (ITP)",
@@ -184,7 +184,7 @@
       "audit": {
         "title": "Audit- & Kundenunterstützung",
         "items": [
-          "Dokumentationsprüfungen und Readiness-Reviews vor Audits",
+          "Dokumentationsprüfungen und Bereitschaftsprüfungen vor Audits",
           "Unterstützung bei Kunden- und Third-Party-Audits",
           "Abgleich der Dokumentation mit vertraglichen und normativen Anforderungen"
         ]
@@ -218,7 +218,7 @@
         "summary": "",
         "items": [
           "Schweißen",
-          "ZfP-Koordination",
+          "NDT/ZfP-Koordination",
           "Maßkontrolle",
           "Fertigungsüberwachung",
           "Kunden- / Drittinspektion",
@@ -234,7 +234,7 @@
           "MDR / DDP",
           "Schweißbücher",
           "MTR / Werkstoffrückverfolgbarkeit",
-          "ZfP-Aufzeichnungen",
+          "NDT/ZfP-Aufzeichnungen",
           "NCR- / Punch-Tracking",
           "Abschlussdokumentation",
           "As-built-Dokumentation",
@@ -316,7 +316,7 @@
       "ISO 9001 – Qualitätsmanagementsysteme",
       "ISO 45001 – Arbeits- und Gesundheitsschutz",
       "ISO 12944 – C5/CX Korrosionsschutz",
-      "ISO 9712 – Zerstörungsfreie Prüfung (ZfP)",
+      "ISO 9712 – Zerstörungsfreie Prüfung (NDT/ZfP)",
       "EN 10204 – Prüfbescheinigungen für metallische Erzeugnisse",
       "ISO 15614 / ISO 9606 – Schweißverfahren und Schweißerqualifikation",
       "DNV-ST-0126 – Offshore-Wind-Strukturen",
@@ -337,10 +337,10 @@
         ]
       },
       {
-        "title": "Inspektion & ZfP",
+        "title": "Inspektion & NDT",
         "items": [
           "ISO 9712",
-          "VT / ZfP-Kompetenzen"
+          "VT / NDT-Kompetenzen"
         ]
       },
       {
@@ -405,7 +405,7 @@
           "Transition Pieces",
           "Offshore-Stahlstrukturen",
           "Schweißen und Fertigung",
-          "ZfP",
+          "NDT/ZfP",
           "Maßkontrolle",
           "Kundeninspektion",
           "Fertigungsqualität",
@@ -419,7 +419,7 @@
           "Transmission-Projekte",
           "Rohrleitungsfertigung",
           "Schweißdokumentation",
-          "ZfP",
+          "NDT/ZfP",
           "Werkstoffrückverfolgbarkeit",
           "Inspektion",
           "Übergabe"
@@ -496,8 +496,8 @@
       },
       {
         "id": "02",
-        "title": "Passgenau besetzen",
-        "text": "Den richtigen Spezialisten oder das richtige Projektteam entsprechend dem tatsächlichen Bedarf auswählen."
+        "title": "Besetzen",
+        "text": "Den richtigen Spezialisten oder das passende Projektteam entsprechend dem tatsächlichen Bedarf auswählen."
       },
       {
         "id": "03",
@@ -523,7 +523,7 @@
     "points": [
       "Reale Projekterfahrung aus Industrie-, Pipeline- und Offshore-Wind-Umfeldern",
       "Technische Kompetenz, ausgewählt nach dem tatsächlichen Projektbedarf",
-      "Flexible Kapazität — ein Spezialist oder ein koordiniertes Projektteam",
+      "Flexible Besetzung — ein Spezialist oder ein koordiniertes Projektteam",
       "Qualität vor Quantität",
       "Ausführung vor Ort, verbunden mit Dokumentation und Übergabe",
       "Digitales Verständnis über BW Digit"
@@ -538,7 +538,7 @@
         "description": "Qualifizierte Fachkräfte, ausgewählt nach dem tatsächlichen Projektbedarf."
       },
       {
-        "title": "Flexible Kapazität",
+        "title": "Flexible Besetzung",
         "description": "Einzelne Spezialisten oder koordinierte Projektteams."
       },
       {
@@ -566,7 +566,7 @@
       },
       {
         "question": "Können Sie einen Spezialisten oder ein komplettes Team stellen?",
-        "answer": "Beides. Wir können einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Projektqualitätsteam entsprechend dem tatsächlichen Bedarf bereitstellen."
+        "answer": "Beides. Wir können einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Qualitätsteam entsprechend dem tatsächlichen Bedarf bereitstellen."
       },
       {
         "question": "Nach welchen Normen arbeiten Sie?",
@@ -587,11 +587,11 @@
     ]
   },
   "cta": {
-    "title": "Braucht Ihr Projekt zusätzliche Qualitätskapazität?",
-    "description": "Ob ein Spezialist, zusätzliche Inspektionskapazität, Dokumentationsunterstützung oder ein koordiniertes Projektqualitätsteam — lassen Sie uns den Bedarf besprechen.",
+    "title": "Braucht Ihr Projekt zusätzliche QA/QC-Unterstützung?",
+    "description": "Ob ein Spezialist, zusätzliche Inspektionskapazität, Dokumentationsunterstützung oder ein koordiniertes Qualitätsteam — lassen Sie uns den Bedarf besprechen.",
     "button1": "Projekt besprechen",
-    "button2": "Projektunterstützung anfragen",
-    "tagline": "Partner für europäische Industrieexzellenz",
+    "button2": "Unterstützung anfragen",
+    "tagline": "Partner für europäische Industrieprojekte",
     "altTitle": "Sprechen wir über Ihr Projekt",
     "responseNote": "Wir antworten schnell und arbeiten transparent",
     "label": "Nächster Schritt",
@@ -646,7 +646,7 @@
     "company": "Unternehmen",
     "contact": "Kontakt",
     "email": "E-Mail: info@pipelinequality.com",
-    "location": "Aktiv in Europa",
+    "location": "Europaweit tätig",
     "linkedIn": "LinkedIn",
     "companyInfo": "Unternehmensinformationen",
     "companyDescription": "Pipeline Quality ist eine Marke der Backpack Wander GmbH, einem in Deutschland registrierten Unternehmen mit Sitz in Berlin. Technischer Partner: BW Digit. Wir arbeiten mit einem internationalen Netzwerk qualifizierter Fachkräfte und skalieren unsere Leistungen entsprechend den Projektanforderungen.",
@@ -777,7 +777,7 @@
         "items": [
           "Inspektion",
           "Schweißen",
-          "ZfP",
+          "NDT/ZfP",
           "Maßkontrolle",
           "MTR"
         ]
@@ -810,10 +810,10 @@
   "team": {
     "label": "Teammodell",
     "title": "Ein Spezialist oder ein komplettes Projektteam",
-    "paragraph1": "Je nach Projektanforderung kann Pipeline Quality einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Projektqualitätsteam bereitstellen.",
+    "paragraph1": "Je nach Projektanforderung kann Pipeline Quality einen einzelnen Spezialisten, mehrere ergänzende Fachkräfte oder ein koordiniertes Qualitätsteam bereitstellen.",
     "paragraph2": "",
     "networkLabel": "Unser Netzwerk",
-    "imageAlt": "ZfP-Spezialist bei der Ultraschallprüfung einer Schweißnaht — Spezialistenkapazität aus dem Qualitätsnetzwerk",
+    "imageAlt": "NDT/ZfP-Spezialist bei der Ultraschallprüfung einer Schweißnaht — Spezialisten aus dem Qualitätsnetzwerk",
     "roles": [
       "Qualitätsmanager",
       "Auditoren",
@@ -821,7 +821,7 @@
       "Teamleiter",
       "QA/QC-Ingenieure",
       "Schweißfachkräfte",
-      "ZfP-Spezialisten",
+      "NDT/ZfP-Spezialisten",
       "Inspektoren",
       "Maß- / technische Spezialisten",
       "Spezialisten für Qualitätsdokumentation",
@@ -836,7 +836,7 @@
     "paragraph2": "Lieber ein starker Spezialist als mehrere Personen ohne Mehrwert.",
     "paragraph3": "Jede Person im Projekt steht für unseren Ruf.",
     "principleLabel": "",
-    "principle": "QUALITY BEFORE QUANTITY."
+    "principle": "QUALITÄT VOR QUANTITÄT."
   },
   "digitalQuality": {
     "label": "Digitale Qualität",
@@ -849,7 +849,7 @@
           "Schweißnahtpläne",
           "Schweißprotokolle",
           "Schweißerdaten",
-          "ZfP-Status"
+          "NDT/ZfP-Status"
         ]
       },
       {
@@ -874,7 +874,7 @@
         "title": "Dokumentation",
         "items": [
           "MTR",
-          "ZfP",
+          "NDT/ZfP",
           "Schweißaufzeichnungen",
           "MDR",
           "Übergabe"
