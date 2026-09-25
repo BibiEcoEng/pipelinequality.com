@@ -180,17 +180,6 @@
   .pq-section {
     padding-block: 2.5rem;
   }
-
-  /* Keep section headings dense — do not shrink the hero brand H1 */
-  h1:not(.pq-hero-brand) {
-    font-size: clamp(1.45rem, 2vw, 1.95rem) !important;
-  }
-  h2 {
-    font-size: clamp(1.3rem, 1.7vw, 1.75rem) !important;
-  }
-  h3 {
-    font-size: 1.05rem !important;
-  }
 }
 
 .pq-hero-brand {
