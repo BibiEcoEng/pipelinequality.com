@@ -113,6 +113,9 @@ export function Footer() {
                 </button>
               </div>
             </div>
+            <p className='font-sans text-[10px] font-normal leading-snug text-white/55 md:text-[11px]'>
+              {t('brandNote')}
+            </p>
           </div>
         </div>
       </div>
